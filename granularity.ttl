@@ -1,0 +1,45 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/granularity/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Granularität"@de ;
+    dct:title "Granularity"@en ;
+    dct:description "Granularität der Ressource"@de, "Granularity of resource"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2022-06-01"^^xsd:date ;
+    dct:modified "2025-02-24"^^xsd:date ;
+    dct:issued "2022-06-01"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <gr1>, <gr2>, <gr3>, <gr4>, <gr5>, <gr6> .
+
+<gr1> a skos:Concept ;
+    skos:prefLabel "Unterrichtsreihe"@de ;
+    skos:prefLabel "Lesson series"@en ;
+    skos:topConceptOf <> .
+
+<gr2> a skos:Concept ;
+    skos:prefLabel "Unterrichtsstunde"@de ;
+    skos:prefLabel "Lesson"@en ;
+    skos:topConceptOf <> .
+
+<gr3> a skos:Concept ;
+    skos:prefLabel "Unterrichtsausschnitt"@de ;
+    skos:prefLabel "Lesson excerpt"@en ;
+    skos:topConceptOf <> .
+
+<gr4> a skos:Concept ;
+    skos:prefLabel "Lerneinheit"@de ;
+    skos:prefLabel "Learning unit"@en ;
+    skos:topConceptOf <> .
+
+<gr5> a skos:Concept ;
+    skos:prefLabel "Lernmodul"@de ;
+    skos:prefLabel "Learning module"@en ;
+    skos:topConceptOf <> .
+
+<gr6> a skos:Concept ;
+    skos:prefLabel "Learning Nugget"@de ;
+    skos:prefLabel "Learning Nugget"@en ;
+    skos:topConceptOf <> .

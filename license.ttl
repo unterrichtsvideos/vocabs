@@ -1,0 +1,131 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/license/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <https://creativecommons.org/licenses/> .
+@prefix eulicense: <http://publications.europa.eu/resource/authority/licence/> .
+@prefix medialicense: <http://base.uni-ak.ac.at/portfolio/licenses/> .
+@prefix dcat: <http://www.dcat-ap.de/def/licenses/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Lizenzen"@de ;
+    dct:title "Licenses"@en ;
+    dct:description "Eine Werteliste für Lizenzen."@de, "A list of licenses."@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2025-01-01"^^xsd:date ;
+    dct:modified "2025-01-01"^^xsd:date ;
+    dct:issued "2022-01-01"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <cc-zero>, <cc-by>, <cc-by-sa>, <cc-by-nd>, <cc-by-nc>, <cc-by-nc-sa>, <cc-by-nc-nd>, <public-domain>, <copyright> .
+
+<cc-zero> a skos:Concept ;
+    skos:prefLabel "CC0"@de ;
+    skos:prefLabel "CC0"@en ;
+    skos:altLabel "Creative Commons Zero (CC0)"@de;
+    skos:altLabel "Creative Commons Zero (CC0)"@en;
+    skos:definition "CC0 ermöglicht es Urhebern, auf alle Urheberrechte und verwandten Schutzrechte an ihrem Werk zu verzichten, soweit gesetzlich möglich."@de ;
+    skos:definition "CC0 allows creators to waive all copyright and related rights in their work to the extent permitted by law."@en ;
+    skos:exactMatch <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:exactMatch medialicense:CC0-1.0 ;
+    skos:exactMatch eulicense:CC0 ;
+    skos:exactMatch dcat:cc-zero ;
+    skos:topConceptOf <> .
+
+<cc-by> a skos:Concept ;
+    skos:prefLabel "CC BY"@de ;
+    skos:prefLabel "CC BY"@en ;
+    skos:altLabel "Creative Commons Attribution (CC BY)"@en ;
+    skos:altLabel "Creative Commons Namensnennung (CC BY)"@de ;
+    skos:definition "CC BY erlaubt anderen, das Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, auch kommerziell, solange der Urheber des Originals genannt wird."@de ;
+    skos:definition "CC BY allows others to distribute, remix, adapt, and build upon the work, even commercially, as long as they credit the original creation."@en ;
+    skos:closeMatch <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:closeMatch medialicense:CC-BY-4.0 ;
+    skos:closeMatch eulicense:CC_BY_4_0 ;
+    skos:exactMatch dcat:cc-by ;
+    skos:topConceptOf <> .
+
+<cc-by-sa> a skos:Concept ;
+    skos:prefLabel "CC BY-SA"@de ;
+    skos:prefLabel "CC BY-SA"@en ;
+    skos:altLabel "Creative Commons Attribution, ShareAlike (CC BY-SA)"@en ;
+    skos:altLabel "Creative Commons Namensnennung, Weitergabe zu gleichen Bedingungen (CC BY-SA)"@de ;
+    skos:definition "CC BY-SA erlaubt anderen, das Werk zu remixen, zu verbessern und darauf aufzubauen, auch kommerziell, solange der Urheber des Originals genannt wird und die neuen Werke unter denselben Bedingungen lizenziert werden."@de ;
+    skos:definition "CC BY-SA allows others to remix, adapt, and build upon the work even for commercial purposes, as long as they credit the original creation and license their new creations under the identical terms."@en ;
+    skos:closeMatch <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    skos:closeMatch medialicense:CC-BY-SA-4.0 ;
+    skos:closeMatch eulicense:CC_BYSA_4_0 ;
+    skos:exactMatch dcat:cc-by-sa ;
+    skos:topConceptOf <> .
+
+<cc-by-nd> a skos:Concept ;
+    skos:prefLabel "CC BY-ND"@de ;
+    skos:prefLabel "CC BY-ND"@en ;
+    skos:altLabel "Creative Commons Attribution, NoDerivatives (CC BY-ND)"@en ;
+    skos:altLabel "Creative Commons Namensnennung, keine Bearbeitung (CC BY-ND)"@de ;
+    skos:definition "CC BY-ND erlaubt die Weiterverbreitung, kommerziell und nicht-kommerziell, solange das Werk unverändert bleibt und der Urheber genannt wird."@de ;
+    skos:definition "CC BY-ND allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to the creator."@en ;
+    skos:closeMatch <https://creativecommons.org/licenses/by-nd/4.0/> ;
+    skos:closeMatch medialicense:CC-BY-ND-4.0 ;
+    skos:closeMatch eulicense:CC_BYND_4_0 ;
+    skos:exactMatch dcat:cc-by-nd ;
+    skos:topConceptOf <> .
+
+<cc-by-nc> a skos:Concept ;
+    skos:prefLabel "CC BY-NC"@de ;
+    skos:prefLabel "CC BY-NC"@en ;
+    skos:altLabel "Creative Commons Attribution, NonCommercial (CC BY-NC)"@en ;
+    skos:altLabel "Creative Commons Namensnennung, nicht kommerziell (CC BY-NC)"@de ;
+    skos:definition "CC BY-NC erlaubt anderen, das Werk zu remixen, zu verbessern und darauf aufzubauen, nicht-kommerziell, und obwohl ihre neuen Werke ebenfalls nicht-kommerziell sein müssen, müssen sie den Urheber des Originals nennen."@de ;
+    skos:definition "CC BY-NC allows others to remix, adapt, and build upon the work non-commercially, and although their new works must also be non-commercial, they must acknowledge the original creator."@en ;
+    skos:closeMatch <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    skos:closeMatch medialicense:CC-BY-NC-4.0 ;
+    skos:closeMatch eulicense:CC_BYNC_4_0 ;
+    skos:exactMatch dcat:cc-by-nc ;
+    skos:topConceptOf <> .
+
+<cc-by-nc-sa> a skos:Concept ;
+    skos:prefLabel "CC BY-NC-SA"@de ;
+    skos:prefLabel "CC BY-NC-SA"@en ;
+    skos:altLabel "Creative Commons Attribution, NonCommercial, ShareAlike (CC BY-NC)"@en ;
+    skos:altLabel "Creative Commons Namensnennung, nicht kommerziell, Weitergabe zu gleichen Bedingungen (CC BY-NC-SA)"@de ;
+    skos:definition "CC BY-NC-SA erlaubt anderen, das Werk zu remixen, zu verbessern und darauf aufzubauen, nicht-kommerziell, solange der Urheber des Originals genannt wird und die neuen Werke unter denselben Bedingungen lizenziert werden."@de ;
+    skos:definition "CC BY-NC-SA allows others to remix, adapt, and build upon the work non-commercially, as long as they credit the original creation and license their new creations under the identical terms."@en ;
+    skos:closeMatch <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    skos:closeMatch medialicense:CC-BY-NC-SA-4.0 ;
+    skos:closeMatch eulicense:CC_BYNCSA_4_0 ;
+    skos:topConceptOf <> .
+
+<cc-by-nc-nd> a skos:Concept ;
+    skos:prefLabel "CC BY-NC-ND"@de ;
+    skos:prefLabel "CC BY-NC-ND"@en ;
+    skos:altLabel "Creative Commons Attribution, NonCommercial, NoDerivatives (CC BY-NC-ND)"@en ;
+    skos:altLabel "Creative Commons Namensnennung, nicht kommerziell, keine Bearbeitung (CC BY-NC-ND)"@de ;
+    skos:definition "CC BY-NC-ND erlaubt anderen, das Werk weiterzugeben, nicht-kommerziell, solange es unverändert bleibt und der Urheber genannt wird."@de ;
+    skos:definition "CC BY-NC-ND allows others to download the works and share them with others as long as they credit the creator, but they can’t change them in any way or use them commercially."@en ;
+    skos:closeMatch <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    skos:closeMatch medialicense:CC-BY-NC-ND-4.0 ;
+    skos:closeMatch eulicense:CC_BYNCND_4_0 ;
+    skos:topConceptOf <> .
+
+<public-domain> a skos:Concept ;
+    skos:prefLabel "Gemeinfrei"@de ;
+    skos:prefLabel "Public Domain"@en ;
+    skos:altLabel "Public Domain"@de ;
+    skos:altLabel "No Known Copyright"@en ;
+    skos:definition "Ein Werk, das gemeinfrei ist, ist nicht (mehr) durch Urheberrechte geschützt und kann von jedem genutzt werden."@de ;
+    skos:definition "A work that is in the public domain is not (or no longer) protected by copyright and can be used by anyone."@en ;
+    skos:exactMatch eulicense:CC_PDM_1_0 ;
+    skos:exactMatch <https://creativecommons.org/publicdomain/mark/1.0/> ;
+    skos:exactMatch <http://www.dcat-ap.de/def/licenses/ccpdm/1.0> ;
+    skos:topConceptOf <> .
+
+<copyright> a skos:Concept ;
+    skos:prefLabel "Copyright"@de ;
+    skos:prefLabel "Copyright"@en ;
+    skos:definition "Urheberrechtlich geschützt, keine gesonderte Lizenz."@de ;
+    skos:definition "Copyrighted, no separate license."@en ;
+    skos:exactMatch <http://rightsstatements.org/vocab/InC/1.0/> ;
+    skos:exactMatch <http://base.uni-ak.ac.at/portfolio/licenses/copyright> ;
+    skos:closeMatch dcat:other-closed ;
+    skos:topConceptOf <> .
