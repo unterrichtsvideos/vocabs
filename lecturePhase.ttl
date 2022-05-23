@@ -1,0 +1,35 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/lecture_phase/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Unterrichtsphasen"@de ;
+    dct:title "Lecture phases"@en ;
+    dct:description "Eine Wertelliste für Unterrichtsphasen"@de, "A value list of lecture phases"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2022-06-01"^^xsd:date ;
+    dct:modified "2025-02-24"^^xsd:date ;
+    dct:issued "2022-06-01"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <lp1001>, <lp1002>, <lp1003>, <lp1004> .
+
+<lp1000> a skos:Concept ;
+    skos:prefLabel "Einstiegsphase"@de, "Introduction phase"@en ;
+    skos:topConceptOf <> .
+
+<lp1001> a skos:Concept ;
+    skos:prefLabel "Erarbeitungsphase"@de, "Working phase"@en ;
+    skos:topConceptOf <> .
+
+<lp1002> a skos:Concept ;
+    skos:prefLabel "Reflexionsphase"@de, "Reflection phase"@en ;
+    skos:topConceptOf <> .
+
+<lp1003> a skos:Concept ;
+    skos:prefLabel "Sicherungsphase"@de, "Securing phase"@en ;
+    skos:topConceptOf <> .
+
+<lp1004> a skos:Concept ;
+    skos:prefLabel "Übungsphase"@de, "Practice phase"@en ;
+    skos:topConceptOf <> .

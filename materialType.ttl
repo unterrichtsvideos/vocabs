@@ -1,0 +1,57 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/material_type/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hcrt: <https://w3id.org/kim/hcrt/> .
+@prefix oehrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
+@prefix oehnrt: <http://w3id.org/openeduhub/vocabs/new_lrt/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Materialtypen"@de, "Material types"@en ;
+    dct:description "Eine Wertelliste für Materialtypen"@de, "A value list for material types"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2022-08-24"^^xsd:date ;
+    dct:modified "2025-02-24"^^xsd:date ;
+    dct:issued "2022-08-24"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <mt0000>, <mt1000>, <mt1001>, <mt1002>, <mt1003>, <mt1004> .
+
+<mt0000> a skos:Concept ;
+    skos:prefLabel "Sonstiges"@de ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <> .
+
+<mt1000> a skos:Concept ;
+    skos:prefLabel "Unterrichtsverlaufplan"@de ;
+    skos:prefLabel "Lesson plan"@en ;
+    skos:altLabel "Unterrichtskonzept"@de ;
+    skos:altLabel "Teaching concept"@en ;
+    skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
+    skos:broadMatch oehnrt:477115fd-5042-4174-ac39-7c05f8a24766 ;
+    skos:topConceptOf <> .
+
+<mt1001> a skos:Concept ;
+    skos:prefLabel "Lehrmaterial"@de ;
+    skos:prefLabel "Teaching material"@en ;
+    skos:altLabel "Unterrichtsmaterial"@de ;
+    skos:altLabel "Classroom material"@en ;
+    skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
+    skos:topConceptOf <> .
+
+<mt1002> a skos:Concept ;
+    skos:prefLabel "Verlaufsprotokoll"@de ;
+    skos:prefLabel "Progress report"@en ;
+    skos:topConceptOf <> .
+
+<mt1003> a skos:Concept ;
+    skos:prefLabel "Transkript"@de ;
+    skos:prefLabel "Transcript"@en ;
+    skos:closeMatch hcrt:script ;
+    skos:closeMatch oehnrt:6a15628c-0e59-43e3-9fc5-9a7f7fa261c4 ;
+    skos:topConceptOf <> .
+
+<mt1004> a skos:Concept ;
+    skos:prefLabel "Lernendenprodukt"@de ;
+    skos:prefLabel "Learner product"@en ;
+    skos:broadMatch oehnrt:7c236821-bfae-4eeb-bc79-590bf8ea1d96 ;
+    skos:topConceptOf <> .

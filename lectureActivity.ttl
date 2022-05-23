@@ -1,0 +1,87 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Unterrichtsaktivitäten"@de ;
+    dct:title "Lecture activities"@en ;
+    dct:description "Eine Wertelliste für Unterrichtsaktivitäten als zeitlich begrenzte Handlungssequenzen mit einem regelgeleiteten Arrangement bzgl. Lehrer- und Schülerhandlungen mit Hilfe von Lernmaterial (Doyle, 1986)"@de,
+    "A list of values for teaching activities as time-limited action sequences with a rule-guided arrangement of teacher and student actions with the help of learning material (Doyle, 1986)"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2022-06-01"^^xsd:date ;
+    dct:modified "2025-02-24"^^xsd:date ;
+    dct:issued "2022-06-01"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <la1000>, <la1001>, <la1002>, <la1003>, <la1004>, <la1005>, <la1006>,
+        <la1007>, <la1008>, <la1009>, <la1010>, <la1011>, <la1012>, <la1013> .
+
+<la1000> a skos:Concept ;
+    skos:prefLabel "Sonstiges"@de ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <> .
+
+<la1001> a skos:Concept ;
+    skos:prefLabel "Lehrerinstruktion"@de ;
+    skos:prefLabel "Teacher instruction"@en ;
+    skos:topConceptOf <> .
+
+<la1002> a skos:Concept ;
+    skos:prefLabel "Unterrichtsgespräch"@de ;
+    skos:prefLabel "Classroom discussion"@en ;
+    skos:topConceptOf <> .
+
+<la1003> a skos:Concept ;
+    skos:prefLabel "Gruppenarbeit"@de ;
+    skos:prefLabel "Group work"@en ;
+    skos:topConceptOf <> .
+
+<la1004> a skos:Concept ;
+    skos:prefLabel "Partnerarbeit"@de ;
+    skos:prefLabel "Partner work"@en ;
+    skos:topConceptOf <> .
+
+<la1005> a skos:Concept ;
+    skos:prefLabel "Exkursion"@de ;
+    skos:prefLabel "Excursion"@en ;
+    skos:topConceptOf <> .
+
+<la1006> a skos:Concept ;
+    skos:prefLabel "Stationenarbeit"@de ;
+    skos:prefLabel "Station work"@en ;
+    skos:topConceptOf <> .
+
+<la1007> a skos:Concept ;
+    skos:prefLabel "Experiment"@de ;
+    skos:prefLabel "Experiment"@en ;
+    skos:topConceptOf <> .
+
+<la1008> a skos:Concept ;
+    skos:prefLabel "Lehrerdemonstration"@de ;
+    skos:prefLabel "Teacher demonstration"@en ;
+    skos:topConceptOf <> .
+
+<la1009> a skos:Concept ;
+    skos:prefLabel "Schülerdemonstration"@de ;
+    skos:prefLabel "Student demonstration"@en ;
+    skos:topConceptOf <> .
+
+<la1010> a skos:Concept ;
+    skos:prefLabel "Stillarbeit/Einzelarbeit"@de ;
+    skos:prefLabel "Silent work/Individual work"@en ;
+    skos:topConceptOf <> .
+
+<la1011> a skos:Concept ;
+    skos:prefLabel "Übergang"@de ;
+    skos:prefLabel "Transition"@en ;
+    skos:topConceptOf <> .
+
+<la1012> a skos:Concept ;
+    skos:prefLabel "Gruppenpuzzle"@de ;
+    skos:prefLabel "Group puzzle"@en ;
+    skos:topConceptOf <> .
+
+<la1013> a skos:Concept ;
+    skos:prefLabel "Partnerpuzzle"@de ;
+    skos:prefLabel "Partner puzzle"@en ;
+    skos:topConceptOf <> .

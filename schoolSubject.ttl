@@ -1,0 +1,320 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/subject/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eafsys: <http://w3id.org/openeduhub/vocabs-playground/eaf-sachgebietssystematik/> .
+@prefix oeh: <http://w3id.org/openeduhub/vocabs/discipline/> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Schulfächer"@de, "School Subjects"@en ;
+    dct:description "Werteliste von Fächern im Schulbereich."@de, "List of subjects in the school sector."@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2021-03-03"^^xsd:date ;
+    dct:modified "2025-02-24"^^xsd:date ;
+    dct:issued "2022-08-24"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <s1000>, <s1040>, <s1001>, <s1002>, <s1003>, <s1004>,
+        <s1005>, <s1006>, <s1041>, <s1007>, <s1044>, <s1045>, <s1008>,
+        <s1009>, <s1010>, <s1011>, <s1012>, <s1047>, <s1034>, <s1013>, <s1014>,
+        <s1035>, <s1015>, <s1016>, <s1017>, <s1046>, <s1019>, <s1020>, <s1036>,
+        <s1021>, <s1022>, <s1023>, <s1037>, <s1038>, <s1043>, <s1024>, <s1025>,
+        <s1026>, <s1027>, <s1028>, <s1029>, <s1039>, <s1030>, <s1031>, <s1032>,
+        <s1033>, <se1000>, <se1010>, <se1020>
+        .
+
+<s1000> a skos:Concept ;
+    skos:prefLabel "Alt-Griechisch"@de, "Ancient Greek"@en ;
+    skos:closeMatch eafsys:20003 ;
+    skos:closeMatch oeh:20003 ;
+    skos:topConceptOf <> .
+
+<s1040> a skos:Concept ;
+    skos:prefLabel "Astronomie"@de, "Astronomy"@en ;
+    skos:topConceptOf <> .
+
+<s1001> a skos:Concept ;
+    skos:prefLabel "Biologie"@de, "Biology"@en ;
+    skos:closeMatch eafsys:080 ;
+    skos:closeMatch oeh:080 ;
+    skos:topConceptOf <> .
+
+<s1002> a skos:Concept ;
+    skos:prefLabel "Chemie"@de, "Chemistry"@en ;
+    skos:closeMatch eafsys:100 ;
+    skos:closeMatch oeh:100 ;
+    skos:topConceptOf <> .
+
+<s1003> a skos:Concept ;
+    skos:prefLabel "Chinesisch"@de, "Chinese"@en ;
+    skos:topConceptOf <> .
+
+<s1004> a skos:Concept ;
+    skos:prefLabel "Darstellendes Spiel"@de, "Performing Arts"@en ;
+    skos:altLabel "Theater"@de, "Theatre"@en ;
+    skos:closeMatch eafsys:12002 ;
+    skos:closeMatch oeh:12002 ;
+    skos:topConceptOf <> .
+
+<s1005> a skos:Concept ;
+    skos:prefLabel "Deutsch"@de, "German"@en ;
+    skos:closeMatch eafsys:120 ;
+    skos:closeMatch eafsys:28001 ;
+    skos:closeMatch oeh:120 ;
+    skos:topConceptOf <> .
+
+<s1006> a skos:Concept ;
+    skos:prefLabel "Deutsch als Zweitsprache"@de, "German as a Second Language"@en ;
+    skos:altLabel "DaZ"@de, "GSL"@en ;
+    skos:closeMatch eafsys:12005 ;
+    skos:closeMatch eafsys:28002 ;
+    skos:closeMatch oeh:12005 ;
+    skos:topConceptOf <> .
+
+<s1041> a skos:Concept ;
+    skos:prefLabel "Deutsche Gebärdensprache"@de, "German Sign Language"@en ;
+    skos:topConceptOf <> .
+
+<s1007> a skos:Concept ;
+    skos:prefLabel "Englisch"@de, "English"@en ;
+    skos:closeMatch eafsys:20001 ;
+    skos:closeMatch eafsys:2800501 ;
+    skos:closeMatch oeh:20001 ;
+    skos:topConceptOf <> .
+
+<s1044> a skos:Concept ;
+    skos:prefLabel "Ernährung"@de, "Nutrition"@en ;
+    skos:topConceptOf <> .
+
+<s1045> a skos:Concept ;
+    skos:prefLabel "Erziehungswissenschaften"@de, "Educational Sciences"@en ;
+    skos:altLabel "Pädagogik"@de, "Pedagogy"@en ;
+    skos:topConceptOf <> .
+
+<s1008> a skos:Concept ;
+    skos:prefLabel "Ethik"@de, "Ethics"@en ;
+    skos:altLabel "Werte und Normen"@de, "Values and Norms"@en ;
+    skos:closeMatch eafsys:160 ;
+    skos:closeMatch eafsys:28004 ;
+    skos:closeMatch oeh:160 ;
+    skos:topConceptOf <> .
+
+<s1009> a skos:Concept ;
+    skos:prefLabel "Französisch"@de, "French"@en ;
+    skos:closeMatch eafsys:20002 ;
+    skos:closeMatch eafsys:2800502 ;
+    skos:closeMatch oeh:20002 ;
+    skos:topConceptOf <> .
+
+<s1010> a skos:Concept ;
+    skos:prefLabel "Geografie"@de, "Geography"@en ;
+    skos:altLabel "Erdkunde"@de, "Geography"@en, "Geographie"@de, "Geography"@en ;
+    skos:closeMatch eafsys:220 ;
+    skos:closeMatch oeh:220 ;
+    skos:topConceptOf <> .
+
+<s1011> a skos:Concept ;
+    skos:prefLabel "Geschichte"@de, "History"@en ;
+    skos:closeMatch eafsys:20002 ;
+    skos:closeMatch oeh:20002 ;
+    skos:topConceptOf <> .
+
+<s1042> a skos:Concept ;
+    skos:prefLabel "Gesellschaftswissenschaften"@de, "Social Sciences"@en ;
+    skos:topConceptOf <> .
+
+<s1012> a skos:Concept ;
+    skos:prefLabel "Gesundheit"@de, "Health"@en ;
+    skos:altLabel "Gesundheitserziehung"@de, "Health Education"@en ;
+    skos:closeMatch eafsys:260 ;
+    skos:closeMatch oeh:260 ;
+    skos:topConceptOf <> .
+
+<s1047> a skos:Concept ;
+    skos:prefLabel "Hauswirtschaft"@de, "Home Economics"@en ;
+    skos:topConceptOf <> .
+
+<s1034> a skos:Concept ;
+    skos:prefLabel "Hebräisch"@de, "Hebrew"@en ;
+    skos:topConceptOf <> .
+
+<s1013> a skos:Concept ;
+    skos:prefLabel "Informatik"@de, "Computer Science"@en ;
+    skos:altLabel "Informations- und Kommunikationstechnologie"@de, "Information and Communication Technology"@en ;
+    skos:closeMatch eafsys:320 ;
+    skos:closeMatch oeh:320 ;
+    skos:topConceptOf <> .
+
+<s1014> a skos:Concept ;
+    skos:prefLabel "Italienisch"@de, "Italian"@en ;
+    skos:closeMatch eafsys:20004 ;
+    skos:closeMatch eafsys:2800503 ;
+    skos:closeMatch oeh:20004 ;
+    skos:topConceptOf <> .
+
+<s1035> a skos:Concept ;
+    skos:prefLabel "Japanisch"@de, "Japanese"@en ;
+    skos:topConceptOf <> .
+
+<s1015> a skos:Concept ;
+    skos:prefLabel "Kunst"@de, "Art"@en ;
+    skos:altLabel "Bildende Kunst"@de, "Fine Arts"@en, "Kunsterziehung"@de, "Art Education"@en ;
+    skos:closeMatch eafsys:060 ;
+    skos:closeMatch eafsys:28006 ;
+    skos:closeMatch oeh:060 ;
+    skos:topConceptOf <> .
+
+<s1016> a skos:Concept ;
+    skos:prefLabel "Latein"@de, "Latin"@en ;
+    skos:closeMatch eafsys:20005 ;
+    skos:closeMatch oeh:20005 ;
+    skos:topConceptOf <> .
+
+<s1017> a skos:Concept ;
+    skos:prefLabel "Mathematik"@de, "Mathematics"@en ;
+    skos:closeMatch eafsys:380 ;
+    skos:closeMatch eafsys:28007 ;
+    skos:closeMatch oeh:380 ;
+    skos:topConceptOf <> .
+
+<s1046> a skos:Concept ;
+    skos:prefLabel "Medienbildung"@de, "Media Education"@en ;
+    skos:topConceptOf <> .
+
+<s1019> a skos:Concept ;
+    skos:prefLabel "MINT"@de, "STEM"@en ;
+    skos:altLabel "Chemie, Physik, Biologie"@de, "Chemistry, Physics, Biology"@en ;
+    skos:altLabel "Naturwissenschaften"@de, "Natural Sciences"@en ;
+    skos:related <s1001>, <s1002>, <s1013>, <s1017>, <s1022> ;
+    skos:topConceptOf <> .
+
+<s1020> a skos:Concept ;
+    skos:prefLabel "Musik"@de, "Music"@en ;
+    skos:closeMatch eafsys:420 ;
+    skos:closeMatch eafsys:28008 ;
+    skos:closeMatch oeh:420 ;
+    skos:topConceptOf <> .
+
+<s1036> a skos:Concept ;
+    skos:prefLabel "Neugriechisch"@de, "Modern Greek"@en ;
+    skos:topConceptOf <> .
+
+<s1021> a skos:Concept ;
+    skos:prefLabel "Philosophie"@de, "Philosophy"@en ;
+    skos:closeMatch eafsys:450 ;
+    skos:closeMatch oeh:450 ;
+    skos:topConceptOf <> .
+
+<s1022> a skos:Concept ;
+    skos:prefLabel "Physik"@de, "Physics"@en ;
+    skos:closeMatch eafsys:460 ;
+    skos:closeMatch oeh:460 ;
+    skos:topConceptOf <> .
+
+<s1023> a skos:Concept ;
+    skos:prefLabel "Politik"@de, "Politics"@en ;
+    skos:altLabel "Politische Bildung"@de, "Civic Education"@en, "Sozialkunde"@de, "Social Studies"@en ;
+    skos:closeMatch eafsys:480 ;
+    skos:closeMatch oeh:480 ;
+    skos:topConceptOf <> .
+
+<s1037> a skos:Concept ;
+    skos:prefLabel "Polnisch"@de, "Polish"@en ;
+    skos:topConceptOf <> .
+
+<s1038> a skos:Concept ;
+    skos:prefLabel "Portugiesisch"@de, "Portuguese"@en ;
+    skos:topConceptOf <> .
+
+<s1043> a skos:Concept ;
+    skos:prefLabel "Psychologie"@de, "Psychology"@en ;
+    skos:topConceptOf <> .
+
+<s1024> a skos:Concept ;
+    skos:prefLabel "Religionslehre (evangelische)"@de, "Religious Education (Protestant)"@en ;
+    skos:altLabel "Evangelischer Religionsunterricht"@de, "Protestant Religious Education"@en ;
+    skos:closeMatch eafsys:520 ;
+    skos:closeMatch eafsys:28009 ;
+    skos:closeMatch oeh:520 ;
+    skos:topConceptOf <> .
+
+<s1025> a skos:Concept ;
+    skos:prefLabel "Religionslehre (islamisch)"@de, "Religious Education (Islamic)"@en ;
+    skos:altLabel "Islamischer Religionsunterricht"@de, "Islamic Religious Education"@en ;
+    skos:closeMatch eafsys:520 ;
+    skos:closeMatch eafsys:28009 ;
+    skos:closeMatch oeh:520 ;
+    skos:editorialNote "EAF 28009 hat hauptsächlich christliche Themen, aber auch einen Abschnitt mit nicht-christlichen Religionen"@de ;
+    skos:topConceptOf <> .
+
+<s1026> a skos:Concept ;
+    skos:prefLabel "Religionslehre (katholische)"@de, "Religious Education (Catholic)"@en ;
+    skos:altLabel "Katholischer Religionsunterricht"@de, "Catholic Religious Education"@en ;
+    skos:closeMatch eafsys:520 ;
+    skos:closeMatch eafsys:28009 ;
+    skos:closeMatch oeh:520 ;
+    skos:topConceptOf <> .
+
+<s1027> a skos:Concept ;
+    skos:prefLabel "Russisch"@de, "Russian"@en ;
+    skos:closeMatch eafsys:20006 ;
+    skos:closeMatch eafsys:2800507 ;
+    skos:closeMatch oeh:20006 ;
+    skos:topConceptOf <> .
+
+<s1028> a skos:Concept ;
+    skos:prefLabel "Sachunterricht"@de, "General Studies"@en ;
+    skos:altLabel "Heimatunterricht"@de, "Local Studies"@en, "Sachkunde"@de, "General Knowledge"@en ;
+    skos:closeMatch eafsys:28010 ;
+    skos:closeMatch oeh:28010 ;
+    skos:topConceptOf <> .
+
+<s1029> a skos:Concept ;
+    skos:prefLabel "Sexualerziehung"@de, "Sex Education"@en ;
+    skos:closeMatch eafsys:560 ;
+    skos:closeMatch oeh:560 ;
+    skos:topConceptOf <> .
+
+<s1039> a skos:Concept ;
+    skos:prefLabel "Sorbisch"@de, "Sorbian"@en ;
+    skos:altLabel "Wendisch"@de, "Wendish"@en ;
+    skos:topConceptOf <> .
+
+<s1030> a skos:Concept ;
+    skos:prefLabel "Spanisch"@de, "Spanish"@en ;
+    skos:closeMatch eafsys:20007 ;
+    skos:closeMatch eafsys:2800508 ;
+    skos:closeMatch oeh:20007 ;
+    skos:topConceptOf <> .
+
+<s1031> a skos:Concept ;
+    skos:prefLabel "Sport"@de, "Physical Education"@en ;
+    skos:closeMatch eafsys:600 ;
+    skos:closeMatch eafsys:28011 ;
+    skos:closeMatch oeh:600 ;
+    skos:topConceptOf <> .
+
+<s1032> a skos:Concept ;
+    skos:prefLabel "Türkisch"@de, "Turkish"@en ;
+    skos:closeMatch eafsys:20008 ;
+    skos:closeMatch eafsys:2800504 ;
+    skos:closeMatch oeh:20008 ;
+    skos:topConceptOf <> .
+
+<s1033> a skos:Concept ;
+    skos:prefLabel "Wirtschaftskunde"@de, "Economics"@en ;
+    skos:closeMatch eafsys:700 ;
+    skos:closeMatch oeh:700 ;
+    skos:topConceptOf <> .
+
+<se1000> a skos:Concept ;
+    skos:prefLabel "Berufliche Fachrichtungen"@de, "Vocational Subjects"@en ;
+    skos:topConceptOf <> .
+
+<se1010> a skos:Concept ;
+    skos:prefLabel "Fächerübergreifender Unterricht"@de, "Interdisciplinary Teaching"@en ;
+    skos:topConceptOf <> .
+
+<se1020> a skos:Concept ;
+    skos:prefLabel "Sonstiges"@de, "Miscellaneous"@en ;
+    skos:closeMatch oeh:999 ;
+    skos:topConceptOf <> .
