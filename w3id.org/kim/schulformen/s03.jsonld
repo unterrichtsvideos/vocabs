@@ -14,22 +14,22 @@
   },
   "narrowMatch": [
     {
-      "id": "http://w3id.org/kim/educationalLevel/5"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/5"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/6"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/6"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/7"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/7"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/8"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/8"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/9"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/9"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/10"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/10"
     }
   ],
   "closeMatch": [

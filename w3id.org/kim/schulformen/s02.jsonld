@@ -8,16 +8,16 @@
   },
   "narrowMatch": [
     {
-      "id": "http://w3id.org/kim/educationalLevel/1"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/1"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/2"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/2"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/3"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/3"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/4"
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/4"
     }
   ],
   "closeMatch": [
