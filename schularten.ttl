@@ -1,24 +1,27 @@
-@base <http://w3id.org/kim/schulformen/> .
+@base <https://w3id.org/kim/schularten/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix eduLevel: <http://w3id.org/openeduhub/vocabs/educationalLevel/> .
-@prefix isced97: <https://w3id.org/isced/1997/> .
-@prefix isced2011: <https://w3id.org/isced/2011/> .
+@prefix isced97: <https://w3id.org/kim/isced-1997/> .
+@prefix isced2011: <https://w3id.org/kim/isced-2011/> .
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
 @prefix oehEduLevel: <http://w3id.org/openeduhub/vocabs/educationalLevel/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Schulformen"@de;
-    dct:description "Eine Wertelliste für Schulformen im deutschen Schulsystem."@de;
+    dct:title "Schularten"@de;
+    dct:description "Eine Wertelliste für Schularten im deutschen Schulsystem."@de;
     dct:publisher "DINI-AG-KIM OER-Metadatengruppe"@de ;
     dct:created "2021-04-22"^^xsd:date;
     dct:modified "2022-05-24"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    vann:preferredNamespaceUri "https://w3id.org/kim/schulformen/" ;
-    vann:preferredNamespacePrefix "school";
+    vann:preferredNamespaceUri "https://w3id.org/kim/schularten/" ;
+    vann:preferredNamespacePrefix "schoolType";
     skos:hasTopConcept <s01>, <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> , <s14>, <s15> .
+
+<s0> a skos:Concept ;
+    skos:prefLabel "Schulartübergreifend"@de ;
+    skos:topConceptOf <> .
 
 <s01> a skos:Concept ;
     skos:prefLabel "Vorschule"@de ;

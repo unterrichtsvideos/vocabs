@@ -1,0 +1,55 @@
+@base <http://w3id.org/unterrichtsvideos/vocabs/lectureType> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Unterrichtsart"@de;
+    dct:title "Lecture type"@en;
+    dct:description "Eine Wertelliste für Unterrichtsarten"@de;
+    dct:created "2022-06-01"^^xsd:date;
+    dct:modified "2022-06-01"^^xsd:date;
+    dct:issued "2022-06-01"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <av>, <ur>, <us>, <ua>, <iv>, <iva>,
+        <sv>, <lf> .
+
+<av> a skos:Concept ;
+    skos:prefLabel "Animationsvideo"@de ;
+    skos:prefLabel "Animation video"@en ;
+    skos:topConceptOf <> .
+
+<ur> a skos:Concept ;
+    skos:prefLabel "Unterrichtsreihe"@de ;
+    skos:prefLabel "Lesson series"@en ;
+    skos:topConceptOf <> .
+
+<us> a skos:Concept ;
+    skos:prefLabel "Unterrichtsstunde"@de ;
+    skos:prefLabel "Lesson"@en ;
+    skos:topConceptOf <> .
+
+<ua> a skos:Concept ;
+    skos:prefLabel "Unterrichtsausschnitt"@de ;
+    skos:prefLabel "Lesson excerpt"@en ;
+    skos:topConceptOf <> .
+
+<iv> a skos:Concept ;
+    skos:prefLabel "Interview"@de ;
+    skos:prefLabel "Interview"@en ;
+    skos:topConceptOf <> .
+
+<iva> a skos:Concept ;
+    skos:prefLabel "Inszenierte Videoaufnahme"@de ;
+    skos:prefLabel "Staged video recording"@en ;
+    skos:topConceptOf <> .
+
+<lf> a skos:Concept ;
+    skos:prefLabel "Lehrfilm"@de ;
+    skos:prefLabel "Educational video"@en ;
+    skos:topConceptOf <> .
+
+<sv> a skos:Concept ;
+    skos:prefLabel "Sonstige Videos"@de ;
+    skos:prefLabel "Other videos"@en ;
+    skos:topConceptOf <> .
