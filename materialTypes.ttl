@@ -18,6 +18,8 @@
 <6e8fd94e-0774-4eeb-bd90-9c4c0038297e> a skos:Concept ;
     skos:prefLabel "Unterrichtsverlaufplan"@de ;
     skos:altLabel "Unterrichtskonzept"@de ;
+    skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
+    skos:broadMatch oehnrt:477115fd-5042-4174-ac39-7c05f8a24766 ;
     skos:topConceptOf <> .
 
 <d3d6c11c-1ce8-4c4e-a01c-41169d671047> a skos:Concept ;
@@ -38,6 +40,7 @@
 
 <9f52d00d-8db3-47ae-85be-c473e58a44ba> a skos:Concept ;
     skos:prefLabel "Schülerlösung"@de ;
+    skos:broadMatch oehnrt:7c236821-bfae-4eeb-bc79-590bf8ea1d96 ;
     skos:topConceptOf <> .
 
 <9493a7eb-799a-42c4-ac8e-72a66d3d9fe7> a skos:Concept ;
