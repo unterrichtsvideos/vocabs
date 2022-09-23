@@ -8,13 +8,13 @@
   },
   "closeMatch": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/7381f17f-50a6-4ce1-b3a0-9d85a482eec0"
+    },
+    {
       "id": "https://w3id.org/kim/hcrt/lesson_plan"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/7381f17f-50a6-4ce1-b3a0-9d85a482eec0"
     }
   ],
   "inScheme": {
