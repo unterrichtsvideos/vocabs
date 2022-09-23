@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F9f52d00d-8db3-47ae-85be-c473e58a44ba",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F9f52d00d-8db3-47ae-85be-c473e58a44ba",
   "prefLabel": {
-    "de": "Schülerlösungen"
+    "de": "Schülerlösung"
   },
   "inScheme": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/",

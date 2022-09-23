@@ -4,12 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F9493a7eb-799a-42c4-ac8e-72a66d3d9fe7",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F9493a7eb-799a-42c4-ac8e-72a66d3d9fe7",
   "prefLabel": {
-    "de": "Schülermaterialen"
-  },
-  "altLabel": {
-    "de": [
-      "Schülermaterial"
-    ]
+    "de": "Schülermaterial"
   },
   "broadMatch": [
     {

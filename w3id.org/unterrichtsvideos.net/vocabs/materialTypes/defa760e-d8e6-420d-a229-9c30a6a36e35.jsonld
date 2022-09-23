@@ -8,6 +8,9 @@
   },
   "closeMatch": [
     {
+      "id": "https://w3id.org/kim/hcrt/textbook"
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/0cef3ce9-e106-47ae-836a-48f9ed04384e"
     }
   ],

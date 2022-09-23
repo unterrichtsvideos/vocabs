@@ -6,7 +6,16 @@
   "prefLabel": {
     "de": "Informationsblatt"
   },
+  "altLabel": {
+    "de": [
+      "Handout",
+      "Begleitheft"
+    ]
+  },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/6a15628c-0e59-43e3-9fc5-9a7f7fa261c4"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/0cef3ce9-e106-47ae-836a-48f9ed04384e"
     }

@@ -6,10 +6,12 @@
   "prefLabel": {
     "de": "Foto"
   },
-  "exactMatch": [
+  "closeMatch": [
     {
       "id": "https://w3id.org/kim/hcrt/image"
-    },
+    }
+  ],
+  "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/photograph"
     },

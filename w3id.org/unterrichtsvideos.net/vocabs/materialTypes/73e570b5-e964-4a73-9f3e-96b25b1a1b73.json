@@ -1,11 +1,19 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/539fa790-3d03-4807-b7a6-1f97ba431f87",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/73e570b5-e964-4a73-9f3e-96b25b1a1b73",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F539fa790-3d03-4807-b7a6-1f97ba431f87",
-  "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F539fa790-3d03-4807-b7a6-1f97ba431f87",
+  "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F73e570b5-e964-4a73-9f3e-96b25b1a1b73",
+  "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Funterrichtsvideos.net%2Fvocabs%2FmaterialTypes%2F73e570b5-e964-4a73-9f3e-96b25b1a1b73",
   "prefLabel": {
-    "de": "Informationen zur Unterrichtseinheit"
+    "de": "Tafelbild"
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/kim/hcrt/image"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/1dc4ed81-718c-4b76-86cb-947a86875973"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/",
     "title": {
