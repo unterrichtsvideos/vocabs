@@ -13,14 +13,16 @@
     dct:modified "2022-08-24"^^xsd:date;
     dct:issued "2022-08-24"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <6e8fd94e-0774-4eeb-bd90-9c4c0038297e>, <d3d6c11c-1ce8-4c4e-a01c-41169d671047>, <48dfc834-f5c0-46a5-8f17-89771ce61d23>, <eebfb7c6-cd99-4990-9b4d-2cd50497ad0f>, <9f52d00d-8db3-47ae-85be-c473e58a44ba>, <9493a7eb-799a-42c4-ac8e-72a66d3d9fe7>, <46f3146d-f942-428c-8119-689fc06f39dc>, <539fa790-3d03-4807-b7a6-1f97ba431f87>, <9645b603-bcfb-4171-82de-85c4f6600afc>, <ecbf1b8a-1ec1-4758-b201-de5c60a4f487>, <defa760e-d8e6-420d-a229-9c30a6a36e35>, <d78ada9e-289d-440b-8a6c-7436cf5adaf3> .
+    skos:hasTopConcept <6e8fd94e-0774-4eeb-bd90-9c4c0038297e>, <d3d6c11c-1ce8-4c4e-a01c-41169d671047>, <48dfc834-f5c0-46a5-8f17-89771ce61d23>, <eebfb7c6-cd99-4990-9b4d-2cd50497ad0f>, <9f52d00d-8db3-47ae-85be-c473e58a44ba>, <9493a7eb-799a-42c4-ac8e-72a66d3d9fe7>, <46f3146d-f942-428c-8119-689fc06f39dc>, <9645b603-bcfb-4171-82de-85c4f6600afc>, <ecbf1b8a-1ec1-4758-b201-de5c60a4f487>, <defa760e-d8e6-420d-a229-9c30a6a36e35>, <d78ada9e-289d-440b-8a6c-7436cf5adaf3>, <73e570b5-e964-4a73-9f3e-96b25b1a1b73> .
 
 <6e8fd94e-0774-4eeb-bd90-9c4c0038297e> a skos:Concept ;
     skos:prefLabel "Unterrichtsverlaufplan"@de ;
+    skos:altLabel "Unterrichtskonzept"@de ;
     skos:topConceptOf <> .
 
 <d3d6c11c-1ce8-4c4e-a01c-41169d671047> a skos:Concept ;
-    skos:prefLabel "Lehrmaterialien"@de ;
+    skos:prefLabel "Lehrmaterial"@de ;
+    skos:altLabel "Unterrichtsmaterial"@de ;
     skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
     skos:topConceptOf <> .
 
@@ -35,12 +37,11 @@
     skos:topConceptOf <> .
 
 <9f52d00d-8db3-47ae-85be-c473e58a44ba> a skos:Concept ;
-    skos:prefLabel "Schülerlösungen"@de ;
+    skos:prefLabel "Schülerlösung"@de ;
     skos:topConceptOf <> .
 
 <9493a7eb-799a-42c4-ac8e-72a66d3d9fe7> a skos:Concept ;
-    skos:prefLabel "Schülermaterialen"@de ;
-    skos:altLabel "Schülermaterial"@de ;
+    skos:prefLabel "Schülermaterial"@de ;
     skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
     skos:topConceptOf <> .
 
@@ -49,10 +50,6 @@
     skos:closeMatch hcrt:lesson_plan ;
     skos:closeMatch oehrt:lesson_plan ;
     skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
-    skos:topConceptOf <> .
-
-<539fa790-3d03-4807-b7a6-1f97ba431f87> a skos:Concept ;
-    skos:prefLabel "Informationen zur Unterrichtseinheit"@de ;
     skos:topConceptOf <> .
 
 <9645b603-bcfb-4171-82de-85c4f6600afc> a skos:Concept ;
@@ -64,19 +61,29 @@
 
 <ecbf1b8a-1ec1-4758-b201-de5c60a4f487> a skos:Concept ;
     skos:prefLabel "Foto"@de ;
-    skos:exactMatch hcrt:image ;
+    skos:closeMatch hcrt:image ;
     skos:exactMatch oehrt:photograph ;
     skos:exactMatch oehnrt:f9630e1c-2247-42ed-87b0-b1e18e4ec02b ;
     skos:topConceptOf <> .
 
 <defa760e-d8e6-420d-a229-9c30a6a36e35> a skos:Concept ;
     skos:prefLabel "Buchseite"@de ;
+    skos:closeMatch hcrt:textbook ;
     skos:closeMatch oehnrt:0cef3ce9-e106-47ae-836a-48f9ed04384e ;
     skos:topConceptOf <> .
 
 <d78ada9e-289d-440b-8a6c-7436cf5adaf3> a skos:Concept ;
     skos:prefLabel "Informationsblatt"@de ;
+    skos:altLabel "Handout"@de ;
+    skos:altLabel "Begleitheft"@de ;
     skos:closeMatch hcrt:text ;
     skos:closeMatch oehrt:text ;
     skos:relatedMatch oehnrt:0cef3ce9-e106-47ae-836a-48f9ed04384e ;
+    skos:relatedMatch oehnrt:6a15628c-0e59-43e3-9fc5-9a7f7fa261c4 ;
+    skos:topConceptOf <> .
+
+<73e570b5-e964-4a73-9f3e-96b25b1a1b73> a skos:Concept ;
+    skos:prefLabel "Tafelbild"@de ;
+    skos:closeMatch hcrt:image ;
+    skos:closeMatch oehnrt:1dc4ed81-718c-4b76-86cb-947a86875973 ;
     skos:topConceptOf <> .
