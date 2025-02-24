@@ -1,4 +1,4 @@
-@base <https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu> .
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/> .
 @prefix comein: <https://w3id.org/comein/vocabs/DigCompEdu/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
