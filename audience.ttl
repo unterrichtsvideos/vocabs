@@ -9,6 +9,7 @@
     dct:title "Zielgruppen"@de ;
     dct:title "Audience"@en ;
     dct:description "Eine Werteliste für die Zielgruppen des Meta-Videoportal-Verbundes."@de ;
+    dct:description "A value list for the audience of the Meta-Videoportal network."@en ;
     dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2021-01-01"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -16,6 +17,7 @@
 
 <g0> a skos:Concept ;
   skos:prefLabel "Sonstige Zielgruppe"@de ;
+  skos:prefLabel "Other audience"@en ;
   skos:topConceptOf <> .
 
 <g1> a skos:Concept ;
@@ -25,20 +27,25 @@
 
 <g3> a skos:Concept ;
   skos:prefLabel "Hochschullehrende/r"@de ;
+  skos:prefLabel "University lecturer"@en ;
   skos:topConceptOf <> .
 
 <g4> a skos:Concept ;
   skos:prefLabel "Seminarleitung (Vorbereitungsdienst)"@de ;
+  skos:prefLabel "Seminar leader (preparatory service)"@en ;
   skos:topConceptOf <> .
 
 <g5> a skos:Concept ;
   skos:prefLabel "Fortbildner/in"@de ;
+  skos:prefLabel "Teacher trainer"@en ;
   skos:topConceptOf <> .
 
 <g6> a skos:Concept ;
   skos:prefLabel "Lehrkräfte"@de ;
+  skos:prefLabel "Teacher"@en ;
   skos:topConceptOf <> .
 
 <g7> a skos:Concept ;
   skos:prefLabel "Unterrichtsforscher/in"@de ;
+  skos:prefLabel "Teaching researcher"@en ;
   skos:topConceptOf <> .
