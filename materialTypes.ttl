@@ -1,92 +1,112 @@
-@base <https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/> .
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/> .
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix hcrt: <https://w3id.org/kim/hcrt/> .
 @prefix oehrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
 @prefix oehnrt: <http://w3id.org/openeduhub/vocabs/new_lrt/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
     dct:title "Materialtypen"@de;
     dct:description "Eine Wertelliste für Materialtypen"@de;
+    dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en ;
     dct:created "2022-08-24"^^xsd:date;
-    dct:modified "2022-08-24"^^xsd:date;
+    dct:modified "2025-02-24"^^xsd:date;
     dct:issued "2022-08-24"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <6e8fd94e-0774-4eeb-bd90-9c4c0038297e>, <d3d6c11c-1ce8-4c4e-a01c-41169d671047>, <48dfc834-f5c0-46a5-8f17-89771ce61d23>, <eebfb7c6-cd99-4990-9b4d-2cd50497ad0f>, <9f52d00d-8db3-47ae-85be-c473e58a44ba>, <9493a7eb-799a-42c4-ac8e-72a66d3d9fe7>, <46f3146d-f942-428c-8119-689fc06f39dc>, <9645b603-bcfb-4171-82de-85c4f6600afc>, <ecbf1b8a-1ec1-4758-b201-de5c60a4f487>, <defa760e-d8e6-420d-a229-9c30a6a36e35>, <d78ada9e-289d-440b-8a6c-7436cf5adaf3>, <73e570b5-e964-4a73-9f3e-96b25b1a1b73> .
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/" ;
+    vann:preferredNamespacePrefix "mvpMaterialType";
+    skos:hasTopConcept <mt1000>, <mt1001>, <mt1002>, <mt1003>, <mt1004>, <mt1005>, <mt1006>, <mt1007>, <mt1008>, <mt1009>, <mt1010> .
 
-<6e8fd94e-0774-4eeb-bd90-9c4c0038297e> a skos:Concept ;
+<mt1000> a skos:Concept ;
     skos:prefLabel "Unterrichtsverlaufplan"@de ;
+    skos:prefLabel "Lesson plan"@en ;
     skos:altLabel "Unterrichtskonzept"@de ;
+    skos:altLabel "Teaching concept"@en ;
     skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
     skos:broadMatch oehnrt:477115fd-5042-4174-ac39-7c05f8a24766 ;
     skos:topConceptOf <> .
 
-<d3d6c11c-1ce8-4c4e-a01c-41169d671047> a skos:Concept ;
+<mt1001> a skos:Concept ;
     skos:prefLabel "Lehrmaterial"@de ;
+    skos:prefLabel "Teaching material"@en ;
     skos:altLabel "Unterrichtsmaterial"@de ;
+    skos:altLabel "Classroom material"@en ;
     skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
     skos:topConceptOf <> .
 
-<48dfc834-f5c0-46a5-8f17-89771ce61d23> a skos:Concept ;
+<mt1002> a skos:Concept ;
     skos:prefLabel "Verlaufsprotokoll"@de ;
+    skos:prefLabel "Progress report"@en ;
     skos:topConceptOf <> .
 
-<eebfb7c6-cd99-4990-9b4d-2cd50497ad0f> a skos:Concept ;
+<mt1003> a skos:Concept ;
     skos:prefLabel "Transkript"@de ;
+    skos:prefLabel "Transcript"@en ;
     skos:closeMatch hcrt:script ;
     skos:closeMatch oehnrt:6a15628c-0e59-43e3-9fc5-9a7f7fa261c4 ;
     skos:topConceptOf <> .
 
-<9f52d00d-8db3-47ae-85be-c473e58a44ba> a skos:Concept ;
+<mt1004> a skos:Concept ;
     skos:prefLabel "Schülerlösung"@de ;
+    skos:prefLabel "Student solution"@en ;
     skos:broadMatch oehnrt:7c236821-bfae-4eeb-bc79-590bf8ea1d96 ;
     skos:topConceptOf <> .
 
-<9493a7eb-799a-42c4-ac8e-72a66d3d9fe7> a skos:Concept ;
+<mt1005> a skos:Concept ;
     skos:prefLabel "Schülermaterial"@de ;
+    skos:prefLabel "Student material"@en ;
     skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
     skos:topConceptOf <> .
 
-<46f3146d-f942-428c-8119-689fc06f39dc> a skos:Concept ;
+<mt1005> a skos:Concept ;
     skos:prefLabel "Unterrichtsentwurf"@de ;
+    skos:prefLabel "Lesson draft"@en ;
     skos:closeMatch hcrt:lesson_plan ;
     skos:closeMatch oehrt:lesson_plan ;
     skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
     skos:topConceptOf <> .
 
-<9645b603-bcfb-4171-82de-85c4f6600afc> a skos:Concept ;
+<mt1006> a skos:Concept ;
     skos:prefLabel "Arbeitsblatt"@de ;
+    skos:prefLabel "Worksheet"@en ;
     skos:exactMatch hcrt:worksheet ;
     skos:exactMatch oehrt:worksheet ;
     skos:exactMatch oehnrt:36e68792-6159-481d-a97b-2c00901f4f78 ;
     skos:topConceptOf <> .
 
-<ecbf1b8a-1ec1-4758-b201-de5c60a4f487> a skos:Concept ;
+<mt1007> a skos:Concept ;
     skos:prefLabel "Foto"@de ;
+    skos:prefLabel "Photo"@en ;
     skos:closeMatch hcrt:image ;
     skos:exactMatch oehrt:photograph ;
     skos:exactMatch oehnrt:f9630e1c-2247-42ed-87b0-b1e18e4ec02b ;
     skos:topConceptOf <> .
 
-<defa760e-d8e6-420d-a229-9c30a6a36e35> a skos:Concept ;
+<mt1008> a skos:Concept ;
     skos:prefLabel "Buchseite"@de ;
+    skos:prefLabel "Book page"@en ;
     skos:closeMatch hcrt:textbook ;
     skos:closeMatch oehnrt:0cef3ce9-e106-47ae-836a-48f9ed04384e ;
     skos:topConceptOf <> .
 
-<d78ada9e-289d-440b-8a6c-7436cf5adaf3> a skos:Concept ;
+<mt1009> a skos:Concept ;
     skos:prefLabel "Informationsblatt"@de ;
+    skos:prefLabel "Information sheet"@en ;
     skos:altLabel "Handout"@de ;
+    skos:altLabel "Handout"@en ;
     skos:altLabel "Begleitheft"@de ;
+    skos:altLabel "Companion booklet"@en ;
     skos:closeMatch hcrt:text ;
     skos:closeMatch oehrt:text ;
     skos:relatedMatch oehnrt:0cef3ce9-e106-47ae-836a-48f9ed04384e ;
     skos:relatedMatch oehnrt:6a15628c-0e59-43e3-9fc5-9a7f7fa261c4 ;
     skos:topConceptOf <> .
 
-<73e570b5-e964-4a73-9f3e-96b25b1a1b73> a skos:Concept ;
+<mt1010> a skos:Concept ;
     skos:prefLabel "Tafelbild"@de ;
+    skos:prefLabel "Blackboard image"@en ;
     skos:closeMatch hcrt:image ;
     skos:closeMatch oehnrt:1dc4ed81-718c-4b76-86cb-947a86875973 ;
     skos:topConceptOf <> .

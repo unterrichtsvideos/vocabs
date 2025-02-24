@@ -1,55 +1,59 @@
-@base <https://w3id.org/unterrichtsvideos.net/vocabs/videoTypes/> .
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/videotype/> .
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
     dct:title "Art des Videos"@de;
     dct:title "Video type"@en;
-    dct:description "Eine Wertelliste für Videoarten"@de;
+    dct:description "Eine Wertelliste für Videoarten"@de, "A value list for video types"@en;
+    dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en;
     dct:created "2022-06-01"^^xsd:date;
-    dct:modified "2022-06-01"^^xsd:date;
+    dct:modified "2025-02-24"^^xsd:date;
     dct:issued "2022-06-01"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <av>, <ur>, <us>, <ua>, <iv>, <iva>,
-        <sv>, <lf> .
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/videotype/" ;
+    vann:preferredNamespacePrefix "mvpVideoType";
+    skos:hasTopConcept <vt001>, <vt002>, <vt003>, <vt004>, <vt005>, <vt006>,
+        <vt007>, <vt008> .
 
-<av> a skos:Concept ;
+<vt001> a skos:Concept ;
     skos:prefLabel "Animationsvideo"@de ;
     skos:prefLabel "Animation video"@en ;
     skos:topConceptOf <> .
 
-<ur> a skos:Concept ;
+<vt002> a skos:Concept ;
     skos:prefLabel "Unterrichtsreihe"@de ;
     skos:prefLabel "Lesson series"@en ;
     skos:topConceptOf <> .
 
-<us> a skos:Concept ;
+<vt003> a skos:Concept ;
     skos:prefLabel "Unterrichtsstunde"@de ;
     skos:prefLabel "Lesson"@en ;
     skos:topConceptOf <> .
 
-<ua> a skos:Concept ;
+<vt004> a skos:Concept ;
     skos:prefLabel "Unterrichtsausschnitt"@de ;
     skos:prefLabel "Lesson excerpt"@en ;
     skos:topConceptOf <> .
 
-<iv> a skos:Concept ;
+<vt005> a skos:Concept ;
     skos:prefLabel "Interview"@de ;
     skos:prefLabel "Interview"@en ;
     skos:topConceptOf <> .
 
-<iva> a skos:Concept ;
+<vt006> a skos:Concept ;
     skos:prefLabel "Inszenierte Videoaufnahme"@de ;
     skos:prefLabel "Staged video recording"@en ;
     skos:topConceptOf <> .
 
-<lf> a skos:Concept ;
+<vt007> a skos:Concept ;
     skos:prefLabel "Lehrfilm"@de ;
     skos:prefLabel "Educational video"@en ;
     skos:topConceptOf <> .
 
-<sv> a skos:Concept ;
+<vt008> a skos:Concept ;
     skos:prefLabel "Sonstige Videos"@de ;
     skos:prefLabel "Other videos"@en ;
     skos:topConceptOf <> .
