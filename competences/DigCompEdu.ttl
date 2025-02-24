@@ -14,7 +14,7 @@
     dct:modified "2021-09-17"^^xsd:date;
     dct:issued "2021-09-17"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/" ;
+    vann:preferredNamespaceUri <https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/> ;
     vann:preferredNamespacePrefix "digcompedu";
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6> .
 
@@ -64,7 +64,7 @@
 
 <1.1> a skos:Concept ;
     skos:prefLabel "Organisational communication"@en ;
-    skos:prefLabel "Beruflice Kommunikation"@de ;
+    skos:prefLabel "Berufliche Kommunikation"@de ;
     skos:definition "To use digital technologies to enhance organisational communication with learners, parents and third parties. To contribute to collaboratively developing and improving organisational communication strategies."@en ;
     skos:definition "Nutzung von digitalen Medien zur Verbesserung der organisatorischen Kommunikation mit Lernenden, Eltern und Dritten; Gemeinsame Entwicklung und Verbesserung organisatorischer Kommunikationsstrategien."@de ;
     skos:broader <1> ;
