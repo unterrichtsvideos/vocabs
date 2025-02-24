@@ -6,10 +6,10 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Jahrgangsstufe"@de;
-    dct:title "Grade"@en;
-    dct:description "Eine Werteliste für die Jahrgangsstufe"@de, "A list of values for the grade"@en;
-    dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en ;
+    dct:title "Jahrgangsstufen"@de;
+    dct:title "Grades"@en;
+    dct:description "Eine Werteliste für Jahrgangsstufen"@de, "A list of values for grades"@en;
+    dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2022-06-01"^^xsd:date;
     dct:modified "2025-02-24"^^xsd:date;
     dct:issued "2022-06-01"^^xsd:date;

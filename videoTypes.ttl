@@ -8,13 +8,13 @@
     dct:title "Art des Videos"@de;
     dct:title "Video type"@en;
     dct:description "Eine Wertelliste für Videoarten"@de, "A value list for video types"@en;
-    dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en;
+    dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2022-06-01"^^xsd:date;
     dct:modified "2025-02-24"^^xsd:date;
     dct:issued "2022-06-01"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/videotype/" ;
-    vann:preferredNamespacePrefix "mvpVideoType";
+    vann:preferredNamespacePrefix "mvpVideotype";
     skos:hasTopConcept <vt001>, <vt002>, <vt003>, <vt004>, <vt005>, <vt006>,
         <vt007>, <vt008> .
 

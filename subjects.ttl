@@ -9,7 +9,7 @@
 <> a skos:ConceptScheme ;
     dct:title "Schulfächer"@de, "School Subjects"@en ;
     dct:description "Werteliste von Fächern im Schulbereich."@de, "List of subjects in the school sector."@en ;
-    dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2021-03-03"^^xsd:date ;
     dct:modified "2025-02-24"^^xsd:date ;
     dct:issued "2022-08-24"^^xsd:date ;

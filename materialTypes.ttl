@@ -10,13 +10,13 @@
 <> a skos:ConceptScheme;
     dct:title "Materialtypen"@de, "Material types"@en;
     dct:description "Eine Wertelliste für Materialtypen"@de, "A value list for material types"@en;
-    dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2022-08-24"^^xsd:date;
     dct:modified "2025-02-24"^^xsd:date;
     dct:issued "2022-08-24"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/" ;
-    vann:preferredNamespacePrefix "mvpMaterialType";
+    vann:preferredNamespacePrefix "mvpMaterialtype";
     skos:hasTopConcept <mt1000>, <mt1001>, <mt1002>, <mt1003>, <mt1004>, <mt1005>, <mt1006>, <mt1007>, <mt1008>, <mt1009>, <mt1010>, <mt1011>  .
 
 <mt1000> a skos:Concept ;
