@@ -8,8 +8,8 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Materialtypen"@de;
-    dct:description "Eine Wertelliste für Materialtypen"@de;
+    dct:title "Materialtypen"@de, "Material types"@en;
+    dct:description "Eine Wertelliste für Materialtypen"@de, "A value list for material types"@en;
     dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en ;
     dct:created "2022-08-24"^^xsd:date;
     dct:modified "2025-02-24"^^xsd:date;

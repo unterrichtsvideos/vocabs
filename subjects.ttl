@@ -7,8 +7,8 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Schulfächer"@de ;
-    dct:description "Werteliste von Fächern im Schulbereich."@de ;
+    dct:title "Schulfächer"@de, "School Subjects"@en ;
+    dct:description "Werteliste von Fächern im Schulbereich."@de, "List of subjects in the school sector."@en ;
     dct:publisher "unterrichtsvideos.net"@de, "unterrichtsvideos.net"@en ;
     dct:created "2021-03-03"^^xsd:date ;
     dct:modified "2025-02-24"^^xsd:date ;
