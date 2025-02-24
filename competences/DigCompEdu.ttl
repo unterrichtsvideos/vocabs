@@ -12,6 +12,8 @@
     dct:modified "2021-09-17"^^xsd:date;
     dct:issued "2021-09-17"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/" ;
+    vann:preferredNamespacePrefix "digcompedu";
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6> .
 
 <1> a skos:Concept ;
@@ -158,7 +160,7 @@
     skos:closeMatch ornrw:0302 ;
     skos:inScheme <> ;
     skos:exactMatch comein:3.4 .
-    
+
 <4.1> a skos:Concept ;
     skos:prefLabel "Assessment strategies"@en ;
     skos:prefLabel "Lernstand erheben"@de ;
