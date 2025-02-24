@@ -1,0 +1,60 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/cam/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hcrt: <https://w3id.org/kim/hcrt/> .
+@prefix oehrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
+@prefix oehnrt: <http://w3id.org/openeduhub/vocabs/new_lrt/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Kameraperspektiven"@de, "Camera perspectives"@en;
+    dct:description "Eine Wertelliste für Kameraperspektiven"@de, "A value list for camera perspectives"@en;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2025-02-24"^^xsd:date;
+    dct:modified "2025-02-24"^^xsd:date;
+    dct:issued "2025-02-24"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/cam/" ;
+    vann:preferredNamespacePrefix "mvpCam";
+    skos:hasTopConcept <c0>, <c01>, <c02>, <c03>, <c04>, <c05>, <c06>, <c07>, <c08>, <c09> .
+
+<c0> a skos:Concept ;
+    skos:prefLabel "Sonstige Perspektive"@de, "Other perspective"@en ;
+    skos:topConceptOf <> .
+
+<c01> a skos:Concept ;
+    skos:prefLabel "Lehrkraft"@de, "Teacher"@en ;
+    skos:topConceptOf <> .
+
+<c02> a skos:Concept ;
+    skos:prefLabel "Lernende/r"@de, "Learner"@en ;
+    skos:topConceptOf <> .
+
+<c03> a skos:Concept ;
+    skos:prefLabel "Lerngruppe"@de, "Learner group"@en ;
+    skos:topConceptOf <> .
+
+<c04> a skos:Concept ;
+    skos:prefLabel "Lernende-Lehrkraft-Interaktion"@de, "Learner-teacher interaction"@en ;
+    skos:topConceptOf <> .
+
+<c05> a skos:Concept ;
+    skos:prefLabel "Klasse"@de, "Class"@en ;
+    skos:topConceptOf <> .
+
+<c06> a skos:Concept ;
+    skos:prefLabel "Lernmaterialbearbeitung"@de, "Learning material processing"@en ;
+    skos:topConceptOf <> .
+
+<c07> a skos:Concept ;
+    skos:prefLabel "Multi (parallele Ansichten)"@de, "Multi (parallel views)"@en ;
+    skos:topConceptOf <> .
+
+<c08> a skos:Concept ;
+    skos:prefLabel "POV (Subjektive Sicht)"@de, "POV (subjective view)"@en ;
+    skos:topConceptOf <> .
+
+<c09> a skos:Concept ;
+    skos:prefLabel "360 Grad"@de, "360 Degrees"@en ;
+    skos:topConceptOf <> .
