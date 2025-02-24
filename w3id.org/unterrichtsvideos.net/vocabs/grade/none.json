@@ -9,8 +9,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/",
       "title": {
-        "de": "Jahrgangsstufe",
-        "en": "Grade"
+        "de": "Jahrgangsstufen",
+        "en": "Grades"
       }
     }
   ],
@@ -23,8 +23,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/",
       "title": {
-        "de": "Jahrgangsstufe",
-        "en": "Grade"
+        "de": "Jahrgangsstufen",
+        "en": "Grades"
       }
     }
   ],
