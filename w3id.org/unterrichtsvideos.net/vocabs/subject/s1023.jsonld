@@ -2,12 +2,17 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1023",
   "type": "Concept",
   "prefLabel": {
-    "de": "Politik"
+    "de": "Politik",
+    "en": "Politics"
   },
   "altLabel": {
     "de": [
       "Politische Bildung",
       "Sozialkunde"
+    ],
+    "en": [
+      "Civic Education",
+      "Social Studies"
     ]
   },
   "closeMatch": [

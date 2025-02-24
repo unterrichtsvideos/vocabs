@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1024",
   "type": "Concept",
   "prefLabel": {
-    "de": "Religionslehre (evangelische)"
+    "de": "Religionslehre (evangelische)",
+    "en": "Religious Education (Protestant)"
   },
   "altLabel": {
     "de": [
       "Evangelischer Religionsunterricht"
+    ],
+    "en": [
+      "Protestant Religious Education"
     ]
   },
   "closeMatch": [

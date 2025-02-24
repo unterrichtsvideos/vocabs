@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1029",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sexualerziehung"
+    "de": "Sexualerziehung",
+    "en": "Sex Education"
   },
   "closeMatch": [
     {

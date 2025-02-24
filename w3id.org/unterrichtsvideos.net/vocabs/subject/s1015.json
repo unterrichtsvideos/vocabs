@@ -2,12 +2,17 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1015",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kunst"
+    "de": "Kunst",
+    "en": "Art"
   },
   "altLabel": {
     "de": [
       "Bildende Kunst",
       "Kunsterziehung"
+    ],
+    "en": [
+      "Fine Arts",
+      "Art Education"
     ]
   },
   "closeMatch": [

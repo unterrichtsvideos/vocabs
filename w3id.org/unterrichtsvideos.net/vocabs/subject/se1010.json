@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1010",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fächerübergreifender Unterricht"
+    "de": "Fächerübergreifender Unterricht",
+    "en": "Interdisciplinary Teaching"
   },
   "inScheme": [
     {

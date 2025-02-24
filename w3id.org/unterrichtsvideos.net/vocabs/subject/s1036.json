@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1036",
   "type": "Concept",
   "prefLabel": {
-    "de": "Neugriechisch"
+    "de": "Neugriechisch",
+    "en": "Modern Greek"
   },
   "inScheme": [
     {

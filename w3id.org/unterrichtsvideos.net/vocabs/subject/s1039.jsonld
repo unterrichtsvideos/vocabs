@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1039",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sorbisch"
+    "de": "Sorbisch",
+    "en": "Sorbian"
   },
   "altLabel": {
     "de": [
       "Wendisch"
+    ],
+    "en": [
+      "Wendish"
     ]
   },
   "inScheme": [

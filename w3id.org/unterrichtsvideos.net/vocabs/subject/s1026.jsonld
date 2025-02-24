@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1026",
   "type": "Concept",
   "prefLabel": {
-    "de": "Religionslehre (katholische)"
+    "de": "Religionslehre (katholische)",
+    "en": "Religious Education (Catholic)"
   },
   "altLabel": {
     "de": [
       "Katholischer Religionsunterricht"
+    ],
+    "en": [
+      "Catholic Religious Education"
     ]
   },
   "closeMatch": [

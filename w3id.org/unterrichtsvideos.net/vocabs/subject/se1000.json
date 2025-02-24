@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1000",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufliche Fachrichtungen"
+    "de": "Berufliche Fachrichtungen",
+    "en": "Vocational Subjects"
   },
   "inScheme": [
     {

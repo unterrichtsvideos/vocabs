@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1044",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ernährung"
+    "de": "Ernährung",
+    "en": "Nutrition"
   },
   "inScheme": [
     {

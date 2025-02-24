@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1045",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erziehungswissenschaften"
+    "de": "Erziehungswissenschaften",
+    "en": "Educational Sciences"
   },
   "altLabel": {
     "de": [
       "Pädagogik"
+    ],
+    "en": [
+      "Pedagogy"
     ]
   },
   "inScheme": [

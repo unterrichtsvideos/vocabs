@@ -2,13 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1022",
   "type": "Concept",
   "prefLabel": {
-    "de": "Physik"
+    "de": "Physik",
+    "en": "Physics"
   },
   "related": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1019",
       "prefLabel": {
-        "de": "MINT"
+        "de": "MINT",
+        "en": "STEM"
       }
     }
   ],

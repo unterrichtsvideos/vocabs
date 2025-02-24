@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1014",
   "type": "Concept",
   "prefLabel": {
-    "de": "Italienisch"
+    "de": "Italienisch",
+    "en": "Italian"
   },
   "closeMatch": [
     {

@@ -2,12 +2,17 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1028",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sachunterricht"
+    "de": "Sachunterricht",
+    "en": "General Studies"
   },
   "altLabel": {
     "de": [
       "Heimatunterricht",
       "Sachkunde"
+    ],
+    "en": [
+      "Local Studies",
+      "General Knowledge"
     ]
   },
   "closeMatch": [

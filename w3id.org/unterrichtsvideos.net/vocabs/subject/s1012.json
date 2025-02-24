@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1012",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gesundheit"
+    "de": "Gesundheit",
+    "en": "Health"
   },
   "altLabel": {
     "de": [
       "Gesundheitserziehung"
+    ],
+    "en": [
+      "Health Education"
     ]
   },
   "closeMatch": [

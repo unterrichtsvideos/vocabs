@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1000",
   "type": "Concept",
   "prefLabel": {
-    "de": "Alt-Griechisch"
+    "de": "Alt-Griechisch",
+    "en": "Ancient Greek"
   },
   "closeMatch": [
     {

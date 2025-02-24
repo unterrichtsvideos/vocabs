@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1009",
   "type": "Concept",
   "prefLabel": {
-    "de": "Französisch"
+    "de": "Französisch",
+    "en": "French"
   },
   "closeMatch": [
     {

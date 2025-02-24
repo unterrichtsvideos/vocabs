@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1004",
   "type": "Concept",
   "prefLabel": {
-    "de": "Darstellendes Spiel"
+    "de": "Darstellendes Spiel",
+    "en": "Performing Arts"
   },
   "altLabel": {
     "de": [
       "Theater"
+    ],
+    "en": [
+      "Theatre"
     ]
   },
   "closeMatch": [

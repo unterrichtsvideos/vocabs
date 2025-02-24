@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1021",
   "type": "Concept",
   "prefLabel": {
-    "de": "Philosophie"
+    "de": "Philosophie",
+    "en": "Philosophy"
   },
   "closeMatch": [
     {

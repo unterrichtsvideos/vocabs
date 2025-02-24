@@ -2,12 +2,16 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1010",
   "type": "Concept",
   "prefLabel": {
-    "de": "Geografie"
+    "de": "Geografie",
+    "en": "Geography"
   },
   "altLabel": {
     "de": [
       "Erdkunde",
       "Geographie"
+    ],
+    "en": [
+      "Geography"
     ]
   },
   "closeMatch": [

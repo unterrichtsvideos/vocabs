@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1020",
   "type": "Concept",
   "prefLabel": {
-    "de": "Musik"
+    "de": "Musik",
+    "en": "Music"
   },
   "closeMatch": [
     {

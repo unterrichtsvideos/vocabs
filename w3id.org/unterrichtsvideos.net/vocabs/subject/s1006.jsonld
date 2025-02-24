@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1006",
   "type": "Concept",
   "prefLabel": {
-    "de": "Deutsch als Zweitsprache"
+    "de": "Deutsch als Zweitsprache",
+    "en": "German as a Second Language"
   },
   "altLabel": {
     "de": [
       "DaZ"
+    ],
+    "en": [
+      "GSL"
     ]
   },
   "closeMatch": [

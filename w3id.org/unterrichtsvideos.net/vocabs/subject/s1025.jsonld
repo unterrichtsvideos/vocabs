@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1025",
   "type": "Concept",
   "prefLabel": {
-    "de": "Religionslehre (islamisch)"
+    "de": "Religionslehre (islamisch)",
+    "en": "Religious Education (Islamic)"
   },
   "altLabel": {
     "de": [
       "Islamischer Religionsunterricht"
+    ],
+    "en": [
+      "Islamic Religious Education"
     ]
   },
   "editorialNote": {

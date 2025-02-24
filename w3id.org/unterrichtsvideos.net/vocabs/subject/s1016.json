@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1016",
   "type": "Concept",
   "prefLabel": {
-    "de": "Latein"
+    "de": "Latein",
+    "en": "Latin"
   },
   "closeMatch": [
     {

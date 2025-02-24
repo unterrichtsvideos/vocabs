@@ -2,13 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1017",
   "type": "Concept",
   "prefLabel": {
-    "de": "Mathematik"
+    "de": "Mathematik",
+    "en": "Mathematics"
   },
   "related": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1019",
       "prefLabel": {
-        "de": "MINT"
+        "de": "MINT",
+        "en": "STEM"
       }
     }
   ],

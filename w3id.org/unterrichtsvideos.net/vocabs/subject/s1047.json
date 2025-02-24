@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1047",
   "type": "Concept",
   "prefLabel": {
-    "de": "Hauswirtschaft"
+    "de": "Hauswirtschaft",
+    "en": "Home Economics"
   },
   "inScheme": [
     {

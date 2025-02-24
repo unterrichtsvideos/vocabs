@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1042",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gesellschaftswissenschaften"
+    "de": "Gesellschaftswissenschaften",
+    "en": "Social Sciences"
   },
   "inScheme": [
     {

@@ -2,43 +2,53 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1019",
   "type": "Concept",
   "prefLabel": {
-    "de": "MINT"
+    "de": "MINT",
+    "en": "STEM"
   },
   "altLabel": {
     "de": [
       "Chemie, Physik, Biologie",
       "Naturwissenschaften"
+    ],
+    "en": [
+      "Chemistry, Physics, Biology",
+      "Natural Sciences"
     ]
   },
   "related": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1001",
       "prefLabel": {
-        "de": "Biologie"
+        "de": "Biologie",
+        "en": "Biology"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1002",
       "prefLabel": {
-        "de": "Chemie"
+        "de": "Chemie",
+        "en": "Chemistry"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1013",
       "prefLabel": {
-        "de": "Informatik"
+        "de": "Informatik",
+        "en": "Computer Science"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1017",
       "prefLabel": {
-        "de": "Mathematik"
+        "de": "Mathematik",
+        "en": "Mathematics"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1022",
       "prefLabel": {
-        "de": "Physik"
+        "de": "Physik",
+        "en": "Physics"
       }
     }
   ],

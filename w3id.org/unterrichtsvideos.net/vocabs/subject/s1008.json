@@ -2,11 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1008",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ethik"
+    "de": "Ethik",
+    "en": "Ethics"
   },
   "altLabel": {
     "de": [
       "Werte und Normen"
+    ],
+    "en": [
+      "Values and Norms"
     ]
   },
   "closeMatch": [
