@@ -4,6 +4,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ornrw: <https://w3id.org/comein/vocabs/orientierungsrahmenNRW/> .
+@prefix oeh: <http://w3id.org/openeduhub/vocabs/digCompEdu/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
     dct:title "European Framework for the Digital Competence of Educators"@en;
