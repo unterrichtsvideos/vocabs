@@ -14,7 +14,7 @@
     dct:created "2021-01-01"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/audience/" ;
-    vann:preferredNamespacePrefix "mvpAudience";
+    vann:preferredNamespacePrefix "mvpAudience" ;
     skos:hasTopConcept <g0>, <g1>, <g3>, <g4>, <g5>, <g6>, <g7> .
 
 <g0> a skos:Concept ;
