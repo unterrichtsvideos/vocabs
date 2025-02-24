@@ -21,7 +21,7 @@ ui:
     skoHubDarkGrey: "rgb(155, 155, 155)"
     skoHubMiddleGrey: "rgb(200, 200, 200)"
     skoHubLightGrey: "rgb(235, 235, 235)"
-  logo: "mvp-logo.png" # Path
+  logo: "mvp.png" # Path
   title: "Vocabs of unterrichtsvideos.net"
   fonts:
     regular:
