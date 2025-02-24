@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/g3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Hochschullehrende/r"
+    "de": "Hochschullehrende/r",
+    "en": "University lecturer"
   },
   "inScheme": [
     {

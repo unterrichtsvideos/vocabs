@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/g0",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sonstige Zielgruppe"
+    "de": "Sonstige Zielgruppe",
+    "en": "Other audience"
   },
   "inScheme": [
     {

@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/g6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehrkräfte"
+    "de": "Lehrkräfte",
+    "en": "Teacher"
   },
   "inScheme": [
     {

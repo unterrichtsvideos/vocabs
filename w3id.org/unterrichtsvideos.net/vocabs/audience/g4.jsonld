@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/g4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Seminarleitung (Vorbereitungsdienst)"
+    "de": "Seminarleitung (Vorbereitungsdienst)",
+    "en": "Seminar leader (preparatory service)"
   },
   "inScheme": [
     {
