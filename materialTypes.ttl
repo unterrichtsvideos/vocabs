@@ -17,7 +17,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/" ;
     vann:preferredNamespacePrefix "mvpMaterialType";
-    skos:hasTopConcept <mt1000>, <mt1001>, <mt1002>, <mt1003>, <mt1004>, <mt1005>, <mt1006>, <mt1007>, <mt1008>, <mt1009>, <mt1010> .
+    skos:hasTopConcept <mt1000>, <mt1001>, <mt1002>, <mt1003>, <mt1004>, <mt1005>, <mt1006>, <mt1007>, <mt1008>, <mt1009>, <mt1010>, <mt1011>  .
 
 <mt1000> a skos:Concept ;
     skos:prefLabel "Unterrichtsverlaufplan"@de ;
@@ -60,7 +60,7 @@
     skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
     skos:topConceptOf <> .
 
-<mt1005> a skos:Concept ;
+<mt1006> a skos:Concept ;
     skos:prefLabel "Unterrichtsentwurf"@de ;
     skos:prefLabel "Lesson draft"@en ;
     skos:closeMatch hcrt:lesson_plan ;
@@ -68,7 +68,7 @@
     skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
     skos:topConceptOf <> .
 
-<mt1006> a skos:Concept ;
+<mt1007> a skos:Concept ;
     skos:prefLabel "Arbeitsblatt"@de ;
     skos:prefLabel "Worksheet"@en ;
     skos:exactMatch hcrt:worksheet ;
@@ -76,7 +76,7 @@
     skos:exactMatch oehnrt:36e68792-6159-481d-a97b-2c00901f4f78 ;
     skos:topConceptOf <> .
 
-<mt1007> a skos:Concept ;
+<mt1008> a skos:Concept ;
     skos:prefLabel "Foto"@de ;
     skos:prefLabel "Photo"@en ;
     skos:closeMatch hcrt:image ;
@@ -84,14 +84,14 @@
     skos:exactMatch oehnrt:f9630e1c-2247-42ed-87b0-b1e18e4ec02b ;
     skos:topConceptOf <> .
 
-<mt1008> a skos:Concept ;
+<mt1009> a skos:Concept ;
     skos:prefLabel "Buchseite"@de ;
     skos:prefLabel "Book page"@en ;
     skos:closeMatch hcrt:textbook ;
     skos:closeMatch oehnrt:0cef3ce9-e106-47ae-836a-48f9ed04384e ;
     skos:topConceptOf <> .
 
-<mt1009> a skos:Concept ;
+<mt1010> a skos:Concept ;
     skos:prefLabel "Informationsblatt"@de ;
     skos:prefLabel "Information sheet"@en ;
     skos:altLabel "Handout"@de ;
@@ -104,7 +104,7 @@
     skos:relatedMatch oehnrt:6a15628c-0e59-43e3-9fc5-9a7f7fa261c4 ;
     skos:topConceptOf <> .
 
-<mt1010> a skos:Concept ;
+<mt1011> a skos:Concept ;
     skos:prefLabel "Tafelbild"@de ;
     skos:prefLabel "Blackboard image"@en ;
     skos:closeMatch hcrt:image ;
