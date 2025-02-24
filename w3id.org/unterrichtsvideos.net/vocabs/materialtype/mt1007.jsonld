@@ -20,7 +20,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/",
       "title": {
-        "de": "Materialtypen"
+        "de": "Materialtypen",
+        "en": "Material types"
       }
     }
   ],
@@ -33,7 +34,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/",
       "title": {
-        "de": "Materialtypen"
+        "de": "Materialtypen",
+        "en": "Material types"
       }
     }
   ],

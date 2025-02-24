@@ -33,7 +33,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",
       "title": {
-        "de": "Schulfächer"
+        "de": "Schulfächer",
+        "en": "School Subjects"
       }
     }
   ],
@@ -46,7 +47,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",
       "title": {
-        "de": "Schulfächer"
+        "de": "Schulfächer",
+        "en": "School Subjects"
       }
     }
   ],
