@@ -29,11 +29,11 @@ jobs:
 
       - run: mkdir public
       
-	    - run: chmod -R 777 public
+      - run: chmod -R 777 public
 
       - run: mkdir data
       
-  	  - run: chmod -R 777 data
+      - run: chmod -R 777 data
 
       - run: git clone https://github.com/unterrichtsvideos/vocabs.git data/
 
