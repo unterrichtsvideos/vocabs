@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/la1003",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gruppenarbeit"
+    "de": "Gruppenarbeit",
+    "en": "Group work"
   },
   "inScheme": [
     {

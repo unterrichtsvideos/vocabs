@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/la1005",
   "type": "Concept",
   "prefLabel": {
-    "de": "Exkursion"
+    "de": "Exkursion",
+    "en": "Excursion"
   },
   "inScheme": [
     {

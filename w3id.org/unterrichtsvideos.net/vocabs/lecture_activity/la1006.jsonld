@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/la1006",
   "type": "Concept",
   "prefLabel": {
-    "de": "Stationenarbeit"
+    "de": "Stationenarbeit",
+    "en": "Station work"
   },
   "inScheme": [
     {

@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/la1009",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schülerdemonstration"
+    "de": "Schülerdemonstration",
+    "en": "Student demonstration"
   },
   "inScheme": [
     {

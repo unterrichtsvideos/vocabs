@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/la1012",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gruppenpuzzle"
+    "de": "Gruppenpuzzle",
+    "en": "Group puzzle"
   },
   "inScheme": [
     {

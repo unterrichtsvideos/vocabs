@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_activity/la1007",
   "type": "Concept",
   "prefLabel": {
-    "de": "Experiment"
+    "de": "Experiment",
+    "en": "Experiment"
   },
   "inScheme": [
     {
