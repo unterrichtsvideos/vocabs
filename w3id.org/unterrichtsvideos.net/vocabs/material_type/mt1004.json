@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/material_type/mt1004",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schülerlösung",
-    "en": "Student solution"
+    "de": "Lernendenprodukt",
+    "en": "Learner product"
   },
   "broadMatch": [
     {
