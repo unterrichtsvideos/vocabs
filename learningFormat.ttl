@@ -1,0 +1,42 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Lernformat"@de;
+    dct:title "Learning Format"@en;
+    dct:description "Lehr-/Lernform"@de, "Learning/Teaching form"@en;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2022-06-01"^^xsd:date;
+    dct:modified "2025-02-24"^^xsd:date;
+    dct:issued "2022-06-01"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/granularity/" ;
+    vann:preferredNamespacePrefix "mvpLearningformat";
+    skos:hasTopConcept <gr1>, <gr2>, <gr3>, <gr4>, <gr5>, <gr6> .
+
+<lf1> a skos:Concept ;
+    skos:prefLabel "Präsenz"@de ;
+    skos:topConceptOf <> .
+
+<lf2> a skos:Concept ;
+    skos:prefLabel "Online (Selbstlernkurs)"@de ;
+    skos:topConceptOf <> .
+
+<lf3> a skos:Concept ;
+    skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de ;
+    skos:topConceptOf <> .
+
+<lf4> a skos:Concept ;
+    skos:prefLabel "Online mit festen Online-Gruppenterminen"@de ;
+    skos:topConceptOf <> .
+
+<lf5> a skos:Concept ;
+    skos:prefLabel "Massive Open Online Course (MOOC)"@de ;
+    skos:topConceptOf <> .
+
+<lf6> a skos:Concept ;
+    skos:prefLabel "Sonstiges"@de ;
+    skos:topConceptOf <> .
