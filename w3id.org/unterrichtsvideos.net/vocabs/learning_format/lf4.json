@@ -2,14 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Online mit festen Online-Gruppenterminen"
+    "de": "Online mit festen Online-Gruppenterminen",
+    "en": "Online with fixed online group sessions"
   },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],
@@ -23,7 +24,7 @@
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],

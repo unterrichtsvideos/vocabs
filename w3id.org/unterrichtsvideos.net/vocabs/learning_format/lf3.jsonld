@@ -2,14 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Blended Learning mit festen Präsenz-Gruppenterminen"
+    "de": "Blended Learning mit festen Präsenz-Gruppenterminen",
+    "en": "Blended Learning with fixed in-person group sessions"
   },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],
@@ -23,7 +24,7 @@
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],

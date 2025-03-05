@@ -2,14 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Präsenz"
+    "de": "Präsenz",
+    "en": "In-person"
   },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],
@@ -23,7 +24,7 @@
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],

@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_phase/lp1002",
   "type": "Concept",
   "prefLabel": {
-    "de": "Reflexionsphase"
+    "de": "Reflexionsphase",
+    "en": "Reflection phase"
   },
   "inScheme": [
     {

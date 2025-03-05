@@ -2,14 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sonstiges"
+    "de": "Sonstiges",
+    "en": "Other"
   },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],
@@ -23,7 +24,7 @@
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",
       "title": {
         "de": "Lernformate",
-        "en": "Learning Formats"
+        "en": "Learning Format"
       }
     }
   ],

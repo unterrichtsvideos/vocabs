@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_phase/lp1004",
   "type": "Concept",
   "prefLabel": {
-    "de": "Übungsphase"
+    "de": "Übungsphase",
+    "en": "Practice phase"
   },
   "inScheme": [
     {

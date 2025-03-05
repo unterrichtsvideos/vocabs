@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_phase/lp1001",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erarbeitungsphase"
+    "de": "Erarbeitungsphase",
+    "en": "Working phase"
   },
   "inScheme": [
     {

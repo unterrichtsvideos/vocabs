@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_phase/lp1003",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sicherungsphase"
+    "de": "Sicherungsphase",
+    "en": "Securing phase"
   },
   "inScheme": [
     {

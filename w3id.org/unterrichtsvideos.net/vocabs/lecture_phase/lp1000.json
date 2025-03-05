@@ -2,7 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/lecture_phase/lp1000",
   "type": "Concept",
   "prefLabel": {
-    "de": "Einstiegsphase"
+    "de": "Einstiegsphase",
+    "en": "Introduction phase"
   },
   "inScheme": [
     {
