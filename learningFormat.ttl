@@ -5,7 +5,7 @@
 
 <> a skos:ConceptScheme;
     dct:title "Lernformate"@de;
-    dct:title "Learning Formats"@en;
+    dct:title "Learning Format"@en;
     dct:description "Lehr-/Lernform"@de, "Learning/Teaching form"@en;
     dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2022-06-01"^^xsd:date;
@@ -15,25 +15,25 @@
     skos:hasTopConcept <lf1>, <lf2>, <lf3>, <lf4>, <lf5>, <lf6> .
 
 <lf1> a skos:Concept ;
-    skos:prefLabel "Präsenz"@de ;
+    skos:prefLabel "Präsenz"@de, "In-person"@en ;
     skos:topConceptOf <> .
 
 <lf2> a skos:Concept ;
-    skos:prefLabel "Online (Selbstlernkurs)"@de ;
+    skos:prefLabel "Online (Selbstlernkurs)"@de, "Online (Self-paced course)"@en ;
     skos:topConceptOf <> .
 
 <lf3> a skos:Concept ;
-    skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de ;
+    skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de, "Blended Learning with fixed in-person group sessions"@en ;
     skos:topConceptOf <> .
 
 <lf4> a skos:Concept ;
-    skos:prefLabel "Online mit festen Online-Gruppenterminen"@de ;
+    skos:prefLabel "Online mit festen Online-Gruppenterminen"@de, "Online with fixed online group sessions"@en ;
     skos:topConceptOf <> .
 
 <lf5> a skos:Concept ;
-    skos:prefLabel "Massive Open Online Course (MOOC)"@de ;
+    skos:prefLabel "Massive Open Online Course (MOOC)"@de, "Massive Open Online Course (MOOC)"@en ;
     skos:topConceptOf <> .
 
 <lf6> a skos:Concept ;
-    skos:prefLabel "Sonstiges"@de ;
+    skos:prefLabel "Sonstiges"@de, "Other"@en ;
     skos:topConceptOf <> .
