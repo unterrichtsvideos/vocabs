@@ -17,20 +17,18 @@
     "de": "CC0 ermöglicht es Urhebern, auf alle Urheberrechte und verwandten Schutzrechte an ihrem Werk zu verzichten, soweit gesetzlich möglich.",
     "en": "CC0 allows creators to waive all copyright and related rights in their work to the extent permitted by law."
   },
-  "closeMatch": [
-    {
-      "id": "http://publications.europa.eu/resource/authority/licence/CC0"
-    },
-    {
-      "id": "http://www.dcat-ap.de/def/licenses/cc-zero"
-    }
-  ],
   "exactMatch": [
     {
       "id": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "id": "http://base.uni-ak.ac.at/portfolio/licenses/CC0-1.0"
+    },
+    {
+      "id": "http://publications.europa.eu/resource/authority/licence/CC0"
+    },
+    {
+      "id": "http://www.dcat-ap.de/def/licenses/cc-zero"
     }
   ],
   "inScheme": [
