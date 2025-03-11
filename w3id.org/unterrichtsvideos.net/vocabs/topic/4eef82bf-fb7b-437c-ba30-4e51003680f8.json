@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Fachportale"
   },
-  "definition": {
-    "de": "Viele Websites bieten umfassende Informationen aus allen Bereichen der Biologie an, unter anderem auch oftmals eine große Auswahl gut geeigneter Lern- und Lehrmaterialien. Eine redaktionelle Auswahl solcher Fachportale findest du hier!"
-  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/15fce411-54d9-467f-8f35-61ea374a298d",
     "prefLabel": {

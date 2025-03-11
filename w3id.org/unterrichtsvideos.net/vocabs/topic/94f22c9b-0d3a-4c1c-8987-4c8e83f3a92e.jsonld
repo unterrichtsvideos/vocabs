@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Physik"
   },
-  "definition": {
-    "de": "Fachportal Physik"
-  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/65652844-fe24-4ab0-9374-02af5a0b63e3",

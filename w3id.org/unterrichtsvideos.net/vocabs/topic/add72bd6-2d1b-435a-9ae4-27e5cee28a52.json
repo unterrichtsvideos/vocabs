@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Naturschutz und Nachhaltigkeit"
   },
-  "definition": {
-    "de": "In dieser Untersammlung finden sich Materialien zu den Themen, Naturschutz, Umweltschutz und Nachhaltigkeit, die speziell für das Fach Biologie relevant sind.\nÜbergreifende Lehr- und Lernmaterialien finden sich auch im Fachportal Chemie unter   <a href=\"https://wirlernenonline.de/portal/chemie-und-umwelt/\">Chemie und Umwelt</a> und im <a href=\"https://wirlernenonline.de/portal/nachhaltigkeit/\"> Fachportal Nachhaltigkeit</a>."
-  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/7c529746-86df-4102-b3d2-233ca7010380",

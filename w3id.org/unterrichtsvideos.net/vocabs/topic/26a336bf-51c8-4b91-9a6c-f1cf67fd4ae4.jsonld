@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Deutsch als Zweitsprache"
   },
-  "definition": {
-    "de": "Herzlich willkommen beim Fachportal für Deutsch als Zweitsprache (DaZ)! Du bist Lehrer*in, Refendar*in, studierst DaZ oder willst dein Deutsch verbessern? Hier findest du neben sorgfältig ausgewählten Materialien für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung.\n\nDu kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen Unterrichtsmaterialen? Dann bringe dich und dein Wissen ein. Hilf mit, die besten Inhalte für DaZ zu sammeln und zu teilen. Das ist ganz einfach!\n\n    Empfiehl einen freien Inhalt oder stelle der DaZ-Community dein selbsterstelltes Material zur Verfügung, am besten unter einer Creative-Commons-Lizenz.\n    Wir prüfen deine Empfehlung und teilen dann dein Material."
-  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/19febd4c-c96c-4a08-9fcc-00cb626f8e49",

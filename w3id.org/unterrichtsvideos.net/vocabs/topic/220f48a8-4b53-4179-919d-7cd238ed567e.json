@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Chemische Grundlagen"
   },
-  "definition": {
-    "de": "In dieser Sammlung finden sich chemische Grundlagen, die für den Biologieunterricht und zum Verständnis der biologischen Hintergründe wichtig sind. Weiterführende Materialien zum Fachbereich Chemie finden sich im <a href=\"https://wirlernenonline.de/portal/chemie/\"> Fachportal Chemie</a>."
-  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/c6e3cdd4-b184-4b3a-a279-3187fca6404c",

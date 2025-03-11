@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Projektideen"
   },
-  "definition": {
-    "de": "Auf dieser Themenseite unseres Fachportals Sport findest du viele spannende interdisziplinäre Projektideen, die den Sportunterricht aus der Halle heraus und andere Fächer und Themen in die Halle hereinbringen. Blicke über den Tellerrand hinaus und lass dich inspirieren!"
-  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/ea776a48-b3f4-446c-b871-19f84b31d280",
     "prefLabel": {

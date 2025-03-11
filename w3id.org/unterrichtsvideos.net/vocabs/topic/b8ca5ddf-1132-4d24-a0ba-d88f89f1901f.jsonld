@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "PSE - Periodensystem der Elemente"
   },
-  "definition": {
-    "de": "In dieser Untersammlung finden sich einige Materialien über das PSE, das Periodensystem der Elemente, welche für das verständnis der biologischen Abläufe wichtig sind.\nWeiterführende Materialien finden sich im Fachportal Chemie unter <a href=\"https://wirlernenonline.de/portal/allgemein-zeitgemasse-methoden/\"> Atombau und PSE</a>"
-  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/c6e3cdd4-b184-4b3a-a279-3187fca6404c",
     "prefLabel": {
