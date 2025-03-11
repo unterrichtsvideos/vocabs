@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Türkisch"
   },
-  "definition": {
-    "de": "Merhaba, hoşgeldin & herzlich Willkommen bei WirLernenOnline!\n\nDu bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur dein Türkisch verbessern? Hier findest du neben sorgfältig ausgewählten Materialien für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen."
-  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/a6790e5f-1062-4692-a4ce-8d560d124a4a",
