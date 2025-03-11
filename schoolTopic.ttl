@@ -4,6 +4,7 @@
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
@@ -12,6 +13,8 @@
     dct:title "Taxonomy of Curriculum Topics"@en ;
     dct:description "Dieses Vokabular umfasst Lehrplanthemen und ist im OpenEduHub entstanden (https://w3id.org/openeduhub/vocabs)."@de ;
     dct:description "This vocabulary covers curriculum topics and was created in the OpenEduHub (https://w3id.org/openeduhub/vocabs)."@en ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/topic/" ;
+    vann:preferredNamespacePrefix "mvpTopic" ;
     dct:source <https://github.com/openeduhub/oeh-metadata-vocabs> ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,

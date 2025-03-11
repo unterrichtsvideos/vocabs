@@ -6,6 +6,7 @@
 @prefix isced2011: <https://w3id.org/kim/isced-2011/> .
 @prefix eduContext: <http://w3id.org/openeduhub/vocabs/educationalContext/> .
 @prefix kim: <https://w3id.org/kim/educationalLevel/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
     dct:title "Bildungsstufen"@de ;
@@ -15,6 +16,8 @@
     dct:created "2020-04-08"^^xsd:date ;
     dct:modified "2022-03-23"^^xsd:date ;
     dct:issued "2020-04-08"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/" ;
+    vann:preferredNamespacePrefix "mvpEduLevel" ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <level_0>, <level_1>, <level_2>,
         <level_3>, <level_4>, <level_5>, <level_A>, <level_B>, <level_C> .

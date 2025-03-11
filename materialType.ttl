@@ -5,6 +5,7 @@
 @prefix hcrt: <https://w3id.org/kim/hcrt/> .
 @prefix oehrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
 @prefix oehnrt: <http://w3id.org/openeduhub/vocabs/new_lrt/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
     dct:title "Materialtypen"@de, "Material types"@en ;
@@ -13,6 +14,8 @@
     dct:created "2022-08-24"^^xsd:date ;
     dct:modified "2025-02-24"^^xsd:date ;
     dct:issued "2022-08-24"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/material_type/" ;
+    vann:preferredNamespacePrefix "mvpMaterialType" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <mt0000>, <mt1000>, <mt1001>, <mt1002>, <mt1003>, <mt1004> .
 

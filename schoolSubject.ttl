@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix eafsys: <http://w3id.org/openeduhub/vocabs-playground/eaf-sachgebietssystematik/> .
 @prefix oeh: <http://w3id.org/openeduhub/vocabs/discipline/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Schulfächer"@de, "School Subjects"@en ;
@@ -12,6 +13,8 @@
     dct:created "2021-03-03"^^xsd:date ;
     dct:modified "2025-02-24"^^xsd:date ;
     dct:issued "2022-08-24"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/subject/" ;
+    vann:preferredNamespacePrefix "mvpSubject" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <s1000>, <s1040>, <s1001>, <s1002>, <s1003>, <s1004>,
         <s1005>, <s1006>, <s1041>, <s1007>, <s1044>, <s1045>, <s1008>,

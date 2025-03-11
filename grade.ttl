@@ -3,6 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix oehEduLevel: <http://w3id.org/openeduhub/vocabs/educationalLevel/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
     dct:title "Jahrgangsstufen"@de ;
@@ -12,6 +13,8 @@
     dct:created "2022-06-01"^^xsd:date ;
     dct:modified "2025-02-24"^^xsd:date ;
     dct:issued "2022-06-01"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/grade/" ;
+    vann:preferredNamespacePrefix "mvpGrade" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>,
         <7>, <8>, <9>, <10>, <11>, <12>, <13>, <intergrade>, <none> .

@@ -3,11 +3,14 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
     dct:title "European Framework for the Digital Competence of Educators (DigCompEdu)"@en ;
     dct:title "Europäischer Rahmen für die Digitale Kompetenz Lehrender (DigCompEdu)"@de ;
     dct:created "2023-03-16"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/" ;
+    vann:preferredNamespacePrefix "mvpDigCompEdu" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6> .
 
