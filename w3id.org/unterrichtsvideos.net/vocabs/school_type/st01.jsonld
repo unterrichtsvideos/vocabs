@@ -20,6 +20,9 @@
     },
     {
       "id": "http://w3id.org/kim/educationalLevel/level_0"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_0"
     }
   ],
   "exactMatch": [
