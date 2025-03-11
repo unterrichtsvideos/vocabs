@@ -1,0 +1,240 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/6570853a-fdbc-4de9-a7f0-63eda87d63f4",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Landeskunde und Interkulturelles"
+  },
+  "definition": {
+    "de": "Hier findest du alles, was du über Frankreich, die Geschichte des Landes, Kultur, Politik, Gesellschaft und Wirtschaft wissen musst ... dazu Infos zu Sehenswürdigkeiten, Besonderheiten der Sprache und Einblicke in das besondere französische Savoir-vivre ..."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/79cdd6c1-fd6d-4b71-bb8c-1615be5ad95c",
+      "prefLabel": {
+        "de": "Wirtschaft und Soziales"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/024c1caa-9fc9-4610-92b4-85cad780952d",
+      "prefLabel": {
+        "de": "Sprache"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/9f014db5-e366-4894-a122-fcc6741c089f",
+      "prefLabel": {
+        "de": "Geografie und Ökologie"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/7bbfeb29-38b3-4962-a447-73465befed85",
+      "prefLabel": {
+        "de": "Tourismus"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/70db382e-165a-442c-a4d5-3bcf86bd7c9b",
+      "prefLabel": {
+        "de": "Gesellschaft"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/7abb5bbc-8951-4517-8e17-659fecd82f9a",
+      "prefLabel": {
+        "de": "Politik"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/d1ddbf58-f9b5-4e46-8191-e4a7801530b1",
+      "prefLabel": {
+        "de": "Francophonie"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/40582886-8490-432d-88b6-04482f8d777b",
+      "prefLabel": {
+        "de": "Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/a51f1dbb-40b1-4ac0-b286-736fa1a7595c",
+      "prefLabel": {
+        "de": "Kultur"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/86b990ef-0955-45ad-bdae-ec2623cf0e1a",
+    "prefLabel": {
+      "de": "Französisch"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20002"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6570853a-fdbc-4de9-a7f0-63eda87d63f4"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

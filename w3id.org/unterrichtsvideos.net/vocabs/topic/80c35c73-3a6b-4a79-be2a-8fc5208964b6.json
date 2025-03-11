@@ -1,0 +1,204 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/80c35c73-3a6b-4a79-be2a-8fc5208964b6",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Lern-Rahmenbedingungen"
+  },
+  "definition": {
+    "de": "Gestalte die Arbeitsumgebung für deinen Erfolg. Dabei spielt es keine Rolle, ob du Laptop, Tablet oder Papier und Bleistift nutzt, ob Du in der Schule, zu Hause oder im Cafe oder im Freien bist, es sollte dein Ort und deine Zeit zum Lernen sein."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/41a016d5-75b7-44da-83a9-aef6bd694d20",
+      "prefLabel": {
+        "de": "Lern-Voraussetzungen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/44543441-d659-4549-8403-4b534c837534",
+      "prefLabel": {
+        "de": "Lern-Mittel"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/86e1935f-3538-41f1-bc78-998364dcf460",
+      "prefLabel": {
+        "de": "Lern-Orte"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/fecd45a6-8ad6-46ce-ad12-7069458cbdc6",
+    "prefLabel": {
+      "de": "Lernmanagement - Persönliche Lernkompetenzen reflektieren und entwickeln"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/720"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/80c35c73-3a6b-4a79-be2a-8fc5208964b6"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

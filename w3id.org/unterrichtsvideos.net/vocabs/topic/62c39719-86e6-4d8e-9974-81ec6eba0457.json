@@ -1,0 +1,192 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/62c39719-86e6-4d8e-9974-81ec6eba0457",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Kinder- und Jugendliteratur"
+  },
+  "definition": {
+    "de": "Diese Sammlung umfasst Materialien zu Texten, die im Deutschunterricht der Primarstufe oder der Sekundarstufe I unter dem Begriff \"Ganzschrift\" oder dergleichen behandelt werden. Es geht um Materialien sowohl zu den Texten, zu deren Behandlung im Unterricht als auch um Verfilmungen und vielem mehr."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/f40fd390-607f-4a9b-9f80-f0c262dc61f7",
+      "prefLabel": {
+        "de": "Lesepfade"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/e126a8c7-fc46-4686-969b-5230f7732015",
+    "prefLabel": {
+      "de": "Texte und Medien verstehen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/62c39719-86e6-4d8e-9974-81ec6eba0457"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

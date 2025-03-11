@@ -1,0 +1,252 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/7ed186c3-f665-4398-8af8-92fe0924647c",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Antikes Griechenland"
+  },
+  "definition": {
+    "de": "Hier findest du Materialien über das antike Griechenland, über seine Helden und Götter, über Kriege und welche Bedeutung dieses Reich für unser Leben heute immer noch hat."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/11e5dc5e-6b4f-44fe-a8f3-6335ac39a618",
+      "prefLabel": {
+        "de": "Das griechische Theater"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/17a93273-12e3-4249-93b4-81b2971a66e2",
+      "prefLabel": {
+        "de": "Olympische Spiele"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/2b445403-183e-4d11-8bbb-336ff2823812",
+      "prefLabel": {
+        "de": "Griechische Polis und Gesellschaft"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/49aec00e-4e99-4a27-ab2e-3eab1ce298e3",
+      "prefLabel": {
+        "de": "Sparta"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/6dc5712c-a983-4ee5-95fd-345eb3d390c7",
+      "prefLabel": {
+        "de": "Griechische Sagen und Götter"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/8532d078-fb14-4536-9555-c35b01e8cc83",
+      "prefLabel": {
+        "de": "Hellenismus"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/96d9aa10-d4be-4dd5-aadc-4963032b2252",
+      "prefLabel": {
+        "de": "Griechische Literatur, Kunst und Philosophie"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/a822da78-6244-4f7e-9864-3f807eb858d9",
+      "prefLabel": {
+        "de": "Frauen und Kinder in Athen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/c3c7444f-2bd1-46ff-b4cf-df71749267c0",
+      "prefLabel": {
+        "de": "Troja"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/c4626f16-b67a-4ba9-b8ae-1f34fed96ca5",
+      "prefLabel": {
+        "de": "Perserreich"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/e56ac181-06b6-4b10-a06b-8a7bcf01e836",
+      "prefLabel": {
+        "de": "Demokratie in Athen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/17b26e96-1926-4c0e-8043-0293f6a22a84",
+    "prefLabel": {
+      "de": "Antike"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7ed186c3-f665-4398-8af8-92fe0924647c"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

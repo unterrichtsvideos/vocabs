@@ -1,0 +1,204 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/e0782a2f-7b1c-4ef3-a4ab-be62335d706a",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Alphabet, Aussprache und Rechtschreibung"
+  },
+  "definition": {
+    "de": "Auf diesen Seiten erfährst du alles Wichtige zum türkischen Alphabet, zur Aussprache und zur korrekten Schreibung."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/e0be90be-69b2-483b-8d28-34de169c8988",
+      "prefLabel": {
+        "de": "Rechtschreibregeln"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/655fb417-3f01-42ba-a189-4b0f6bde0465",
+      "prefLabel": {
+        "de": "Aussprache und Betonung"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/da5bb2b0-8a66-48fb-ace8-34578c75bf2f",
+      "prefLabel": {
+        "de": "Alphabet"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/26105802-9039-4add-bf21-07a0f89f6e70",
+    "prefLabel": {
+      "de": "Türkisch"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20008"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e0782a2f-7b1c-4ef3-a4ab-be62335d706a"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
