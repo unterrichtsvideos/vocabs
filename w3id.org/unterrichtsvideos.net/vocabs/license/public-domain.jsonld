@@ -19,13 +19,13 @@
   },
   "exactMatch": [
     {
-      "id": "https://creativecommons.org/publicdomain/mark/1.0/"
-    },
-    {
       "id": "http://publications.europa.eu/resource/authority/licence/CC_PDM_1_0"
     },
     {
-      "id": "dcat:ccpdm/1.0"
+      "id": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "http://www.dcat-ap.de/def/licenses/ccpdm/1.0"
     }
   ],
   "inScheme": [
