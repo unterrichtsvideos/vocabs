@@ -122,7 +122,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
       "title": {
-        "de": "Taxonomie von Lehrplanthemen"
+        "de": "Taxonomie von Lehrplanthemen",
+        "en": "Taxonomy of Curriculum Topics"
       }
     }
   ],
@@ -135,7 +136,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/topic/",
       "title": {
-        "de": "Taxonomie von Lehrplanthemen"
+        "de": "Taxonomie von Lehrplanthemen",
+        "en": "Taxonomy of Curriculum Topics"
       }
     }
   ],
