@@ -6,10 +6,12 @@
     "en": "Adaptation of requirements"
   },
   "definition": {
-    "de": "Bei der Auswahl der Lernziele, Inhalte und Methoden werden die Individualität der Schüler*innen, ihre Fähigkeiten und Lernvoraussetzungen berücksichtigt."
+    "de": "Bei der Auswahl der Lernziele, Inhalte und Methoden werden die Individualität der Schüler*innen, ihre Fähigkeiten und Lernvoraussetzungen berücksichtigt.",
+    "en": "In the selection of learning objectives, content, and methods, the individuality of the students, their abilities, and learning prerequisites are taken into account."
   },
   "example": {
-    "de": "Alle Schüler*innen arbeiten an einem Thema auf unterschiedlichem Niveau und verschiedene Lernwege werden angewendet."
+    "de": "Alle Schüler*innen arbeiten an einem Thema auf unterschiedlichem Niveau und verschiedene Lernwege werden angewendet.",
+    "en": "All students work on a topic at different levels and various learning paths are applied."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",

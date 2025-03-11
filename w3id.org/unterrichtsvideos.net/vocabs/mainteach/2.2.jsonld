@@ -6,10 +6,12 @@
     "en": "Use of learning time"
   },
   "definition": {
-    "de": "Als echte Lernzeit wird die Zeit bezeichnet, während der die Schüler*innen tatsächlich an der gestellten Aufgabe arbeiten."
+    "de": "Als echte Lernzeit wird die Zeit bezeichnet, während der die Schüler*innen tatsächlich an der gestellten Aufgabe arbeiten.",
+    "en": "Real learning time is the time during which students actually work on the assigned task."
   },
   "example": {
-    "de": "Die Schüler*innen arbeiten konzentriert an den Inhalten; es herrscht durchweg eine konzentrierte Arbeitsatmosphäre im Klassenzimmer."
+    "de": "Die Schüler*innen arbeiten konzentriert an den Inhalten; es herrscht durchweg eine konzentrierte Arbeitsatmosphäre im Klassenzimmer.",
+    "en": "The students work focused on the content; there is a consistently focused working atmosphere in the classroom."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",

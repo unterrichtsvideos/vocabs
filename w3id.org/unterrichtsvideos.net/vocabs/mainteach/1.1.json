@@ -6,10 +6,12 @@
     "en": "Adequate selection of learning objectives"
   },
   "definition": {
-    "de": "Die Lernziele entsprechen dem Lernstand der Schüler*innen auf der jeweiligen Zielstufe und sind angemessen, fachlich relevant und realistisch."
+    "de": "Die Lernziele entsprechen dem Lernstand der Schüler*innen auf der jeweiligen Zielstufe und sind angemessen, fachlich relevant und realistisch.",
+    "en": "The learning objectives correspond to the learning level of the students at the respective target level and are appropriate, professionally relevant, and realistic."
   },
   "example": {
-    "de": "Die Auswahl der Lernziele ist fachlich relevant, baut auf bereits Gelerntem auf und ermöglicht allen Schüler*innen dem Unterricht zu folgen."
+    "de": "Die Auswahl der Lernziele ist fachlich relevant, baut auf bereits Gelerntem auf und ermöglicht allen Schüler*innen dem Unterricht zu folgen.",
+    "en": "The selection of learning objectives is professionally relevant, builds on what has already been learned, and enables all students to follow the lessons."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",

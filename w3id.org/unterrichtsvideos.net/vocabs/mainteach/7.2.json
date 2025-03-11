@@ -6,10 +6,12 @@
     "en": "Indirect promotion of learning responsibility"
   },
   "definition": {
-    "de": "Der Unterricht fördert die Verantwortung der Schüler*innen für das Lernen indirekt über die Art und Weise, wie Lerngelegenheiten konzipiert und umgesetzt sind."
+    "de": "Der Unterricht fördert die Verantwortung der Schüler*innen für das Lernen indirekt über die Art und Weise, wie Lerngelegenheiten konzipiert und umgesetzt sind.",
+    "en": "The lessons indirectly promote students' responsibility for learning through the way learning opportunities are designed and implemented."
   },
   "example": {
-    "de": "Der Unterricht verläuft weitgehend von den Schüler*innen selbstgesteuert (z. B. eigene Zielsetzungen, selbst ausgewählte Aufgaben, selbstständige Planung der Arbeit)."
+    "de": "Der Unterricht verläuft weitgehend von den Schüler*innen selbstgesteuert (z. B. eigene Zielsetzungen, selbst ausgewählte Aufgaben, selbstständige Planung der Arbeit).",
+    "en": "The lessons are largely self-directed by the students (e.g., setting their own goals, selecting their own tasks, planning their work independently)."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7",

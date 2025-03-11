@@ -6,10 +6,12 @@
     "en": "High-quality feedback"
   },
   "definition": {
-    "de": "Wirksames Feedback orientiert sich an den zu erwerbenden Kompetenzen und erfolgt zeitnah."
+    "de": "Wirksames Feedback orientiert sich an den zu erwerbenden Kompetenzen und erfolgt zeitnah.",
+    "en": "Effective feedback is oriented towards the competencies to be acquired and is provided promptly."
   },
   "example": {
-    "de": "In der Klasse ist eine umfassende Feedbackkultur mit Selbst- und Fremdbeurteilung etabliert."
+    "de": "In der Klasse ist eine umfassende Feedbackkultur mit Selbst- und Fremdbeurteilung etabliert.",
+    "en": "A comprehensive feedback culture with self- and peer-assessment is established in the class."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",

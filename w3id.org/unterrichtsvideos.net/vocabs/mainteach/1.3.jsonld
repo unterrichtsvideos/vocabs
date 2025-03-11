@@ -6,10 +6,12 @@
     "en": "Relevance of content for students"
   },
   "definition": {
-    "de": "Schüler*innen können für die Inhalte motiviert werden, wenn ihnen deren lebensweltliche Relevanz verdeutlicht wird."
+    "de": "Schüler*innen können für die Inhalte motiviert werden, wenn ihnen deren lebensweltliche Relevanz verdeutlicht wird.",
+    "en": "Students can be motivated for the content if its relevance to their everyday lives is made clear to them."
   },
   "example": {
-    "de": "Die Schüler*innen können die Inhalte mit persönlichen Interessen verbinden, z. B. durch Aufgaben, die zu ihrem Hobby passen."
+    "de": "Die Schüler*innen können die Inhalte mit persönlichen Interessen verbinden, z. B. durch Aufgaben, die zu ihrem Hobby passen.",
+    "en": "Students can connect the content with personal interests, e.g., through tasks that match their hobbies."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",

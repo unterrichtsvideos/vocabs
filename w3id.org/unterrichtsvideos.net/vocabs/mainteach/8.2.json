@@ -6,10 +6,12 @@
     "en": "Adaptation of learning process support"
   },
   "definition": {
-    "de": "Die Lernprozessbegleitung der Schüler*innen ist adaptiv an die Bedürfnisse der Schüler*innen ausgerichtet."
+    "de": "Die Lernprozessbegleitung der Schüler*innen ist adaptiv an die Bedürfnisse der Schüler*innen ausgerichtet.",
+    "en": "The support of the students' learning process is adaptive to the needs of the students."
   },
   "example": {
-    "de": "Die Lehrperson demonstriert eine etablierte, aktive und differenzierte Lernbegleitung (z. B. Zeit für Erklärungen, variierende Hilfestellungen)."
+    "de": "Die Lehrperson demonstriert eine etablierte, aktive und differenzierte Lernbegleitung (z. B. Zeit für Erklärungen, variierende Hilfestellungen).",
+    "en": "The teacher demonstrates established, active, and differentiated learning support (e.g., time for explanations, varying assistance)."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",

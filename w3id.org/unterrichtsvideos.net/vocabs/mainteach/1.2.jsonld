@@ -6,10 +6,12 @@
     "en": "Fit of content and (subject) methods"
   },
   "definition": {
-    "de": "Die Unterrichtsgestaltung ist angemessen auf die anvisierten Lernziele und Kompetenzen ausgerichtet."
+    "de": "Die Unterrichtsgestaltung ist angemessen auf die anvisierten Lernziele und Kompetenzen ausgerichtet.",
+    "en": "The lesson design is appropriately aligned with the targeted learning objectives and competencies."
   },
   "example": {
-    "de": "Den Schüler*innen wird verständlich klargemacht, bei welchen Aufträgen welche Lernziele im Zentrum stehen."
+    "de": "Den Schüler*innen wird verständlich klargemacht, bei welchen Aufträgen welche Lernziele im Zentrum stehen.",
+    "en": "Students are clearly informed about which tasks focus on which learning objectives."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",

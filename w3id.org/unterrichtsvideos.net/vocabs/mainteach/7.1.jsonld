@@ -6,10 +6,12 @@
     "en": "Direct promotion of learning responsibility"
   },
   "definition": {
-    "de": "Der Unterricht zielt direkt auf die Förderung der Lernverantwortung von Schüler*innen ab."
+    "de": "Der Unterricht zielt direkt auf die Förderung der Lernverantwortung von Schüler*innen ab.",
+    "en": "The lessons directly aim at promoting students' responsibility for their own learning."
   },
   "example": {
-    "de": "Die Schüler*innen zeigen einander, wie sie etwas gelernt haben, und begründen ihre verwendeten Lernstrategien."
+    "de": "Die Schüler*innen zeigen einander, wie sie etwas gelernt haben, und begründen ihre verwendeten Lernstrategien.",
+    "en": "Students show each other how they have learned something and explain the learning strategies they used."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7",

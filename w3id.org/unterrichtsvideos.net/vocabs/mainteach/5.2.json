@@ -6,10 +6,12 @@
     "en": "Assessment of performance level"
   },
   "definition": {
-    "de": "Die kontinuierliche Überprüfung des Kompetenzerwerbs spielt eine wichtige Rolle im Unterricht."
+    "de": "Die kontinuierliche Überprüfung des Kompetenzerwerbs spielt eine wichtige Rolle im Unterricht.",
+    "en": "The continuous assessment of competence acquisition plays an important role in teaching."
   },
   "example": {
-    "de": "Dokumentationen der Lernwege und -fortschritte (z. B. Portfolios, Lernjournal) werden von der Lehrperson zur Kompetenzüberprüfung hinzugezogen."
+    "de": "Dokumentationen der Lernwege und -fortschritte (z. B. Portfolios, Lernjournal) werden von der Lehrperson zur Kompetenzüberprüfung hinzugezogen.",
+    "en": "Documentation of learning paths and progress (e.g., portfolios, learning journals) are used by the teacher for competence assessment."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",

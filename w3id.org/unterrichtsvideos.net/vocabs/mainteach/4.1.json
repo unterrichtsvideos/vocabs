@@ -6,10 +6,12 @@
     "en": "Tasks for consolidating content"
   },
   "definition": {
-    "de": "Aufgaben schaffen Gelegenheiten, in denen die Schüler*innen das Erlernte auf unterschiedliche Art wiederholen und anwenden können."
+    "de": "Aufgaben schaffen Gelegenheiten, in denen die Schüler*innen das Erlernte auf unterschiedliche Art wiederholen und anwenden können.",
+    "en": "Tasks create opportunities for students to repeat and apply what they have learned in different ways."
   },
   "example": {
-    "de": "Die Aufgaben zur Konsolidierung fordern die Schüler*innen auf, Bearbeitungsschritte explizit festzuhalten."
+    "de": "Die Aufgaben zur Konsolidierung fordern die Schüler*innen auf, Bearbeitungsschritte explizit festzuhalten.",
+    "en": "The tasks for consolidation require students to explicitly document the steps they take."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/4",

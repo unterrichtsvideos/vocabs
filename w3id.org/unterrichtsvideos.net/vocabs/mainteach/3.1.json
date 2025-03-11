@@ -6,10 +6,12 @@
     "en": "Fit of the level of requirements"
   },
   "definition": {
-    "de": "Aufgaben mit kognitiv aktivierendem Potenzial sind herausfordernd und gleichzeitig auf den individuellen Lernstand der Schüler*innen abgestimmt."
+    "de": "Aufgaben mit kognitiv aktivierendem Potenzial sind herausfordernd und gleichzeitig auf den individuellen Lernstand der Schüler*innen abgestimmt.",
+    "en": "Tasks with cognitively activating potential are challenging and at the same time tailored to the individual learning level of the students."
   },
   "example": {
-    "de": "Die Aufgaben können auf verschiedenen Schwierigkeitsniveaus nach individuellem Lernstand gelöst werden."
+    "de": "Die Aufgaben können auf verschiedenen Schwierigkeitsniveaus nach individuellem Lernstand gelöst werden.",
+    "en": "The tasks can be solved at different levels of difficulty according to individual learning levels."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3",

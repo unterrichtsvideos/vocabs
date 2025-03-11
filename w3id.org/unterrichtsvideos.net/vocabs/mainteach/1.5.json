@@ -6,10 +6,12 @@
     "en": "Precise and correct presentation of content"
   },
   "definition": {
-    "de": "Die verwendete Fachsprache der Lehrperson und die Darstellung von Konzepten sind angemessen und fehlerfrei."
+    "de": "Die verwendete Fachsprache der Lehrperson und die Darstellung von Konzepten sind angemessen und fehlerfrei.",
+    "en": "The professional language used by the teacher and the presentation of concepts are appropriate and error-free."
   },
   "example": {
-    "de": "Die Lehrperson ermutigt die Schüler*innen, Fachbegriffe zu nutzen und korrekt anzuwenden."
+    "de": "Die Lehrperson ermutigt die Schüler*innen, Fachbegriffe zu nutzen und korrekt anzuwenden.",
+    "en": "The teacher encourages students to use and apply technical terms correctly."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",

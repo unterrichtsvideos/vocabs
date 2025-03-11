@@ -6,10 +6,12 @@
     "en": "Support for consolidating content"
   },
   "definition": {
-    "de": "Durch häufige Wiederholungsphasen können weniger fehleranfällige Routinen entwickelt werden."
+    "de": "Durch häufige Wiederholungsphasen können weniger fehleranfällige Routinen entwickelt werden.",
+    "en": "Frequent repetition phases can help develop less error-prone routines."
   },
   "example": {
-    "de": "Die Lehrperson macht die Schüler*innen proaktiv darauf aufmerksam, wo Schwierigkeiten oder Fehler möglicherweise entstehen können und wie diese vermieden werden können."
+    "de": "Die Lehrperson macht die Schüler*innen proaktiv darauf aufmerksam, wo Schwierigkeiten oder Fehler möglicherweise entstehen können und wie diese vermieden werden können.",
+    "en": "The teacher proactively informs students about potential difficulties or errors and how to avoid them."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/4",

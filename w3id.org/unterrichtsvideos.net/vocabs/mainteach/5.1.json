@@ -6,10 +6,12 @@
     "en": "Fit of assessment and competence acquisition"
   },
   "definition": {
-    "de": "Beurteilungen eruieren das Können der Schüler*innen entsprechend der anvisierten Kompetenzen."
+    "de": "Beurteilungen eruieren das Können der Schüler*innen entsprechend der anvisierten Kompetenzen.",
+    "en": "Assessments determine the students' abilities according to the targeted competencies."
   },
   "example": {
-    "de": "Den Schüler*innen wird differenziert mitgeteilt, welche anvisierten Kompetenzen nach welchen Maßstäben beurteilt werden."
+    "de": "Den Schüler*innen wird differenziert mitgeteilt, welche anvisierten Kompetenzen nach welchen Maßstäben beurteilt werden.",
+    "en": "Students are informed in detail about which targeted competencies are assessed by which standards."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",

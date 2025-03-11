@@ -6,10 +6,12 @@
     "en": "Proactive and effective handling of discipline issues"
   },
   "definition": {
-    "de": "Eine frühzeitige Etablierung und konsequente Realisierung verbindlicher Normen und klarer Regeln beugt Disziplinproblemen vor."
+    "de": "Eine frühzeitige Etablierung und konsequente Realisierung verbindlicher Normen und klarer Regeln beugt Disziplinproblemen vor.",
+    "en": "Early establishment and consistent implementation of binding norms and clear rules prevent discipline problems."
   },
   "example": {
-    "de": "Eine hohe Präsenz der Lehrperson ist daran erkennbar, dass sie die Schüler*innen genau im Blick behält und ihre ‘Hotspots’ kennt."
+    "de": "Eine hohe Präsenz der Lehrperson ist daran erkennbar, dass sie die Schüler*innen genau im Blick behält und ihre ‘Hotspots’ kennt.",
+    "en": "A high presence of the teacher is evident in that they keep a close eye on the students and know their 'hotspots'."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",

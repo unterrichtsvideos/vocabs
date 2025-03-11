@@ -6,10 +6,12 @@
     "en": "Student-student relationship"
   },
   "definition": {
-    "de": "Der Umgang der Schüler*innen miteinander zeugt von einem guten Zusammenhalt in der Klassengemeinschaft."
+    "de": "Der Umgang der Schüler*innen miteinander zeugt von einem guten Zusammenhalt in der Klassengemeinschaft.",
+    "en": "The interaction among students demonstrates good cohesion within the class community."
   },
   "example": {
-    "de": "Die Schüler*innen lösen Konflikte selbst; sie bieten einander ungefragt Hilfe an."
+    "de": "Die Schüler*innen lösen Konflikte selbst; sie bieten einander ungefragt Hilfe an.",
+    "en": "Students resolve conflicts themselves; they offer help to each other without being asked."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6",

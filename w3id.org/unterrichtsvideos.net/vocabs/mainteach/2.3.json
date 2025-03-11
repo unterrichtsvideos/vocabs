@@ -6,10 +6,12 @@
     "en": "Use of space and resources"
   },
   "definition": {
-    "de": "Der angemessene Einsatz von Raum und Ressourcen schafft den Rahmen für das Lernen der Schüler*innen."
+    "de": "Der angemessene Einsatz von Raum und Ressourcen schafft den Rahmen für das Lernen der Schüler*innen.",
+    "en": "The appropriate use of space and resources creates the framework for students' learning."
   },
   "example": {
-    "de": "Der Einsatz von Raum und Ressourcen ermöglicht die Arbeit in flexiblen Sozialformen (z. B. moderne Unterrichtskonzepte)."
+    "de": "Der Einsatz von Raum und Ressourcen ermöglicht die Arbeit in flexiblen Sozialformen (z. B. moderne Unterrichtskonzepte).",
+    "en": "The use of space and resources enables work in flexible social forms (e.g., modern teaching concepts)."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",
