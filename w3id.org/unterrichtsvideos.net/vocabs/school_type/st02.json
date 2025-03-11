@@ -10,13 +10,25 @@
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/1"
     },
     {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/1"
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/2"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/2"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/3"
     },
     {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/3"
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/4"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/4"
     }
   ],
   "closeMatch": [
