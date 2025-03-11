@@ -8,6 +8,9 @@
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/educationalContext/fortbildung"
+    },
+    {
+      "id": "https://w3id.org/kim/educationalLevel/level_C"
     }
   ],
   "inScheme": [

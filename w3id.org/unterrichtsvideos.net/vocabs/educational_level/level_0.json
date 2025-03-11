@@ -26,6 +26,9 @@
       "id": "https://w3id.org/kim/isced-2011/level0"
     },
     {
+      "id": "https://w3id.org/kim/educationalLevel/level_0"
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/educationalContext/elementarbereich"
     }
   ],

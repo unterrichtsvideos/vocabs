@@ -25,6 +25,9 @@
   "exactMatch": [
     {
       "id": "https://w3id.org/kim/isced-2011/level5"
+    },
+    {
+      "id": "https://w3id.org/kim/educationalLevel/level_5"
     }
   ],
   "inScheme": [

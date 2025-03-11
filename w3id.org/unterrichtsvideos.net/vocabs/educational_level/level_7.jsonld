@@ -33,6 +33,9 @@
   "exactMatch": [
     {
       "id": "https://w3id.org/kim/isced-2011/level7"
+    },
+    {
+      "id": "https://w3id.org/kim/educationalLevel/level_7"
     }
   ],
   "inScheme": [

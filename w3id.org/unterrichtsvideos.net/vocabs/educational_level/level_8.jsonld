@@ -31,6 +31,9 @@
     },
     {
       "id": "https://w3id.org/kim/isced-2011/level8"
+    },
+    {
+      "id": "https://w3id.org/kim/educationalLevel/level_8"
     }
   ],
   "inScheme": [

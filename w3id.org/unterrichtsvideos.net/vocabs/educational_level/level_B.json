@@ -9,6 +9,11 @@
     "de": "Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung in Deutschland.",
     "en": "The preparatory service designates the second phase of teacher training in germany."
   },
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/kim/educationalLevel/level_B"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/",
