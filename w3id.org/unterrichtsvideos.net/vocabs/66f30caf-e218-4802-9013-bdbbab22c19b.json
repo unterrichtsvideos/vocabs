@@ -1,0 +1,306 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs//66f30caf-e218-4802-9013-bdbbab22c19b",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Landeskunde und Interkulturelles"
+  },
+  "definition": {
+    "de": "Zur spanischen Sprache gehören auch die Menschen und ihre Kulturen.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte und pflegt eigene Bräuche und Traditionen. Du willst alles das kennenlernen oder mehr darüber wissen? Auch über Politik, Gesellschaft und Zeitgeschehen. Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//087fcc96-f7be-4de3-9835-63fadf79e90f",
+      "prefLabel": {
+        "de": "Bilingualismus und Mehrsprachigkeit"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//36dc1142-0454-45b2-bc18-25f4b9b36904",
+      "prefLabel": {
+        "de": "Umwelt, Klimawandel und Zukunftsentwürfe"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//4f955835-0719-4e17-bc84-749fe978ebfb",
+      "prefLabel": {
+        "de": "Politik, Gesellschaft und Multikulturalität"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//57286ea3-4a6f-40c0-9725-25ff7885ca05",
+      "prefLabel": {
+        "de": "Musik und Tanz"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5cd5f199-3639-43c5-8ab6-6ed5aad30493",
+      "prefLabel": {
+        "de": "Feste, Bräuche und Traditionen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//6f30e5db-9ea5-4c00-83a2-2b65e5096b29",
+      "prefLabel": {
+        "de": "Geschichte Spaniens und Hispanoamerikas"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//78ccb153-8a8e-4ff4-92b6-36aa4abe311a",
+      "prefLabel": {
+        "de": "Sport und Gesundheit"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//7f1e31b8-8898-4fac-901b-6d48c776709c",
+      "prefLabel": {
+        "de": "Globales"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//809e6e11-647d-439c-a0bd-9ca96f93c688",
+      "prefLabel": {
+        "de": "Flucht und Migration"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8f8a47eb-f839-47d9-9c4f-fd0ef8e00096",
+      "prefLabel": {
+        "de": "Tourismus"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//924b2d1c-506d-4298-b93a-261361baf317",
+      "prefLabel": {
+        "de": "Digitalisierung und Medien"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//9f535d31-3d07-40cf-8f51-d372640f3876",
+      "prefLabel": {
+        "de": "Spanisch, Regionalsprachen und Dialekte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//a2f28fb9-a7be-4daa-abac-d915f7fefae6",
+      "prefLabel": {
+        "de": "Kunst und Architektur"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//a380aaab-0979-49e1-b833-617a042b66bd",
+      "prefLabel": {
+        "de": "Kinderarbeit und Kinderarmut"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//baae6af6-5cb1-4f76-962f-90826d8a69d8",
+      "prefLabel": {
+        "de": "Literatur, Film und Theater"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//c49e1e95-7ed9-432f-80f0-a6bef4e3ad14",
+      "prefLabel": {
+        "de": "Frauen in der spanischsprachigen Welt"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//ca21b449-2f49-4e5c-b291-cad79a01b236",
+      "prefLabel": {
+        "de": "Jugend und Jugendkultur"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//d14e175e-3a31-4ecf-b0f7-781adc653a7a",
+      "prefLabel": {
+        "de": "Landesküchen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//d40edd49-a592-4c49-941b-40d2d6741e0d",
+      "prefLabel": {
+        "de": "Indigene Völker"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//fb12bfc5-aa98-4126-a883-27a441459a24",
+      "prefLabel": {
+        "de": "Länder, Regionen und Städte"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs//11bdb8a0-a9f5-4028-becc-cbf8e328dd4b",
+    "prefLabel": {
+      "de": "Spanisch"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20007"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/66f30caf-e218-4802-9013-bdbbab22c19b"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

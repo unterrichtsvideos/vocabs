@@ -1,0 +1,237 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs//311ed9f4-031a-4e51-8d8b-8d7b009a0182",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Gedenktage und Feste der Heiligen im Jahreskreis "
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//0137651c-d4da-4e71-bd63-79c1af43f387",
+      "prefLabel": {
+        "de": "Barbara von Nikomedien und die vierzehn heiligen Nothelfer "
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//14f5a98a-4e3f-46ab-a250-07eccdd489af",
+      "prefLabel": {
+        "de": "Nikolaus von Myra"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//1504cfb1-0af4-422c-9960-a1c89a8d527c",
+      "prefLabel": {
+        "de": "Martin von Tours"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//6ceb45d3-dfdc-4e2d-915c-d8519e0f8da3",
+      "prefLabel": {
+        "de": "Josef"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//9666aa84-c12a-4079-8f51-1e8f250e4168",
+      "prefLabel": {
+        "de": "Maria"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//ca8415de-acc5-457f-8e3c-cda0cec87ead",
+      "prefLabel": {
+        "de": "Petrus und Paulus"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//cc301b8d-e3cc-4254-8986-3121bf541a01",
+      "prefLabel": {
+        "de": "Franz von Assisi"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//e005317a-abed-4332-a016-95b2263e19ae",
+      "prefLabel": {
+        "de": "Johannes der Täufer"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//e3d799ed-0070-49aa-bd40-5cd0aeb2d832",
+      "prefLabel": {
+        "de": "Lucia von Syrakus"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs//e668ab35-7604-45ed-938c-e04b741ac387",
+    "prefLabel": {
+      "de": "Kirchenjahr"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/520"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/311ed9f4-031a-4e51-8d8b-8d7b009a0182"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

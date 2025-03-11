@@ -1,0 +1,266 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs//15fce411-54d9-467f-8f35-61ea374a298d",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Biologie"
+  },
+  "definition": {
+    "de": "Sammlung von Lern- und Lehrmaterialien für das Fach Biologie über alle Bildungsstufen hinweg"
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//3545e0c4-f4f0-4810-9ad8-ea79511340ac",
+      "prefLabel": {
+        "de": "Ökologie"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5780f825-0d8d-4473-903f-6fe4eec137f8",
+      "prefLabel": {
+        "de": "Zellbiologie"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//dd41301d-4f93-4820-be90-280df6b01093",
+      "prefLabel": {
+        "de": "Der Mensch"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//4eef82bf-fb7b-437c-ba30-4e51003680f8",
+      "prefLabel": {
+        "de": "Fachportale"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//873d62a5-362b-4b58-a618-28d4dec06324",
+      "prefLabel": {
+        "de": "Pflanzen: Form & Funktion"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//6a7e03c7-c71a-4e7d-a271-11a3831ee364",
+      "prefLabel": {
+        "de": "Genetik und Vererbung"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//71c2c2ca-ae71-433a-83e9-06de518f4ae1",
+      "prefLabel": {
+        "de": "Pilze: Form & Funktion"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//220f48a8-4b53-4179-919d-7cd238ed567e",
+      "prefLabel": {
+        "de": "Chemische Grundlagen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//d55d6139-982a-472b-ad78-ded266ce8a25",
+      "prefLabel": {
+        "de": "Fachdidaktik"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//a01c2656-e4da-469a-8b97-5553f79040f8",
+      "prefLabel": {
+        "de": "Bionik"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//dd9f5080-c9b5-4698-9567-090c52b4126a",
+      "prefLabel": {
+        "de": "Verhaltensbiologie"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//2e674483-0eae-4088-b51a-c4f4bbf86bcc",
+      "prefLabel": {
+        "de": "Evolution"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8cf78f3b-92ba-47a5-b500-ad8b720fc513",
+      "prefLabel": {
+        "de": "Tiere: Form & Funktion"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/080"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/15fce411-54d9-467f-8f35-61ea374a298d"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

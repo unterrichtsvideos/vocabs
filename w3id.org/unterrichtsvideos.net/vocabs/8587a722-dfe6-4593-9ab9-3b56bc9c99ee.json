@@ -1,0 +1,234 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8587a722-dfe6-4593-9ab9-3b56bc9c99ee",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Querschnitte durch die Geschichte"
+  },
+  "definition": {
+    "de": "Hier findest du Materialien zu Querschnittsthemen in der Geschichte. Von der Medizingeschichte, der Entwicklung der Fortbewegungsmöglichkeiten und Technik,  den Klimawandel oder der Rollenverteilung zwischen Männern und Frauen bis hin zur Geschlechteridentität im Verlauf der Jahrhunderte und noch vieles mehr."
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//103f3e17-b33b-43dc-97c7-19fd310fcf4a",
+      "prefLabel": {
+        "de": "Fortbewegung in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//1ef8fe33-3f39-46f8-a0dc-8e42e70c4c49",
+      "prefLabel": {
+        "de": "Frauen- und Männerbilder in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//4d6843dc-05de-481c-a6d5-b427a49a2999",
+      "prefLabel": {
+        "de": "Klimawandel in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//52ccc69a-3f00-447f-9dd7-ed57a64d9634",
+      "prefLabel": {
+        "de": "Medien in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8b1cead0-4805-4c4a-ad4f-6118b0228bf2",
+      "prefLabel": {
+        "de": "Sport in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8ca7fa4a-ee47-4fbc-b33a-7c0908b6145a",
+      "prefLabel": {
+        "de": "Migration in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//996a9b1c-9538-4a06-8703-9ad7bf2b8e68",
+      "prefLabel": {
+        "de": "Krankheiten in der Geschichte"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//c83b8a7f-ebf2-48ba-a57e-e2ccad93c2be",
+      "prefLabel": {
+        "de": "Genderidentität in der Geschichte"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs//324f24e3-6687-4e89-b8dd-2bd0e20ff733",
+    "prefLabel": {
+      "de": "Geschichte"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8587a722-dfe6-4593-9ab9-3b56bc9c99ee"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

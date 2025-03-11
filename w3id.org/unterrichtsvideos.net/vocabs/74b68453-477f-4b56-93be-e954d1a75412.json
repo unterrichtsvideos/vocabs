@@ -1,0 +1,252 @@
+{
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs//74b68453-477f-4b56-93be-e954d1a75412",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Grundwortschatz"
+  },
+  "definition": {
+    "de": "Keine Sprache hat so viele Wörter wie Englisch. Schätzungen gehen von bis zu einer Million aus. Das Gute ist: Die meisten davon brauchen wir in der täglichen Kommunikation nicht. Es reichen ein paar Hundert Wörter, um mit anderen Menschen zu sprechen. Hier geht es um Vokabeln und Wortschatz, um die Frage: Welche Worte brauche ich, um über mich, meine Beziehungen oder Politik zu sprechen?"
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//0c9be1ab-3a70-47a6-9cc4-aa705785014a",
+      "prefLabel": {
+        "de": "Alphabet"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//142227cc-0092-4756-8528-851143e62980",
+      "prefLabel": {
+        "de": "Wetter"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//187b0517-12be-4b2b-acbf-e590803d2d16",
+      "prefLabel": {
+        "de": "Pflanzen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//334fd770-80d8-40f2-8186-5e5348f4bfe6",
+      "prefLabel": {
+        "de": "Maßeinheiten"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//4ee0d965-2e15-4fa1-9f27-cf4012d5ccba",
+      "prefLabel": {
+        "de": "Farben"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8958e18b-3e0d-473e-ac9e-4accef761cff",
+      "prefLabel": {
+        "de": "Zahlen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//8dbaf319-5a5e-48df-8613-03c707ad92d2",
+      "prefLabel": {
+        "de": "Lebensmittel und Einkaufen"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//95aacaca-190c-4244-9c6b-372791232382",
+      "prefLabel": {
+        "de": "Kleidung"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//b2d54956-ed46-4add-b3bc-2dbd0d17bc90",
+      "prefLabel": {
+        "de": "Jahreszeiten und Monate"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//b46004db-538f-443c-9fd6-d46257f21480",
+      "prefLabel": {
+        "de": "Wochentage, Datum und Uhrzeit"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//ed62d203-d8be-489a-a3f7-d32b255c7d4c",
+      "prefLabel": {
+        "de": "Tiere"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs//350a0734-a52d-4d1e-9249-5e19f216da2f",
+    "prefLabel": {
+      "de": "Themen und Wortschatz"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/74b68453-477f-4b56-93be-e954d1a75412"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs//5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
