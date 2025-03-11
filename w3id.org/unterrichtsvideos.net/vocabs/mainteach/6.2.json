@@ -3,7 +3,13 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Lernenden-Beziehung",
-    "en": "Student relationship"
+    "en": "Student-student relationship"
+  },
+  "definition": {
+    "de": "Der Umgang der Schüler*innen miteinander zeugt von einem guten Zusammenhalt in der Klassengemeinschaft."
+  },
+  "example": {
+    "de": "Die Schüler*innen lösen Konflikte selbst; sie bieten einander ungefragt Hilfe an."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6",

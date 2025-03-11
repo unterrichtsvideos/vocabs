@@ -5,6 +5,12 @@
     "de": "Qualitativ hochwertiges Feedback",
     "en": "High-quality feedback"
   },
+  "definition": {
+    "de": "Wirksames Feedback orientiert sich an den zu erwerbenden Kompetenzen und erfolgt zeitnah."
+  },
+  "example": {
+    "de": "In der Klasse ist eine umfassende Feedbackkultur mit Selbst- und Fremdbeurteilung etabliert."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",
     "prefLabel": {

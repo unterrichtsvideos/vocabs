@@ -5,6 +5,12 @@
     "de": "Strukturierte Einbindung von Inhalten",
     "en": "Structured integration of content"
   },
+  "definition": {
+    "de": "Ein strukturierter Unterricht zeigt einen klaren roten Faden und ist nachvollziehbar gegliedert."
+  },
+  "example": {
+    "de": "Arbeitsaufträge und Erklärungen werden verständlich formuliert, visuell dargestellt und mit Beispielen illustriert."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",
     "prefLabel": {

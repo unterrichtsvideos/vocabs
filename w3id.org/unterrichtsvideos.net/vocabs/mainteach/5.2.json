@@ -5,6 +5,12 @@
     "de": "Erhebung des Leistungsstands",
     "en": "Assessment of performance level"
   },
+  "definition": {
+    "de": "Die kontinuierliche Überprüfung des Kompetenzerwerbs spielt eine wichtige Rolle im Unterricht."
+  },
+  "example": {
+    "de": "Dokumentationen der Lernwege und -fortschritte (z. B. Portfolios, Lernjournal) werden von der Lehrperson zur Kompetenzüberprüfung hinzugezogen."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",
     "prefLabel": {

@@ -3,7 +3,13 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Anpassung der Anforderungen",
-    "en": "Adjustment of requirements"
+    "en": "Adaptation of requirements"
+  },
+  "definition": {
+    "de": "Bei der Auswahl der Lernziele, Inhalte und Methoden werden die Individualität der Schüler*innen, ihre Fähigkeiten und Lernvoraussetzungen berücksichtigt."
+  },
+  "example": {
+    "de": "Alle Schüler*innen arbeiten an einem Thema auf unterschiedlichem Niveau und verschiedene Lernwege werden angewendet."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",

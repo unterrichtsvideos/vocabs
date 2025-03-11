@@ -5,6 +5,12 @@
     "de": "Relevanz der Inhalte für die Schüler*innen",
     "en": "Relevance of content for students"
   },
+  "definition": {
+    "de": "Schüler*innen können für die Inhalte motiviert werden, wenn ihnen deren lebensweltliche Relevanz verdeutlicht wird."
+  },
+  "example": {
+    "de": "Die Schüler*innen können die Inhalte mit persönlichen Interessen verbinden, z. B. durch Aufgaben, die zu ihrem Hobby passen."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",
     "prefLabel": {

@@ -10,14 +10,14 @@
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7.1",
       "prefLabel": {
         "de": "Direkte Förderung der Eigenverantwortung für das Lernen",
-        "en": "Direct promotion of self-responsibility for learning"
+        "en": "Direct promotion of learning responsibility"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7.2",
       "prefLabel": {
         "de": "Indirekte Förderung der Eigenverantwortung für das Lernen",
-        "en": "Indirect promotion of self-responsibility for learning"
+        "en": "Indirect promotion of learning responsibility"
       }
     }
   ],

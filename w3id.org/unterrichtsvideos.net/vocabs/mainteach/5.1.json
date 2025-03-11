@@ -5,6 +5,12 @@
     "de": "Passung von Beurteilung und Kompetenzerwerb",
     "en": "Fit of assessment and competence acquisition"
   },
+  "definition": {
+    "de": "Beurteilungen eruieren das Können der Schüler*innen entsprechend der anvisierten Kompetenzen."
+  },
+  "example": {
+    "de": "Den Schüler*innen wird differenziert mitgeteilt, welche anvisierten Kompetenzen nach welchen Maßstäben beurteilt werden."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",
     "prefLabel": {

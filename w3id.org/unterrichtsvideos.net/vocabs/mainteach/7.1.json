@@ -3,7 +3,13 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Direkte Förderung der Eigenverantwortung für das Lernen",
-    "en": "Direct promotion of self-responsibility for learning"
+    "en": "Direct promotion of learning responsibility"
+  },
+  "definition": {
+    "de": "Der Unterricht zielt direkt auf die Förderung der Lernverantwortung von Schüler*innen ab."
+  },
+  "example": {
+    "de": "Die Schüler*innen zeigen einander, wie sie etwas gelernt haben, und begründen ihre verwendeten Lernstrategien."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7",

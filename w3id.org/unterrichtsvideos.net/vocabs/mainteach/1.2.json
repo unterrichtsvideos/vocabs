@@ -5,6 +5,12 @@
     "de": "Passung von Inhalten und (Fach-)Methoden",
     "en": "Fit of content and (subject) methods"
   },
+  "definition": {
+    "de": "Die Unterrichtsgestaltung ist angemessen auf die anvisierten Lernziele und Kompetenzen ausgerichtet."
+  },
+  "example": {
+    "de": "Den Schüler*innen wird verständlich klargemacht, bei welchen Aufträgen welche Lernziele im Zentrum stehen."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",
     "prefLabel": {

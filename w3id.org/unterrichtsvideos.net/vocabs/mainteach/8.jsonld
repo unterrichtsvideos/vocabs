@@ -10,14 +10,14 @@
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8.1",
       "prefLabel": {
         "de": "Anpassung der Anforderungen",
-        "en": "Adjustment of requirements"
+        "en": "Adaptation of requirements"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8.2",
       "prefLabel": {
         "de": "Anpassung der Lernprozessbegleitung",
-        "en": "Adjustment of learning process support"
+        "en": "Adaptation of learning process support"
       }
     }
   ],

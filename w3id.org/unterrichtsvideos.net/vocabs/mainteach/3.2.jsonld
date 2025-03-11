@@ -5,6 +5,12 @@
     "de": "Unterstützung kognitiver Aktivierung",
     "en": "Support for cognitive activation"
   },
+  "definition": {
+    "de": "Um das Potenzial zur kognitiven Aktivierung auszuschöpfen, werden die Schüler*innen fortlaufend in ihrer kognitiven Aktiviertheit unterstützt."
+  },
+  "example": {
+    "de": "Die Schüler*innen werden angeregt, selbstständig neue Inhalte mit ihrem Vorwissen in verschiedenen Bereichen zu verknüpfen."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3",
     "prefLabel": {

@@ -5,6 +5,12 @@
     "de": "Proaktiver und effektiver Umgang mit Disziplinfragen",
     "en": "Proactive and effective handling of discipline issues"
   },
+  "definition": {
+    "de": "Eine frühzeitige Etablierung und konsequente Realisierung verbindlicher Normen und klarer Regeln beugt Disziplinproblemen vor."
+  },
+  "example": {
+    "de": "Eine hohe Präsenz der Lehrperson ist daran erkennbar, dass sie die Schüler*innen genau im Blick behält und ihre ‘Hotspots’ kennt."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",
     "prefLabel": {

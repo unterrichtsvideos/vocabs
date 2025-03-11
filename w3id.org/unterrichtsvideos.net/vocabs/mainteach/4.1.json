@@ -5,6 +5,12 @@
     "de": "Aufgaben zur Konsolidierung von Inhalten",
     "en": "Tasks for consolidating content"
   },
+  "definition": {
+    "de": "Aufgaben schaffen Gelegenheiten, in denen die Schüler*innen das Erlernte auf unterschiedliche Art wiederholen und anwenden können."
+  },
+  "example": {
+    "de": "Die Aufgaben zur Konsolidierung fordern die Schüler*innen auf, Bearbeitungsschritte explizit festzuhalten."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/4",
     "prefLabel": {

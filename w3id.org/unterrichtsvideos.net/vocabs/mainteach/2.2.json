@@ -5,6 +5,12 @@
     "de": "Nutzung der Lernzeit",
     "en": "Use of learning time"
   },
+  "definition": {
+    "de": "Als echte Lernzeit wird die Zeit bezeichnet, während der die Schüler*innen tatsächlich an der gestellten Aufgabe arbeiten."
+  },
+  "example": {
+    "de": "Die Schüler*innen arbeiten konzentriert an den Inhalten; es herrscht durchweg eine konzentrierte Arbeitsatmosphäre im Klassenzimmer."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",
     "prefLabel": {

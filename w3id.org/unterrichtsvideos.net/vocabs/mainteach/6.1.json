@@ -5,6 +5,12 @@
     "de": "Lehrkraft-Lernenden-Beziehung",
     "en": "Teacher-student relationship"
   },
+  "definition": {
+    "de": "Eine positive Beziehung zwischen Lehrperson und Schüler*innen zeigt sich in gegenseitigem Respekt, Wärme und Fairness."
+  },
+  "example": {
+    "de": "Die Lehrperson erkundigt sich spezifisch bei einzelnen Schüler*innen über sie betreffende Dinge (z. B. Fußball Match, Streit, Wohlbefinden)."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6",
     "prefLabel": {

@@ -5,6 +5,12 @@
     "de": "Unterstützung der Konsolidierung von Inhalten",
     "en": "Support for consolidating content"
   },
+  "definition": {
+    "de": "Durch häufige Wiederholungsphasen können weniger fehleranfällige Routinen entwickelt werden."
+  },
+  "example": {
+    "de": "Die Lehrperson macht die Schüler*innen proaktiv darauf aufmerksam, wo Schwierigkeiten oder Fehler möglicherweise entstehen können und wie diese vermieden werden können."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/4",
     "prefLabel": {

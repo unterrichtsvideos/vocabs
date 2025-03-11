@@ -3,7 +3,13 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Anpassung der Lernprozessbegleitung",
-    "en": "Adjustment of learning process support"
+    "en": "Adaptation of learning process support"
+  },
+  "definition": {
+    "de": "Die Lernprozessbegleitung der Schüler*innen ist adaptiv an die Bedürfnisse der Schüler*innen ausgerichtet."
+  },
+  "example": {
+    "de": "Die Lehrperson demonstriert eine etablierte, aktive und differenzierte Lernbegleitung (z. B. Zeit für Erklärungen, variierende Hilfestellungen)."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",
