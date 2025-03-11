@@ -7,7 +7,10 @@
   },
   "altLabel": {
     "de": [
-      "Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)"
+      "Creative Commons Namensnennung, nicht kommerziell (CC BY-NC)"
+    ],
+    "en": [
+      "Creative Commons Attribution, NonCommercial (CC BY-NC)"
     ]
   },
   "definition": {
@@ -16,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "cc:by-nc/4.0/"
+      "id": "https://creativecommons.org/licenses/by-nc/4.0/"
     },
     {
       "id": "http://base.uni-ak.ac.at/portfolio/licenses/CC-BY-NC-4.0"

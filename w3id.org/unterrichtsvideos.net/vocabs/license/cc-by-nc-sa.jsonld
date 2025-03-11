@@ -5,13 +5,21 @@
     "de": "CC BY-NC-SA",
     "en": "CC BY-NC-SA"
   },
+  "altLabel": {
+    "de": [
+      "Creative Commons Namensnennung, nicht kommerziell, Weitergabe zu gleichen Bedingungen (CC BY-NC-SA)"
+    ],
+    "en": [
+      "Creative Commons Attribution, NonCommercial, ShareAlike (CC BY-NC)"
+    ]
+  },
   "definition": {
     "de": "CC BY-NC-SA erlaubt anderen, das Werk zu remixen, zu verbessern und darauf aufzubauen, nicht-kommerziell, solange der Urheber des Originals genannt wird und die neuen Werke unter denselben Bedingungen lizenziert werden.",
     "en": "CC BY-NC-SA allows others to remix, adapt, and build upon the work non-commercially, as long as they credit the original creation and license their new creations under the identical terms."
   },
   "closeMatch": [
     {
-      "id": "cc:by-nc-sa/4.0/"
+      "id": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
     {
       "id": "http://base.uni-ak.ac.at/portfolio/licenses/CC-BY-NC-SA-4.0"
