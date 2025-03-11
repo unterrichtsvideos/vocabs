@@ -7,12 +7,13 @@
   },
   "altLabel": {
     "de": [
+      "Creative",
       "Public Domain"
     ]
   },
   "definition": {
-    "de": "Ein Werk, das gemeinfrei ist, ist nicht durch Urheberrechte geschützt und kann von jedem genutzt werden.",
-    "en": "A work that is in the public domain is not protected by copyright and can be used by anyone."
+    "de": "Ein Werk, das gemeinfrei ist, ist nicht (mehr) durch Urheberrechte geschützt und kann von jedem genutzt werden.",
+    "en": "A work that is in the public domain is not (or no longer) protected by copyright and can be used by anyone."
   },
   "exactMatch": [
     {
@@ -20,6 +21,9 @@
     },
     {
       "id": "http://publications.europa.eu/resource/authority/licence/CC_PDM_1_0"
+    },
+    {
+      "id": "dcat:ccpdm/1.0"
     }
   ],
   "inScheme": [

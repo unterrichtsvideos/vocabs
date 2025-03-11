@@ -5,6 +5,11 @@
     "de": "CC BY",
     "en": "CC BY"
   },
+  "altLabel": {
+    "de": [
+      "Creative Commons Namensnennung (CC-BY)"
+    ]
+  },
   "definition": {
     "de": "CC BY erlaubt anderen, das Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, auch kommerziell, solange der Urheber des Originals genannt wird.",
     "en": "CC BY allows others to distribute, remix, adapt, and build upon the work, even commercially, as long as they credit the original creation."
@@ -18,6 +23,9 @@
     },
     {
       "id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+    },
+    {
+      "id": "http://www.dcat-ap.de/def/licenses/cc-by"
     }
   ],
   "inScheme": [

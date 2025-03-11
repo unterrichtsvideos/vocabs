@@ -5,6 +5,11 @@
     "de": "CC BY-NC",
     "en": "CC BY-NC"
   },
+  "altLabel": {
+    "de": [
+      "Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)"
+    ]
+  },
   "definition": {
     "de": "CC BY-NC erlaubt anderen, das Werk zu remixen, zu verbessern und darauf aufzubauen, nicht-kommerziell, und obwohl ihre neuen Werke ebenfalls nicht-kommerziell sein müssen, müssen sie den Urheber des Originals nennen.",
     "en": "CC BY-NC allows others to remix, adapt, and build upon the work non-commercially, and although their new works must also be non-commercial, they must acknowledge the original creator."
@@ -18,6 +23,9 @@
     },
     {
       "id": "http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0"
+    },
+    {
+      "id": "http://www.dcat-ap.de/def/licenses/cc-by-nc"
     }
   ],
   "inScheme": [

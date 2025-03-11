@@ -5,6 +5,11 @@
     "de": "CC BY-NC-ND",
     "en": "CC BY-NC-ND"
   },
+  "altLabel": {
+    "de": [
+      "Creative"
+    ]
+  },
   "definition": {
     "de": "CC BY-NC-ND erlaubt anderen, das Werk weiterzugeben, nicht-kommerziell, solange es unverändert bleibt und der Urheber genannt wird.",
     "en": "CC BY-NC-ND allows others to download the works and share them with others as long as they credit the creator, but they can’t change them in any way or use them commercially."

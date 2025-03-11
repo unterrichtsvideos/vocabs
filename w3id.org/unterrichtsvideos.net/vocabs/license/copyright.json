@@ -5,6 +5,15 @@
     "de": "Copyright",
     "en": "Copyright"
   },
+  "definition": {
+    "de": "Urheberrechtlich geschützt, keine gesonderte Lizenz.",
+    "en": "Copyrighted, no separate license."
+  },
+  "closeMatch": [
+    {
+      "id": "http://www.dcat-ap.de/def/licenses/other-closed"
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://rightsstatements.org/vocab/InC/1.0/"

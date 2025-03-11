@@ -5,6 +5,11 @@
     "de": "CC BY-ND",
     "en": "CC BY-ND"
   },
+  "altLabel": {
+    "de": [
+      "Creative Commons Namensnennung - Keine Bearbeitung (CC BY-ND)"
+    ]
+  },
   "definition": {
     "de": "CC BY-ND erlaubt die Weiterverbreitung, kommerziell und nicht-kommerziell, solange das Werk unverändert bleibt und der Urheber genannt wird.",
     "en": "CC BY-ND allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to the creator."
@@ -18,6 +23,9 @@
     },
     {
       "id": "http://publications.europa.eu/resource/authority/licence/CC_BYND_4_0"
+    },
+    {
+      "id": "http://www.dcat-ap.de/def/licenses/cc-by-nd"
     }
   ],
   "inScheme": [
