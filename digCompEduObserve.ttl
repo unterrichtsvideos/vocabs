@@ -1,5 +1,5 @@
 @base <https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/> .
-@prefix comeInDCE: <https://w3id.org/comein/vocabs/DigCompEdu/> .
+@prefix mvpDCE: <https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/> .
 @prefix oehDCE: <http://w3id.org/openeduhub/vocabs/digCompEdu/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -11,328 +11,441 @@
     dct:title "Beobachtungsinstrument zum Europäischen Rahmen für die Digitale Kompetenz Lehrender (DigCompEduObserve)"@de ;
     dct:created "2023-03-16"^^xsd:date ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/" ;
-    vann:preferredNamespacePrefix "mvpDigCompEduObserve" ;
+    vann:preferredNamespacePrefix "mvpDCEObserve" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6> .
 
 <1> a skos:Concept ;
-    skos:prefLabel "Professional Engagement"@en ;
-    skos:prefLabel "Berufliches Engagement"@de ;
+    skos:prefLabel "1. Professional Engagement"@en ;
+    skos:prefLabel "1. Professionelles Engagement"@de ;
     skos:topConceptOf <> ;
-    skos:exactMatch comeInDCE:1 ;
+    skos:exactMatch mvpDCE:1 ;
     skos:exactMatch oehDCE:1 ;
     skos:narrower <1.1>, <1.2>, <1.3>, <1.4>, <1.5>, <1.6>, <1.7> .
 
 <2> a skos:Concept ;
-    skos:prefLabel "Digital Resources"@en ;
-    skos:prefLabel "Digitale Ressourcen"@de ;
+    skos:prefLabel "2. Digital Resources"@en ;
+    skos:prefLabel "2. Digitale Ressourcen"@de ;
     skos:topConceptOf <> ;
-    skos:exactMatch comeInDCE:2 ;
+    skos:exactMatch mvpDCE:2 ;
     skos:exactMatch oehDCE:2 ;
     skos:narrower <2.1>, <2.2>, <2.3>, <2.4> .
 
 <3> a skos:Concept ;
-    skos:prefLabel "Teaching and Learning"@en ;
-    skos:prefLabel "Lehren und Lernen"@de ;
+    skos:prefLabel "3. Teaching and Learning"@en ;
+    skos:prefLabel "3. Lehren und Lernen"@de ;
     skos:topConceptOf <> ;
-    skos:exactMatch comeInDCE:3 ;
+    skos:exactMatch mvpDCE:3 ;
     skos:exactMatch oehDCE:3 ;
     skos:narrower <3.1>, <3.2>, <3.3>, <3.4>, <3.5>, <3.6> .
 
 <4> a skos:Concept ;
-    skos:prefLabel "Assessment"@en ;
-    skos:prefLabel "Assessment"@de ;
+    skos:prefLabel "4. Assessment"@en ;
+    skos:prefLabel "4. Assessment"@de ;
     skos:topConceptOf <> ;
-    skos:exactMatch comeInDCE:4 ;
+    skos:exactMatch mvpDCE:4 ;
     skos:exactMatch oehDCE:4 ;
     skos:narrower <4.1>, <4.2>, <4.3> .
 
 <5> a skos:Concept ;
-    skos:prefLabel "Empowering Learners"@en ;
-    skos:prefLabel "Unterstützung der Lernenden"@de ;
+    skos:prefLabel "5. Empowering Learners"@en ;
+    skos:prefLabel "5. Unterstützung der Lernenden"@de ;
     skos:topConceptOf <> ;
-    skos:exactMatch comeInDCE:5 ;
+    skos:exactMatch mvpDCE:5 ;
     skos:exactMatch oehDCE:5 ;
     skos:narrower <5.1>, <5.2>, <5.3> .
 
 <6> a skos:Concept ;
-    skos:prefLabel "Facilitating Learner's Digital Competence"@en ;
-    skos:prefLabel "Förderung der digitalen Kompetenz der Lernenden"@de ;
+    skos:prefLabel "6. Facilitating Learner's Digital Competence"@en ;
+    skos:prefLabel "6. Förderung der digitalen Kompetenz der Lernenden"@de ;
     skos:topConceptOf <> ;
-    skos:exactMatch comeInDCE:6 ;
+    skos:exactMatch mvpDCE:6 ;
     skos:exactMatch oehDCE:6 ;
     skos:narrower <6.1>, <6.2>, <6.3>, <6.4>, <6.5> .
 
 <1.1> a skos:Concept ;
-    skos:prefLabel "Organisational communication with learners, parents or third parties"@en ;
-    skos:prefLabel "Organisatorische Kommunikation mit Lernenden, Eltern oder Dritten"@de ;
+    skos:prefLabel "1.1 Organisational communication with learners, parents or third parties"@en ;
+    skos:prefLabel "1.1 Organisatorische Kommunikation mit Lernenden, Eltern oder Dritten"@de ;
     skos:definition "To use digital technologies to enhance organisational communication with learners, parents and third parties. To contribute to collaboratively developing and improving organisational communication strategies."@en ;
     skos:definition "Nutzung von digitalen Medien zur Verbesserung der organisatorischen Kommunikation mit Lernenden, Eltern und Dritten; Gemeinsame Entwicklung und Verbesserung organisatorischer Kommunikationsstrategien."@de ;
     skos:example "Die Lehrperson verwendet ein digitales Tool/Medium, zur Klärung von organisatorischen Fragen von Lernenden (Drechsel & Schindler, 2019; Kounin, 1970; Thiel & Ophardt, 2022)."@de ;
     skos:example "Die Lehrperson verwendet ein digitales Tool/Medium zur organisatorischen oder pädagogischen Abstimmung mit Eltern oder Dritten (Wild & Remy, 2002)."@de ;
     skos:example "Die Lehrperson beachtet rechtliche Rahmenbedingungen (inkl. Datenschutz) bei der Verwendung eines digitalen Tools/Mediums für die Kommunikation mit Lernenden und Eltern (Holtappels et al., 2008)."@de ;
     skos:broader <1> ;
-    skos:exactMatch comeInDCE:1.1 ;
+    skos:exactMatch mvpDCE:1.1 ;
     skos:exactMatch oehDCE:1.1 ;
     skos:inScheme <> .
 
 <1.2> a skos:Concept ;
-    skos:prefLabel "Organisational communication strategies (within school context)"@en ;
-    skos:prefLabel "Organisatorische Kommunikationsstrategien im Schulkontext"@de ;
-    skos:definition ""@en ;
-    skos:definition ""@de ;
+    skos:prefLabel "1.2 Organisational communication strategies (within school context)"@en ;
+    skos:prefLabel "1.2 Organisatorische Kommunikationsstrategien im Schulkontext"@de ;
     skos:example "Die Lehrperson entwickelt ein schulisch genutztes digitales Tool/Medium zur Kommunikation weiter (z. B. Websites oder Chats) (Sailer et al., 2021b)."@de ;
     skos:example "Die Lehrperson beteiligt sich an der Umsetzung oder Weiterentwicklung des schulischen Medienkonzepts (van Ackeren et al., 2020)."@de ;
     skos:example "Die Lehrperson beteiligt sich an der Entwicklung eines Konzepts von klaren Verantwortlichkeiten für die Digitalisierung der eigenen Schule (van Ackeren et al., 2020)."@de ;
     skos:example "Die Lehrperson setzt ein digitales Tool/Medium ein, um effektive Kommunikation im Kollegium zu unterstützen (Sailer et al., 2021c)."@de ;
     skos:broader <1> ;
-    skos:closeMatch comeInDCE:1.1 ;
+    skos:closeMatch mvpDCE:1.1 ;
     skos:closeMatch oehDCE:1.1 ;
     skos:inScheme <> .
 
 <1.3> a skos:Concept ;
-    skos:prefLabel "Professional collaboration within the college"@en ;
-    skos:prefLabel "Berufliche Zusammenarbeit im Kollegium"@de;
+    skos:prefLabel "1.3 Collaboration within the college"@en ;
+    skos:prefLabel "1.3 Zusammenarbeit im Kollegium"@de ;
     skos:definition "To use digital technologies to engage in collaboration with other educators, sharing and exchanging knowledge and experiences and collaboratively innovating pedagogic practices."@en ;
     skos:definition "Nutzung von digitalen Medien zur Zusammenarbeit mit anderen Lehrenden, zum Austausch von Wissen und Erfahrungen und zur Erneuerung von gemeinsamen pädagogischen Praktiken."@de ;
     skos:example "Die Lehrperson nutzt ein digitales Tool/Medium oder eine Plattform, um Unterrichtsentwürfe und -materialien auszutauschen (DCB, 2017; Hesse et al., 2015; Liu et al., 2015; Sailer et al., 2021a)."@de ;
     skos:example "Die Lehrperson entwickelt gemeinsam mit Kolleg:innen digitale Unterrichtskonzepte weiter (DCB, 2017; Hesse et al., 2015; Liu et al., 2015; Sailer et al., 2021a)."@de ;
     skos:example "Die Lehrperson initiiert und koordiniert Kooperationen rund um digitale Unterrichtskonzepte (DCB, 2017; Hesse et al., 2015; Liu et al., 2015; Sailer et al., 2021a)."@de ;
     skos:broader <1> ;
-    skos:exactMatch comeInDCE:1.2 ;
+    skos:exactMatch mvpDCE:1.2 ;
     skos:exactMatch oehDCE:1.2 ;
     skos:inScheme <> .
     
 <1.4> a skos:Concept ;
-    skos:prefLabel "Digitization-related school development"@en ;
-    skos:prefLabel "Digitalisierungsbezogene Schulentwicklung"@de;
+    skos:prefLabel "1.4 Digitization-related school development"@en ;
+    skos:prefLabel "1.4 Digitalisierungsbezogene Schulentwicklung"@de ;
     skos:definition ""@en ;
     skos:definition ""@de ;
     skos:example "Die Lehrperson kooperiert mit Kolleg:innen im Rahmen digitalisierungsbezogener Schulentwicklung (Gräsel et al., 2020)."@de ;
     skos:example "Die Lehrperson nutzt ein digitales Tool/Medium, um die Berücksichtigung von Bildungsstandards im Kollegium voranzubringen (Sailer, et al., 2021c; van Ackeren et al., 2020)."@de ;
     skos:example "Die Lehrperson beteiligt sich am kollegialen Austausch zur systematischen Umsetzung von Kompetenzen etablierter digitaler Kompetenzmodelle (z. B. DigCompEdu) (Gräsel et al., 2020)."@de ;
     skos:broader <1> ;
-    skos:closeMatch comeInDCE:1.2 ;
+    skos:closeMatch mvpDCE:1.2 ;
     skos:closeMatch oehDCE:1.2 ;
     skos:inScheme <> .
 
 <1.5> a skos:Concept ;
-    skos:prefLabel "Reflective practice"@en ;
-    skos:prefLabel "Reflektierte Praxis"@de ;
+    skos:prefLabel "1.5 Reflection on the use of digital media"@en ;
+    skos:prefLabel "1.5 Reflexion des digitalen Medieneinsatzes"@de ;
     skos:definition "To individually and collectively reflect on, critically assess and actively develop one’s own digital pedagogical practice and that of one’s educational community."@en ;
     skos:definition "Die eigene digitale pädagogische Praxis sowie die der Bildungsgemeinschaft individuell und gemeinsam reflektieren, selbstkritisch beurteilen und aktiv entwickeln."@de ;
+    skos:example "Die Lehrperson reflektiert, inwieweit der zurückliegende Einsatz eines digitalen Tools/Mediums im Unterricht für die Lernenden lernförderlich war. (Koehler & Mishra, 2009; von Aufschnaiter et al., 2019)."@de ;
+    skos:example "Die Lehrperson entwickelt die Nutzung eines digitalen Tools/Mediums für ihren Unterricht auf Grundlage ihrer Reflexionen weiter. (Koehler & Mishra, 2009; von Aufschnaiter et al., 2019)."@de ;
+    skos:example "Die Lehrperson reflektiert, inwieweit sich Inhalte und Methoden in ihrem Fach aufgrund der Digitalisierung weiterentwickelt haben und inwieweit sich dies auf ihren Unterricht auswirkt. (Koehler & Mishra, 2009; von Aufschnaiter et al., 2019)."@de ;
     skos:broader <1> ;
-    skos:exactMatch comeInDCE:1.3 ;
+    skos:exactMatch mvpDCE:1.3 ;
     skos:exactMatch oehDCE:1.3 ;
     skos:inScheme <> .
 
-
 <1.6> a skos:Concept ;
-    skos:prefLabel "Professional development of own media competence"@en ;
-    skos:prefLabel "Professionelle Weiterbildung der eigenen Medienkompetenz"@de ;
+    skos:prefLabel "1.6 Professional development of own media competence"@en ;
+    skos:prefLabel "1.6 Professionelle Weiterbildung der eigenen Medienkompetenz"@de ;
+    skos:example "Die Lehrperson nutzt digitale Angebote für ihre eigene professionelle Fortbildung. (Lohr et al., 2021; Sailer et al., 2021c)."@de ;
+    skos:example "Die Lehrperson nimmt an Fortbildungen zur Einbindung digitaler Medien im eigenen Unterricht teil. (Lohr et al., 2021; Sailer et al., 2021c)."@de ;
+    skos:example "Die Lehrperson setzt das in Fortbildungen zur Einbindung digitaler Medien Gelernte im eigenen Unterricht um. (Lohr et al., 2021; Sailer et al., 2021c)."@de ;
     skos:broader <1> ;
+    skos:exactMatch mvpDCE:1.4 ;
+    skos:exactMatch oehDCE:1.4 ;
     skos:inScheme <> .
 
 <1.7> a skos:Concept ;
-    skos:prefLabel "Sharing and creating training offerings"@en ;
-    skos:prefLabel "Weitergabe von Fortbildungsinhalten und Erstellung von Fortbildungsangeboten"@de ;
+    skos:prefLabel "1.7 Sharing and creating training offerings"@en ;
+    skos:prefLabel "1.7 Weitergabe von Fortbildungsinhalten und Erstellung von Fortbildungsangeboten"@de ;
+    skos:example "Die Lehrperson entwickelt eigenständig digitale Fortbildungsangebote (z. B. schulinterne Fortbildungen). (Gräsel et al., 2006; Heitzmann et al., 2019; Liu et al., 2015)."@de ;
+    skos:example "Die Lehrperson gibt ihr Wissen, das sie in Fortbildungen zu einem digitalen Tool/Medium erworben hat, an Kolleg:innen der eigenen Schule weiter. (Gräsel et al., 2006; Heitzmann et al., 2019; Liu et al., 2015)."@de ;
+    skos:example "Die Lehrperson gibt ihr Wissen, das sie in Fortbildungen zu einem digitalen Tool/Medium erworben hat, an Kolleg:innen anderer Schulen weiter. (Gräsel et al., 2006; Heitzmann et al., 2019; Liu et al., 2015)."@de ;
+    skos:example "Die Lehrperson kooperiert mit Kolleg:innen bei der Erstellung und Überarbeitung digitaler Fortbildungsangebote. (Gräsel et al., 2006; Heitzmann et al., 2019; Liu et al., 2015)."@de ;
     skos:broader <1> ;
+    skos:closeMatch mvpDCE:1.6 ;
+    skos:closeMatch oehDCE:1.6 ;
     skos:inScheme <> .
 
 <2.1> a skos:Concept ;
-    skos:prefLabel "Selecting"@en ;
-    skos:prefLabel "Auswählen"@de ;
-    skos:definition "To identify, assess and select digital resources for teaching and learning. To consider the specific learning objective, context, pedagogical approach, and learner group, when selecting digital resources and planning their use."@en ;
-    skos:definition "Auswahl, Identifizierung und Auswertung digitaler Ressourcen für das Lehren und Lernen; Berücksichtigung von konkretem Lernziel, Kontext, didaktischem Ansatz und der Lerngruppe bei der Auswahl digitaler Ressourcen und der Planung ihrer Nutzung."@de ;
+    skos:prefLabel "2.1 Selection of digital resources"@en ;
+    skos:prefLabel "2.1 Auswahl digitaler Ressourcen"@de ;
+    skos:definition "The learning objective is taken into account when selecting digital resources. (Koehler & Mishra, 2009; Scheiter, 2021)"@en ;
+    skos:definition "Bei der Auswahl digitaler Ressourcen wird das Lernziel berücksichtigt. (Koehler & Mishra, 2009; Scheiter, 2021)"@de ;
+    skos:definition "When selecting digital resources, the learners' learning requirements (e.g., prior knowledge, media skills, group size) are taken into account.(Redecker, 2017; Sailer et al., 2021b)"@en ;
+    skos:definition "Bei der Auswahl digitaler Ressourcen werden die Lernvoraussetzungen der Lernenden (z. B. Vorwissen, Medienkompetenzen, Gruppengröße) berücksichtigt.(Redecker, 2017; Sailer et al., 2021b)"@de ;
+    skos:definition "The digital resources are selected to suit the teaching method.(Chi & Wylie, 2014)"@de ;
+    skos:definition "Die digitalen Ressourcen werden passend zur Unterrichtsmethode ausgewählt.(Chi & Wylie, 2014)"@de ;
     skos:broader <2> ;
-    skos:exactMatch comeInDCE:2.1 ;
+    skos:exactMatch mvpDCE:2.1 ;
     skos:exactMatch oehDCE:2.1 ;
     skos:inScheme <> .
 
 <2.2> a skos:Concept ;
-    skos:prefLabel "Creating & modifying"@en ;
-    skos:prefLabel "Erstellen und Anpassen"@de;
-    skos:definition "To modify and build on existing openly-licensed resources and other resources where this is permitted. To create or co-create new digital educational resources. To consider the specific learning objective, context, pedagogical approach, and learner group, when designing digital resources and planning their use."@en ;
-    skos:definition "Modifizierung und Weiterentwicklung bestehender Ressourcen, sofern rechtlich möglich; Erstellung oder Mitgestaltung von neuen digitalen Bildungsressourcen; Berücksichtigung von konkretem Lernziel, Kontext, didaktischem Ansatz und der Lerngruppe beim Entwurf digitaler Ressourcen und der Planung ihrer Nutzung."@de ;
+    skos:prefLabel "2.2 Adapting or creating digital resources"@en ;
+    skos:prefLabel "2.2 Anpassen oder Erstellen digitaler Ressourcen "@de;
+    skos:definition "The learning objective is taken into account when adapting or creating digital resources. (Koehler & Mishra, 2009; Scheiter, 2021)"@en ;
+    skos:definition "Bei der Anpassung oder Erstellung digitaler Ressourcen wird das Lernziel berücksichtigt. (Koehler & Mishra, 2009; Scheiter, 2021)"@de ;
+    skos:definition "When adapting or creating digital resources, the learners' learning requirements (e.g., prior knowledge, media skills, group size) are taken into account. (Redecker, 2017; Sailer et al., 2021b)"@en ;
+    skos:definition "Bei der Anpassung oder Erstellung digitaler Ressourcen werden die Lernvoraussetzungen der Lernenden (z. B. Vorwissen, Medienkompetenzen, Gruppengröße) berücksichtigt.(Redecker, 2017; Sailer et al., 2021b)"@de ;
+    skos:definition "Digital resources are adapted or created to suit the teaching method. (Chi & Wylie, 2014)"@en ;
+    skos:definition "Die Anpassung oder Erstellung digitaler Ressourcen erfolgt passend zur Unterrichtsmethode. (Chi & Wylie, 2014)"@de ;
     skos:broader <2> ;
-    skos:exactMatch comeInDCE:2.2 ;
+    skos:exactMatch mvpDCE:2.2 ;
     skos:exactMatch oehDCE:2.2 ;
     skos:inScheme <> .
 
 <2.3> a skos:Concept ;
-    skos:prefLabel "Managing, protecting, sharing"@en ;
-    skos:prefLabel "Organisieren, Schützen, und Teilen"@de ;
-    skos:definition "To organise digital content and make it available to learners, parents and other educators. To effectively protect sensitive digital content. To respect and correctly apply privacy and copyright rules. To understand the use and creation of open licenses and open educational resources, including their proper attribution."@en ;
-    skos:definition "Digitale Inhalte organisieren und Lernenden, Eltern und anderen Lehrenden zur Verfügung stellen; Sensible digitale Inhalte effektiv schützen; Datenschutz- und Urheberrechtsbestimmungen respektieren und korrekt anwenden; Die Verwendung und Erstellung von offenen Lizenzen und offenen Bildungsressourcen einschließlich ihrer angemessenen Zuordnung verstehen."@de ;
+    skos:prefLabel "2.3 Organizing and sharing digital resources"@en ;
+    skos:prefLabel "2.3 Organisation und Teilen digitaler Ressourcen"@de ;
+    skos:definition "The digital resources are organized in such a way that learners, parents, or third parties can easily find their way around them. (Fischer et al., 2002; Graesser et al., 1994; Mandl & Levin, 1989)"@en ;
+    skos:definition "Die digitalen Ressourcen sind so organisiert, dass Lernende, Eltern oder Dritte sich gut damit zurechtfinden.(Fischer et al., 2002; Graesser et al., 1994; Mandl & Levin, 1989)"@de ;
+    skos:definition "The digital resources and teaching-learning arrangements are described in a structured manner. (Sailer et al., 2021a)"@en ;
+    skos:definition "Die digitalen Ressourcen und Lehr-Lernarrangements sind strukturiert beschrieben. (Sailer et al., 2021a)"@de ;
+    skos:definition "The teacher makes digital resources accessible to learners, parents or other teachers. (Sailer et al., 2021a)"@en ;
+    skos:definition "Die Lehrperson macht digitale Ressourcen für Lernenden, Eltern oder andere Lehrpersonen zugänglich. (Sailer et al., 2021a)"@de ;
     skos:broader <2> ;
-    skos:exactMatch comeInDCE:2.3 ;
+    skos:exactMatch mvpDCE:2.3 ;
     skos:exactMatch oehDCE:2.3 ;
     skos:inScheme <> .
 
 <2.4> a skos:Concept ;
-    skos:prefLabel "Data protection & copyright in digital resources use"@en ;
-    skos:prefLabel "Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen"@de ;
+    skos:prefLabel "2.4 Consideration of data protection and copyright when using digital resources"@en ;
+    skos:prefLabel "2.4 Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen"@de ;
+    skos:definition "The teacher takes data protection regulations into account. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@en ;
+    skos:definition "Die Lehrperson berücksichtigt Datenschutzbestimmungen. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@de ;
+    skos:definition "The teacher weighs up copyright issues. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@de ;
+    skos:definition "Die Lehrperson wägt urheberrechtliche Fragen ab. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@en ;
+    skos:definition "The teacher demonstrates knowledge of licensing regulations (e.g., Open Educational Resources, OER). (Lane & McAndrew, 2010)"@de ;
+    skos:definition "Die Lehrperson zeigt Kenntnisse über Lizenzbestimmungen (z. B. Open Educational Ressources, OER). (Lane & McAndrew, 2010)"@de ;
     skos:broader <2> ;
+    skos:closeMatch mvpDCE:2.3 ;
+    skos:closeMatch oehDCE:2.3 ;
     skos:inScheme <> .
 
 <3.1> a skos:Concept ;
-    skos:prefLabel "Teaching"@en ;
-    skos:prefLabel "Lehren"@de ;
-    skos:definition "To plan for and implement digital devices and resources in the teaching process, so as to enhance the effectiveness of teaching interventions. To appropriately manage and orchestrate digital teaching interventions. To experiment with and develop new formats and pedagogical methods for instruction."@en ;
-    skos:definition "Einsatzplanung und -gestaltung von digitalen Geräten und Materialien im Unterricht zur Verbesserung der Effektivität von Lehrinterventionen; digitale Unterrichtsmethoden angemessen organisieren und gestalten; neue Formate und pädagogische Methoden für den Unterricht entwickeln und ausprobieren."@de ;
+    skos:prefLabel "3.1 Lesson planning with digital tools/media"@en ;
+    skos:prefLabel "3.1 Unterrichtsplanung mit digitalen Tools/Medien"@de ;
+    skos:definition "When planning lessons, consideration is given to the extent to which the digital tool/medium supports the teaching objectives. (Koehler & Mishra, 2009; Scheiter,2021)"@en ;
+    skos:definition "Bei der Unterrichtsplanung werden Überlegungen darüber angestellt, inwieweit das digitale Tool/Medium die Lehrziele unterstützt. (Koehler & Mishra, 2009; Scheiter, 2021)"@de ;
+    skos:definition "When planning lessons, it is taken into account that the digital tool/medium is used in such a way that the learners are cognitively activated. (Stegmann, 2020)"@en ;
+    skos:definition "Bei der Unterrichtsplanung wird berücksichtigt, dass das digitale Tool/Medium so verwendet wird, dass die Lernenden kognitiv aktiviert werden. (Stegmann, 2020)"@de ;
+    skos:definition "When planning lessons, it is considered whether the additional cognitive load resulting from the use of the digital tool/medium can be justified by the expected benefits. (Sweller et al., 1998)"@en ;
+    skos:definition "Bei der Unterrichtsplanung wird abgewogen, ob die zusätzliche kognitive Belastung, die durch den Einsatz des digitalen Tools/Mediums entsteht, mit dem erwarteten Nutzen gerechtfertigt werden kann. (Sweller et al., 1998)"@de ;
+    skos:definition "Lesson planning includes considerations regarding the selection, use and combination of different forms of presentation of digital media (e.g. presentation of visualizations with verbal/auditory explanations). (Ainsworth, 2014; Mayer, 2005)"@en ;
+    skos:definition "In die Unterrichtsplanung fließen Überlegungen zu Auswahl, Einsatz und Kombination verschiedener Darstellungsformen digitaler Medien ein (z. B. Präsentation von Visualisierungen mit verbalen/ auditiven Erläuterungen). (Ainsworth, 2014; Mayer, 2005)"@de ;
     skos:broader <3> ;
-    skos:exactMatch comeInDCE:3.1 ;
+    skos:exactMatch mvpDCE:3.1 ;
     skos:exactMatch oehDCE:3.1 ;
     skos:inScheme <> .
 
 <3.2> a skos:Concept ;
-    skos:prefLabel "Guidance"@en ;
-    skos:prefLabel "Lernbegleitung"@de;
-    skos:definition "To use digital technologies and services to enhance the interaction with learners, individually and collectively, within and outside the learning session. To use digital technologies to offer timely and targeted guidance and assistance. To experiment with and develop new forms and formats for offering guidance and support."@en ;
-    skos:definition "Nutzung von digitalen Medien und Diensten zwecks Verbesserung der Interaktion mit den Lernenden auf individueller Ebene und als Gruppe innerhalb und außerhalb des Unterrichts; Nutzung von digitalen Medien, um rechtzeitig und gezielt Beratung und Unterstützung anbieten zu können; neue Formen und Formate der Hilfestellung und Anleitung entwickeln und experimentell einsetzen."@de ;
+    skos:prefLabel "3.2 Teaching with digital tools/media"@en ;
+    skos:prefLabel "3.2 Unterricht mit digitalen Tools/Medien"@de;
+    skos:definition "The use of the digital tool/medium supports the achievement of the teaching objectives. (Koehler & Mishra, 2009; Scheiter,2021)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt das Erreichen der Lehrziele. (Koehler & Mishra, 2009; Scheiter,2021)"@de ;
+    skos:definition "The digital tool/medium is used to cognitively activate the learners. (Stegmann, 2020; Tamim et al., 2011)"@en ;
+    skos:definition "Das digitale Tool/Medium wird eingesetzt, um die Lernenden kognitiv zu aktivieren. (Stegmann, 2020; Tamim et al., 2011)"@de ;
+    skos:definition "The additional cognitive load caused by the use of the digital tool/medium is justified by the expected added value. (Sweller et al.,1998)"@en ;
+    skos:definition "Die durch den Einsatz des digitalen Tools/Mediums verursachte zusätzliche kognitive Belastung ist durch den zu erwartenden Mehrwert gerechtfertigt. (Sweller et al.,1998)"@de ;
+    skos:definition "In class, various forms of digital media presentation are used and combined (e.g., visualizations and spoken explanations). (Ainsworth, 2014; Mayer, 2005)"@en ;
+    skos:definition "Im Unterricht werden verschiedene Darstellungsformen digitaler Medien eingesetzt und miteinander kombiniert (z. B. Visualisierung und dazu gesprochene Erläuterungen). (Ainsworth, 2014; Mayer, 2005)"@de ;
     skos:broader <3> ;
-    skos:exactMatch comeInDCE:3.2 ;
-    skos:exactMatch oehDCE:3.2 ;
+    skos:closeMatch mvpDCE:3.1 ;
+    skos:closeMatch oehDCE:3.1 ;
     skos:inScheme <> .
 
 <3.3> a skos:Concept ;
-    skos:prefLabel "Collaborative learning"@en ;
-    skos:prefLabel "Kollaboratives Lernen"@de ;
-    skos:definition "To use digital technologies to foster and enhance learner collaboration. To enable learners to use digital technologies as part of collaborative assignments, as a means of enhancing communication, collaboration and collaborative knowledge creation."@en ;
-    skos:definition "Nutzung von digitalen Medien zur Förderung und Verbesserung von gemeinsamen Lernstrategien; Lernende befähigen, digitale Medien in Gruppen- und Teamarbeit zu nutzen, um Kommunikation innerhalb der Lerngruppe, Zusammenarbeit und gemeinsame Wissensgenerierung zu verbessern."@de ;
+    skos:prefLabel "3.3 Interaction between teachers and learners using digital tools/media"@en ;
+    skos:prefLabel "3.3 Interaktion zwischen Lehrenden und Lernenden mit digitalen Tools/Medien"@de ;
+    skos:definition "Outside of class, the use of digital tools/mediums contributes to efficient communication between the teacher and the learners (e.g., questions are answered or ambiguities are clarified). (Aleven et al., 2003)"@en ;
+    skos:definition "Außerhalb des Unterrichts trägt der Einsatz des digitalen Tools/Mediums zur effizienten Kommunikation zwischen der Lehrperson und den Lernenden bei (z. B. werden Fragen beantwortet oder Unklarheiten ausgeräumt). (Aleven et al., 2003)"@de ;
+    skos:definition "In ongoing lessons, the use of the digital tool/medium promotes high-quality, learning-enhancing interactions between the learners and the teacher. (Furtak, 2006; Webb, 2009)"@en ;
+    skos:definition "Im laufenden Unterricht fördert der Einsatz des digitalen Tools/Mediums Interaktionen von hoher, lernförderlicher Qualität zwischen den Lernenden und der Lehrperson. (Furtak, 2006; Webb, 2009)"@de ;
+    skos:definition "The use of the digital tool/medium promotes learner participation (e.g. discussions). (Chi & Wylie, 2014)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums fördert die Partizipation der Lernenden (z. B. Diskussionen). (Chi & Wylie, 2014)"@de ;
     skos:broader <3> ;
-    skos:exactMatch comeInDCE:3.3 ;
+    skos:exactMatch mvpDCE:3.3 ;
     skos:exactMatch oehDCE:3.3 ;
     skos:inScheme <> .
 
 <3.4> a skos:Concept ;
-    skos:prefLabel "Self-regulated learning"@en ;
-    skos:prefLabel "Selbstgesteuertes Lernen"@de ;
-    skos:definition "To use digital technologies to support self-regulated learning processes, i.e. to enable learners to plan, monitor and reflect on their own learning, provide evidence of progress, share insights and come up with creative solutions."@en ;
-    skos:definition "Nutzung von digitalen Medien zur Unterstützung von selbstgesteuerten Lernprozessen, d. h. den Lernenden sollte ermöglicht werden, ihr eigenes Lernen zu planen, zu überprüfen und zu reflektieren, Fortschritte zu dokumentieren, Ergebnisse zu kommunizieren und kreative Lösungen zu erarbeiten."@de ;
+    skos:prefLabel "3.4 Supporting learners with digital tools/media"@en ;
+    skos:prefLabel "3.4 Unterstützung der Lernenden mit digitalen Tools/Medien"@de ;
+    skos:definition "The use of the digital tool/medium enables the teacher to support individual learners through scaffolding (i.e., graduated support). (Chernikova et al., 2020; Wood et al., 1976)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht der Lehrperson, einzelne Lernende mittels Scaffolding (d.h. gestuften Hilfestellungen) zu unterstützen. (Chernikova et al., 2020; Wood et al., 1976)"@de ;
+    skos:definition "The use of the digital tool/medium makes it easier for the teacher to recognize the respective learning levels in differentiated teaching. (Gräsel et al., 2017)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums erleichtert der Lehrperson im differenzierenden Unterricht, die jeweiligen Lernstände zu erkennen. (Gräsel et al., 2017)"@de ;
+    skos:definition "The use of digital tools/mediums supports the teacher in advising learners according to their individual learning level. (Gräsel et al., 2017)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt die Lehrperson dabei, die Lernenden ihrem individuellen Lernstand entsprechend zu beraten. (Gräsel et al., 2017)"@de ;
     skos:broader <3> ;
-    skos:exactMatch comeInDCE:3.4 ;
-    skos:exactMatch oehDCE:3.4 ;
+    skos:closeMatch mvpDCE:3.3 ;
+    skos:closeMatch oehDCE:3.3 ;
     skos:inScheme <> .
 
 <3.5> a skos:Concept ;
-    skos:prefLabel "Collaborative learning with digital tools/media"@en ;
-    skos:prefLabel "Kollaboratives Lernen mit digitalen Tools/Medien"@de ;
+    skos:prefLabel "3.5 Collaborative learning with digital tools/media"@en ;
+    skos:prefLabel "3.5 Kollaboratives Lernen mit digitalen Tools/Medien"@de ;
+    skos:definition "The use of digital tools/mediums supports the inclusion of different perspectives or the resolution of cognitive conflicts in small groups. (Doise & Mugny, 1979; Radkowitsch et al., 2020)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt in Kleingruppen das Einbringen unterschiedlicher Perspektiven oder das Auflösen kognitiver Konflikte. (Doise & Mugny, 1979; Radkowitsch et al., 2020)"@de ;
+    skos:definition "The use of digital tools/mediums helps to structure collaborative learning activities in a way that promotes learning. (Vogel & Fischer, 2020)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums hilft dabei, kollaborative Lernaktivitäten lernförderlich zu strukturieren. (Vogel & Fischer, 2020)"@de ;
+    skos:definition "The use of digital tools/mediums in small groups makes information about the previous collaboration process available to the teacher (e.g., teacher dashboards) or to the learners themselves (e.g., group awareness tools). (Bodemer et al., 2018; Van Leeuwen & Rummel, 2022)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums in Kleingruppen macht Informationen über den bisherigen Kollaborationsprozess für die Lehrperson (z. B. Teacher Dashboards) oder für die Lernenden selbst (z. B. Group Awareness Tools) verfügbar. (Bodemer et al., 2018; Van Leeuwen & Rummel, 2022)"@de ;
     skos:broader <3> ;
+    skos:exactMatch mvpDCE:3.5 ;
+    skos:exactMatch oehDCE:3.5 ;
     skos:inScheme <> .
 
 <3.6> a skos:Concept ;
-    skos:prefLabel "Self‐directed learning with digital tools/media"@en ;
-    skos:prefLabel "Selbstgesteuertes Lernen mit digitalen Tools/Medien"@de ;
+    skos:prefLabel "3.6 Self-directed learning with digital tools/media"@en ;
+    skos:prefLabel "3.6 Selbstgesteuertes Lernen mit digitalen Tools/Medien"@de ;
+    skos:definition "The use of digital tools/mediums supports learners in planning their own learning process. (Schmitz & Schmidt, 2007)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt die Lernenden bei der Planung ihres eigenen Lernprozesses. (Schmitz & Schmidt, 2007)"@de ;
+    skos:definition "The use of digital tools/mediums supports learners in monitoring their own learning and their learning time. (Schmitz & Schmidt, 2007)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt die Lernenden bei der Überwachung ihres eigenen Lernens sowie ihrer Lernzeit. (Schmitz & Schmidt, 2007)"@de ;
+    skos:definition "The use of digital tools/mediums encourages learners to reflect on their own learning. (Schmitz & Schmidt, 2007)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums regt die Lernenden zur Reflexion über das eigene Lernen an. (Schmitz & Schmidt, 2007)"@de ;
     skos:broader <3> ;
+    skos:exactMatch mvpDCE:3.6 ;
+    skos:exactMatch oehDCE:3.6 ;
     skos:inScheme <> .
 
 <4.1> a skos:Concept ;
-    skos:prefLabel "Assessment strategies"@en ;
-    skos:prefLabel "Lernstand erheben"@de ;
-    skos:definition "To use digital technologies for formative and summative assessment. To enhance the diversity and suitability of assessment formats and approaches."@en ;
-    skos:definition "Verwendung von digitalen Medien zur Lernkontrolle und Leistungsbeurteilung; Verbesserung der Vielfalt und der Angemessenheit von Beurteilungsformaten und -ansätzen."@de ;
+    skos:prefLabel "4.1 Learning progress assessment with digital tools/media"@en ;
+    skos:prefLabel "4.1 Lernstanderfassung mit digitalen Tools/Medien"@de ;
+    skos:definition "The digital tool/medium is suitable for specifically assessing learners' current competency levels. (Helmke, 2022; Lipowsky, 2020)"@en ;
+    skos:definition "Das digitale Tool/Medium ist dazu geeignet, den aktuellen Kompetenzstand der Lernenden gezielt zu erfassen. (Helmke, 2022; Lipowsky, 2020)"@de ;
+    skos:definition "The requirements of digitally supported learning assessment correspond to those of the learning situation. (Ainsworth, 2014; Malone, 2020)"@en ;
+    skos:definition "Die Anforderungen der digital gestützten Lernstanderfassung entsprechen denen der Lernsituation. (Ainsworth, 2014; Malone, 2020)"@de ;
+    skos:definition "The use of digital tools/mediums allows learners' competencies to be tested in an authentic situation. (Kirschner et al., 2023; Malone, 2020)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht, die Kompetenzen der Lernenden in einer authentischen Situation zu testen. (Kirschner et al., 2023; Malone, 2020)"@de ;
     skos:broader <4> ;
-    skos:exactMatch comeInDCE:4.1 ;
+    skos:exactMatch mvpDCE:4.1 ;
     skos:exactMatch oehDCE:4.1 ;
     skos:inScheme <> .
 
 <4.2> a skos:Concept ;
-    skos:prefLabel "Analysing evidence"@en ;
-    skos:prefLabel "Lern-Evidenz analysieren"@de;
-    skos:definition "To generate, select, critically analyse and interpret digital evidence on learner activity, performance and progress, in order to inform teaching and learning."@en ;
-    skos:definition "Digitale Informationen zu Lernerverhalten, Leistung und Fortschritt erheben, auswählen, kritisch analysieren und interpretieren, um Rückschlüsse für den Unterricht zu ziehen."@de ;
+    skos:prefLabel "4.2 Visualization and analysis of learning activities and progress with digital tools/media"@en ;
+    skos:prefLabel "4.2 Sichtbarmachung und Analyse von Lernaktivitäten und - fortschritten mit digitalen Tools/Medien"@de;
+    skos:definition "Using the digital tool/medium, data is systematically generated that makes the learning process visible. (Ifenthaler & Drachsler, 2020; Pistilli & Arnold, 2010)"@en ;
+    skos:definition "Mithilfe des digitalen Tools/Mediums werden systematisch Daten generiert, die den Lernprozess sichtbar machen. (Ifenthaler & Drachsler, 2020; Pistilli & Arnold, 2010)"@de ;
+    skos:definition "The use of the digital tool/medium enables the teacher to conduct criteria-based analyses of learning activities or progress. (Shute & Rahimi, 2017)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht der Lehrperson kriterienbasierte Analysen von Lernaktivitäten oder -fortschritten. (Shute & Rahimi, 2017)"@de ;
+    skos:definition "The use of the digital tool/medium enables the teacher to automatically evaluate answers. (Malone, 2020)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht der Lehrperson automatische Auswertungen von Antworten. (Malone, 2020)"@de ;
     skos:broader <4> ;
-    skos:exactMatch comeInDCE:4.2 ;
+    skos:exactMatch mvpDCE:4.2 ;
     skos:exactMatch oehDCE:4.2 ;
     skos:inScheme <> .
 
 <4.3> a skos:Concept ;
-    skos:prefLabel "Feedback & planning"@en ;
-    skos:prefLabel "Feedback und Planung"@de ;
-    skos:definition "To use digital technologies to  provide targeted and timely feedback to learners. To adapt teaching strategies and to provide targeted support, based on the evidence generated by the digital technologies used. To enable learners and parents to understand the evidence provided by digital technologies and use it for decision-making."@en ;
-    skos:definition "Nutzung von digitalen Medien, um Lernenden gezielt und zeitnah Feedback zu geben; Anpassung von Unterrichtsstrategien und gezielte Unterstützung von Lernenden anhand verfügbarer digitaler Informationen; Lernenden und Eltern ermöglichen, digitale Informationen zu verstehen und sie für die Entscheidungsfindung zu nutzen."@de ;
+    skos:prefLabel "4.3 Individualized feedback with digital tools/media and data-driven adaptation of learning content"@en ;
+    skos:prefLabel "4.3 Individualisiertes Feedback mit digitalen Tools/Medien und datengestützte Anpassung von Lerninhalten"@de ;
+    skos:definition "The use of digital tools/mediums enables the teacher to provide timely feedback to learners. (Helmke, 2022; Lipowsky, 2020)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht der Lehrperson, den Lernenden zeitnah Feedback zu geben. (Helmke, 2022; Lipowsky, 2020)"@de ;
+    skos:definition "The digital tool/medium is used to provide individualized feedback on the learning process or learning outcome/performance. (Hattie & Timperley, 2007; Lipowsky, 2020)"@en ;
+    skos:definition "Das digitale Tool/Medium wird genutzt, um individualisiertes Feedback auf den Lernprozess oder das Lernergebnis/die Lernleistung zu geben. (Hattie & Timperley, 2007; Lipowsky, 2020)"@de ;
+    skos:definition "The use of digital tools/media supports the teacher in adapting lessons to the current learning level of the learners. (Shute & Rahimi, 2017)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt die Lehrperson dabei, den Unterricht an den aktuellen Lernstand der Lernenden anzupassen. (Shute & Rahimi, 2017)"@de ;
     skos:broader <4> ;
-    skos:exactMatch comeInDCE:4.3 ;
+    skos:exactMatch mvpDCE:4.3 ;
     skos:exactMatch oehDCE:4.3 ;
     skos:inScheme <> .
 
 <5.1> a skos:Concept ;
-    skos:prefLabel "Accessibility & inclusion"@en ;
-    skos:prefLabel "Digitale Teilhabe"@de ;
-    skos:definition "To ensure accessibility to learning resources and activities, for all learners, including those with special needs. To consider and respond to learners’ (digital) expectations, abilities, uses and misconceptions, as well as contextual, physical or cognitive constraints to their use of digital technologies."@en ;
-    skos:definition "Gewährleisten, dass alle Lernenden, auch solche mit besonderen Bedürfnissen, Zugang zu den Lernressourcen und -aktivitäten haben; (Digitale) Erwartungen, Fähigkeiten, Vorkenntnisse und Missverständnisse der Lernenden berücksichtigen sowie kontextbezogene, physische oder kognitive Einschränkungen bei der Mediennutzung bedenken."@de ;
+    skos:prefLabel "5.1 Digital participation and inclusion"@en ;
+    skos:prefLabel "5.1 Digitale Teilhabe und Inklusion"@de ;
+    skos:definition "The (special) support needs of individual learners are taken into account when using digital tools/media. (Helmke, 2014; Schröder, 2002)"@en ;
+    skos:definition "Der (besondere) Förderbedarf einzelner Lernender wird beim Einsatz digitaler Tools/Medien berücksichtigt. (Helmke, 2014; Schröder, 2002)"@de ;
+    skos:definition "The use of digital tools/medium reduces barriers to participation in class. (Panesi et al., 2020; Rao et al., 2021)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums verringert Barrieren für die Teilnahme am Unterricht. (Panesi et al., 2020; Rao et al., 2021)"@de ;
+    skos:definition "The digital tool/medium used was adapted to the learners' media-related knowledge and previous experience. (Helmke, 2014, 2022; Lipowsky, 2020; Schröder, 2002)"@en ;
+    skos:definition "Das eingesetzte digitale Tool/Medium wurde an die medienbezogenen Kenntnisse und Vorerfahrungen der Lernenden angepasst. (Helmke, 2014, 2022; Lipowsky, 2020; Schröder, 2002)"@de ;
     skos:broader <5> ;
-    skos:exactMatch comeInDCE:5.1 ;
+    skos:exactMatch mvpDCE:5.1 ;
     skos:exactMatch oehDCE:5.1 ;
     skos:inScheme <> .
 
 <5.2> a skos:Concept ;
-    skos:prefLabel "Differentation & personalisation"@en ;
-    skos:prefLabel "Differenzierung und Individualisierung"@de;
-    skos:definition "To use digital technologies to address learners’ diverse learning needs, by allowing learners to advance at different levels and speeds, and to follow individual learning pathways and objectives."@en ;
-    skos:definition "Nutzung von digitalen Medien, um unterschiedlichen Lernbedürfnissen der Lernenden gerecht zu werden, indem ihnen ermöglicht wird, in den verschiedenen Niveaus und der Lerngeschwindigkeit fortzuschreiten, ihr individuelles Lernziel zu erreichen und individuelle Lernwege zu beschreiten."@de ;
+    skos:prefLabel "5.2 Individualization and differentiation with digital tools/media"@en ;
+    skos:prefLabel "5.2 Individualisierung und Differenzierung mit digitalen Tools/Medien"@de;
+    skos:definition "The use of digital tools/mediums supports learners in achieving their learning objectives within their own learning time and through their own learning paths. (Helmke, 2014, 2022; Lipowsky, 2020; Schröder, 2002)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums unterstützt Lernende dabei, die Lernziele in individueller Lernzeit sowie auf individuellen Lernwegen zu erreichen. (Helmke, 2014, 2022; Lipowsky, 2020; Schröder, 2002)"@de ;
+    skos:definition "The use of digital tools/mediums enables learners to learn at different levels of difficulty. (Bell, 2020)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht den Lernenden auf unterschiedlichen Schwierigkeitsniveaus zu lernen. (Bell, 2020)"@de ;
+    skos:definition "The use of digital tools/mediums enables learners to pursue individual learning goals. (Helmke, 2014, 2022; Lipowsky, 2020; Schröder, 2002)"@en ;
+    skos:definition "Der Einsatz des digitalen Tools/Mediums ermöglicht den Lernenden individuelle Lernziele zuverfolgen. (Helmke, 2014, 2022; Lipowsky, 2020; Schröder, 2002)"@de ;
     skos:broader <5> ;
-    skos:exactMatch comeInDCE:5.2 ;
+    skos:exactMatch mvpDCE:5.2 ;
     skos:exactMatch oehDCE:5.2 ;
     skos:inScheme <> .
 
 <5.3> a skos:Concept ;
-    skos:prefLabel "Actively engaging learners"@en ;
-    skos:prefLabel "Aktive Einbindung der Lernenden"@de ;
-    skos:definition "To use digital technologies to foster learners’ active and creative engagement with a subject matter. To use digital technologies within pedagogic strategies that foster learners’ transversal skills, deep thinking and creative expression. To open up learning to new, real-world contexts, which involve learners themselves in hands-on activities, scientific investigation or complex problem solving, or in other ways increase learners’ active involvement in complex subject matters."@en ;
-    skos:definition "Nutzung von digitalen Medien zur aktiven und kreativen Förderung des Engagements der Lernenden mit einem Thema; Einsatz von digitalen Medien im Rahmen pädagogischer Strategien zur Förderung übertragbarer Fähigkeiten, des tiefgründigen Denkens und kreativen Ausdrucks des Lernenden; Öffnung des Lernens zwecks Schaffung neuer, realer Lernkontexte, dank derer die Lernenden in praktische Aktivitäten, wissenschaftliche Untersuchungen oder komplexe Problemlösungen einbezogen werden, oder anderweitige Erhöhung der aktiven Auseinandersetzung der Lernenden mit komplexen Sachverhalten."@de ;
+    skos:prefLabel "5.3 Active, creative and authentic learning with digital tools/media"@en ;
+    skos:prefLabel "5.3 Aktives, kreatives und authentisches Lernen mit digitalen Tools/Medien"@de ;
+    skos:definition "The learners themselves work actively with the digital tools/media.(Chi & Wylie, 2014; Ertmer & Ottenbreit-Leftwich, 2010; Tamim et al., 2011)"@en ;
+    skos:definition "Die Lernenden arbeiten selbst aktiv mit den digitalen Tools/Medien. (Chi & Wylie, 2014; Ertmer & Ottenbreit-Leftwich, 2010; Tamim et al., 2011)"@de ;
+    skos:definition "When learning with digital tools/media, learners contribute their own ideas. (Chi & Wylie, 2014; Ertmer & Ottenbreit-Leftwich, 2010; Tamim et al., 2011)"@en ;
+    skos:definition "Beim Lernen mit den digitalen Tools/Medien bringen die Lernenden eigene Ideen ein. (Chi & Wylie, 2014; Ertmer & Ottenbreit-Leftwich, 2010; Tamim et al., 2011)"@de ;
+    skos:definition "The use of digital media supports interactive learning activities. (Chi & Wylie, 2014; Ertmer & Ottenbreit-Leftwich, 2010; Tamim et al., 2011)"@en ;
+    skos:definition "Der Einsatz digitaler Medien unterstützt interaktive Lernaktivitäten. (Chi & Wylie, 2014; Ertmer & Ottenbreit-Leftwich, 2010; Tamim et al., 2011)"@de ;
+    skos:definition "The use of digital tools/media supports learning in authentic learning contexts. (Herrington & Kervin, 2007)"@en ;
+    skos:definition "Der Einsatz der digitalen Tools/Medien unterstützt das Lernen in authentischen Lernkontexten. (Herrington & Kervin, 2007)"@de ;
     skos:broader <5> ;
-    skos:exactMatch comeInDCE:5.3 ;
+    skos:exactMatch mvpDCE:5.3 ;
     skos:exactMatch oehDCE:5.3 ;
     skos:inScheme <> .
 
 <6.1> a skos:Concept ;
-    skos:prefLabel "Information & media literacy"@en ;
-    skos:prefLabel "Informations- und Medienkompetenz"@de ;
-    skos:definition "To incorporate learning activities, assignments and assessments which require learners to articulate information needs; to find information and resources in digital environments; to organise, process, analyse and interpret information; and to compare and critically evaluate the credibility and reliability of information and its sources."@en ;
-    skos:definition "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, Informationsbedürfnisse zu artikulieren, Informationen und Ressourcen in digitalen Lernumgebungen zu finden, diese zu organisieren, zu verarbeiten, zu analysieren und zu interpretieren sowie die Glaubwürdigkeit und Zuverlässigkeit der Informationen und ihrer Quellen zu vergleichen und kritisch zu bewerten."@de ;
+    skos:prefLabel "6.1 Information search, processing and evaluation using digital media by learners"@en ;
+    skos:prefLabel "6.1 Informationssuche, -verarbeitung und -beurteilung mit digitalen Medien durch die Lernenden"@de ;
+    skos:definition "Learners are taught knowledge about information search, processing and evaluation. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Den Lernenden wird Wissen zur Informationssuche, -verarbeitung und -beurteilung vermittelt. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are supported in searching for, processing and evaluating information. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden bei der Informationssuche, -verarbeitung und -beurteilung unterstützt. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are encouraged to reflect on information search, processing, and evaluation. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dazu angeregt, über die Informationssuche, -verarbeitung und -beurteilung zu reflektieren. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
     skos:broader <6> ;
-    skos:exactMatch comeInDCE:6.1 ;
+    skos:exactMatch mvpDCE:6.1 ;
     skos:exactMatch oehDCE:6.1 ;
     skos:inScheme <> .
 
 <6.2> a skos:Concept ;
-    skos:prefLabel "Communication"@en ;
-    skos:prefLabel "Kommunikation und Kollaboration"@de;
-    skos:definition "To incorporate learning activities, assignments and assessments which require learners to effectively and responsibly use digital technologies for communication, collaboration and civic participation."@en ;
-    skos:definition "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, effektiv und verantwortungsbewusst digitale Medien für Kommunikation, Zusammenarbeit und Bürgerbeteiligung zu nutzen."@de ;
+    skos:prefLabel "6.2 Digital communication and collaboration among learners"@en ;
+    skos:prefLabel "6.2 Digitale Kommunikation und Kollaboration der Lernenden"@de;
+    skos:definition "Learners are taught knowledge about digital communication and collaboration.(DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Den Lernenden wird Wissen über digitale Kommunikation und Kollaboration vermittelt. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are supported in communicating and collaborating digitally. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dabei unterstützt, digital zu kommunizieren und zu kollaborieren. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are encouraged to reflect on digital communication and collaboration. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dazu angeregt, über digitale Kommunikation und Kollaboration zu reflektieren. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
     skos:broader <6> ;
-    skos:exactMatch comeInDCE:6.2 ;
+    skos:exactMatch mvpDCE:6.2 ;
     skos:exactMatch oehDCE:6.2 ;
     skos:inScheme <> .
 
 <6.3> a skos:Concept ;
-    skos:prefLabel "Content creation"@en ;
-    skos:prefLabel "Erstellung digitaler Inhalte"@de ;
-    skos:definition "To incorporate learning activities, assignments and assessments which require learners to express themselves through digital means, and to modify and create digital content in different formats. To teach learners how copyright and licenses apply to digital content, how to reference sources and attribute licenses."@en ;
-    skos:definition "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, sich mittels digitaler Medien auszudrücken und digitale Inhalte in verschiedenen Formaten zu bearbeiten und zu erstellen; Lernenden vermitteln, wie Urheberrecht und Lizenzen für digitale Inhalte gelten und wie man Quellen zitiert und Lizenzen angibt."@de ;
+    skos:prefLabel "6.3 Creation of digital products"@en ;
+    skos:prefLabel "6.3 Erstellung digitaler Produkte"@de ;
+    skos:definition "Learners are taught knowledge about creating digital products. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Den Lernenden wird Wissen über die Erstellung digitaler Produkte vermittelt. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are supported while creating digital products. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden unterstützt, während sie digitale Produkte erstellen. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are encouraged to reflect on the creation of digital products. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dazu angeregt, über die Erstellung digitaler Produkte zu reflektieren. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
     skos:broader <6> ;
-    skos:exactMatch comeInDCE:6.3 ;
+    skos:exactMatch mvpDCE:6.3 ;
     skos:exactMatch oehDCE:6.3 ;
     skos:inScheme <> .
 
 <6.4> a skos:Concept ;
-    skos:prefLabel "Responsible use"@en ;
-    skos:prefLabel "Verantwortungsvoller Umgang"@de ;
-    skos:definition "To take measures to ensure learners’ physical, psychological and social wellbeing while using digital technologies. To empower learners to manage risks and use digital technologies safely and responsibly."@en ;
-    skos:definition "Maßnahmen ergreifen, um das physische, psychische und soziale Wohlergehen der Lernenden bei der Nutzung von digitalen Medien zu gewährleisten; Lernenden eine sichere und verantwortungsvolle Nutzung von digitalen Medien zu ermöglichen und ihnen beibringen, Risiken zu bewältigen."@de ;
+    skos:prefLabel "6.4 Responsible and conscious use of digital tools/media"@en ;
+    skos:prefLabel "6.4 Verantwortungsvoller und bewusster Umgang mit digitalen Tools/Medien"@de ;
+    skos:definition "Learners are taught how to use digital tools/media responsibly. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Den Lernenden wird Wissen über den verantwortungsvollen Umgang mit digitalen Tools/Medien vermittelt. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are supported in using digital tools/media responsibly. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dabei unterstützt, digitale Tools/Medien verantwortungsvoll zu nutzen. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are encouraged to reflect on their media use. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dazu angeregt, über ihre Mediennutzung zu reflektieren. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
     skos:broader <6> ;
-    skos:exactMatch comeInDCE:6.4 ;
+    skos:exactMatch mvpDCE:6.4 ;
     skos:exactMatch oehDCE:6.4 ;
     skos:inScheme <> .
 
 <6.5> a skos:Concept ;
-    skos:prefLabel "Problem solving"@en ;
-    skos:prefLabel "Digitales Problemlösen"@de ;
-    skos:definition "To incorporate learning activities, assignments and assessments which require learners to identify and solve technical problems, or to transfer technological knowledge creatively to new situations."@en ;
-    skos:definition "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, technische Probleme zu identifizieren und zu lösen oder technisches wissen kreativ auf neue Situationen zu übertragen."@de ;
+    skos:prefLabel "6.5 Solving technical problems when using digital tools/media"@en ;
+    skos:prefLabel "6.5 Lösen technischer Probleme beim Umgang mit digitalen Tools/Medien"@de ;
+    skos:definition "Learners are taught knowledge about solving media technology problems. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Den Lernenden wird Wissen über die Lösung medientechnischer Probleme vermittelt. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are supported in solving media-related problems. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dabei unterstützt, medientechnische Probleme zu lösen. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
+    skos:definition "Learners are encouraged to reflect on the solution of media technology problems. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@en ;
+    skos:definition "Die Lernenden werden dazu angeregt, über die Lösung medientechnischer Probleme zu reflektieren. (DCB, 2017; Ertmer & Ottenbreit- Leftwich, 2010; ISB, 2017; Kultusministerkonferenz, 2017, 2021, 2023; Vejvoda et al., 2023, 2023)"@de ;
     skos:broader <6> ;
-    skos:exactMatch comeInDCE:6.5 ;
+    skos:exactMatch mvpDCE:6.5 ;
     skos:exactMatch oehDCE:6.5 ;
     skos:inScheme <> .
