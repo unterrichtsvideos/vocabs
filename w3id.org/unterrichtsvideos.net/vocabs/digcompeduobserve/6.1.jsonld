@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Informations- und Medienkompetenz",
-    "en": "Information & media literacy"
-  },
-  "definition": {
-    "de": "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, Informationsbedürfnisse zu artikulieren, Informationen und Ressourcen in digitalen Lernumgebungen zu finden, diese zu organisieren, zu verarbeiten, zu analysieren und zu interpretieren sowie die Glaubwürdigkeit und Zuverlässigkeit der Informationen und ihrer Quellen zu vergleichen und kritisch zu bewerten.",
-    "en": "To incorporate learning activities, assignments and assessments which require learners to articulate information needs; to find information and resources in digital environments; to organise, process, analyse and interpret information; and to compare and critically evaluate the credibility and reliability of information and its sources."
+    "de": "6.1 Informationssuche, -verarbeitung und -beurteilung mit digitalen Medien durch die Lernenden",
+    "en": "6.1 Information search, processing and evaluation using digital media by learners"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6",
     "prefLabel": {
-      "de": "Förderung der digitalen Kompetenz der Lernenden",
-      "en": "Facilitating Learner's Digital Competence"
+      "de": "6. Förderung der digitalen Kompetenz der Lernenden",
+      "en": "6. Facilitating Learner's Digital Competence"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/6.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/6.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/6.1"

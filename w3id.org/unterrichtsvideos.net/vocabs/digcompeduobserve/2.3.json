@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Organisieren, Schützen, und Teilen",
-    "en": "Managing, protecting, sharing"
-  },
-  "definition": {
-    "de": "Digitale Inhalte organisieren und Lernenden, Eltern und anderen Lehrenden zur Verfügung stellen; Sensible digitale Inhalte effektiv schützen; Datenschutz- und Urheberrechtsbestimmungen respektieren und korrekt anwenden; Die Verwendung und Erstellung von offenen Lizenzen und offenen Bildungsressourcen einschließlich ihrer angemessenen Zuordnung verstehen.",
-    "en": "To organise digital content and make it available to learners, parents and other educators. To effectively protect sensitive digital content. To respect and correctly apply privacy and copyright rules. To understand the use and creation of open licenses and open educational resources, including their proper attribution."
+    "de": "2.3 Organisation und Teilen digitaler Ressourcen",
+    "en": "2.3 Organizing and sharing digital resources"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2",
     "prefLabel": {
-      "de": "Digitale Ressourcen",
-      "en": "Digital Resources"
+      "de": "2. Digitale Ressourcen",
+      "en": "2. Digital Resources"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/2.3"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/2.3"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/2.3"

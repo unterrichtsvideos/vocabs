@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6.5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Digitales Problemlösen",
-    "en": "Problem solving"
-  },
-  "definition": {
-    "de": "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, technische Probleme zu identifizieren und zu lösen oder technisches wissen kreativ auf neue Situationen zu übertragen.",
-    "en": "To incorporate learning activities, assignments and assessments which require learners to identify and solve technical problems, or to transfer technological knowledge creatively to new situations."
+    "de": "6.5 Lösen technischer Probleme beim Umgang mit digitalen Tools/Medien",
+    "en": "6.5 Solving technical problems when using digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6",
     "prefLabel": {
-      "de": "Förderung der digitalen Kompetenz der Lernenden",
-      "en": "Facilitating Learner's Digital Competence"
+      "de": "6. Förderung der digitalen Kompetenz der Lernenden",
+      "en": "6. Facilitating Learner's Digital Competence"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/6.5"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/6.5"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/6.5"

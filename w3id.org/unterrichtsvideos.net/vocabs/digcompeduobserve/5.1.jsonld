@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/5.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Digitale Teilhabe",
-    "en": "Accessibility & inclusion"
-  },
-  "definition": {
-    "de": "Gewährleisten, dass alle Lernenden, auch solche mit besonderen Bedürfnissen, Zugang zu den Lernressourcen und -aktivitäten haben; (Digitale) Erwartungen, Fähigkeiten, Vorkenntnisse und Missverständnisse der Lernenden berücksichtigen sowie kontextbezogene, physische oder kognitive Einschränkungen bei der Mediennutzung bedenken.",
-    "en": "To ensure accessibility to learning resources and activities, for all learners, including those with special needs. To consider and respond to learners’ (digital) expectations, abilities, uses and misconceptions, as well as contextual, physical or cognitive constraints to their use of digital technologies."
+    "de": "5.1 Digitale Teilhabe und Inklusion",
+    "en": "5.1 Digital participation and inclusion"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/5",
     "prefLabel": {
-      "de": "Unterstützung der Lernenden",
-      "en": "Empowering Learners"
+      "de": "5. Unterstützung der Lernenden",
+      "en": "5. Empowering Learners"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/5.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/5.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/5.1"

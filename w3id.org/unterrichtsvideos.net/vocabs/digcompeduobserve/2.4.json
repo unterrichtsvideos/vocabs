@@ -2,16 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen",
-    "en": "Data protection & copyright in digital resources use"
+    "de": "2.4 Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen",
+    "en": "2.4 Consideration of data protection and copyright when using digital resources"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2",
     "prefLabel": {
-      "de": "Digitale Ressourcen",
-      "en": "Digital Resources"
+      "de": "2. Digitale Ressourcen",
+      "en": "2. Digital Resources"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/2.3"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/2.3"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/",

@@ -2,35 +2,35 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Assessment",
-    "en": "Assessment"
+    "de": "4. Assessment",
+    "en": "4. Assessment"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4.1",
       "prefLabel": {
-        "de": "Lernstand erheben",
-        "en": "Assessment strategies"
+        "de": "4.1 Lernstanderfassung mit digitalen Tools/Medien",
+        "en": "4.1 Learning progress assessment with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4.2",
       "prefLabel": {
-        "de": "Lern-Evidenz analysieren",
-        "en": "Analysing evidence"
+        "de": "4.2 Sichtbarmachung und Analyse von Lernaktivitäten und - fortschritten mit digitalen Tools/Medien",
+        "en": "4.2 Visualization and analysis of learning activities and progress with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4.3",
       "prefLabel": {
-        "de": "Feedback und Planung",
-        "en": "Feedback & planning"
+        "de": "4.3 Individualisiertes Feedback mit digitalen Tools/Medien und datengestützte Anpassung von Lerninhalten",
+        "en": "4.3 Individualized feedback with digital tools/media and data-driven adaptation of learning content"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/4"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/4"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/4"

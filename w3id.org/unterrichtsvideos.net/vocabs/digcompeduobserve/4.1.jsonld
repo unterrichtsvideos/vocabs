@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lernstand erheben",
-    "en": "Assessment strategies"
-  },
-  "definition": {
-    "de": "Verwendung von digitalen Medien zur Lernkontrolle und Leistungsbeurteilung; Verbesserung der Vielfalt und der Angemessenheit von Beurteilungsformaten und -ansätzen.",
-    "en": "To use digital technologies for formative and summative assessment. To enhance the diversity and suitability of assessment formats and approaches."
+    "de": "4.1 Lernstanderfassung mit digitalen Tools/Medien",
+    "en": "4.1 Learning progress assessment with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4",
     "prefLabel": {
-      "de": "Assessment",
-      "en": "Assessment"
+      "de": "4. Assessment",
+      "en": "4. Assessment"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/4.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/4.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/4.1"

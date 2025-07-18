@@ -2,42 +2,42 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Digitale Ressourcen",
-    "en": "Digital Resources"
+    "de": "2. Digitale Ressourcen",
+    "en": "2. Digital Resources"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.1",
       "prefLabel": {
-        "de": "Auswählen",
-        "en": "Selecting"
+        "de": "2.1 Auswahl digitaler Ressourcen",
+        "en": "2.1 Selection of digital resources"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.2",
       "prefLabel": {
-        "de": "Erstellen und Anpassen",
-        "en": "Creating & modifying"
+        "de": "2.2 Anpassen oder Erstellen digitaler Ressourcen ",
+        "en": "2.2 Adapting or creating digital resources"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.3",
       "prefLabel": {
-        "de": "Organisieren, Schützen, und Teilen",
-        "en": "Managing, protecting, sharing"
+        "de": "2.3 Organisation und Teilen digitaler Ressourcen",
+        "en": "2.3 Organizing and sharing digital resources"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.4",
       "prefLabel": {
-        "de": "Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen",
-        "en": "Data protection & copyright in digital resources use"
+        "de": "2.4 Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen",
+        "en": "2.4 Consideration of data protection and copyright when using digital resources"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/2"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/2"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/2"

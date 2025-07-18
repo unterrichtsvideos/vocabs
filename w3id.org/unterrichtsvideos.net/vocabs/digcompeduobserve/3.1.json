@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehren",
-    "en": "Teaching"
-  },
-  "definition": {
-    "de": "Einsatzplanung und -gestaltung von digitalen Geräten und Materialien im Unterricht zur Verbesserung der Effektivität von Lehrinterventionen; digitale Unterrichtsmethoden angemessen organisieren und gestalten; neue Formate und pädagogische Methoden für den Unterricht entwickeln und ausprobieren.",
-    "en": "To plan for and implement digital devices and resources in the teaching process, so as to enhance the effectiveness of teaching interventions. To appropriately manage and orchestrate digital teaching interventions. To experiment with and develop new formats and pedagogical methods for instruction."
+    "de": "3.1 Unterrichtsplanung mit digitalen Tools/Medien",
+    "en": "3.1 Lesson planning with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
     "prefLabel": {
-      "de": "Lehren und Lernen",
-      "en": "Teaching and Learning"
+      "de": "3. Lehren und Lernen",
+      "en": "3. Teaching and Learning"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/3.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.1"

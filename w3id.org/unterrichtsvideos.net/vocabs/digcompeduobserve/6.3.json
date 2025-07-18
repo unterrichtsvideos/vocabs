@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erstellung digitaler Inhalte",
-    "en": "Content creation"
-  },
-  "definition": {
-    "de": "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, sich mittels digitaler Medien auszudrücken und digitale Inhalte in verschiedenen Formaten zu bearbeiten und zu erstellen; Lernenden vermitteln, wie Urheberrecht und Lizenzen für digitale Inhalte gelten und wie man Quellen zitiert und Lizenzen angibt.",
-    "en": "To incorporate learning activities, assignments and assessments which require learners to express themselves through digital means, and to modify and create digital content in different formats. To teach learners how copyright and licenses apply to digital content, how to reference sources and attribute licenses."
+    "de": "6.3 Erstellung digitaler Produkte",
+    "en": "6.3 Creation of digital products"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6",
     "prefLabel": {
-      "de": "Förderung der digitalen Kompetenz der Lernenden",
-      "en": "Facilitating Learner's Digital Competence"
+      "de": "6. Förderung der digitalen Kompetenz der Lernenden",
+      "en": "6. Facilitating Learner's Digital Competence"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/6.3"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/6.3"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/6.3"

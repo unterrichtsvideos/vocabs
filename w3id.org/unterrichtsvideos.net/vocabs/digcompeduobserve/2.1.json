@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Auswählen",
-    "en": "Selecting"
-  },
-  "definition": {
-    "de": "Auswahl, Identifizierung und Auswertung digitaler Ressourcen für das Lehren und Lernen; Berücksichtigung von konkretem Lernziel, Kontext, didaktischem Ansatz und der Lerngruppe bei der Auswahl digitaler Ressourcen und der Planung ihrer Nutzung.",
-    "en": "To identify, assess and select digital resources for teaching and learning. To consider the specific learning objective, context, pedagogical approach, and learner group, when selecting digital resources and planning their use."
+    "de": "2.1 Auswahl digitaler Ressourcen",
+    "en": "2.1 Selection of digital resources"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2",
     "prefLabel": {
-      "de": "Digitale Ressourcen",
-      "en": "Digital Resources"
+      "de": "2. Digitale Ressourcen",
+      "en": "2. Digital Resources"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/2.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/2.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/2.1"

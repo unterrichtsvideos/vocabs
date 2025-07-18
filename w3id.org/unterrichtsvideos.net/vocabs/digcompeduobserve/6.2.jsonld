@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kommunikation und Kollaboration",
-    "en": "Communication"
-  },
-  "definition": {
-    "de": "Einsatz von Lernaktivitäten, Aufgaben und Prüfungen, in denen von den Lernenden erwartet wird, effektiv und verantwortungsbewusst digitale Medien für Kommunikation, Zusammenarbeit und Bürgerbeteiligung zu nutzen.",
-    "en": "To incorporate learning activities, assignments and assessments which require learners to effectively and responsibly use digital technologies for communication, collaboration and civic participation."
+    "de": "6.2 Digitale Kommunikation und Kollaboration der Lernenden",
+    "en": "6.2 Digital communication and collaboration among learners"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/6",
     "prefLabel": {
-      "de": "Förderung der digitalen Kompetenz der Lernenden",
-      "en": "Facilitating Learner's Digital Competence"
+      "de": "6. Förderung der digitalen Kompetenz der Lernenden",
+      "en": "6. Facilitating Learner's Digital Competence"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/6.2"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/6.2"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/6.2"

@@ -2,35 +2,35 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterstützung der Lernenden",
-    "en": "Empowering Learners"
+    "de": "5. Unterstützung der Lernenden",
+    "en": "5. Empowering Learners"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/5.1",
       "prefLabel": {
-        "de": "Digitale Teilhabe",
-        "en": "Accessibility & inclusion"
+        "de": "5.1 Digitale Teilhabe und Inklusion",
+        "en": "5.1 Digital participation and inclusion"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/5.2",
       "prefLabel": {
-        "de": "Differenzierung und Individualisierung",
-        "en": "Differentation & personalisation"
+        "de": "5.2 Individualisierung und Differenzierung mit digitalen Tools/Medien",
+        "en": "5.2 Individualization and differentiation with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/5.3",
       "prefLabel": {
-        "de": "Aktive Einbindung der Lernenden",
-        "en": "Actively engaging learners"
+        "de": "5.3 Aktives, kreatives und authentisches Lernen mit digitalen Tools/Medien",
+        "en": "5.3 Active, creative and authentic learning with digital tools/media"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/5"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/5"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/5"

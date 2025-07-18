@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lern-Evidenz analysieren",
-    "en": "Analysing evidence"
-  },
-  "definition": {
-    "de": "Digitale Informationen zu Lernerverhalten, Leistung und Fortschritt erheben, auswählen, kritisch analysieren und interpretieren, um Rückschlüsse für den Unterricht zu ziehen.",
-    "en": "To generate, select, critically analyse and interpret digital evidence on learner activity, performance and progress, in order to inform teaching and learning."
+    "de": "4.2 Sichtbarmachung und Analyse von Lernaktivitäten und - fortschritten mit digitalen Tools/Medien",
+    "en": "4.2 Visualization and analysis of learning activities and progress with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/4",
     "prefLabel": {
-      "de": "Assessment",
-      "en": "Assessment"
+      "de": "4. Assessment",
+      "en": "4. Assessment"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/4.2"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/4.2"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/4.2"

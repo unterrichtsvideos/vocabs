@@ -2,63 +2,63 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufliches Engagement",
-    "en": "Professional Engagement"
+    "de": "1. Professionelles Engagement",
+    "en": "1. Professional Engagement"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.1",
       "prefLabel": {
-        "de": "Organisatorische Kommunikation mit Lernenden, Eltern oder Dritten",
-        "en": "Organisational communication with learners, parents or third parties"
+        "de": "1.1 Organisatorische Kommunikation mit Lernenden, Eltern oder Dritten",
+        "en": "1.1 Organisational communication with learners, parents or third parties"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.2",
       "prefLabel": {
-        "de": "Organisatorische Kommunikationsstrategien im Schulkontext",
-        "en": "Organisational communication strategies (within school context)"
+        "de": "1.2 Organisatorische Kommunikationsstrategien im Schulkontext",
+        "en": "1.2 Organisational communication strategies (within school context)"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.3",
       "prefLabel": {
-        "de": "Berufliche Zusammenarbeit im Kollegium",
-        "en": "Professional collaboration within the college"
+        "de": "1.3 Zusammenarbeit im Kollegium",
+        "en": "1.3 Collaboration within the college"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.4",
       "prefLabel": {
-        "de": "Digitalisierungsbezogene Schulentwicklung",
-        "en": "Digitization-related school development"
+        "de": "1.4 Digitalisierungsbezogene Schulentwicklung",
+        "en": "1.4 Digitization-related school development"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.5",
       "prefLabel": {
-        "de": "Reflektierte Praxis",
-        "en": "Reflective practice"
+        "de": "1.5 Reflexion des digitalen Medieneinsatzes",
+        "en": "1.5 Reflection on the use of digital media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.6",
       "prefLabel": {
-        "de": "Professionelle Weiterbildung der eigenen Medienkompetenz",
-        "en": "Professional development of own media competence"
+        "de": "1.6 Professionelle Weiterbildung der eigenen Medienkompetenz",
+        "en": "1.6 Professional development of own media competence"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.7",
       "prefLabel": {
-        "de": "Weitergabe von Fortbildungsinhalten und Erstellung von Fortbildungsangeboten",
-        "en": "Sharing and creating training offerings"
+        "de": "1.7 Weitergabe von Fortbildungsinhalten und Erstellung von Fortbildungsangeboten",
+        "en": "1.7 Sharing and creating training offerings"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/1"

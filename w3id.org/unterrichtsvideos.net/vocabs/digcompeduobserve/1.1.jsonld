@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Organisatorische Kommunikation mit Lernenden, Eltern oder Dritten",
-    "en": "Organisational communication with learners, parents or third parties"
+    "de": "1.1 Organisatorische Kommunikation mit Lernenden, Eltern oder Dritten",
+    "en": "1.1 Organisational communication with learners, parents or third parties"
   },
   "definition": {
     "de": "Nutzung von digitalen Medien zur Verbesserung der organisatorischen Kommunikation mit Lernenden, Eltern und Dritten; Gemeinsame Entwicklung und Verbesserung organisatorischer Kommunikationsstrategien.",
@@ -12,13 +12,13 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1",
     "prefLabel": {
-      "de": "Berufliches Engagement",
-      "en": "Professional Engagement"
+      "de": "1. Professionelles Engagement",
+      "en": "1. Professional Engagement"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/1.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/1.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/1.1"

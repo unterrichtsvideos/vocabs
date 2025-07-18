@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erstellen und Anpassen",
-    "en": "Creating & modifying"
-  },
-  "definition": {
-    "de": "Modifizierung und Weiterentwicklung bestehender Ressourcen, sofern rechtlich möglich; Erstellung oder Mitgestaltung von neuen digitalen Bildungsressourcen; Berücksichtigung von konkretem Lernziel, Kontext, didaktischem Ansatz und der Lerngruppe beim Entwurf digitaler Ressourcen und der Planung ihrer Nutzung.",
-    "en": "To modify and build on existing openly-licensed resources and other resources where this is permitted. To create or co-create new digital educational resources. To consider the specific learning objective, context, pedagogical approach, and learner group, when designing digital resources and planning their use."
+    "de": "2.2 Anpassen oder Erstellen digitaler Ressourcen ",
+    "en": "2.2 Adapting or creating digital resources"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/2",
     "prefLabel": {
-      "de": "Digitale Ressourcen",
-      "en": "Digital Resources"
+      "de": "2. Digitale Ressourcen",
+      "en": "2. Digital Resources"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/2.2"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/2.2"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/2.2"

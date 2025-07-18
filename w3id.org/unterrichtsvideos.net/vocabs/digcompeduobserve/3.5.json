@@ -2,16 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kollaboratives Lernen mit digitalen Tools/Medien",
-    "en": "Collaborative learning with digital tools/media"
+    "de": "3.5 Kollaboratives Lernen mit digitalen Tools/Medien",
+    "en": "3.5 Collaborative learning with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
     "prefLabel": {
-      "de": "Lehren und Lernen",
-      "en": "Teaching and Learning"
+      "de": "3. Lehren und Lernen",
+      "en": "3. Teaching and Learning"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3.5"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.5"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/",

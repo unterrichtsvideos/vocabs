@@ -2,16 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Selbstgesteuertes Lernen mit digitalen Tools/Medien",
-    "en": "Self‐directed learning with digital tools/media"
+    "de": "3.6 Selbstgesteuertes Lernen mit digitalen Tools/Medien",
+    "en": "3.6 Self-directed learning with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
     "prefLabel": {
-      "de": "Lehren und Lernen",
-      "en": "Teaching and Learning"
+      "de": "3. Lehren und Lernen",
+      "en": "3. Teaching and Learning"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3.6"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.6"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/",

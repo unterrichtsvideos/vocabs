@@ -2,26 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Selbstgesteuertes Lernen",
-    "en": "Self-regulated learning"
-  },
-  "definition": {
-    "de": "Nutzung von digitalen Medien zur Unterstützung von selbstgesteuerten Lernprozessen, d. h. den Lernenden sollte ermöglicht werden, ihr eigenes Lernen zu planen, zu überprüfen und zu reflektieren, Fortschritte zu dokumentieren, Ergebnisse zu kommunizieren und kreative Lösungen zu erarbeiten.",
-    "en": "To use digital technologies to support self-regulated learning processes, i.e. to enable learners to plan, monitor and reflect on their own learning, provide evidence of progress, share insights and come up with creative solutions."
+    "de": "3.4 Unterstützung der Lernenden mit digitalen Tools/Medien",
+    "en": "3.4 Supporting learners with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
     "prefLabel": {
-      "de": "Lehren und Lernen",
-      "en": "Teaching and Learning"
+      "de": "3. Lehren und Lernen",
+      "en": "3. Teaching and Learning"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/3.4"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3.3"
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.4"
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.3"
     }
   ],
   "inScheme": [

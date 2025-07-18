@@ -2,19 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Digitalisierungsbezogene Schulentwicklung",
-    "en": "Digitization-related school development"
+    "de": "1.4 Digitalisierungsbezogene Schulentwicklung",
+    "en": "1.4 Digitization-related school development"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1",
     "prefLabel": {
-      "de": "Berufliches Engagement",
-      "en": "Professional Engagement"
+      "de": "1. Professionelles Engagement",
+      "en": "1. Professional Engagement"
     }
   },
   "closeMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/1.2"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/1.2"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/1.2"

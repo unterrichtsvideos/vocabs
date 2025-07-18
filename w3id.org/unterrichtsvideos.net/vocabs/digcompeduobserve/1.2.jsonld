@@ -2,19 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Organisatorische Kommunikationsstrategien im Schulkontext",
-    "en": "Organisational communication strategies (within school context)"
+    "de": "1.2 Organisatorische Kommunikationsstrategien im Schulkontext",
+    "en": "1.2 Organisational communication strategies (within school context)"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1",
     "prefLabel": {
-      "de": "Berufliches Engagement",
-      "en": "Professional Engagement"
+      "de": "1. Professionelles Engagement",
+      "en": "1. Professional Engagement"
     }
   },
   "closeMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/1.1"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/1.1"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/1.1"

@@ -2,23 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kollaboratives Lernen",
-    "en": "Collaborative learning"
-  },
-  "definition": {
-    "de": "Nutzung von digitalen Medien zur Förderung und Verbesserung von gemeinsamen Lernstrategien; Lernende befähigen, digitale Medien in Gruppen- und Teamarbeit zu nutzen, um Kommunikation innerhalb der Lerngruppe, Zusammenarbeit und gemeinsame Wissensgenerierung zu verbessern.",
-    "en": "To use digital technologies to foster and enhance learner collaboration. To enable learners to use digital technologies as part of collaborative assignments, as a means of enhancing communication, collaboration and collaborative knowledge creation."
+    "de": "3.3 Interaktion zwischen Lehrenden und Lernenden mit digitalen Tools/Medien",
+    "en": "3.3 Interaction between teachers and learners using digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
     "prefLabel": {
-      "de": "Lehren und Lernen",
-      "en": "Teaching and Learning"
+      "de": "3. Lehren und Lernen",
+      "en": "3. Teaching and Learning"
     }
   },
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/3.3"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3.3"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.3"

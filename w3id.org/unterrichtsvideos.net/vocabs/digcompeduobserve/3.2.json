@@ -2,26 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lernbegleitung",
-    "en": "Guidance"
-  },
-  "definition": {
-    "de": "Nutzung von digitalen Medien und Diensten zwecks Verbesserung der Interaktion mit den Lernenden auf individueller Ebene und als Gruppe innerhalb und außerhalb des Unterrichts; Nutzung von digitalen Medien, um rechtzeitig und gezielt Beratung und Unterstützung anbieten zu können; neue Formen und Formate der Hilfestellung und Anleitung entwickeln und experimentell einsetzen.",
-    "en": "To use digital technologies and services to enhance the interaction with learners, individually and collectively, within and outside the learning session. To use digital technologies to offer timely and targeted guidance and assistance. To experiment with and develop new forms and formats for offering guidance and support."
+    "de": "3.2 Unterricht mit digitalen Tools/Medien",
+    "en": "3.2 Teaching with digital tools/media"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
     "prefLabel": {
-      "de": "Lehren und Lernen",
-      "en": "Teaching and Learning"
+      "de": "3. Lehren und Lernen",
+      "en": "3. Teaching and Learning"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/3.2"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3.1"
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.2"
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3.1"
     }
   ],
   "inScheme": [

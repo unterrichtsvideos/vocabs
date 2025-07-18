@@ -2,16 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Weitergabe von Fortbildungsinhalten und Erstellung von Fortbildungsangeboten",
-    "en": "Sharing and creating training offerings"
+    "de": "1.7 Weitergabe von Fortbildungsinhalten und Erstellung von Fortbildungsangeboten",
+    "en": "1.7 Sharing and creating training offerings"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1",
     "prefLabel": {
-      "de": "Berufliches Engagement",
-      "en": "Professional Engagement"
+      "de": "1. Professionelles Engagement",
+      "en": "1. Professional Engagement"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/1.6"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/1.6"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/",

@@ -2,16 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1.6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Professionelle Weiterbildung der eigenen Medienkompetenz",
-    "en": "Professional development of own media competence"
+    "de": "1.6 Professionelle Weiterbildung der eigenen Medienkompetenz",
+    "en": "1.6 Professional development of own media competence"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/1",
     "prefLabel": {
-      "de": "Berufliches Engagement",
-      "en": "Professional Engagement"
+      "de": "1. Professionelles Engagement",
+      "en": "1. Professional Engagement"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/1.4"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/1.4"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/",

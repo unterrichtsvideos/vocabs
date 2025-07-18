@@ -2,56 +2,56 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehren und Lernen",
-    "en": "Teaching and Learning"
+    "de": "3. Lehren und Lernen",
+    "en": "3. Teaching and Learning"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.1",
       "prefLabel": {
-        "de": "Lehren",
-        "en": "Teaching"
+        "de": "3.1 Unterrichtsplanung mit digitalen Tools/Medien",
+        "en": "3.1 Lesson planning with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.2",
       "prefLabel": {
-        "de": "Lernbegleitung",
-        "en": "Guidance"
+        "de": "3.2 Unterricht mit digitalen Tools/Medien",
+        "en": "3.2 Teaching with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.3",
       "prefLabel": {
-        "de": "Kollaboratives Lernen",
-        "en": "Collaborative learning"
+        "de": "3.3 Interaktion zwischen Lehrenden und Lernenden mit digitalen Tools/Medien",
+        "en": "3.3 Interaction between teachers and learners using digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.4",
       "prefLabel": {
-        "de": "Selbstgesteuertes Lernen",
-        "en": "Self-regulated learning"
+        "de": "3.4 Unterstützung der Lernenden mit digitalen Tools/Medien",
+        "en": "3.4 Supporting learners with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.5",
       "prefLabel": {
-        "de": "Kollaboratives Lernen mit digitalen Tools/Medien",
-        "en": "Collaborative learning with digital tools/media"
+        "de": "3.5 Kollaboratives Lernen mit digitalen Tools/Medien",
+        "en": "3.5 Collaborative learning with digital tools/media"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompeduobserve/3.6",
       "prefLabel": {
-        "de": "Selbstgesteuertes Lernen mit digitalen Tools/Medien",
-        "en": "Self‐directed learning with digital tools/media"
+        "de": "3.6 Selbstgesteuertes Lernen mit digitalen Tools/Medien",
+        "en": "3.6 Self-directed learning with digital tools/media"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/comein/vocabs/DigCompEdu/3"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/digcompedu/3"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/digCompEdu/3"
