@@ -15,7 +15,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/" ;
     vann:preferredNamespacePrefix "mvpResourceType" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <rt001>, <rt002>, <rt003>, <rt004>, <rt005>, <rt006>, <rt007>, <rt008>, <rt009> .
+    skos:hasTopConcept <rt000>, <rt001>, <rt002>, <rt003>, <rt004>, <rt005>, <rt006>, <rt007>, <rt008>, <rt009>, <rt010>, <rt011> .
 
 <rt000> a skos:Concept ;
     skos:prefLabel "Sonstige Videos"@de ;
