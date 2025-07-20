@@ -22,7 +22,7 @@
         <s1035>, <s1015>, <s1016>, <s1017>, <s1046>, <s1019>, <s1020>, <s1036>,
         <s1021>, <s1022>, <s1023>, <s1037>, <s1038>, <s1043>, <s1024>, <s1025>,
         <s1026>, <s1027>, <s1028>, <s1029>, <s1039>, <s1030>, <s1031>, <s1032>,
-        <s1033>, <se1000>, <se1010>, <se1020>
+        <s1033>, <se1000>, <se1010>, <se1020>, <se1030>
         .
 
 <s1000> a skos:Concept ;
@@ -320,4 +320,8 @@
 <se1020> a skos:Concept ;
     skos:prefLabel "Sonstiges"@de, "Miscellaneous"@en ;
     skos:closeMatch oeh:999 ;
+    skos:topConceptOf <> .
+
+<se1030> a skos:Concept ;
+    skos:prefLabel "Natur und Technik"@de, "Science and Technology"@en ;
     skos:topConceptOf <> .
