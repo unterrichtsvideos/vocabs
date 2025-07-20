@@ -1,35 +1,30 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st0",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1030",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sonstige Schularten",
-    "en": "Other school types"
+    "de": "Natur und Technik",
+    "en": "Science and Technology"
   },
-  "exactMatch": [
-    {
-      "id": "https://w3id.org/kim/schularten/s0"
-    }
-  ],
   "inScheme": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",
       "title": {
-        "de": "Schularten",
-        "en": "School Types"
+        "de": "Schulfächer",
+        "en": "School Subjects"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",
       "title": {
-        "de": "Schularten",
-        "en": "School Types"
+        "de": "Schulfächer",
+        "en": "School Subjects"
       }
     }
   ],

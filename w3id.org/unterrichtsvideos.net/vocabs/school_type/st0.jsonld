@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st0",
   "type": "Concept",
   "prefLabel": {
-    "de": "Schulartübergreifend",
-    "en": "Across School Types"
+    "de": "Sonstige Schularten",
+    "en": "Other school types"
   },
   "exactMatch": [
     {
