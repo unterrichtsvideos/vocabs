@@ -22,7 +22,7 @@
     skos:topConceptOf <> .
 
 <lf2> a skos:Concept ;
-    skos:prefLabel "Online (Selbstlernkurs)"@de, "Online (Self-paced course)"@en ;
+    skos:prefLabel "Online (Selbstlernangebot)"@de, "Online (Self-paced program)"@en ;
     skos:topConceptOf <> .
 
 <lf3> a skos:Concept ;
