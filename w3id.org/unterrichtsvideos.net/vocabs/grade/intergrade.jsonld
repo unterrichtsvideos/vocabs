@@ -5,6 +5,13 @@
     "de": "Jahrgangsübergreifend",
     "en": "Inter-grade"
   },
+  "definition": {
+    "de": "Für mehrere Jahrgangsstufen konzipiert."
+  },
+  "example": {
+    "de": "Ein Video, das jahrgangsübergreifenden Unterricht zeigt.",
+    "en": "A video showing inter-grade teaching."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/",

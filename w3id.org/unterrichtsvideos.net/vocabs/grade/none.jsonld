@@ -5,6 +5,17 @@
     "de": "Nicht zutreffend",
     "en": "Not applicable"
   },
+  "altLabel": {
+    "de": [
+      "Jahrgangsunabhängig"
+    ],
+    "en": [
+      "Not grade-specific"
+    ]
+  },
+  "definition": {
+    "de": "Nicht für eine spezifische Jahrgangsstufe konzipiert."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/grade/",

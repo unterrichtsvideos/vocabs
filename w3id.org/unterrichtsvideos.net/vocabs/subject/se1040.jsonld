@@ -1,13 +1,21 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1030",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1040",
   "type": "Concept",
   "prefLabel": {
-    "de": "Natur und Technik",
-    "en": "Science and Technology"
+    "de": "Textiles und technisches Gestalten",
+    "en": "Textile and Technical Design"
+  },
+  "altLabel": {
+    "de": [
+      "Textiltechnik und Bekleidung"
+    ],
+    "en": [
+      "Textile Technology and Clothing"
+    ]
   },
   "closeMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/04012"
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/50005"
     }
   ],
   "inScheme": [

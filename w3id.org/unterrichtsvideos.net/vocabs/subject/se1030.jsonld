@@ -5,6 +5,11 @@
     "de": "Natur und Technik",
     "en": "Science and Technology"
   },
+  "closeMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/04012"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",
