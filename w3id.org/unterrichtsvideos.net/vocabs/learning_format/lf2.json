@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Online (Selbstlernkurs)",
-    "en": "Online (Self-paced course)"
+    "de": "Online (Selbstlernangebot)",
+    "en": "Online (Self-paced program)"
   },
   "inScheme": [
     {
