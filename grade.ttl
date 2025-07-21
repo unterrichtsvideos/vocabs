@@ -100,9 +100,15 @@
 <intergrade> a skos:Concept ;
     skos:prefLabel "Jahrgangsübergreifend"@de ;
     skos:prefLabel "Inter-grade"@en ;
+    skos:definition "Für mehrere Jahrgangsstufen konzipiert."@de ;
+    skos:example "Ein Video, das jahrgangsübergreifenden Unterricht zeigt."@de ;
+    skos:example "A video showing inter-grade teaching."@en ;
     skos:topConceptOf <> .
 
 <none> a skos:Concept ;
     skos:prefLabel "Nicht zutreffend"@de ;
     skos:prefLabel "Not applicable"@en ;
+    skos:altLabel "Jahrgangsunabhängig"@de ;
+    skos:altLabel "Not grade-specific"@en ;
+    skos:definition "Nicht für eine spezifische Jahrgangsstufe konzipiert."@de ;
     skos:topConceptOf <> .
