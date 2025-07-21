@@ -5,9 +5,9 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Stichwortvorschläge"@de ;
+    dct:title "Schlagwortvorschläge"@de ;
     dct:title "Keyword suggestions"@en ;
-    dct:description "Eine Wertelliste für Stichwortvorschläge zur Auszeichnung von Unterrichtsvideos und Bildungsressourcen."@de,
+    dct:description "Eine Wertelliste für Schlagwortvorschläge zur Auszeichnung von Unterrichtsvideos und Bildungsressourcen."@de,
     "A list of values for keyword suggestions for annotating teaching videos and educational resources."@en ;
     dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2025-07-21"^^xsd:date ;
