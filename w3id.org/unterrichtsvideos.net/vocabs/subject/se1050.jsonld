@@ -1,21 +1,13 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1040",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1050",
   "type": "Concept",
   "prefLabel": {
-    "de": "Textiles und technisches Gestalten",
-    "en": "Textile and Technical Design"
-  },
-  "altLabel": {
-    "de": [
-      "Textiltechnik und Bekleidung"
-    ],
-    "en": [
-      "Textile Technology and Clothing"
-    ]
+    "de": "Werken",
+    "en": "Technical Work"
   },
   "closeMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/04012"
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/50005"
     }
   ],
   "inScheme": [
