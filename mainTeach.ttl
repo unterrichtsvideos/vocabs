@@ -16,14 +16,14 @@
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>, <7>, <8> .
 
 <1> a skos:Concept ;
-    skos:prefLabel "Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen"@de ;
-    skos:prefLabel "Selection and thematization of content, methods and learning objectives"@en ;
+    skos:prefLabel "1. Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen"@de ;
+    skos:prefLabel "1. Selection and thematization of content, methods and learning objectives"@en ;
     skos:inScheme <> ;
     skos:narrower <1.1>, <1.2>, <1.3>, <1.4>, <1.5> .
 
 <1.1> a skos:Concept ;
-    skos:prefLabel "Adäquate Auswahl von Lernzielen"@de ;
-    skos:prefLabel "Adequate selection of learning objectives"@en ;
+    skos:prefLabel "1.1 Adäquate Auswahl von Lernzielen"@de ;
+    skos:prefLabel "1.1 Adequate selection of learning objectives"@en ;
     skos:definition "Die Lernziele entsprechen dem Lernstand der Schüler*innen auf der jeweiligen Zielstufe und sind angemessen, fachlich relevant und realistisch."@de ;
     skos:definition "The learning objectives correspond to the learning level of the students at the respective target level and are appropriate, professionally relevant, and realistic."@en ;
     skos:example "Die Auswahl der Lernziele ist fachlich relevant, baut auf bereits Gelerntem auf und ermöglicht allen Schüler*innen dem Unterricht zu folgen."@de ;
@@ -32,8 +32,8 @@
     skos:broader <1> .
 
 <1.2> a skos:Concept ;
-    skos:prefLabel "Passung von Inhalten und (Fach-)Methoden"@de ;
-    skos:prefLabel "Fit of content and (subject) methods"@en ;
+    skos:prefLabel "1.2 Passung von Inhalten und (Fach-)Methoden"@de ;
+    skos:prefLabel "1.2 Fit of content and (subject) methods"@en ;
     skos:definition "Die Unterrichtsgestaltung ist angemessen auf die anvisierten Lernziele und Kompetenzen ausgerichtet."@de ;
     skos:definition "The lesson design is appropriately aligned with the targeted learning objectives and competencies."@en ;
     skos:example "Den Schüler*innen wird verständlich klargemacht, bei welchen Aufträgen welche Lernziele im Zentrum stehen."@de ;
@@ -42,8 +42,8 @@
     skos:broader <1> .
 
 <1.3> a skos:Concept ;
-    skos:prefLabel "Relevanz der Inhalte für die Schüler*innen"@de ;
-    skos:prefLabel "Relevance of content for students"@en ;
+    skos:prefLabel "1.3 Relevanz der Inhalte für die Schüler*innen"@de ;
+    skos:prefLabel "1.3 Relevance of content for students"@en ;
     skos:definition "Schüler*innen können für die Inhalte motiviert werden, wenn ihnen deren lebensweltliche Relevanz verdeutlicht wird."@de ;
     skos:definition "Students can be motivated for the content if its relevance to their everyday lives is made clear to them."@en ;
     skos:example "Die Schüler*innen können die Inhalte mit persönlichen Interessen verbinden, z. B. durch Aufgaben, die zu ihrem Hobby passen."@de ;
@@ -52,8 +52,8 @@
     skos:broader <1> .
 
 <1.4> a skos:Concept ;
-    skos:prefLabel "Strukturierte Einbindung von Inhalten"@de ;
-    skos:prefLabel "Structured integration of content"@en ;
+    skos:prefLabel "1.4 Strukturierte Einbindung von Inhalten"@de ;
+    skos:prefLabel "1.4 Structured integration of content"@en ;
     skos:definition "Ein strukturierter Unterricht zeigt einen klaren roten Faden und ist nachvollziehbar gegliedert."@de ;
     skos:definition "A structured lesson shows a clear thread and is logically organized."@en ;
     skos:example "Arbeitsaufträge und Erklärungen werden verständlich formuliert, visuell dargestellt und mit Beispielen illustriert."@de ;
@@ -62,8 +62,8 @@
     skos:broader <1> .
 
 <1.5> a skos:Concept ;
-    skos:prefLabel "Präzise und korrekte Darstellung der Inhalte"@de ;
-    skos:prefLabel "Precise and correct presentation of content"@en ;
+    skos:prefLabel "1.5 Präzise und korrekte Darstellung der Inhalte"@de ;
+    skos:prefLabel "1.5 Precise and correct presentation of content"@en ;
     skos:definition "Die verwendete Fachsprache der Lehrperson und die Darstellung von Konzepten sind angemessen und fehlerfrei."@de ;
     skos:definition "The professional language used by the teacher and the presentation of concepts are appropriate and error-free."@en ;
     skos:example "Die Lehrperson ermutigt die Schüler*innen, Fachbegriffe zu nutzen und korrekt anzuwenden."@de ;
@@ -72,14 +72,14 @@
     skos:broader <1> .
 
 <2> a skos:Concept ;
-    skos:prefLabel "Klassenführung"@de ;
-    skos:prefLabel "Classroom management"@en ;
+    skos:prefLabel "2. Klassenführung"@de ;
+    skos:prefLabel "2. Classroom management"@en ;
     skos:inScheme <> ;
     skos:narrower <2.1>, <2.2>, <2.3> .
 
 <2.1> a skos:Concept ;
-    skos:prefLabel "Proaktiver und effektiver Umgang mit Disziplinfragen"@de ;
-    skos:prefLabel "Proactive and effective handling of discipline issues"@en ;
+    skos:prefLabel "2.1 Proaktiver und effektiver Umgang mit Disziplinfragen"@de ;
+    skos:prefLabel "2.1 Proactive and effective handling of discipline issues"@en ;
     skos:definition "Eine frühzeitige Etablierung und konsequente Realisierung verbindlicher Normen und klarer Regeln beugt Disziplinproblemen vor."@de ;
     skos:definition "Early establishment and consistent implementation of binding norms and clear rules prevent discipline problems."@en ;
     skos:example "Eine hohe Präsenz der Lehrperson ist daran erkennbar, dass sie die Schüler*innen genau im Blick behält und ihre ‘Hotspots’ kennt."@de ;
@@ -88,8 +88,8 @@
     skos:broader <2> .
 
 <2.2> a skos:Concept ;
-    skos:prefLabel "Nutzung der Lernzeit"@de ;
-    skos:prefLabel "Use of learning time"@en ;
+    skos:prefLabel "2.2 Nutzung der Lernzeit"@de ;
+    skos:prefLabel "2.2 Use of learning time"@en ;
     skos:definition "Als echte Lernzeit wird die Zeit bezeichnet, während der die Schüler*innen tatsächlich an der gestellten Aufgabe arbeiten."@de ;
     skos:definition "Real learning time is the time during which students actually work on the assigned task."@en ;
     skos:example "Die Schüler*innen arbeiten konzentriert an den Inhalten; es herrscht durchweg eine konzentrierte Arbeitsatmosphäre im Klassenzimmer."@de ;
@@ -98,8 +98,8 @@
     skos:broader <2> .
 
 <2.3> a skos:Concept ;
-    skos:prefLabel "Einsatz von Raum und Ressourcen"@de ;
-    skos:prefLabel "Use of space and resources"@en ;
+    skos:prefLabel "2.3 Einsatz von Raum und Ressourcen"@de ;
+    skos:prefLabel "2.3 Use of space and resources"@en ;
     skos:definition "Der angemessene Einsatz von Raum und Ressourcen schafft den Rahmen für das Lernen der Schüler*innen."@de ;
     skos:definition "The appropriate use of space and resources creates the framework for students' learning."@en ;
     skos:example "Der Einsatz von Raum und Ressourcen ermöglicht die Arbeit in flexiblen Sozialformen (z. B. moderne Unterrichtskonzepte)."@de ;
@@ -108,14 +108,14 @@
     skos:broader <2> .
 
 <3> a skos:Concept ;
-    skos:prefLabel "Kognitive Aktivierung"@de ;
-    skos:prefLabel "Cognitive activation"@en ;
+    skos:prefLabel "3. Kognitive Aktivierung"@de ;
+    skos:prefLabel "3. Cognitive activation"@en ;
     skos:inScheme <> ;
     skos:narrower <3.1>, <3.2> .
 
 <3.1> a skos:Concept ;
-    skos:prefLabel "Passung des Anforderungsniveaus"@de ;
-    skos:prefLabel "Fit of the level of requirements"@en ;
+    skos:prefLabel "3.1 Passung des Anforderungsniveaus"@de ;
+    skos:prefLabel "3.1 Fit of the level of requirements"@en ;
     skos:definition "Aufgaben mit kognitiv aktivierendem Potenzial sind herausfordernd und gleichzeitig auf den individuellen Lernstand der Schüler*innen abgestimmt."@de ;
     skos:definition "Tasks with cognitively activating potential are challenging and at the same time tailored to the individual learning level of the students."@en ;
     skos:example "Die Aufgaben können auf verschiedenen Schwierigkeitsniveaus nach individuellem Lernstand gelöst werden."@de ;
@@ -124,8 +124,8 @@
     skos:broader <3> .
 
 <3.2> a skos:Concept ;
-    skos:prefLabel "Unterstützung kognitiver Aktivierung"@de ;
-    skos:prefLabel "Support for cognitive activation"@en ;
+    skos:prefLabel "3.2 Unterstützung kognitiver Aktivierung"@de ;
+    skos:prefLabel "3.2 Support for cognitive activation"@en ;
     skos:definition "Um das Potenzial zur kognitiven Aktivierung auszuschöpfen, werden die Schüler*innen fortlaufend in ihrer kognitiven Aktiviertheit unterstützt."@de ;
     skos:definition "To fully exploit the potential for cognitive activation, students are continuously supported in their cognitive activation."@en ;
     skos:example "Die Schüler*innen werden angeregt, selbstständig neue Inhalte mit ihrem Vorwissen in verschiedenen Bereichen zu verknüpfen."@de ;
@@ -134,14 +134,14 @@
     skos:broader <3> .
 
 <4> a skos:Concept ;
-    skos:prefLabel "Unterstützung durch Konsolidieren"@de ;
-    skos:prefLabel "Support through consolidation"@en ;
+    skos:prefLabel "4. Unterstützung durch Konsolidieren"@de ;
+    skos:prefLabel "4. Support through consolidation"@en ;
     skos:inScheme <> ;
     skos:narrower <4.1>, <4.2> .
 
 <4.1> a skos:Concept ;
-    skos:prefLabel "Aufgaben zur Konsolidierung von Inhalten"@de ;
-    skos:prefLabel "Tasks for consolidating content"@en ;
+    skos:prefLabel "4.1 Aufgaben zur Konsolidierung von Inhalten"@de ;
+    skos:prefLabel "4.1 Tasks for consolidating content"@en ;
     skos:definition "Aufgaben schaffen Gelegenheiten, in denen die Schüler*innen das Erlernte auf unterschiedliche Art wiederholen und anwenden können."@de ;
     skos:definition "Tasks create opportunities for students to repeat and apply what they have learned in different ways."@en ;
     skos:example "Die Aufgaben zur Konsolidierung fordern die Schüler*innen auf, Bearbeitungsschritte explizit festzuhalten."@de ;
@@ -150,8 +150,8 @@
     skos:broader <4> .
 
 <4.2> a skos:Concept ;
-    skos:prefLabel "Unterstützung der Konsolidierung von Inhalten"@de ;
-    skos:prefLabel "Support for consolidating content"@en ;
+    skos:prefLabel "4.2 Unterstützung der Konsolidierung von Inhalten"@de ;
+    skos:prefLabel "4.2 Support for consolidating content"@en ;
     skos:definition "Durch häufige Wiederholungsphasen können weniger fehleranfällige Routinen entwickelt werden."@de ;
     skos:definition "Frequent repetition phases can help develop less error-prone routines."@en ;
     skos:example "Die Lehrperson macht die Schüler*innen proaktiv darauf aufmerksam, wo Schwierigkeiten oder Fehler möglicherweise entstehen können und wie diese vermieden werden können."@de ;
@@ -160,14 +160,14 @@
     skos:broader <4> .
 
 <5> a skos:Concept ;
-    skos:prefLabel "Beurteilung und Feedback"@de ;
-    skos:prefLabel "Assessment and feedback"@en ;
+    skos:prefLabel "5. Beurteilung und Feedback"@de ;
+    skos:prefLabel "5. Assessment and feedback"@en ;
     skos:inScheme <> ;
     skos:narrower <5.1>, <5.2>, <5.3> .
 
 <5.1> a skos:Concept ;
-    skos:prefLabel "Passung von Beurteilung und Kompetenzerwerb"@de ;
-    skos:prefLabel "Fit of assessment and competence acquisition"@en ;
+    skos:prefLabel "5.1 Passung von Beurteilung und Kompetenzerwerb"@de ;
+    skos:prefLabel "5.1 Fit of assessment and competence acquisition"@en ;
     skos:definition "Beurteilungen eruieren das Können der Schüler*innen entsprechend der anvisierten Kompetenzen."@de ;
     skos:definition "Assessments determine the students' abilities according to the targeted competencies."@en ;
     skos:example "Den Schüler*innen wird differenziert mitgeteilt, welche anvisierten Kompetenzen nach welchen Maßstäben beurteilt werden."@de ;
@@ -176,8 +176,8 @@
     skos:broader <5> .
 
 <5.2> a skos:Concept ;
-    skos:prefLabel "Erhebung des Leistungsstands"@de ;
-    skos:prefLabel "Assessment of performance level"@en ;
+    skos:prefLabel "5.2 Erhebung des Leistungsstands"@de ;
+    skos:prefLabel "5.2 Assessment of performance level"@en ;
     skos:definition "Die kontinuierliche Überprüfung des Kompetenzerwerbs spielt eine wichtige Rolle im Unterricht."@de ;
     skos:definition "The continuous assessment of competence acquisition plays an important role in teaching."@en ;
     skos:example "Dokumentationen der Lernwege und -fortschritte (z. B. Portfolios, Lernjournal) werden von der Lehrperson zur Kompetenzüberprüfung hinzugezogen."@de ;
@@ -186,8 +186,8 @@
     skos:broader <5> .
 
 <5.3> a skos:Concept ;
-    skos:prefLabel "Qualitativ hochwertiges Feedback"@de ;
-    skos:prefLabel "High-quality feedback"@en ;
+    skos:prefLabel "5.3 Qualitativ hochwertiges Feedback"@de ;
+    skos:prefLabel "5.3 High-quality feedback"@en ;
     skos:definition "Wirksames Feedback orientiert sich an den zu erwerbenden Kompetenzen und erfolgt zeitnah."@de ;
     skos:definition "Effective feedback is oriented towards the competencies to be acquired and is provided promptly."@en ;
     skos:example "In der Klasse ist eine umfassende Feedbackkultur mit Selbst- und Fremdbeurteilung etabliert."@de ;
@@ -196,14 +196,14 @@
     skos:broader <5> .
 
 <6> a skos:Concept ;
-    skos:prefLabel "Soziale Unterstützung"@de ;
-    skos:prefLabel "Social support"@en ;
+    skos:prefLabel "6. Soziale Unterstützung"@de ;
+    skos:prefLabel "6. Social support"@en ;
     skos:inScheme <> ;
     skos:narrower <6.1>, <6.2> .
 
 <6.1> a skos:Concept ;
-    skos:prefLabel "Lehrkraft-Lernenden-Beziehung"@de ;
-    skos:prefLabel "Teacher-student relationship"@en ;
+    skos:prefLabel "6.1 Lehrkraft-Lernenden-Beziehung"@de ;
+    skos:prefLabel "6.1 Teacher-student relationship"@en ;
     skos:definition "Eine positive Beziehung zwischen Lehrperson und Schüler*innen zeigt sich in gegenseitigem Respekt, Wärme und Fairness."@de ;
     skos:definition "A positive relationship between teacher and students is characterized by mutual respect, warmth, and fairness."@en ;
     skos:example "Die Lehrperson erkundigt sich spezifisch bei einzelnen Schüler*innen über sie betreffende Dinge (z. B. Fußball Match, Streit, Wohlbefinden)."@de ;
@@ -212,8 +212,8 @@
     skos:broader <6> .
 
 <6.2> a skos:Concept ;
-    skos:prefLabel "Lernenden-Beziehung"@de ;
-    skos:prefLabel "Student-student relationship"@en ;
+    skos:prefLabel "6.2 Lernenden-Beziehung"@de ;
+    skos:prefLabel "6.2 Student-student relationship"@en ;
     skos:definition "Der Umgang der Schüler*innen miteinander zeugt von einem guten Zusammenhalt in der Klassengemeinschaft."@de ;
     skos:definition "The interaction among students demonstrates good cohesion within the class community."@en ;
     skos:example "Die Schüler*innen lösen Konflikte selbst; sie bieten einander ungefragt Hilfe an."@de ;
@@ -222,14 +222,14 @@
     skos:broader <6> .
 
 <7> a skos:Concept ;
-    skos:prefLabel "Unterstützung der Eigenverantwortung für das Lernen"@de ;
-    skos:prefLabel "Support for self-responsibility for learning"@en ;
+    skos:prefLabel "7. Unterstützung der Eigenverantwortung für das Lernen"@de ;
+    skos:prefLabel "7. Support for self-responsibility for learning"@en ;
     skos:inScheme <> ;
     skos:narrower <7.1>, <7.2> .
 
 <7.1> a skos:Concept ;
-    skos:prefLabel "Direkte Förderung der Eigenverantwortung für das Lernen"@de ;
-    skos:prefLabel "Direct promotion of learning responsibility"@en ;
+    skos:prefLabel "7.1 Direkte Förderung der Eigenverantwortung für das Lernen"@de ;
+    skos:prefLabel "7.1 Direct promotion of learning responsibility"@en ;
     skos:definition "Der Unterricht zielt direkt auf die Förderung der Lernverantwortung von Schüler*innen ab."@de ;
     skos:definition "The lessons directly aim at promoting students' responsibility for their own learning."@en ;
     skos:example "Die Schüler*innen zeigen einander, wie sie etwas gelernt haben, und begründen ihre verwendeten Lernstrategien."@de ;
@@ -238,8 +238,8 @@
     skos:broader <7> .
 
 <7.2> a skos:Concept ;
-    skos:prefLabel "Indirekte Förderung der Eigenverantwortung für das Lernen"@de ;
-    skos:prefLabel "Indirect promotion of learning responsibility"@en ;
+    skos:prefLabel "7.2 Indirekte Förderung der Eigenverantwortung für das Lernen"@de ;
+    skos:prefLabel "7.2 Indirect promotion of learning responsibility"@en ;
     skos:definition "Der Unterricht fördert die Verantwortung der Schüler*innen für das Lernen indirekt über die Art und Weise, wie Lerngelegenheiten konzipiert und umgesetzt sind."@de ;
     skos:definition "The lessons indirectly promote students' responsibility for learning through the way learning opportunities are designed and implemented."@en ;
     skos:example "Der Unterricht verläuft weitgehend von den Schüler*innen selbstgesteuert (z. B. eigene Zielsetzungen, selbst ausgewählte Aufgaben, selbstständige Planung der Arbeit)."@de ;
@@ -248,14 +248,14 @@
     skos:broader <7> .
 
 <8> a skos:Concept ;
-    skos:prefLabel "Adaptivität"@de ;
-    skos:prefLabel "Adaptivity"@en ;
+    skos:prefLabel "8. Adaptivität"@de ;
+    skos:prefLabel "8. Adaptivity"@en ;
     skos:inScheme <> ;
     skos:narrower <8.1>, <8.2> .
 
 <8.1> a skos:Concept ;
-    skos:prefLabel "Anpassung der Anforderungen"@de ;
-    skos:prefLabel "Adaptation of requirements"@en ;
+    skos:prefLabel "8.1 Anpassung der Anforderungen"@de ;
+    skos:prefLabel "8.1 Adaptation of requirements"@en ;
     skos:definition "Bei der Auswahl der Lernziele, Inhalte und Methoden werden die Individualität der Schüler*innen, ihre Fähigkeiten und Lernvoraussetzungen berücksichtigt."@de ;
     skos:definition "In the selection of learning objectives, content, and methods, the individuality of the students, their abilities, and learning prerequisites are taken into account."@en ;
     skos:example "Alle Schüler*innen arbeiten an einem Thema auf unterschiedlichem Niveau und verschiedene Lernwege werden angewendet."@de ;
@@ -264,8 +264,8 @@
     skos:broader <8> .
 
 <8.2> a skos:Concept ;
-    skos:prefLabel "Anpassung der Lernprozessbegleitung"@de ;
-    skos:prefLabel "Adaptation of learning process support"@en ;
+    skos:prefLabel "8.2 Anpassung der Lernprozessbegleitung"@de ;
+    skos:prefLabel "8.2 Adaptation of learning process support"@en ;
     skos:definition "Die Lernprozessbegleitung der Schüler*innen ist adaptiv an die Bedürfnisse der Schüler*innen ausgerichtet."@de ;
     skos:definition "The support of the students' learning process is adaptive to the needs of the students."@en ;
     skos:example "Die Lehrperson demonstriert eine etablierte, aktive und differenzierte Lernbegleitung (z. B. Zeit für Erklärungen, variierende Hilfestellungen)."@de ;
