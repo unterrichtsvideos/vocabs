@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Qualitativ hochwertiges Feedback",
-    "en": "High-quality feedback"
+    "de": "5.3 Qualitativ hochwertiges Feedback",
+    "en": "5.3 High-quality feedback"
   },
   "definition": {
     "de": "Wirksames Feedback orientiert sich an den zu erwerbenden Kompetenzen und erfolgt zeitnah.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",
     "prefLabel": {
-      "de": "Beurteilung und Feedback",
-      "en": "Assessment and feedback"
+      "de": "5. Beurteilung und Feedback",
+      "en": "5. Assessment and feedback"
     }
   },
   "inScheme": [

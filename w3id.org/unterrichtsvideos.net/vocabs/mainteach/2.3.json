@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Einsatz von Raum und Ressourcen",
-    "en": "Use of space and resources"
+    "de": "2.3 Einsatz von Raum und Ressourcen",
+    "en": "2.3 Use of space and resources"
   },
   "definition": {
     "de": "Der angemessene Einsatz von Raum und Ressourcen schafft den Rahmen für das Lernen der Schüler*innen.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",
     "prefLabel": {
-      "de": "Klassenführung",
-      "en": "Classroom management"
+      "de": "2. Klassenführung",
+      "en": "2. Classroom management"
     }
   },
   "inScheme": [

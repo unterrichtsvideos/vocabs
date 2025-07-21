@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anpassung der Lernprozessbegleitung",
-    "en": "Adaptation of learning process support"
+    "de": "8.2 Anpassung der Lernprozessbegleitung",
+    "en": "8.2 Adaptation of learning process support"
   },
   "definition": {
     "de": "Die Lernprozessbegleitung der Schüler*innen ist adaptiv an die Bedürfnisse der Schüler*innen ausgerichtet.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",
     "prefLabel": {
-      "de": "Adaptivität",
-      "en": "Adaptivity"
+      "de": "8. Adaptivität",
+      "en": "8. Adaptivity"
     }
   },
   "inScheme": [

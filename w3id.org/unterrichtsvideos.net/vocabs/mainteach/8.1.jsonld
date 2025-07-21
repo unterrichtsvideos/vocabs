@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anpassung der Anforderungen",
-    "en": "Adaptation of requirements"
+    "de": "8.1 Anpassung der Anforderungen",
+    "en": "8.1 Adaptation of requirements"
   },
   "definition": {
     "de": "Bei der Auswahl der Lernziele, Inhalte und Methoden werden die Individualität der Schüler*innen, ihre Fähigkeiten und Lernvoraussetzungen berücksichtigt.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",
     "prefLabel": {
-      "de": "Adaptivität",
-      "en": "Adaptivity"
+      "de": "8. Adaptivität",
+      "en": "8. Adaptivity"
     }
   },
   "inScheme": [

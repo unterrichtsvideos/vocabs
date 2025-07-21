@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lernenden-Beziehung",
-    "en": "Student-student relationship"
+    "de": "6.2 Lernenden-Beziehung",
+    "en": "6.2 Student-student relationship"
   },
   "definition": {
     "de": "Der Umgang der Schüler*innen miteinander zeugt von einem guten Zusammenhalt in der Klassengemeinschaft.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6",
     "prefLabel": {
-      "de": "Soziale Unterstützung",
-      "en": "Social support"
+      "de": "6. Soziale Unterstützung",
+      "en": "6. Social support"
     }
   },
   "inScheme": [

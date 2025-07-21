@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1.4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Strukturierte Einbindung von Inhalten",
-    "en": "Structured integration of content"
+    "de": "1.4 Strukturierte Einbindung von Inhalten",
+    "en": "1.4 Structured integration of content"
   },
   "definition": {
     "de": "Ein strukturierter Unterricht zeigt einen klaren roten Faden und ist nachvollziehbar gegliedert.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",
     "prefLabel": {
-      "de": "Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen",
-      "en": "Selection and thematization of content, methods and learning objectives"
+      "de": "1. Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen",
+      "en": "1. Selection and thematization of content, methods and learning objectives"
     }
   },
   "inScheme": [

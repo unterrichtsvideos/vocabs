@@ -2,22 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Soziale Unterstützung",
-    "en": "Social support"
+    "de": "6. Soziale Unterstützung",
+    "en": "6. Social support"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6.1",
       "prefLabel": {
-        "de": "Lehrkraft-Lernenden-Beziehung",
-        "en": "Teacher-student relationship"
+        "de": "6.1 Lehrkraft-Lernenden-Beziehung",
+        "en": "6.1 Teacher-student relationship"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6.2",
       "prefLabel": {
-        "de": "Lernenden-Beziehung",
-        "en": "Student-student relationship"
+        "de": "6.2 Lernenden-Beziehung",
+        "en": "6.2 Student-student relationship"
       }
     }
   ],

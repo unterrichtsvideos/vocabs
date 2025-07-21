@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Indirekte Förderung der Eigenverantwortung für das Lernen",
-    "en": "Indirect promotion of learning responsibility"
+    "de": "7.2 Indirekte Förderung der Eigenverantwortung für das Lernen",
+    "en": "7.2 Indirect promotion of learning responsibility"
   },
   "definition": {
     "de": "Der Unterricht fördert die Verantwortung der Schüler*innen für das Lernen indirekt über die Art und Weise, wie Lerngelegenheiten konzipiert und umgesetzt sind.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7",
     "prefLabel": {
-      "de": "Unterstützung der Eigenverantwortung für das Lernen",
-      "en": "Support for self-responsibility for learning"
+      "de": "7. Unterstützung der Eigenverantwortung für das Lernen",
+      "en": "7. Support for self-responsibility for learning"
     }
   },
   "inScheme": [

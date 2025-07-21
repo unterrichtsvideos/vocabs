@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterstützung kognitiver Aktivierung",
-    "en": "Support for cognitive activation"
+    "de": "3.2 Unterstützung kognitiver Aktivierung",
+    "en": "3.2 Support for cognitive activation"
   },
   "definition": {
     "de": "Um das Potenzial zur kognitiven Aktivierung auszuschöpfen, werden die Schüler*innen fortlaufend in ihrer kognitiven Aktiviertheit unterstützt.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3",
     "prefLabel": {
-      "de": "Kognitive Aktivierung",
-      "en": "Cognitive activation"
+      "de": "3. Kognitive Aktivierung",
+      "en": "3. Cognitive activation"
     }
   },
   "inScheme": [

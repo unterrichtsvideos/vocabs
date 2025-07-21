@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1.5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Präzise und korrekte Darstellung der Inhalte",
-    "en": "Precise and correct presentation of content"
+    "de": "1.5 Präzise und korrekte Darstellung der Inhalte",
+    "en": "1.5 Precise and correct presentation of content"
   },
   "definition": {
     "de": "Die verwendete Fachsprache der Lehrperson und die Darstellung von Konzepten sind angemessen und fehlerfrei.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",
     "prefLabel": {
-      "de": "Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen",
-      "en": "Selection and thematization of content, methods and learning objectives"
+      "de": "1. Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen",
+      "en": "1. Selection and thematization of content, methods and learning objectives"
     }
   },
   "inScheme": [

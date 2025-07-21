@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/4.2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterstützung der Konsolidierung von Inhalten",
-    "en": "Support for consolidating content"
+    "de": "4.2 Unterstützung der Konsolidierung von Inhalten",
+    "en": "4.2 Support for consolidating content"
   },
   "definition": {
     "de": "Durch häufige Wiederholungsphasen können weniger fehleranfällige Routinen entwickelt werden.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/4",
     "prefLabel": {
-      "de": "Unterstützung durch Konsolidieren",
-      "en": "Support through consolidation"
+      "de": "4. Unterstützung durch Konsolidieren",
+      "en": "4. Support through consolidation"
     }
   },
   "inScheme": [

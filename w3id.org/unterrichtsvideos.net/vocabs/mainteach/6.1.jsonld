@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehrkraft-Lernenden-Beziehung",
-    "en": "Teacher-student relationship"
+    "de": "6.1 Lehrkraft-Lernenden-Beziehung",
+    "en": "6.1 Teacher-student relationship"
   },
   "definition": {
     "de": "Eine positive Beziehung zwischen Lehrperson und Schüler*innen zeigt sich in gegenseitigem Respekt, Wärme und Fairness.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6",
     "prefLabel": {
-      "de": "Soziale Unterstützung",
-      "en": "Social support"
+      "de": "6. Soziale Unterstützung",
+      "en": "6. Social support"
     }
   },
   "inScheme": [

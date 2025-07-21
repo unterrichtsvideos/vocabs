@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Relevanz der Inhalte für die Schüler*innen",
-    "en": "Relevance of content for students"
+    "de": "1.3 Relevanz der Inhalte für die Schüler*innen",
+    "en": "1.3 Relevance of content for students"
   },
   "definition": {
     "de": "Schüler*innen können für die Inhalte motiviert werden, wenn ihnen deren lebensweltliche Relevanz verdeutlicht wird.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/1",
     "prefLabel": {
-      "de": "Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen",
-      "en": "Selection and thematization of content, methods and learning objectives"
+      "de": "1. Auswahl und Thematisierung von Inhalten, Methoden und Lernzielen",
+      "en": "1. Selection and thematization of content, methods and learning objectives"
     }
   },
   "inScheme": [

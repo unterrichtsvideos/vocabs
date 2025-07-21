@@ -2,22 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterstützung der Eigenverantwortung für das Lernen",
-    "en": "Support for self-responsibility for learning"
+    "de": "7. Unterstützung der Eigenverantwortung für das Lernen",
+    "en": "7. Support for self-responsibility for learning"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7.1",
       "prefLabel": {
-        "de": "Direkte Förderung der Eigenverantwortung für das Lernen",
-        "en": "Direct promotion of learning responsibility"
+        "de": "7.1 Direkte Förderung der Eigenverantwortung für das Lernen",
+        "en": "7.1 Direct promotion of learning responsibility"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7.2",
       "prefLabel": {
-        "de": "Indirekte Förderung der Eigenverantwortung für das Lernen",
-        "en": "Indirect promotion of learning responsibility"
+        "de": "7.2 Indirekte Förderung der Eigenverantwortung für das Lernen",
+        "en": "7.2 Indirect promotion of learning responsibility"
       }
     }
   ],

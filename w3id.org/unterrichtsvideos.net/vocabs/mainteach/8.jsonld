@@ -2,22 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8",
   "type": "Concept",
   "prefLabel": {
-    "de": "Adaptivität",
-    "en": "Adaptivity"
+    "de": "8. Adaptivität",
+    "en": "8. Adaptivity"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8.1",
       "prefLabel": {
-        "de": "Anpassung der Anforderungen",
-        "en": "Adaptation of requirements"
+        "de": "8.1 Anpassung der Anforderungen",
+        "en": "8.1 Adaptation of requirements"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/8.2",
       "prefLabel": {
-        "de": "Anpassung der Lernprozessbegleitung",
-        "en": "Adaptation of learning process support"
+        "de": "8.2 Anpassung der Lernprozessbegleitung",
+        "en": "8.2 Adaptation of learning process support"
       }
     }
   ],

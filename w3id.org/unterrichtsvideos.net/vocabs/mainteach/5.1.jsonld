@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Passung von Beurteilung und Kompetenzerwerb",
-    "en": "Fit of assessment and competence acquisition"
+    "de": "5.1 Passung von Beurteilung und Kompetenzerwerb",
+    "en": "5.1 Fit of assessment and competence acquisition"
   },
   "definition": {
     "de": "Beurteilungen eruieren das Können der Schüler*innen entsprechend der anvisierten Kompetenzen.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",
     "prefLabel": {
-      "de": "Beurteilung und Feedback",
-      "en": "Assessment and feedback"
+      "de": "5. Beurteilung und Feedback",
+      "en": "5. Assessment and feedback"
     }
   },
   "inScheme": [

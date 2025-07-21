@@ -2,22 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kognitive Aktivierung",
-    "en": "Cognitive activation"
+    "de": "3. Kognitive Aktivierung",
+    "en": "3. Cognitive activation"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3.1",
       "prefLabel": {
-        "de": "Passung des Anforderungsniveaus",
-        "en": "Fit of the level of requirements"
+        "de": "3.1 Passung des Anforderungsniveaus",
+        "en": "3.1 Fit of the level of requirements"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3.2",
       "prefLabel": {
-        "de": "Unterstützung kognitiver Aktivierung",
-        "en": "Support for cognitive activation"
+        "de": "3.2 Unterstützung kognitiver Aktivierung",
+        "en": "3.2 Support for cognitive activation"
       }
     }
   ],

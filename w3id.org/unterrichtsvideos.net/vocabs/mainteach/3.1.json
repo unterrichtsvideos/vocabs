@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Passung des Anforderungsniveaus",
-    "en": "Fit of the level of requirements"
+    "de": "3.1 Passung des Anforderungsniveaus",
+    "en": "3.1 Fit of the level of requirements"
   },
   "definition": {
     "de": "Aufgaben mit kognitiv aktivierendem Potenzial sind herausfordernd und gleichzeitig auf den individuellen Lernstand der Schüler*innen abgestimmt.",
@@ -16,8 +16,8 @@
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3",
     "prefLabel": {
-      "de": "Kognitive Aktivierung",
-      "en": "Cognitive activation"
+      "de": "3. Kognitive Aktivierung",
+      "en": "3. Cognitive activation"
     }
   },
   "inScheme": [

@@ -2,29 +2,29 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Beurteilung und Feedback",
-    "en": "Assessment and feedback"
+    "de": "5. Beurteilung und Feedback",
+    "en": "5. Assessment and feedback"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5.1",
       "prefLabel": {
-        "de": "Passung von Beurteilung und Kompetenzerwerb",
-        "en": "Fit of assessment and competence acquisition"
+        "de": "5.1 Passung von Beurteilung und Kompetenzerwerb",
+        "en": "5.1 Fit of assessment and competence acquisition"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5.2",
       "prefLabel": {
-        "de": "Erhebung des Leistungsstands",
-        "en": "Assessment of performance level"
+        "de": "5.2 Erhebung des Leistungsstands",
+        "en": "5.2 Assessment of performance level"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5.3",
       "prefLabel": {
-        "de": "Qualitativ hochwertiges Feedback",
-        "en": "High-quality feedback"
+        "de": "5.3 Qualitativ hochwertiges Feedback",
+        "en": "5.3 High-quality feedback"
       }
     }
   ],

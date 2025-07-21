@@ -2,29 +2,29 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Klassenführung",
-    "en": "Classroom management"
+    "de": "2. Klassenführung",
+    "en": "2. Classroom management"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2.1",
       "prefLabel": {
-        "de": "Proaktiver und effektiver Umgang mit Disziplinfragen",
-        "en": "Proactive and effective handling of discipline issues"
+        "de": "2.1 Proaktiver und effektiver Umgang mit Disziplinfragen",
+        "en": "2.1 Proactive and effective handling of discipline issues"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2.2",
       "prefLabel": {
-        "de": "Nutzung der Lernzeit",
-        "en": "Use of learning time"
+        "de": "2.2 Nutzung der Lernzeit",
+        "en": "2.2 Use of learning time"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2.3",
       "prefLabel": {
-        "de": "Einsatz von Raum und Ressourcen",
-        "en": "Use of space and resources"
+        "de": "2.3 Einsatz von Raum und Ressourcen",
+        "en": "2.3 Use of space and resources"
       }
     }
   ],
