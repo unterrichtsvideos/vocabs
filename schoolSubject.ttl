@@ -324,11 +324,16 @@
 
 <se1030> a skos:Concept ;
     skos:prefLabel "Natur und Technik"@de, "Science and Technology"@en ;
-    skos:closeMatch oeh:04012 ;
+    skos:closeMatch oeh:04003 ;
     skos:topConceptOf <> .
 
 <se1040> a skos:Concept ;
     skos:prefLabel "Textiles und technisches Gestalten"@de, "Textile and Technical Design"@en ;
     skos:altLabel "Textiltechnik und Bekleidung"@de, "Textile Technology and Clothing"@en ;
+    skos:closeMatch oeh:04012 ;
+    skos:topConceptOf <> .
+
+<se1050> a skos:Concept ;
+    skos:prefLabel "Werken"@de, "Technical Work"@en ;
     skos:closeMatch oeh:50005 ;
     skos:topConceptOf <> .
