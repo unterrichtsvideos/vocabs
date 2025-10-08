@@ -1,9 +1,9 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf5",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/lf0",
   "type": "Concept",
   "prefLabel": {
-    "de": "Massive Open Online Course (MOOC)",
-    "en": "Massive Open Online Course (MOOC)"
+    "de": "Sonstiges",
+    "en": "Other"
   },
   "inScheme": [
     {
@@ -54,6 +54,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
