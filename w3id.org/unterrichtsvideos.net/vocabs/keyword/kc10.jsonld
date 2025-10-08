@@ -2,71 +2,36 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc10",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterrichtsaktivitäten & Sozialformen",
-    "en": "Lecture activities and social forms"
+    "de": "Klassenführung & -organisation",
+    "en": "Classroom management & organization"
   },
   "narrower": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10001",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10010",
       "prefLabel": {
-        "de": "Lehrkraftinstruktion",
-        "en": "Teacher instruction"
+        "de": "Umgang mit Unterrichtsstörungen,",
+        "en": "Dealing with classroom disruptions"
       }
     },
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10002",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10020",
       "prefLabel": {
-        "de": "Lehrkraftdemonstration",
-        "en": "Teacher demonstration"
+        "de": "Monitoring der Mitarbeit",
+        "en": "Monitoring of participation"
       }
     },
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10003",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10030",
       "prefLabel": {
-        "de": "Lernerdemonstration",
-        "en": "Student demonstration"
+        "de": "Regeln und Rituale im Unterricht",
+        "en": "Rules and rituals in the classroom"
       }
     },
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10004",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10040",
       "prefLabel": {
-        "de": "Unterrichtsgespräch",
-        "en": "Classroom discussion"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10005",
-      "prefLabel": {
-        "de": "Gruppenarbeit",
-        "en": "Group work"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10006",
-      "prefLabel": {
-        "de": "Partnerarbeit",
-        "en": "Partner work"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10007",
-      "prefLabel": {
-        "de": "Stillarbeit, Einzelarbeit",
-        "en": "Silent work, Individual work"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10008",
-      "prefLabel": {
-        "de": "Gruppenpuzzle",
-        "en": "Group puzzle"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10009",
-      "prefLabel": {
-        "de": "Partnerpuzzle",
-        "en": "Partner puzzle"
+        "de": "Strukturierung des Unterricht",
+        "en": "Structuring lessons"
       }
     }
   ],
