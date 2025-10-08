@@ -3,363 +3,573 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix mvpMTM: <https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Schlagwortvorschläge"@de ;
-    dct:title "Keyword suggestions"@en ;
-    dct:description "Eine Wertelliste für Schlagwortvorschläge zur Auszeichnung von Unterrichtsvideos und Bildungsressourcen."@de,
-    "A list of values for keyword suggestions for annotating teaching videos and educational resources."@en ;
+    dct:title "Schlagwortsystematisierung"@de ;
+    dct:title "Keyword systematization"@en ;
+    dct:description "Eine Wertelliste als Schlagwortsystematisierung zur Auszeichnung von Unterrichtsvideos und Bildungsressourcen."@de,
+    "A list of values for keyword systematization for annotating classroom videos and educational resources."@en ;
     dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2025-07-21"^^xsd:date ;
-    dct:modified "2025-07-21"^^xsd:date ;
+    dct:modified "2025-10-08"^^xsd:date ;
     dct:issued "2025-07-21"^^xsd:date ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/" ;
     vann:preferredNamespacePrefix "mvpKeyword" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <k1001>, <k1002>, <k1003>, <k1004>, <k1005>, <k1006>, <k1007>, <k1008>, 
-        <k1009>, <k1010>, <k1011>, <k1012>, <k1013>, <k1014>, <k1015>, <k1016>, <k1017>, <k1018>, 
-        <k1019>, <k1020>, <k1021>, <k1022>, <k1023>, <k1024>, <k1025>, <k1026>, <k1027>, <k1028>, 
-        <k1029>, <k1030>, <k1031>, <k1032>, <k1033>, <k1034>, <k1035>, <k1036>, <k1037>, <k1038>, 
-        <k1039>, <k1040>, <k1041>, <k1042>, <k1043>, <k1044>, <k1045>, <k1046>, <k1047>, <k1048>, 
-        <k1049>, <k1050>, <k1051>, <k1052>, <k1053>, <k1054>, <k1055>, <k1056>, <k1057>, <k1058>, 
-        <k1059>, <k1060>, <k1061>, <k1062>, <k1063>, <k1064>, <k1065>, <k1066>, <k1067>, <k1068> .
+    skos:hasTopConcept <kc10>, <kc20>, <kc30>, <kc40>, <kc50>, <kc60>, <kc70>, <kc80>, <kc90>, <kc100> .
 
-<k1001> a skos:Concept ;
-    skos:prefLabel "Umgang mit Störungen"@de ;
-    skos:prefLabel "Dealing with disruptions"@en ;
+<kc10> a skos:Concept ;
+    skos:prefLabel "Klassenführung & -organisation"@de ;
+    skos:prefLabel "Classroom management & organization"@en ;
+    skos:definition "Die Fähigkeit, eine positive und produktive Lernumgebung zu schaffen und aufrechtzuerhalten, indem Unterrichtsstörungen minimiert und klare Strukturen geschaffen werden."@de ;
+    skos:definition "The ability to create and maintain a positive and productive learning environment by minimizing classroom disruptions and establishing clear structures."@en ;
+    skos:narrower <k10010>, <k10020>, <k10030>, <k10040>, <k10050> ;
+    skos:closeMatch mvpMTM:2 ;
     skos:topConceptOf <> .
 
-<k1002> a skos:Concept ;
-    skos:prefLabel "Störungsprävention"@de ;
-    skos:prefLabel "Disruption prevention"@en ;
-    skos:topConceptOf <> .
+<k10010> a skos:Concept ;
+    skos:prefLabel "Umgang mit Unterrichtsstörungen"@de ;
+    skos:prefLabel "Dealing with classroom disruptions"@en ;
+    skos:definition "Strategien und Techniken, um Störungen im Unterricht zu verhindern oder effektiv darauf zu reagieren, um die Lernzeit zu maximieren."@de ;
+    skos:definition "Strategies and techniques to prevent or effectively respond to disruptions in the classroom to maximize learning time."@en ;
+    skos:example "Störungsprävention."@de ;
+    skos:example "Disruption prevention."@en ;
+    skos:closeMatch mvpMTM:2.1 ;
+    skos:broader <kc10> ;
+    skos:inScheme <> .
 
-<k1003> a skos:Concept ;
-    skos:prefLabel "Klassenführung"@de ;
-    skos:prefLabel "Classroom Management"@en ;
-    skos:topConceptOf <> .
+<k10020> a skos:Concept ;
+    skos:prefLabel "Monitoring der Mitarbeit"@de ;
+    skos:prefLabel "Monitoring of participation"@en ;
+    skos:broader <kc10> ;
+    skos:inScheme <> .
 
-<k1004> a skos:Concept ;
-    skos:prefLabel "Unterrichtseinstieg"@de ;
-    skos:prefLabel "Lesson start"@en ;
-    skos:topConceptOf <> .
+<k10030> a skos:Concept ;
+    skos:prefLabel "Regeln und Rituale im Unterricht"@de ;
+    skos:prefLabel "Rules and rituals in the classroom"@en ;
+    skos:broader <kc10> ;
+    skos:inScheme <> .
 
-<k1005> a skos:Concept ;
-    skos:prefLabel "Unterrichtsplanung"@de ;
-    skos:prefLabel "Lesson planning"@en ;
-    skos:topConceptOf <> .
-
-<k1006> a skos:Concept ;
-    skos:prefLabel "Zeitmanagement"@de ;
-    skos:prefLabel "Time management"@en ;
-    skos:topConceptOf <> .
-
-<k1007> a skos:Concept ;
-    skos:prefLabel "Regeln und Rituale"@de ;
-    skos:prefLabel "Rules and rituals"@en ;
-    skos:topConceptOf <> .
-
-<k1008> a skos:Concept ;
-    skos:prefLabel "Strukturierung von Unterricht"@de ;
+<k10040> a skos:Concept ;
+    skos:prefLabel "Strukturierung des Unterricht"@de ;
     skos:prefLabel "Structuring lessons"@en ;
+    skos:broader <kc10> ;
+    skos:inScheme <> .
+
+<k10050> a skos:Concept ;
+    skos:prefLabel "Lernklima"@de ;
+    skos:prefLabel "Learning climate"@en ;
+    skos:altLabel "Unterrichtsklima"@de ;
+    skos:altLabel "Classroom climate"@en ;
+    skos:definition "Die emotionale und soziale Atmosphäre im Klassenzimmer, die das Lernen und die Interaktion beeinflusst."@de ;
+    skos:definition "The emotional and social atmosphere in the classroom that influences learning and interaction."@en ;
+    skos:example "Förderung eines positiven Lernklimas durch Wertschätzung und Respekt."@de ;
+    skos:example "Promoting a positive learning climate through appreciation and respect."@en ;
+    skos:closeMatch mvpMTM:6.1 ;
+    skos:broader <kc10> ;
+    skos:inScheme <> .
+
+<kc20> a skos:Concept ;
+    skos:prefLabel "Unterrichtsplanung & -gestaltung"@de ;
+    skos:prefLabel "Classroom planning & design"@en ;
+    skos:narrower <k20010>, <k20020>, <k20030>, <k20040>, <k20050>, <k20060>, <k20070> ;
     skos:topConceptOf <> .
 
-<k1009> a skos:Concept ;
-    skos:prefLabel "Fehlerkultur"@de ;
-    skos:prefLabel "Error culture"@en ;
-    skos:topConceptOf <> .
-
-<k1010> a skos:Concept ;
-    skos:prefLabel "Kognitive Aktivierung"@de ;
-    skos:prefLabel "Cognitive activation"@en ;
-    skos:topConceptOf <> .
-
-<k1011> a skos:Concept ;
-    skos:prefLabel "Aktivierung von Vorwissen"@de ;
-    skos:prefLabel "Activation of prior knowledge"@en ;
-    skos:topConceptOf <> .
-
-<k1012> a skos:Concept ;
-    skos:prefLabel "Binnendifferenzierung"@de ;
-    skos:prefLabel "Internal differentiation"@en ;
-    skos:topConceptOf <> .
-
-<k1013> a skos:Concept ;
-    skos:prefLabel "Scaffolding"@de ;
-    skos:prefLabel "Scaffolding"@en ;
-    skos:topConceptOf <> .
-
-<k1014> a skos:Concept ;
-    skos:prefLabel "Lernunterstützung"@de ;
-    skos:prefLabel "Learning support"@en ;
-    skos:topConceptOf <> .
-
-<k1015> a skos:Concept ;
-    skos:prefLabel "Übergänge gestalten"@de ;
-    skos:prefLabel "Designing transitions"@en ;
-    skos:topConceptOf <> .
-
-<k1016> a skos:Concept ;
-    skos:prefLabel "Lernstrategien"@de ;
-    skos:prefLabel "Learning strategies"@en ;
-    skos:topConceptOf <> .
-
-<k1017> a skos:Concept ;
-    skos:prefLabel "Lernumgebung"@de ;
-    skos:prefLabel "Learning environment"@en ;
-    skos:topConceptOf <> .
-
-<k1018> a skos:Concept ;
-    skos:prefLabel "Metakognition"@de ;
-    skos:prefLabel "Metacognition"@en ;
-    skos:topConceptOf <> .
-
-<k1019> a skos:Concept ;
-    skos:prefLabel "Motivation"@de ;
-    skos:prefLabel "Motivation"@en ;
-    skos:topConceptOf <> .
-
-<k1020> a skos:Concept ;
-    skos:prefLabel "Reflexion"@de ;
-    skos:prefLabel "Reflection"@en ;
-    skos:topConceptOf <> .
-
-<k1021> a skos:Concept ;
-    skos:prefLabel "Projektarbeit"@de ;
-    skos:prefLabel "Project work"@en ;
-    skos:topConceptOf <> .
-
-<k1022> a skos:Concept ;
-    skos:prefLabel "Stationenlernen"@de ;
-    skos:prefLabel "Station learning"@en ;
-    skos:topConceptOf <> .
-
-<k1023> a skos:Concept ;
-    skos:prefLabel "Rollenspiel"@de ;
-    skos:prefLabel "Role play"@en ;
-    skos:topConceptOf <> .
-
-<k1024> a skos:Concept ;
-    skos:prefLabel "Experiment"@de ;
-    skos:prefLabel "Experiment"@en ;
-    skos:topConceptOf <> .
-
-<k1025> a skos:Concept ;
-    skos:prefLabel "Portfolio"@de ;
-    skos:prefLabel "Portfolio"@en ;
-    skos:topConceptOf <> .
-
-<k1026> a skos:Concept ;
-    skos:prefLabel "Gamification"@de ;
-    skos:prefLabel "Gamification"@en ;
-    skos:topConceptOf <> .
-
-<k1027> a skos:Concept ;
-    skos:prefLabel "Außerschulische Lernorte"@de ;
-    skos:prefLabel "Extracurricular learning locations"@en ;
-    skos:topConceptOf <> .
-
-<k1028> a skos:Concept ;
-    skos:prefLabel "Offener Unterricht"@de ;
-    skos:prefLabel "Open teaching"@en ;
-    skos:topConceptOf <> .
-
-<k1029> a skos:Concept ;
-    skos:prefLabel "Team-Teaching"@de ;
-    skos:prefLabel "Team teaching"@en ;
-    skos:topConceptOf <> .
-
-<k1030> a skos:Concept ;
-    skos:prefLabel "Distanzlernen"@de ;
-    skos:prefLabel "Distance learning"@en ;
-    skos:topConceptOf <> .
-
-<k1031> a skos:Concept ;
-    skos:prefLabel "Forschendes Lernen"@de ;
-    skos:prefLabel "Inquiry-based learning"@en ;
-    skos:topConceptOf <> .
-
-<k1032> a skos:Concept ;
-    skos:prefLabel "Selbstreguliertes Lernen"@de ;
-    skos:prefLabel "Self-regulated learning"@en ;
-    skos:topConceptOf <> .
-
-<k1033> a skos:Concept ;
-    skos:prefLabel "Personalisiertes Lernen"@de ;
-    skos:prefLabel "Personalized learning"@en ;
-    skos:topConceptOf <> .
-
-<k1034> a skos:Concept ;
-    skos:prefLabel "Kooperatives Lernen"@de ;
-    skos:prefLabel "Cooperative learning"@en ;
-    skos:topConceptOf <> .
-
-<k1035> a skos:Concept ;
-    skos:prefLabel "Soziales Lernen"@de ;
-    skos:prefLabel "Social learning"@en ;
-    skos:topConceptOf <> .
-
-<k1036> a skos:Concept ;
-    skos:prefLabel "Handlungsorientierung"@de ;
-    skos:prefLabel "Action orientation"@en ;
-    skos:topConceptOf <> .
-
-<k1037> a skos:Concept ;
-    skos:prefLabel "Erlebnispädagogik"@de ;
-    skos:prefLabel "Experiential education"@en ;
-    skos:topConceptOf <> .
-
-<k1038> a skos:Concept ;
-    skos:prefLabel "Theaterpädagogik"@de ;
-    skos:prefLabel "Theater pedagogy"@en ;
-    skos:topConceptOf <> .
-
-<k1039> a skos:Concept ;
-    skos:prefLabel "Reformpädagogik"@de ;
-    skos:prefLabel "Reform pedagogy"@en ;
-    skos:topConceptOf <> .
-
-<k1040> a skos:Concept ;
-    skos:prefLabel "Sprachsensibler Fachunterricht"@de ;
-    skos:prefLabel "Language-sensitive subject teaching"@en ;
-    skos:topConceptOf <> .
-
-<k1041> a skos:Concept ;
-    skos:prefLabel "Bildungsgerechtigkeit"@de ;
-    skos:prefLabel "Educational equity"@en ;
-    skos:topConceptOf <> .
-
-<k1042> a skos:Concept ;
-    skos:prefLabel "Inklusion"@de ;
-    skos:prefLabel "Inclusion"@en ;
-    skos:topConceptOf <> .
-
-<k1043> a skos:Concept ;
-    skos:prefLabel "Individuelle Förderung"@de ;
-    skos:prefLabel "Individual support"@en ;
-    skos:topConceptOf <> .
-
-<k1044> a skos:Concept ;
-    skos:prefLabel "Interkulturelle Bildung"@de ;
-    skos:prefLabel "Intercultural education"@en ;
-    skos:topConceptOf <> .
-
-<k1045> a skos:Concept ;
-    skos:prefLabel "Umgang mit Heterogenität"@de ;
-    skos:prefLabel "Dealing with heterogeneity"@en ;
-    skos:topConceptOf <> .
-
-<k1046> a skos:Concept ;
-    skos:prefLabel "Förderschwerpunkt Lernen"@de ;
-    skos:prefLabel "Focus on learning support"@en ;
-    skos:topConceptOf <> .
-
-<k1047> a skos:Concept ;
-    skos:prefLabel "Förderschwerpunkt Hören"@de ;
-    skos:prefLabel "Focus on hearing support"@en ;
-    skos:topConceptOf <> .
-
-<k1048> a skos:Concept ;
-    skos:prefLabel "Förderschwerpunkt Sprache"@de ;
-    skos:prefLabel "Focus on language support"@en ;
-    skos:topConceptOf <> .
-
-<k1049> a skos:Concept ;
-    skos:prefLabel "Förderschwerpunkt Geistige Entwicklung"@de ;
-    skos:prefLabel "Focus on intellectual development"@en ;
-    skos:topConceptOf <> .
-
-<k1050> a skos:Concept ;
-    skos:prefLabel "Förderschwerpunkt Soziale/emotionale Entwicklung"@de ;
-    skos:prefLabel "Focus on social/emotional development"@en ;
-    skos:topConceptOf <> .
-
-<k1051> a skos:Concept ;
-    skos:prefLabel "Förderschwerpunkt Motorische Entwicklung"@de ;
-    skos:prefLabel "Focus on motor development"@en ;
-    skos:topConceptOf <> .
-
-<k1052> a skos:Concept ;
-    skos:prefLabel "Sonderpädagogischer Förderschwerpunkt"@de ;
-    skos:prefLabel "Special education focus"@en ;
-    skos:topConceptOf <> .
-
-<k1053> a skos:Concept ;
-    skos:prefLabel "Digital-gestützter Unterricht"@de ;
-    skos:prefLabel "Digitally supported teaching"@en ;
-    skos:topConceptOf <> .
-
-<k1054> a skos:Concept ;
-    skos:prefLabel "Soziale Medien"@de ;
-    skos:prefLabel "Social media"@en ;
-    skos:topConceptOf <> .
-
-<k1055> a skos:Concept ;
-    skos:prefLabel "Medienkompetenz"@de ;
-    skos:prefLabel "Media literacy"@en ;
-    skos:topConceptOf <> .
-
-<k1056> a skos:Concept ;
-    skos:prefLabel "Leistungsbewertung"@de ;
-    skos:prefLabel "Performance assessment"@en ;
-    skos:topConceptOf <> .
-
-<k1057> a skos:Concept ;
-    skos:prefLabel "Lernstandsdiagnose"@de ;
-    skos:prefLabel "Learning status diagnosis"@en ;
-    skos:topConceptOf <> .
-
-<k1058> a skos:Concept ;
-    skos:prefLabel "Formative Beurteilung"@de ;
-    skos:prefLabel "Formative assessment"@en ;
-    skos:topConceptOf <> .
-
-<k1059> a skos:Concept ;
-    skos:prefLabel "Feedback"@de ;
-    skos:prefLabel "Feedback"@en ;
-    skos:topConceptOf <> .
-
-<k1060> a skos:Concept ;
-    skos:prefLabel "Ästhetische Bildung"@de ;
-    skos:prefLabel "Aesthetic education"@en ;
-    skos:topConceptOf <> .
-
-<k1061> a skos:Concept ;
-    skos:prefLabel "Bildung für nachhaltige Entwicklung (BNE)"@de ;
-    skos:prefLabel "Education for sustainable development (ESD)"@en ;
-    skos:topConceptOf <> .
-
-<k1062> a skos:Concept ;
-    skos:prefLabel "Künstliche Intelligenz (KI)"@de ;
-    skos:prefLabel "Artificial intelligence (AI)"@en ;
-    skos:topConceptOf <> .
-
-<k1063> a skos:Concept ;
-    skos:prefLabel "Virtual Reality (VR)"@de ;
-    skos:prefLabel "Virtual reality (VR)"@en ;
-    skos:topConceptOf <> .
-
-<k1064> a skos:Concept ;
+<k20010> a skos:Concept ;
     skos:prefLabel "Einstiegsphase"@de ;
-    skos:prefLabel "Introductory phase"@en ;
-    skos:topConceptOf <> .
+    skos:prefLabel "Lesson start"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
 
-<k1065> a skos:Concept ;
+<k20020> a skos:Concept ;
     skos:prefLabel "Erarbeitungsphase"@de ;
     skos:prefLabel "Working phase"@en ;
-    skos:topConceptOf <> .
+    skos:broader <kc20> ;
+    skos:inScheme <> .
 
-<k1066> a skos:Concept ;
-    skos:prefLabel "Reflexionsphase"@de ;
-    skos:prefLabel "Reflection phase"@en ;
-    skos:topConceptOf <> .
+<k20030> a skos:Concept ;
+    skos:prefLabel "Vertiefungs- und Übungsphase"@de ;
+    skos:prefLabel "Deepening and practice phase"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
 
-<k1067> a skos:Concept ;
-    skos:prefLabel "Übungsphase"@de ;
-    skos:prefLabel "Practice phase"@en ;
-    skos:topConceptOf <> .
-
-<k1068> a skos:Concept ;
+<k20040> a skos:Concept ;
     skos:prefLabel "Sicherungsphase"@de ;
     skos:prefLabel "Consolidation phase"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
+
+<k20050> a skos:Concept ;
+    skos:prefLabel "Reflexionsphase"@de ;
+    skos:prefLabel "Reflection phase"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
+
+<k20060> a skos:Concept ;
+    skos:prefLabel "Übergänge gestalten"@de ;
+    skos:prefLabel "Designing transitions"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
+
+<k20070> a skos:Concept ;
+    skos:prefLabel "Anfangsunterricht gestalten"@de ;
+    skos:prefLabel "Designing transition to school"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
+
+<kc30> a skos:Concept ;
+    skos:prefLabel "Didaktische Konzepte & Methoden"@de ;
+    skos:prefLabel "Didactic concepts & methods"@en ;
+    skos:narrower <k30010>, <k30020>, <k30030>, <k30035>, <k30040>, <k30050>, <k30060>, <k30070>, <k30080>, <k30090>, <k30100>, <k30110>, <k30120>, <k30130>, <k30140>, <k30150>, <k30160>, <k30161>, <k30162>, <k30170> ;
     skos:topConceptOf <> .
+
+<k30010> a skos:Concept ;
+    skos:prefLabel "Projektarbeit"@de ;
+    skos:prefLabel "Project work"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30020> a skos:Concept ;
+    skos:prefLabel "Stationenlernen"@de ;
+    skos:prefLabel "Station learning"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30030> a skos:Concept ;
+    skos:prefLabel "Rollenspiel"@de ;
+    skos:prefLabel "Role play"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30040> a skos:Concept ;
+    skos:prefLabel "Experiment"@de ;
+    skos:prefLabel "Experiment"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30035> a skos:Concept ;
+    skos:prefLabel "Simulation, Planspiel"@de ;
+    skos:prefLabel "Simulation (game)"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30050> a skos:Concept ;
+    skos:prefLabel "Portfolio"@de ;
+    skos:prefLabel "Portfolio"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30060> a skos:Concept ;
+    skos:prefLabel "Gamification"@de ;
+    skos:prefLabel "Gamification"@en ;
+    skos:altLabel "Lernspiel"@de ;
+    skos:altLabel "Learning game"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30080> a skos:Concept ;
+    skos:prefLabel "Offener Unterricht"@de ;
+    skos:prefLabel "Open teaching"@en ;
+    skos:example "Werkstattunterricht"@de ;
+    skos:example "Workshop teaching"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30090> a skos:Concept ;
+    skos:prefLabel "Team-Teaching"@de ;
+    skos:prefLabel "Team teaching"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30100> a skos:Concept ;
+    skos:prefLabel "Distanzlernen"@de ;
+    skos:prefLabel "Distance learning"@en ;
+    skos:altLabel "Distanzunterricht"@de ;
+    skos:altLabel "Distance teaching"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30110> a skos:Concept ;
+    skos:prefLabel "Forschendes und entdeckendes Lernen"@de ;
+    skos:prefLabel "Inquiry-based and discovery learning"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30115> a skos:Concept ;
+    skos:prefLabel "Konzeptwandel bei Lernenden"@de ;
+    skos:prefLabel "Conceptual change in learners"@en ;
+    skos:example "Wandel von (Fehl-)Vorstellungen bei naturwissenschaftlichen Themen."@de ;
+    skos:example "Change of (mis-)conceptions in scientific topics."@en ;
+    skos:example "Veränderung von Präkonzepten."@de ;
+    skos:example "Change of preconceptions."@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30120> a skos:Concept ;
+    skos:prefLabel "Selbstreguliertes Lernen"@de ;
+    skos:prefLabel "Self-regulated learning"@en ;
+    skos:closeMatch mvpMTM:7 ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30130> a skos:Concept ;
+    skos:prefLabel "Personalisiertes Lernen"@de ;
+    skos:prefLabel "Personalized learning"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30140> a skos:Concept ;
+    skos:prefLabel "Kooperatives Lernen"@de ;
+    skos:prefLabel "Cooperative learning"@en ;
+    skos:related <k100050> ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30150> a skos:Concept ;
+    skos:prefLabel "Soziales Lernen"@de ;
+    skos:prefLabel "Social learning"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30160> a skos:Concept ;
+    skos:prefLabel "Handlungsorientierter Unterricht"@de ;
+    skos:prefLabel "Action-oriented teaching"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30161> a skos:Concept ;
+    skos:prefLabel "Problemorientierter Unterricht"@de ;
+    skos:prefLabel "Problem-oriented teaching"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30162> a skos:Concept ;
+    skos:prefLabel "Kompetenzorientierter Unterricht"@de ;
+    skos:prefLabel "Competency-oriented teaching"@en ;
+    skos:definition "Im Mittelpunkt der Planung und Gestaltung von Lehr- und Lernprozessen steht die Förderung der individuellen Kompetenzen der Schülerinnen und Schüler."@de ;
+    skos:definition "The focus of planning and designing teaching and learning processes is on promoting the individual competencies of the students."@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30170> a skos:Concept ;
+    skos:prefLabel "Außerschulischer Lernort"@de ;
+    skos:prefLabel "Extracurricular learning location"@en ;
+    skos:example "Exkursion zu einem Schulbauernhof"@de ;
+    skos:example "Excursion to a school farm"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<kc40> a skos:Concept ;
+    skos:prefLabel "Lernprozesse begleiten & fördern"@de ;
+    skos:prefLabel "Supporting and promoting learning processes"@en ;
+    skos:narrower <k40010>, <k40020>, <k40030>, <k40040>, <k40050>, <k40060>, <k40070>, <k40080>, <k40090> ;
+    skos:topConceptOf <> .
+
+<k40010> a skos:Concept ;
+    skos:prefLabel "Kognitive Aktivierung"@de ;
+    skos:prefLabel "Cognitive activation"@en ;
+    skos:closeMatch mvpMTM:3 ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40020> a skos:Concept ;
+    skos:prefLabel "Aktivierung von Vorwissen"@de ;
+    skos:prefLabel "Activation of prior knowledge"@en ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40030> a skos:Concept ;
+    skos:prefLabel "Binnendifferenzierung"@de ;
+    skos:prefLabel "Internal differentiation"@en ;
+    skos:altLabel "(Binnen-)Differenzierung"@de ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40040> a skos:Concept ;
+    skos:prefLabel "Scaffolding"@de ;
+    skos:prefLabel "Scaffolding"@en ;
+    skos:definition "Scaffolding refers to the support provided by a teacher to help students achieve a deeper understanding or perform tasks they might not be able to accomplish independently."@en ;
+    skos:definition "Scaffolding bezeichnet die Unterstützung durch eine Lehrkraft, die Schülerinnen und Schülern hilft, ein tieferes Verständnis zu erreichen oder Aufgaben zu bewältigen, die sie alleine möglicherweise nicht schaffen würden."@de ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40050> a skos:Concept ;
+    skos:prefLabel "Lernstrategien"@de ;
+    skos:prefLabel "Learning strategies"@en ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40060> a skos:Concept ;
+    skos:prefLabel "Lernumgebung"@de ;
+    skos:prefLabel "Learning environment"@en ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40070> a skos:Concept ;
+    skos:prefLabel "Metakognition"@de ;
+    skos:prefLabel "Metacognition"@en ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40080> a skos:Concept ;
+    skos:prefLabel "Motivation"@de ;
+    skos:prefLabel "Motivation"@en ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<k40090> a skos:Concept ;
+    skos:prefLabel "Fehlerkultur"@de ;
+    skos:prefLabel "Error culture"@en ;
+    skos:broader <kc40> ;
+    skos:inScheme <> .
+
+<kc50> a skos:Concept ;
+    skos:prefLabel "Umgang mit Heterogenität"@de ;
+    skos:prefLabel "Dealing with diversity"@en ;
+    skos:definition "Unterricht wird an den Lernenden orientiert. Dabei werden die individuellen Bedürfnisse und Potenziale der Schülerinnen und Schüler berücksichtigt."@de ;
+    skos:definition "Teaching is oriented towards the learners. The individual needs and potentials of the students are taken into account."@en ;
+    skos:narrower <k50010>, <k50020>, <k50030>, <k50040>, <k50050> ;
+    skos:topConceptOf <> .
+
+<k50010> a skos:Concept ;
+    skos:prefLabel "Inklusion"@de ;
+    skos:prefLabel "Inclusion"@en ;
+    skos:altLabel "Inklusiver Unterricht"@de ;
+    skos:altLabel "Inclusive teaching"@en ;
+    skos:broader <kc50> ;
+    skos:inScheme <> .
+
+<k50020> a skos:Concept ;
+    skos:prefLabel "Individuelle Förderung"@de ;
+    skos:prefLabel "Individual support"@en ;
+    skos:broader <kc50> ;
+    skos:inScheme <> .
+
+<k50030> a skos:Concept ;
+    skos:prefLabel "Interkulturelle Bildung"@de ;
+    skos:prefLabel "Intercultural education"@en ;
+    skos:broader <kc50> ;
+    skos:inScheme <> .
+
+<k50040> a skos:Concept ;
+    skos:prefLabel "Bildungsgerechtigkeit"@de ;
+    skos:prefLabel "Educational equity"@en ;
+    skos:broader <kc50> ;
+    skos:inScheme <> .
+
+<k50050> a skos:Concept ;
+    skos:prefLabel "Mehrsprachiger Unterricht"@de ;
+    skos:prefLabel "Multilingual teaching"@en ;
+    skos:altLabel "Multilingualer Unterricht"@de ;
+    skos:altLabel "Multilingual education"@en ;
+    skos:broader <kc50> ;
+    skos:inScheme <> .
+
+<k50060> a skos:Concept ;
+    skos:prefLabel "Adaptiver Unterricht"@de ;
+    skos:prefLabel "Adaptive teaching"@en ;
+    skos:definition "Anpassung der Anforderungen an die unterschiedlichen Lernvoraussetzungen der Schülerinnen und Schüler."@de ;
+    skos:definition "Adaptation of requirements to the different learning prerequisites of the students."@en ;
+    skos:broader <kc50> ;
+    skos:inScheme <> .
+
+<kc60> a skos:Concept ;
+    skos:prefLabel "Sonderpädagogische Förderung"@de ;
+    skos:prefLabel "Special education focus"@en ;
+    skos:narrower <k60010>, <k60020>, <k60030>, <k60040>, <k60050>, <k60060> ;
+    skos:topConceptOf <> .
+
+<k60010> a skos:Concept ;
+    skos:prefLabel "Förderschwerpunkt: Geistige Entwicklung"@de ;
+    skos:prefLabel "Focus on intellectual development"@en ;
+    skos:broader <kc60> ;
+    skos:inScheme <> .
+
+<k60020> a skos:Concept ;
+    skos:prefLabel "Förderschwerpunkt: Soziale und emotionale Entwicklung"@de ;
+    skos:prefLabel "Focus on social and emotional development"@en ;
+    skos:broader <kc60> ;
+    skos:inScheme <> .
+
+<k60030> a skos:Concept ;
+    skos:prefLabel "Förderschwerpunkt: Motorische Entwicklung"@de ;
+    skos:prefLabel "Focus on motor development"@en ;
+    skos:broader <kc60> ;
+    skos:inScheme <> .
+
+<k60040> a skos:Concept ;
+    skos:prefLabel "Förderschwerpunkt: Lernen"@de ;
+    skos:prefLabel "Focus on learning support"@en ;
+    skos:broader <kc60> ;
+    skos:inScheme <> .
+
+<k60050> a skos:Concept ;
+    skos:prefLabel "Förderschwerpunkt: Hören"@de ;
+    skos:prefLabel "Focus on hearing support"@en ;
+    skos:broader <kc60> ;
+    skos:inScheme <> .
+
+<k60060> a skos:Concept ;
+    skos:prefLabel "Förderschwerpunkt: Sprache"@de ;
+    skos:prefLabel "Focus on language support"@en ;
+    skos:broader <kc60> ;
+    skos:inScheme <> .
+
+<kc70> a skos:Concept ;
+    skos:prefLabel "Digitale Bildung & Medienkompetenz"@de ;
+    skos:prefLabel "Digital education & media literacy"@en ;
+    skos:narrower <k70010>, <k70020>, <k70030>, <k70040>, <k70050> ;
+    skos:topConceptOf <> .
+
+<k70010> a skos:Concept ;
+    skos:prefLabel "Digital-gestützter Unterricht"@de ;
+    skos:prefLabel "Digitally supported teaching"@en ;
+    skos:broader <kc70> ;
+    skos:inScheme <> .
+
+<k70020> a skos:Concept ;
+    skos:prefLabel "Soziale Medien"@de ;
+    skos:prefLabel "Social media"@en ;
+    skos:broader <kc70> ;
+    skos:inScheme <> .
+
+<k70030> a skos:Concept ;
+    skos:prefLabel "Medienkompetenz"@de ;
+    skos:prefLabel "Media literacy"@en ;
+    skos:broader <kc70> ;
+    skos:inScheme <> .
+
+<k70040> a skos:Concept ;
+    skos:prefLabel "Künstliche Intelligenz (KI)"@de ;
+    skos:prefLabel "Artificial intelligence (AI)"@en ;
+    skos:broader <kc70> ;
+    skos:inScheme <> .
+
+<k70050> a skos:Concept ;
+    skos:prefLabel "Augmented und Virtual Reality (AR, VR)"@de ;
+    skos:prefLabel "Augmented and virtual reality (AR, VR)"@en ;
+    skos:broader <kc70> ;
+    skos:inScheme <> .
+
+<kc80> a skos:Concept ;
+    skos:prefLabel "Feedback & Leistungsbewertung"@de ;
+    skos:prefLabel "Feedback & Assessment"@en ;
+    skos:narrower <k80010>, <k80020> ;
+    skos:closeMatch mvpMTM:5 ;
+    skos:topConceptOf <> .
+
+<k80010> a skos:Concept ;
+    skos:prefLabel "Formatives Feedback"@de ;
+    skos:prefLabel "Formative feedback"@en ;
+    skos:broader <kc80> ;
+    skos:inScheme <> .
+
+<k80020> a skos:Concept ;
+    skos:prefLabel "Summative Evaluation"@de ;
+    skos:prefLabel "Summative evaluation"@en ;
+    skos:altLabel "Lernkontrolle"@de ;
+    skos:altLabel "Learning control"@en ;
+    skos:altLabel "Assessment"@en ;
+    skos:altLabel "Assessment"@de ;
+    skos:altLabel "Lernstandserhebung"@de ;
+    skos:altLabel "Learning status survey"@en ;
+     skos:closeMatch mvpMTM:5.2 ;
+    skos:broader <kc80> ;
+    skos:inScheme <> .
+
+<kc90> a skos:Concept ;
+    skos:prefLabel "Interdisziplinäre Bildungskonzepte"@de ;
+    skos:prefLabel "Interdisciplinary educational concepts"@en ;
+    skos:narrower <k90020>, <k90030>, <k90040>, <k90050>, <k90060> ;
+    skos:topConceptOf <> .
+
+<k90020> a skos:Concept ;
+    skos:prefLabel "Theater- und Erlebnispädagogik"@de ;
+    skos:prefLabel "Theater and experiential education"@en ;
+    skos:altLabel "Erlebnispädagogik"@de ;
+    skos:altLabel "Experiential education"@en ;
+    skos:altLabel "Theaterpädagogik"@de ;
+    skos:altLabel "Theater education"@en ;
+    skos:broader <kc90> ;
+    skos:inScheme <> .
+
+<k90030> a skos:Concept ;
+    skos:prefLabel "Reformpädagogik"@de ;
+    skos:prefLabel "Reform pedagogy"@en ;
+    skos:broader <kc90> ;
+    skos:inScheme <> .
+
+<k90040> a skos:Concept ;
+    skos:prefLabel "Sprachsensibler (Fach-)Unterricht"@de ;
+    skos:prefLabel "Language-sensitive (subject) teaching"@en ;
+    skos:altLabel "Sprachförderung im Fachunterricht"@de ;
+    skos:altLabel "Language support in subject teaching"@en ;
+    skos:altLabel "Sprachsensibilität"@de ;
+    skos:altLabel "Language sensitivity"@en ;
+    skos:broader <kc90> ;
+    skos:inScheme <> .
+
+<k90050> a skos:Concept ;
+    skos:prefLabel "Ästhetische und kulturelle Bildung"@de ;
+    skos:prefLabel "Aesthetic and cultural education"@en ;
+    skos:broader <kc90> ;
+    skos:inScheme <> .
+
+<k90060> a skos:Concept ;
+    skos:prefLabel "Bildung für nachhaltige Entwicklung (BNE)"@de ;
+    skos:prefLabel "Education for sustainable development (ESD)"@en ;
+    skos:broader <kc90> ;
+    skos:inScheme <> .
+
+<kc100> a skos:Concept ;
+    skos:prefLabel "Unterrichtsaktivitäten & Sozialformen"@de ;
+    skos:prefLabel "Lecture activities and social forms"@en ;
+    skos:narrower <k100010>, <k100020>, <k100030>, <k100040>, <k100050>, <k100060>, <k100070> ;
+    skos:topConceptOf <> .
+
+<k100010> a skos:Concept ;
+    skos:prefLabel "Instruktion durch Lehrkraft"@de ;
+    skos:prefLabel "Instruction by teacher"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<k100020> a skos:Concept ;
+    skos:prefLabel "Demonstration durch Lehrkraft"@de ;
+    skos:prefLabel "Demonstration by teacher"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<k100030> a skos:Concept ;
+    skos:prefLabel "Demonstration durch Lernende"@de ;
+    skos:prefLabel "Demonstration by students"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<k100040> a skos:Concept ;
+    skos:prefLabel "Unterrichtsgespräch"@de ;
+    skos:prefLabel "Classroom discussion"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<k100050> a skos:Concept ;
+    skos:prefLabel "Gruppenarbeit"@de ;
+    skos:prefLabel "Group work"@en ;
+    skos:example "Gruppenpuzzle"@de ;
+    skos:example "Group puzzle"@en ;
+    skos:example: "Think-Pair-Share"@de ;
+    skos:example: "Think-Pair-Share"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<k100060> a skos:Concept ;
+    skos:prefLabel "Partnerarbeit"@de ;
+    skos:prefLabel "Partner work"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<k100070> a skos:Concept ;
+    skos:prefLabel "Einzelarbeit"@de ;
+    skos:prefLabel "Individual work"@en ;
+    skos:broader <kc100> ;
+    skos:inScheme <> .
