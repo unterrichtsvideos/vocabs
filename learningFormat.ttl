@@ -10,12 +10,16 @@
     dct:description "Lehr-/Lernform"@de, "Learning/Teaching form"@en ;
     dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2022-06-01"^^xsd:date ;
-    dct:modified "2025-02-24"^^xsd:date ;
+    dct:modified "2025-10-08"^^xsd:date ;
     dct:issued "2022-06-01"^^xsd:date ;
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/" ;
     vann:preferredNamespacePrefix "mvpLearningFormat" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <lf1>, <lf2>, <lf3>, <lf4>, <lf5>, <lf6> .
+    skos:hasTopConcept <lf0>, <lf1>, <lf2>, <lf3>, <lf4> .
+
+<lf0> a skos:Concept ;
+    skos:prefLabel "Sonstiges"@de, "Other"@en ;
+    skos:topConceptOf <> .
 
 <lf1> a skos:Concept ;
     skos:prefLabel "Präsenz"@de, "In-person"@en ;
@@ -31,12 +35,4 @@
 
 <lf4> a skos:Concept ;
     skos:prefLabel "Online mit festen Online-Gruppenterminen"@de, "Online with fixed online group sessions"@en ;
-    skos:topConceptOf <> .
-
-<lf5> a skos:Concept ;
-    skos:prefLabel "Massive Open Online Course (MOOC)"@de, "Massive Open Online Course (MOOC)"@en ;
-    skos:topConceptOf <> .
-
-<lf6> a skos:Concept ;
-    skos:prefLabel "Sonstiges"@de, "Other"@en ;
     skos:topConceptOf <> .
