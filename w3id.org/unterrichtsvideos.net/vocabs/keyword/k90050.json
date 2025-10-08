@@ -1,6 +1,10 @@
 {
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90050",
   "type": "Concept",
+  "prefLabel": {
+    "de": "Ästhetische Bildung",
+    "en": "Aesthetic education"
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc90",
     "prefLabel": {

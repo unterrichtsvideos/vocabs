@@ -35,7 +35,18 @@
       }
     },
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90050"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90050",
+      "prefLabel": {
+        "de": "Ästhetische Bildung",
+        "en": "Aesthetic education"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90060",
+      "prefLabel": {
+        "de": "Bildung für nachhaltige Entwicklung (BNE)",
+        "en": "Education for sustainable development (ESD)"
+      }
     }
   ],
   "inScheme": [
