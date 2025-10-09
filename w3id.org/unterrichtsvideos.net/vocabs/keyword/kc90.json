@@ -2,22 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc90",
   "type": "Concept",
   "prefLabel": {
-    "de": "Interdisziplinäre Bildung",
-    "en": "Interdisciplinary education"
+    "de": "Interdisziplinäre Bildungskonzepte",
+    "en": "Interdisciplinary educational concepts"
   },
   "narrower": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90010",
-      "prefLabel": {
-        "de": "Erlebnispädagogik",
-        "en": "Experiential education"
-      }
-    },
-    {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90020",
       "prefLabel": {
-        "de": "Theaterpädagogik",
-        "en": "Theater pedagogy"
+        "de": "Theater- und Erlebnispädagogik",
+        "en": "Theater and experiential education"
       }
     },
     {
@@ -30,15 +23,15 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90040",
       "prefLabel": {
-        "de": "Sprachsensibler Fachunterricht",
-        "en": "Language-sensitive subject teaching"
+        "de": "Sprachsensibler (Fach-)Unterricht",
+        "en": "Language-sensitive (subject) teaching"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90050",
       "prefLabel": {
-        "de": "Ästhetische Bildung",
-        "en": "Aesthetic education"
+        "de": "Ästhetische und kulturelle Bildung",
+        "en": "Aesthetic and cultural education"
       }
     },
     {

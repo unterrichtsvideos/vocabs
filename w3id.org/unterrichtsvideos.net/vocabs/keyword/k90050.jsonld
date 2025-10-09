@@ -2,14 +2,14 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90050",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ästhetische Bildung",
-    "en": "Aesthetic education"
+    "de": "Ästhetische und kulturelle Bildung",
+    "en": "Aesthetic and cultural education"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc90",
     "prefLabel": {
-      "de": "Interdisziplinäre Bildung",
-      "en": "Interdisciplinary education"
+      "de": "Interdisziplinäre Bildungskonzepte",
+      "en": "Interdisciplinary educational concepts"
     }
   },
   "inScheme": [

@@ -12,6 +12,11 @@
       "en": "Supporting and promoting learning processes"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/3"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

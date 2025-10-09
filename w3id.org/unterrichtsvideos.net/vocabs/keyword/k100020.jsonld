@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100020",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehrkraftdemonstration",
-    "en": "Teacher demonstration"
+    "de": "Demonstration durch Lehrkraft",
+    "en": "Demonstration by teacher"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",

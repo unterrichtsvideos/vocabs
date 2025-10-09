@@ -2,14 +2,22 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90040",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sprachsensibler Fachunterricht",
-    "en": "Language-sensitive subject teaching"
+    "de": "Sprachsensibler (Fach-)Unterricht",
+    "en": "Language-sensitive (subject) teaching"
+  },
+  "altLabel": {
+    "de": [
+      "Sprachförderung im Fachunterricht"
+    ],
+    "en": [
+      "Language support in subject teaching"
+    ]
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc90",
     "prefLabel": {
-      "de": "Interdisziplinäre Bildung",
-      "en": "Interdisciplinary education"
+      "de": "Interdisziplinäre Bildungskonzepte",
+      "en": "Interdisciplinary educational concepts"
     }
   },
   "inScheme": [

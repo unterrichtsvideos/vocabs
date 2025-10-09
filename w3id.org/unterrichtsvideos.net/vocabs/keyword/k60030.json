@@ -2,13 +2,13 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60030",
   "type": "Concept",
   "prefLabel": {
-    "de": "Förderschwerpunkt Motorische Entwicklung",
+    "de": "Förderschwerpunkt: Motorische Entwicklung",
     "en": "Focus on motor development"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc60",
     "prefLabel": {
-      "de": "Sonderpädagogischer Förderschwerpunkt",
+      "de": "Sonderpädagogische Förderung",
       "en": "Special education focus"
     }
   },

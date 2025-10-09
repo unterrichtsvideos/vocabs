@@ -12,6 +12,15 @@
       "en": "Didactic concepts & methods"
     }
   },
+  "related": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100050",
+      "prefLabel": {
+        "de": "Gruppenarbeit",
+        "en": "Group work"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

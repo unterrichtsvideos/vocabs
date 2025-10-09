@@ -5,11 +5,15 @@
     "de": "Klassenführung & -organisation",
     "en": "Classroom management & organization"
   },
+  "definition": {
+    "de": "Die Fähigkeit, eine positive und produktive Lernumgebung zu schaffen und aufrechtzuerhalten, indem Unterrichtsstörungen minimiert und klare Strukturen geschaffen werden.",
+    "en": "The ability to create and maintain a positive and productive learning environment by minimizing classroom disruptions and establishing clear structures."
+  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10010",
       "prefLabel": {
-        "de": "Umgang mit Unterrichtsstörungen,",
+        "de": "Umgang mit Unterrichtsstörungen",
         "en": "Dealing with classroom disruptions"
       }
     },
@@ -33,6 +37,18 @@
         "de": "Strukturierung des Unterricht",
         "en": "Structuring lessons"
       }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10050",
+      "prefLabel": {
+        "de": "Lernklima",
+        "en": "Learning climate"
+      }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2"
     }
   ],
   "inScheme": [

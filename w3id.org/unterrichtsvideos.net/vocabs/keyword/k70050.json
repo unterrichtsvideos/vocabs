@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k70050",
   "type": "Concept",
   "prefLabel": {
-    "de": "Virtual Reality (VR)",
-    "en": "Virtual reality (VR)"
+    "de": "Augmented und Virtual Reality (AR, VR)",
+    "en": "Augmented and virtual reality (AR,VR)"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc70",

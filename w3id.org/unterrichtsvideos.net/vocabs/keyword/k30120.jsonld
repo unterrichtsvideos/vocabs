@@ -12,6 +12,11 @@
       "en": "Didactic concepts & methods"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/7"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

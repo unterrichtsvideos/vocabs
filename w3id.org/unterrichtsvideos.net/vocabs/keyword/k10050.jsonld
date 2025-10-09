@@ -1,17 +1,38 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90010",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10050",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erlebnispädagogik",
-    "en": "Experiential education"
+    "de": "Lernklima",
+    "en": "Learning climate"
+  },
+  "altLabel": {
+    "de": [
+      "Unterrichtsklima"
+    ],
+    "en": [
+      "Classroom climate"
+    ]
+  },
+  "definition": {
+    "de": "Die emotionale und soziale Atmosphäre im Klassenzimmer, die das Lernen und die Interaktion beeinflusst.",
+    "en": "The emotional and social atmosphere in the classroom that influences learning and interaction."
+  },
+  "example": {
+    "de": "Förderung eines positiven Lernklimas durch Wertschätzung und Respekt.",
+    "en": "Promoting a positive learning climate through appreciation and respect."
   },
   "broader": {
-    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc90",
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc10",
     "prefLabel": {
-      "de": "Interdisziplinäre Bildung",
-      "en": "Interdisciplinary education"
+      "de": "Klassenführung & -organisation",
+      "en": "Classroom management & organization"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/6.1"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

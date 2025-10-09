@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100070",
   "type": "Concept",
   "prefLabel": {
-    "de": "Stillarbeit, Einzelarbeit",
-    "en": "Silent work, Individual work"
+    "de": "Einzelarbeit",
+    "en": "Individual work"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",

@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30160",
   "type": "Concept",
   "prefLabel": {
-    "de": "Handlungsorientierung",
-    "en": "Action orientation"
+    "de": "Handlungsorientierter Unterricht",
+    "en": "Action-oriented teaching"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",

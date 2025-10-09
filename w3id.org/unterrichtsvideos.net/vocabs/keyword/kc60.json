@@ -2,49 +2,49 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc60",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sonderpädagogischer Förderschwerpunkt",
+    "de": "Sonderpädagogische Förderung",
     "en": "Special education focus"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60010",
       "prefLabel": {
-        "de": "Förderschwerpunkt Geistige Entwicklung",
+        "de": "Förderschwerpunkt: Geistige Entwicklung",
         "en": "Focus on intellectual development"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60020",
       "prefLabel": {
-        "de": "Förderschwerpunkt Soziale/emotionale Entwicklung",
+        "de": "Förderschwerpunkt: Soziale/emotionale Entwicklung",
         "en": "Focus on social/emotional development"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60030",
       "prefLabel": {
-        "de": "Förderschwerpunkt Motorische Entwicklung",
+        "de": "Förderschwerpunkt: Motorische Entwicklung",
         "en": "Focus on motor development"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60040",
       "prefLabel": {
-        "de": "Förderschwerpunkt Lernen",
+        "de": "Förderschwerpunkt: Lernen",
         "en": "Focus on learning support"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60050",
       "prefLabel": {
-        "de": "Förderschwerpunkt Hören",
+        "de": "Förderschwerpunkt: Hören",
         "en": "Focus on hearing support"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60060",
       "prefLabel": {
-        "de": "Förderschwerpunkt Sprache",
+        "de": "Förderschwerpunkt: Sprache",
         "en": "Focus on language support"
       }
     }

@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100030",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lernerdemonstration",
-    "en": "Student demonstration"
+    "de": "Demonstration durch Lernende",
+    "en": "Demonstration by students"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",

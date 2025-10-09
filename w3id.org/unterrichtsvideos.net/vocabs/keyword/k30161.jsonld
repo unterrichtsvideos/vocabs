@@ -1,15 +1,15 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100080",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30161",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gruppenpuzzle",
-    "en": "Group puzzle"
+    "de": "Problemorientierter Unterricht",
+    "en": "Problem-oriented teaching"
   },
   "broader": {
-    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",
     "prefLabel": {
-      "de": "Unterrichtsaktivitäten & Sozialformen",
-      "en": "Lecture activities and social forms"
+      "de": "Didaktische Konzepte & Methoden",
+      "en": "Didactic concepts & methods"
     }
   },
   "inScheme": [

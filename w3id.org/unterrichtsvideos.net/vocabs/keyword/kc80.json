@@ -2,23 +2,28 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc80",
   "type": "Concept",
   "prefLabel": {
-    "de": "Leistungsbewertung & Diagnostik",
-    "en": "Assessment & Diagnostics"
+    "de": "Feedback & Leistungsbewertung",
+    "en": "Feedback & Assessment"
   },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k80010",
       "prefLabel": {
-        "de": "Formative Beurteilung",
-        "en": "Formative assessment"
+        "de": "Formatives Feedback",
+        "en": "Formative feedback"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k80020",
       "prefLabel": {
-        "de": "Feedback",
-        "en": "Feedback"
+        "de": "Summative Evaluation",
+        "en": "Summative evaluation"
       }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5"
     }
   ],
   "inScheme": [

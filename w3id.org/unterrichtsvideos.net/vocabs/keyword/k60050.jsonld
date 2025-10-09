@@ -2,13 +2,13 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60050",
   "type": "Concept",
   "prefLabel": {
-    "de": "Förderschwerpunkt Hören",
+    "de": "Förderschwerpunkt: Hören",
     "en": "Focus on hearing support"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc60",
     "prefLabel": {
-      "de": "Sonderpädagogischer Förderschwerpunkt",
+      "de": "Sonderpädagogische Förderung",
       "en": "Special education focus"
     }
   },

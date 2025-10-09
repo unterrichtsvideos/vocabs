@@ -2,13 +2,13 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60060",
   "type": "Concept",
   "prefLabel": {
-    "de": "Förderschwerpunkt Sprache",
+    "de": "Förderschwerpunkt: Sprache",
     "en": "Focus on language support"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc60",
     "prefLabel": {
-      "de": "Sonderpädagogischer Förderschwerpunkt",
+      "de": "Sonderpädagogische Förderung",
       "en": "Special education focus"
     }
   },

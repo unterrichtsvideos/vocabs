@@ -2,12 +2,16 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10010",
   "type": "Concept",
   "prefLabel": {
-    "de": "Umgang mit Unterrichtsstörungen,",
+    "de": "Umgang mit Unterrichtsstörungen",
     "en": "Dealing with classroom disruptions"
   },
+  "definition": {
+    "de": "Strategien und Techniken, um Störungen im Unterricht zu verhindern oder effektiv darauf zu reagieren, um die Lernzeit zu maximieren.",
+    "en": "Strategies and techniques to prevent or effectively respond to disruptions in the classroom to maximize learning time."
+  },
   "example": {
-    "de": "Störungsprävention",
-    "en": "Disruption prevention"
+    "de": "Störungsprävention.",
+    "en": "Disruption prevention."
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc10",
@@ -16,6 +20,11 @@
       "en": "Classroom management & organization"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/2.1"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

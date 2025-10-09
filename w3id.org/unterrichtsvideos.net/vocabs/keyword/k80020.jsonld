@@ -2,16 +2,33 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k80020",
   "type": "Concept",
   "prefLabel": {
-    "de": "Feedback",
-    "en": "Feedback"
+    "de": "Summative Evaluation",
+    "en": "Summative evaluation"
+  },
+  "altLabel": {
+    "de": [
+      "Lernkontrolle",
+      "Assessment",
+      "Lernstandserhebung"
+    ],
+    "en": [
+      "Learning control",
+      "Assessment",
+      "Learning status survey"
+    ]
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc80",
     "prefLabel": {
-      "de": "Leistungsbewertung & Diagnostik",
-      "en": "Assessment & Diagnostics"
+      "de": "Feedback & Leistungsbewertung",
+      "en": "Feedback & Assessment"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5.2"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

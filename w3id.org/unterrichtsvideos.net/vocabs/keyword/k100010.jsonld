@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100010",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehrkraftinstruktion",
-    "en": "Teacher instruction"
+    "de": "Instruktion durch Lehrkraft",
+    "en": "Instruction by teacher"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",

@@ -1,15 +1,19 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100090",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k50060",
   "type": "Concept",
   "prefLabel": {
-    "de": "Partnerpuzzle",
-    "en": "Partner puzzle"
+    "de": "Adaptiver Unterricht",
+    "en": "Adaptive teaching"
+  },
+  "definition": {
+    "de": "Anpassung der Anforderungen an die unterschiedlichen Lernvoraussetzungen der Schülerinnen und Schüler.",
+    "en": "Adaptation of requirements to the different learning prerequisites of the students."
   },
   "broader": {
-    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc50",
     "prefLabel": {
-      "de": "Unterrichtsaktivitäten & Sozialformen",
-      "en": "Lecture activities and social forms"
+      "de": "Umgang mit Heterogenität",
+      "en": "Dealing with diversity"
     }
   },
   "inScheme": [

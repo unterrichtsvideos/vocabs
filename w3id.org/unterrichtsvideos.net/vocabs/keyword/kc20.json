@@ -47,6 +47,13 @@
         "de": "Übergänge gestalten",
         "en": "Designing transitions"
       }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k20070",
+      "prefLabel": {
+        "de": "Anfangsunterricht gestalten",
+        "en": "Designing transition to school"
+      }
     }
   ],
   "inScheme": [

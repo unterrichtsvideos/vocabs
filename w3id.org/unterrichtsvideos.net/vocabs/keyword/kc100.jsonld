@@ -7,24 +7,31 @@
   },
   "narrower": [
     {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100050",
+      "prefLabel": {
+        "de": "Gruppenarbeit",
+        "en": "Group work"
+      }
+    },
+    {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100010",
       "prefLabel": {
-        "de": "Lehrkraftinstruktion",
-        "en": "Teacher instruction"
+        "de": "Instruktion durch Lehrkraft",
+        "en": "Instruction by teacher"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100020",
       "prefLabel": {
-        "de": "Lehrkraftdemonstration",
-        "en": "Teacher demonstration"
+        "de": "Demonstration durch Lehrkraft",
+        "en": "Demonstration by teacher"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100030",
       "prefLabel": {
-        "de": "Lernerdemonstration",
-        "en": "Student demonstration"
+        "de": "Demonstration durch Lernende",
+        "en": "Demonstration by students"
       }
     },
     {
@@ -32,13 +39,6 @@
       "prefLabel": {
         "de": "Unterrichtsgespräch",
         "en": "Classroom discussion"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100050",
-      "prefLabel": {
-        "de": "Gruppenarbeit",
-        "en": "Group work"
       }
     },
     {
@@ -51,22 +51,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100070",
       "prefLabel": {
-        "de": "Stillarbeit, Einzelarbeit",
-        "en": "Silent work, Individual work"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100080",
-      "prefLabel": {
-        "de": "Gruppenpuzzle",
-        "en": "Group puzzle"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k100090",
-      "prefLabel": {
-        "de": "Partnerpuzzle",
-        "en": "Partner puzzle"
+        "de": "Einzelarbeit",
+        "en": "Individual work"
       }
     }
   ],

@@ -5,6 +5,10 @@
     "de": "Offener Unterricht",
     "en": "Open teaching"
   },
+  "example": {
+    "de": "Werkstattunterricht",
+    "en": "Workshop teaching"
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",
     "prefLabel": {

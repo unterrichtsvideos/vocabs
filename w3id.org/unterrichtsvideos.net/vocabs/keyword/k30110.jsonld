@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30110",
   "type": "Concept",
   "prefLabel": {
-    "de": "Forschendes Lernen",
-    "en": "Inquiry-based learning"
+    "de": "Forschendes und entdeckendes Lernen",
+    "en": "Inquiry-based and discovery learning"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",

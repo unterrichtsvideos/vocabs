@@ -2,13 +2,13 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k60020",
   "type": "Concept",
   "prefLabel": {
-    "de": "Förderschwerpunkt Soziale/emotionale Entwicklung",
+    "de": "Förderschwerpunkt: Soziale/emotionale Entwicklung",
     "en": "Focus on social/emotional development"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc60",
     "prefLabel": {
-      "de": "Sonderpädagogischer Förderschwerpunkt",
+      "de": "Sonderpädagogische Förderung",
       "en": "Special education focus"
     }
   },

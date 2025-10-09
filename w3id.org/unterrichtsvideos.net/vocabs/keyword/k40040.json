@@ -5,6 +5,10 @@
     "de": "Scaffolding",
     "en": "Scaffolding"
   },
+  "definition": {
+    "de": "Scaffolding bezeichnet die Unterstützung durch eine Lehrkraft, die Schülerinnen und Schülern hilft, ein tieferes Verständnis zu erreichen oder Aufgaben zu bewältigen, die sie alleine möglicherweise nicht schaffen würden.",
+    "en": "Scaffolding refers to the support provided by a teacher to help students achieve a deeper understanding or perform tasks they might not be able to accomplish independently."
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc40",
     "prefLabel": {

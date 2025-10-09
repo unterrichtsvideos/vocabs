@@ -5,6 +5,10 @@
     "de": "Umgang mit Heterogenität",
     "en": "Dealing with diversity"
   },
+  "definition": {
+    "de": "Unterricht wird an den Lernenden orientiert. Dabei werden die individuellen Bedürfnisse und Potenziale der Schülerinnen und Schüler berücksichtigt.",
+    "en": "Teaching is oriented towards the learners. The individual needs and potentials of the students are taken into account."
+  },
   "narrower": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k50010",
@@ -32,6 +36,20 @@
       "prefLabel": {
         "de": "Bildungsgerechtigkeit",
         "en": "Educational equity"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k50050",
+      "prefLabel": {
+        "de": "Mehrsprachiger Unterricht",
+        "en": "Multilingual teaching"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k50060",
+      "prefLabel": {
+        "de": "Adaptiver Unterricht",
+        "en": "Adaptive teaching"
       }
     }
   ],

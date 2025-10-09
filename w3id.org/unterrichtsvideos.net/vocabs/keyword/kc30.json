@@ -28,6 +28,13 @@
       }
     },
     {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30035",
+      "prefLabel": {
+        "de": "Simulation, Planspiel",
+        "en": "Simulation (game)"
+      }
+    },
+    {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30040",
       "prefLabel": {
         "de": "Experiment",
@@ -72,8 +79,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30110",
       "prefLabel": {
-        "de": "Forschendes Lernen",
-        "en": "Inquiry-based learning"
+        "de": "Forschendes und entdeckendes Lernen",
+        "en": "Inquiry-based and discovery learning"
       }
     },
     {
@@ -107,15 +114,29 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30160",
       "prefLabel": {
-        "de": "Handlungsorientierung",
-        "en": "Action orientation"
+        "de": "Handlungsorientierter Unterricht",
+        "en": "Action-oriented teaching"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30161",
+      "prefLabel": {
+        "de": "Problemorientierter Unterricht",
+        "en": "Problem-oriented teaching"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30162",
+      "prefLabel": {
+        "de": "Kompetenzorientierter Unterricht",
+        "en": "Competency-oriented teaching"
       }
     },
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30170",
       "prefLabel": {
-        "de": "Außerschulische Lernorte",
-        "en": "Extracurricular learning locations"
+        "de": "Außerschulischer Lernort",
+        "en": "Extracurricular learning location"
       }
     }
   ],

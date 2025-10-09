@@ -2,14 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k90020",
   "type": "Concept",
   "prefLabel": {
-    "de": "Theaterpädagogik",
-    "en": "Theater pedagogy"
+    "de": "Theater- und Erlebnispädagogik",
+    "en": "Theater and experiential education"
+  },
+  "altLabel": {
+    "de": [
+      "Erlebnispädagogik",
+      "Theaterpädagogik"
+    ],
+    "en": [
+      "Experiential education",
+      "Theater education"
+    ]
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc90",
     "prefLabel": {
-      "de": "Interdisziplinäre Bildung",
-      "en": "Interdisciplinary education"
+      "de": "Interdisziplinäre Bildungskonzepte",
+      "en": "Interdisciplinary educational concepts"
     }
   },
   "inScheme": [

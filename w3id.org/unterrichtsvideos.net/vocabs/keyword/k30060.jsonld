@@ -5,6 +5,14 @@
     "de": "Gamification",
     "en": "Gamification"
   },
+  "altLabel": {
+    "de": [
+      "Lernspiel"
+    ],
+    "en": [
+      "Learning game"
+    ]
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",
     "prefLabel": {

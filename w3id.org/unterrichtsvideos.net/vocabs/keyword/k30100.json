@@ -5,6 +5,14 @@
     "de": "Distanzlernen",
     "en": "Distance learning"
   },
+  "altLabel": {
+    "de": [
+      "Distanzunterricht"
+    ],
+    "en": [
+      "Distance teaching"
+    ]
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",
     "prefLabel": {

@@ -5,6 +5,10 @@
     "de": "Gruppenarbeit",
     "en": "Group work"
   },
+  "example": {
+    "de": "Gruppenpuzzle",
+    "en": "Group puzzle"
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",
     "prefLabel": {
@@ -12,6 +16,15 @@
       "en": "Lecture activities and social forms"
     }
   },
+  "related": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30140",
+      "prefLabel": {
+        "de": "Kooperatives Lernen",
+        "en": "Cooperative learning"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

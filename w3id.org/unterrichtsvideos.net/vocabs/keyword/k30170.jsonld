@@ -2,8 +2,12 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30170",
   "type": "Concept",
   "prefLabel": {
-    "de": "Außerschulische Lernorte",
-    "en": "Extracurricular learning locations"
+    "de": "Außerschulischer Lernort",
+    "en": "Extracurricular learning location"
+  },
+  "example": {
+    "de": "Exkursion zu einem Schulbauernhof",
+    "en": "Excursion to a school farm"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",

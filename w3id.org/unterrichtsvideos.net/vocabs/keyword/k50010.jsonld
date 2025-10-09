@@ -5,6 +5,14 @@
     "de": "Inklusion",
     "en": "Inclusion"
   },
+  "altLabel": {
+    "de": [
+      "Inklusiver Unterricht"
+    ],
+    "en": [
+      "Inclusive teaching"
+    ]
+  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc50",
     "prefLabel": {
