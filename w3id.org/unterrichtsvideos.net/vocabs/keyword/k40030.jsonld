@@ -2,8 +2,13 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k40030",
   "type": "Concept",
   "prefLabel": {
-    "de": "(Binnen-)Differenzierung",
+    "de": "Binnendifferenzierung",
     "en": "Internal differentiation"
+  },
+  "altLabel": {
+    "de": [
+      "(Binnen-)Differenzierung"
+    ]
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc40",
