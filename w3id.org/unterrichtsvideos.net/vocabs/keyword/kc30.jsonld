@@ -138,6 +138,13 @@
         "de": "Außerschulischer Lernort",
         "en": "Extracurricular learning location"
       }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30115",
+      "prefLabel": {
+        "de": "Konzeptwandel bei Lernenden",
+        "en": "Conceptual change in learners"
+      }
     }
   ],
   "inScheme": [

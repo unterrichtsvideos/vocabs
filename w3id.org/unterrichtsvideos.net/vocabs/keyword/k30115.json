@@ -1,47 +1,17 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc70",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30115",
   "type": "Concept",
   "prefLabel": {
-    "de": "Digitale Bildung & Medienkompetenz",
-    "en": "Digital education & media literacy"
+    "de": "Konzeptwandel bei Lernenden",
+    "en": "Conceptual change in learners"
   },
-  "narrower": [
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k70010",
-      "prefLabel": {
-        "de": "Digital-gestützter Unterricht",
-        "en": "Digitally supported teaching"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k70020",
-      "prefLabel": {
-        "de": "Soziale Medien",
-        "en": "Social media"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k70030",
-      "prefLabel": {
-        "de": "Medienkompetenz",
-        "en": "Media literacy"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k70040",
-      "prefLabel": {
-        "de": "Künstliche Intelligenz (KI)",
-        "en": "Artificial intelligence (AI)"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k70050",
-      "prefLabel": {
-        "de": "Augmented und Virtual Reality (AR, VR)",
-        "en": "Augmented and virtual reality (AR, VR)"
-      }
+  "broader": {
+    "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",
+    "prefLabel": {
+      "de": "Didaktische Konzepte & Methoden",
+      "en": "Didactic concepts & methods"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",
@@ -54,15 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",
-      "title": {
-        "de": "Schlagwortsystematisierung",
-        "en": "Keyword systematization"
-      }
     }
   ],
   "@context": {
