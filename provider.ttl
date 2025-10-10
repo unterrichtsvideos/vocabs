@@ -1,0 +1,121 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/provider/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Portalanbieter"@de ;
+    dct:title "Portal providers"@en ;
+    dct:description "Eine Werteliste für die beteiligten Portalanbieter des Meta-Videoportal-Verbundes."@de ;
+    dct:description "A value list for the portal providers of the Meta-Videoportal network."@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2025-10-10"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/provider/" ;
+    vann:preferredNamespacePrefix "mvpProvider";
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300> .
+
+<p100> a skos:Concept ;
+  skos:prefLabel "ProVision (Uni Münster)"@de ;
+  skos:prefLabel "ProVision (University of Münster)"@en ;
+  skos:definition "ProVision ist ein Portal der Universität Münster, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "ProVision is a portal by the University of Münster providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.uni-muenster.de/ProVision/> .
+
+<p200> a skos:Concept ;
+  skos:prefLabel "ViU: Early Science (Uni Münster)"@de ;
+  skos:prefLabel "ViU: Early Science (University of Münster)"@en ;
+  skos:definition "ViU: Early Science ist ein Portal der Universität Münster, das Unterrichtsvideos für die frühe naturwissenschaftliche Bildung anbietet."@de ;
+  skos:definition "ViU: Early Science is a portal by the University of Münster offering classroom videos for early science education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.uni-muenster.de/Koviu/> .
+
+<p300> a skos:Concept ;
+  skos:prefLabel "UnterrichtOnline.org (LMU München)"@de ;
+  skos:prefLabel "UnterrichtOnline.org (LMU Munich)"@en ;
+  skos:definition "UnterrichtOnline.org ist ein Portal der LMU München, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "UnterrichtOnline.org is a portal by LMU Munich providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://unterrichtonline.org> .
+
+<p400> a skos:Concept ;
+  skos:prefLabel "FOCUS (FU Berlin)"@de ;
+  skos:prefLabel "FOCUS (FU Berlin)"@en ;
+  skos:definition "FOCUS ist ein Portal der Freien Universität Berlin, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "FOCUS is a portal by Freie Universität Berlin providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://tetfolio.fu-berlin.de/web/focus> .
+
+<p500> a skos:Concept ;
+  skos:prefLabel "Clipss (UDE)"@de ;
+  skos:prefLabel "Clipss (UDE)"@en ;
+  skos:definition "Clipss ist ein Portal der Universität Duisburg-Essen, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "Clipss is a portal by the University of Duisburg-Essen providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://clipss.de> .
+
+<p600> a skos:Concept ;
+  skos:prefLabel "KfUE (PH Bern)"@de ;
+  skos:prefLabel "KfUE (PH Bern)"@en ;
+  skos:definition "KfUE ist ein Portal der Pädagogischen Hochschule Bern, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "KfUE is a portal by the University of Teacher Education Bern providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.phbern.ch/forschung/projekte/kompetenzorientierte-fachspezifische-unterrichtsentwicklung/e-portal-kfue/e-portal-kompetenzorientierte-fachspezifische-unterrichtsentwicklung> .
+
+<p700> a skos:Concept ;
+  skos:prefLabel "QUA-LiS (NRW)"@de ;
+  skos:prefLabel "QUA-LiS (NRW)"@en ;
+  skos:definition "QUA-LiS ist ein Portal in Nordrhein-Westfalen, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "QUA-LiS is a portal in North Rhine-Westphalia providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.qua-lis.nrw.de> .
+
+<p800> a skos:Concept ;
+  skos:prefLabel "LArS.nrw (NRW)"@de ;
+  skos:prefLabel "LArS.nrw (NRW)"@en ;
+  skos:definition "LArS.nrw ist ein Projekt in Nordrhein-Westfalen, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "LArS.nrw is a project in North Rhine-Westphalia providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.politik-unterricht.de> .
+
+<p900> a skos:Concept ;
+  skos:prefLabel "Toolbox Lehrerbildung (TUM)"@de ;
+  skos:prefLabel "Toolbox Teacher Education (TUM)"@en ;
+  skos:definition "Die Toolbox Lehrerbildung ist ein Portal der Technischen Universität München, das Unterrichtsvideos für die Lehrerbildung bereitstellt."@de ;
+  skos:definition "The Toolbox Teacher Education is a portal by the Technical University of Munich providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://toolbox.edu.tum.de> .
+
+<p1000> a skos:Concept ;
+  skos:prefLabel "Unterrichtsvideos.ch (UZH, PHSZ)"@de ;
+  skos:prefLabel "Unterrichtsvideos.ch (UZH, PHSZ)"@en ;
+  skos:definition "Unterrichtsvideos.ch ist ein Portal der Universität Zürich und der Pädagogischen Hochschule Schwyz, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "Unterrichtsvideos.ch is a portal by the University of Zurich and the University of Teacher Education Schwyz providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://unterrichtsvideos.ch> .
+
+<p1100> a skos:Concept ;
+  skos:prefLabel "VIGOR (GU Frankfurt)"@de ;
+  skos:prefLabel "VIGOR (GU Frankfurt)"@en ;
+  skos:definition "VIGOR ist ein Portal der Goethe-Universität Frankfurt, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "VIGOR is a portal by Goethe University Frankfurt providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://vigor.studiumdigitale.uni-frankfurt.de> .
+
+<p1200> a skos:Concept ;
+  skos:prefLabel "ViLLA (Uni zu Köln)"@de ;
+  skos:prefLabel "ViLLA (University of Cologne)"@en ;
+  skos:definition "ViLLA ist ein Portal der Universität zu Köln, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "ViLLA is a portal by the University of Cologne providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://villa.uni-koeln.de> .
+
+<p1300> a skos:Concept ;
+  skos:prefLabel "Fallarchiv HILDE (Uni Hildesheim)"@de ;
+  skos:prefLabel "Fallarchiv HILDE (University of Hildesheim)"@en ;
+  skos:definition "Fallarchiv HILDE ist ein Portal der Universität Hildesheim, das Unterrichtsvideos für die Lehrkräftebildung bereitstellt."@de ;
+  skos:definition "Fallarchiv HILDE is a portal by the University of Hildesheim providing classroom videos for teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.uni-hildesheim.de/celeb/projekte/fallarchiv-hilde/> .
