@@ -301,6 +301,7 @@
     skos:prefLabel "Binnendifferenzierung"@de ;
     skos:prefLabel "Internal differentiation"@en ;
     skos:altLabel "(Binnen-)Differenzierung"@de ;
+    skos:altLabel "(Internal) differentiation"@en ;
     skos:closeMatch oehDidacticPlanningTools:21-8 ;
     skos:closeMatch oehDidacticPlanningTools:24-5 ;
     skos:broader <kc40> ;
