@@ -3,6 +3,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix euvoc: <http://data.europa.eu/snb/learning-assessment/> .
+@prefix oehLearningFormat: <http://w3id.org/openeduhub/vocabs/learningFormat/> .
+@prefix oehEducationalOffering: <http://w3id.org/openeduhub/vocabs/educationalOffering/> .
 
 <> a skos:ConceptScheme;
     dct:title "Lernformate"@de ;
@@ -23,16 +26,30 @@
 
 <lf1> a skos:Concept ;
     skos:prefLabel "Präsenz"@de, "In-person"@en ;
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer physisch anwesend sind und gemeinsam mit anderen lernen."@de ;
+    skos:exactMatch euvoc:9191af2ed9 ;
+    skos:exactMatch oehLearningFormat::presential ;
     skos:topConceptOf <> .
 
 <lf2> a skos:Concept ;
     skos:prefLabel "Online (Selbstlernangebot)"@de, "Online (Self-paced program)"@en ;
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer eigenständig online lernen, ohne Präsenzveranstaltungen."@de ;
+    skos:example "Beispiel: Ein Online-Kurs (auch MOOC), den die Teilnehmer in ihrem eigenen Lerntempo absolvieren können."@de ;
+    skos:exactMatch euvoc:920fbb3cbe ;
+    skos:exactMatch oehLearningFormat::online ;
+    skos:closeMatch oehLearningFormat::mooc ;
+    skos:closeMatch oehEducationalOffering::online-course-self ;
     skos:topConceptOf <> .
 
 <lf3> a skos:Concept ;
     skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de, "Blended Learning with fixed in-person group sessions"@en ;
+    skos:definition "Ein Lernformat, das sowohl Online-Komponenten als auch Präsenzveranstaltungen umfasst. Es gibt feste Termine, an denen die Teilnehmer persönlich anwesend sein müssen."@de ;
+    skos:exactMatch euvoc:e92d221e4d ;
+    skos:exactMatch oehLearningFormat::blended ;
     skos:topConceptOf <> .
 
 <lf4> a skos:Concept ;
     skos:prefLabel "Online mit festen Online-Gruppenterminen"@de, "Online with fixed online group sessions"@en ;
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer online lernen und regelmäßige Online-Gruppentermine haben, um sich auszutauschen und gemeinsam zu lernen."@de ;
+    skos:exactMatch oehLearningFormat::online_appointments ;
     skos:topConceptOf <> .
