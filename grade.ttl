@@ -20,80 +20,80 @@
         <7>, <8>, <9>, <10>, <11>, <12>, <13>, <intergrade>, <none> .
 
 <1> a skos:Concept ;
-    skos:prefLabel "1"@de ;
-    skos:prefLabel "1"@en ;
+    skos:prefLabel "1. Klasse"@de ;
+    skos:prefLabel "1. Grade"@en ;
     skos:exactMatch oehEduLevel:1 ;
     skos:topConceptOf <> .
 
 <2> a skos:Concept ;
-    skos:prefLabel "2"@de ;
-    skos:prefLabel "2"@en ;
+    skos:prefLabel "2. Klasse"@de ;
+    skos:prefLabel "2. Grade"@en ;
     skos:exactMatch oehEduLevel:2 ;
     skos:topConceptOf <> .
 
 <3> a skos:Concept ;
-    skos:prefLabel "3"@de ;
-    skos:prefLabel "3"@en ;
+    skos:prefLabel "3. Klasse"@de ;
+    skos:prefLabel "3. Grade"@en ;
     skos:exactMatch oehEduLevel:3 ;
     skos:topConceptOf <> .
 
 <4> a skos:Concept ;
-    skos:prefLabel "4"@de ;
-    skos:prefLabel "4"@en ;
+    skos:prefLabel "4. Klasse"@de ;
+    skos:prefLabel "4. Grade"@en ;
     skos:exactMatch oehEduLevel:4 ;
     skos:topConceptOf <> .
 
 <5> a skos:Concept ;
-    skos:prefLabel "5"@de ;
-    skos:prefLabel "5"@en ;
+    skos:prefLabel "5. Klasse"@de ;
+    skos:prefLabel "5. Grade"@en ;
     skos:exactMatch oehEduLevel:5 ;
     skos:topConceptOf <> .
 
 <6> a skos:Concept ;
-    skos:prefLabel "6"@de ;
-    skos:prefLabel "6"@en ;
+    skos:prefLabel "6. Klasse"@de ;
+    skos:prefLabel "6. Grade"@en ;
     skos:exactMatch oehEduLevel:6 ;
     skos:topConceptOf <> .
 
 <7> a skos:Concept ;
-    skos:prefLabel "7"@de ;
-    skos:prefLabel "7"@en ;
+    skos:prefLabel "7. Klasse"@de ;
+    skos:prefLabel "7. Grade"@en ;
     skos:exactMatch oehEduLevel:7 ;
     skos:topConceptOf <> .
 
 <8> a skos:Concept ;
-    skos:prefLabel "8"@de ;
-    skos:prefLabel "8"@en ;
-	skos:exactMatch oehEduLevel:8 ;
+    skos:prefLabel "8. Klasse"@de ;
+    skos:prefLabel "8. Grade"@en ;
+    skos:exactMatch oehEduLevel:8 ;
     skos:topConceptOf <> .
 
 <9> a skos:Concept ;
-    skos:prefLabel "9"@de ;
-    skos:prefLabel "9"@en ;
+    skos:prefLabel "9. Klasse"@de ;
+    skos:prefLabel "9. Grade"@en ;
     skos:exactMatch oehEduLevel:9 ;
     skos:topConceptOf <> .
 
 <10> a skos:Concept ;
-    skos:prefLabel "10"@de ;
-    skos:prefLabel "10"@en ;
+    skos:prefLabel "10. Klasse"@de ;
+    skos:prefLabel "10. Grade"@en ;
     skos:exactMatch oehEduLevel:10 ;
     skos:topConceptOf <> .
 
 <11> a skos:Concept ;
-    skos:prefLabel "11"@de ;
-    skos:prefLabel "11"@en ;
+    skos:prefLabel "11. Klasse"@de ;
+    skos:prefLabel "11. Grade"@en ;
     skos:exactMatch oehEduLevel:11 ;
     skos:topConceptOf <> .
 
 <12> a skos:Concept ;
-    skos:prefLabel "12"@de ;
-    skos:prefLabel "12"@en ;
+    skos:prefLabel "12. Klasse"@de ;
+    skos:prefLabel "12. Grade"@en ;
     skos:exactMatch oehEduLevel:12 ;
     skos:topConceptOf <> .
 
 <13> a skos:Concept ;
-    skos:prefLabel "13"@de ;
-    skos:prefLabel "13"@en ;
+    skos:prefLabel "13. Klasse"@de ;
+    skos:prefLabel "13. Grade"@en ;
     skos:exactMatch oehEduLevel:13 ;
     skos:topConceptOf <> .
 
