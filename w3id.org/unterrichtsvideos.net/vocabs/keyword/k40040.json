@@ -16,6 +16,11 @@
       "en": "Supporting and promoting learning processes"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",
