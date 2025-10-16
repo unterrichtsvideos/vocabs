@@ -24,12 +24,6 @@
   "closeMatch": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/5"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/26"
     }
   ],
   "inScheme": [

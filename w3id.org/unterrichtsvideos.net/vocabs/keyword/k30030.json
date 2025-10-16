@@ -2,18 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30030",
   "type": "Concept",
   "prefLabel": {
-    "de": "Rollenspiel, Szenisches Spiel",
-    "en": "Role play, Dramatic play"
-  },
-  "altLabel": {
-    "de": [
-      "Rollenspiel",
-      "Szenisches Spiel"
-    ],
-    "en": [
-      "Role play",
-      "Dramatic play"
-    ]
+    "de": "Rollenspiel",
+    "en": "Role play"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",
@@ -22,11 +12,6 @@
       "en": "Didactic concepts & methods"
     }
   },
-  "closeMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/19-2"
-    }
-  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",
