@@ -4,6 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix mvpMTM: <https://w3id.org/unterrichtsvideos.net/vocabs/mainteach/> .
+@prefix oehLocationType: <http://w3id.org/openeduhub/vocabs/locationType/> .
+@prefix oehDidacticPlanningTools: <http://w3id.org/openeduhub/vocabs/didacticPlanningTools/> .
 
 <> a skos:ConceptScheme;
     dct:title "Schlagwortsystematisierung"@de ;
@@ -26,6 +28,7 @@
     skos:definition "The ability to create and maintain a positive and productive learning environment by minimizing classroom disruptions and establishing clear structures."@en ;
     skos:narrower <k10010>, <k10020>, <k10030>, <k10040>, <k10050> ;
     skos:closeMatch mvpMTM:2 ;
+    skos:closeMatch oehDidacticPlanningTools:113-4 ;
     skos:topConceptOf <> .
 
 <k10010> a skos:Concept ;
@@ -67,6 +70,7 @@
     skos:example "Förderung eines positiven Lernklimas durch Wertschätzung und Respekt."@de ;
     skos:example "Promoting a positive learning climate through appreciation and respect."@en ;
     skos:closeMatch mvpMTM:6.1 ;
+    skos:exactMatch oehDidacticPlanningTools:11-4 ;
     skos:broader <kc10> ;
     skos:inScheme <> .
 
@@ -85,12 +89,14 @@
 <k20020> a skos:Concept ;
     skos:prefLabel "Erarbeitungsphase"@de ;
     skos:prefLabel "Working phase"@en ;
+    skos:closeMatch oehDidacticPlanningTools:14 ;
     skos:broader <kc20> ;
     skos:inScheme <> .
 
 <k20030> a skos:Concept ;
     skos:prefLabel "Vertiefungs- und Übungsphase"@de ;
     skos:prefLabel "Deepening and practice phase"@en ;
+    skos:closeMatch oehDidacticPlanningTools:15 ;
     skos:broader <kc20> ;
     skos:inScheme <> .
 
@@ -103,6 +109,7 @@
 <k20050> a skos:Concept ;
     skos:prefLabel "Reflexionsphase"@de ;
     skos:prefLabel "Reflection phase"@en ;
+    skos:closeMatch oehDidacticPlanningTools:111 ;
     skos:broader <kc20> ;
     skos:inScheme <> .
 
@@ -121,7 +128,7 @@
 <kc30> a skos:Concept ;
     skos:prefLabel "Didaktische Konzepte & Methoden"@de ;
     skos:prefLabel "Didactic concepts & methods"@en ;
-    skos:narrower <k30010>, <k30020>, <k30030>, <k30035>, <k30040>, <k30050>, <k30060>, <k30070>, <k30080>, <k30090>, <k30100>, <k30110>, <k30120>, <k30130>, <k30140>, <k30150>, <k30160>, <k30161>, <k30162>, <k30170> ;
+    skos:narrower <k30010>, <k30020>, <k30030>, <k30035>, <k30040>, <k30050>, <k30060>, <k30070>, <k30080>, <k30090>, <k30100>, <k30110>, <k30115>, <k30120>, <k30130>, <k30140>, <k30150>, <k30160>, <k30161>, <k30162>, <k30170> ;
     skos:topConceptOf <> .
 
 <k30010> a skos:Concept ;
@@ -137,20 +144,25 @@
     skos:inScheme <> .
 
 <k30030> a skos:Concept ;
-    skos:prefLabel "Rollenspiel"@de ;
-    skos:prefLabel "Role play"@en ;
+    skos:prefLabel "Rollenspiel, Szenisches Spiel"@de ;
+    skos:prefLabel "Role play, Dramatic play"@en ;
+    skos:altLabel "Rollenspiel"@de, "Role play"@en ;
+    skos:altLabel "Szenisches Spiel"@de, "Dramatic play"@en ;
+    skos:closeMatch oehDidacticPlanningTools:19-2 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
 <k30040> a skos:Concept ;
     skos:prefLabel "Experiment"@de ;
     skos:prefLabel "Experiment"@en ;
+    skos:closeMatch oehDidacticPlanningTools:19-3 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
 <k30035> a skos:Concept ;
     skos:prefLabel "Simulation, Planspiel"@de ;
     skos:prefLabel "Simulation (game)"@en ;
+    skos:closeMatch oehDidacticPlanningTools:19-1 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
@@ -223,18 +235,21 @@
     skos:prefLabel "Kooperatives Lernen"@de ;
     skos:prefLabel "Cooperative learning"@en ;
     skos:related <k100050> ;
+    skos:closeMatch oehDidacticPlanningTools:18 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
 <k30150> a skos:Concept ;
     skos:prefLabel "Soziales Lernen"@de ;
     skos:prefLabel "Social learning"@en ;
+    skos:closeMatch oehDidacticPlanningTools:23 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
 <k30160> a skos:Concept ;
     skos:prefLabel "Handlungsorientierter Unterricht"@de ;
     skos:prefLabel "Action-oriented teaching"@en ;
+    skos:closeMatch oehDidacticPlanningTools:19 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
@@ -257,6 +272,8 @@
     skos:prefLabel "Extracurricular learning location"@en ;
     skos:example "Exkursion zu einem Schulbauernhof"@de ;
     skos:example "Excursion to a school farm"@en ;
+    skos:exactMatch oehLocationType:20249da5-09de-4f1e-90cb-34d07c58e377 ;
+    skos:closeMatch oehDidacticPlanningTools:19-4 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
@@ -276,6 +293,7 @@
 <k40020> a skos:Concept ;
     skos:prefLabel "Aktivierung von Vorwissen"@de ;
     skos:prefLabel "Activation of prior knowledge"@en ;
+    skos:exactMatch oehDidacticPlanningTools:11-2 ;
     skos:broader <kc40> ;
     skos:inScheme <> .
 
@@ -283,6 +301,9 @@
     skos:prefLabel "Binnendifferenzierung"@de ;
     skos:prefLabel "Internal differentiation"@en ;
     skos:altLabel "(Binnen-)Differenzierung"@de ;
+    skos:altLabel "(Internal) differentiation"@en ;
+    skos:closeMatch oehDidacticPlanningTools:21-8 ;
+    skos:closeMatch oehDidacticPlanningTools:24-5 ;
     skos:broader <kc40> ;
     skos:inScheme <> .
 
@@ -291,6 +312,7 @@
     skos:prefLabel "Scaffolding"@en ;
     skos:definition "Scaffolding refers to the support provided by a teacher to help students achieve a deeper understanding or perform tasks they might not be able to accomplish independently."@en ;
     skos:definition "Scaffolding bezeichnet die Unterstützung durch eine Lehrkraft, die Schülerinnen und Schülern hilft, ein tieferes Verständnis zu erreichen oder Aufgaben zu bewältigen, die sie alleine möglicherweise nicht schaffen würden."@de ;
+    skos:closeMatch oehDidacticPlanningTools:12 ;
     skos:broader <kc40> ;
     skos:inScheme <> .
 
@@ -303,18 +325,21 @@
 <k40060> a skos:Concept ;
     skos:prefLabel "Lernumgebung"@de ;
     skos:prefLabel "Learning environment"@en ;
+    skos:closeMatch oehDidacticPlanningTools:22 ;
     skos:broader <kc40> ;
     skos:inScheme <> .
 
 <k40070> a skos:Concept ;
     skos:prefLabel "Metakognition"@de ;
     skos:prefLabel "Metacognition"@en ;
+    skos:closeMatch oehDidacticPlanningTools:111 ;
     skos:broader <kc40> ;
     skos:inScheme <> .
 
 <k40080> a skos:Concept ;
     skos:prefLabel "Motivation"@de ;
     skos:prefLabel "Motivation"@en ;
+    skos:closeMatch oehDidacticPlanningTools:21-2 ;
     skos:broader <kc40> ;
     skos:inScheme <> .
 
@@ -329,7 +354,7 @@
     skos:prefLabel "Dealing with diversity"@en ;
     skos:definition "Unterricht wird an den Lernenden orientiert. Dabei werden die individuellen Bedürfnisse und Potenziale der Schülerinnen und Schüler berücksichtigt."@de ;
     skos:definition "Teaching is oriented towards the learners. The individual needs and potentials of the students are taken into account."@en ;
-    skos:narrower <k50010>, <k50020>, <k50030>, <k50040>, <k50050> ;
+    skos:narrower <k50010>, <k50020>, <k50030>, <k50040>, <k50050>, <k50060> ;
     skos:topConceptOf <> .
 
 <k50010> a skos:Concept ;
@@ -337,6 +362,7 @@
     skos:prefLabel "Inclusion"@en ;
     skos:altLabel "Inklusiver Unterricht"@de ;
     skos:altLabel "Inclusive teaching"@en ;
+    skos:closeMatch oehDidacticPlanningTools:28 ;
     skos:broader <kc50> ;
     skos:inScheme <> .
 
@@ -371,6 +397,7 @@
     skos:prefLabel "Adaptive teaching"@en ;
     skos:definition "Anpassung der Anforderungen an die unterschiedlichen Lernvoraussetzungen der Schülerinnen und Schüler."@de ;
     skos:definition "Adaptation of requirements to the different learning prerequisites of the students."@en ;
+    skos:closeMatch oehDidacticPlanningTools:28-4 ;
     skos:broader <kc50> ;
     skos:inScheme <> .
 
@@ -425,6 +452,7 @@
 <k70010> a skos:Concept ;
     skos:prefLabel "Digital-gestützter Unterricht"@de ;
     skos:prefLabel "Digitally supported teaching"@en ;
+    skos:closeMatch oehDidacticPlanningTools:25 ;
     skos:broader <kc70> ;
     skos:inScheme <> .
 
@@ -457,6 +485,8 @@
     skos:prefLabel "Feedback & Assessment"@en ;
     skos:narrower <k80010>, <k80020> ;
     skos:closeMatch mvpMTM:5 ;
+    skos:closeMatch oehDidacticPlanningTools:112 ;
+    skos:closeMatch oehDidacticPlanningTools:26 ;
     skos:topConceptOf <> .
 
 <k80010> a skos:Concept ;
@@ -474,7 +504,8 @@
     skos:altLabel "Assessment"@de ;
     skos:altLabel "Lernstandserhebung"@de ;
     skos:altLabel "Learning status survey"@en ;
-     skos:closeMatch mvpMTM:5.2 ;
+    skos:closeMatch mvpMTM:5.2 ;
+    skos:closeMatch oehDidacticPlanningTools:112 ;
     skos:broader <kc80> ;
     skos:inScheme <> .
 
@@ -482,6 +513,7 @@
     skos:prefLabel "Interdisziplinäre Bildungskonzepte"@de ;
     skos:prefLabel "Interdisciplinary educational concepts"@en ;
     skos:narrower <k90020>, <k90030>, <k90040>, <k90050>, <k90060> ;
+    skos:closeMatch oehDidacticPlanningTools:24-5 ;
     skos:topConceptOf <> .
 
 <k90020> a skos:Concept ;
@@ -531,12 +563,14 @@
 <k100010> a skos:Concept ;
     skos:prefLabel "Instruktion durch Lehrkraft"@de ;
     skos:prefLabel "Instruction by teacher"@en ;
+    skos:closeMatch oehDidacticPlanningTools:13 ;
     skos:broader <kc100> ;
     skos:inScheme <> .
 
 <k100020> a skos:Concept ;
     skos:prefLabel "Demonstration durch Lehrkraft"@de ;
     skos:prefLabel "Demonstration by teacher"@en ;
+    skos:closeMatch oehDidacticPlanningTools:13-2 ;
     skos:broader <kc100> ;
     skos:inScheme <> .
 
@@ -555,10 +589,10 @@
 <k100050> a skos:Concept ;
     skos:prefLabel "Gruppenarbeit"@de ;
     skos:prefLabel "Group work"@en ;
-    skos:example "Gruppenpuzzle"@de ;
-    skos:example "Group puzzle"@en ;
-    skos:example: "Think-Pair-Share"@de ;
-    skos:example: "Think-Pair-Share"@en ;
+    skos:example "Gruppenpuzzle"@de,
+                 "Think-Pair-Share"@de ;
+    skos:example "Group puzzle"@en,
+                 "Think-Pair-Share"@en ;
     skos:broader <kc100> ;
     skos:inScheme <> .
 
