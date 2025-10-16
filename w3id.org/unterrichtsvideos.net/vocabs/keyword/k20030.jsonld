@@ -12,6 +12,11 @@
       "en": "Classroom planning & design"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/15"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/",

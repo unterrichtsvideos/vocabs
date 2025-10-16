@@ -23,8 +23,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30030",
       "prefLabel": {
-        "de": "Rollenspiel",
-        "en": "Role play"
+        "de": "Rollenspiel, Szenisches Spiel",
+        "en": "Role play, Dramatic play"
       }
     },
     {
@@ -84,6 +84,13 @@
       }
     },
     {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30115",
+      "prefLabel": {
+        "de": "Konzeptwandel bei Lernenden",
+        "en": "Conceptual change in learners"
+      }
+    },
+    {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30120",
       "prefLabel": {
         "de": "Selbstreguliertes Lernen",
@@ -137,13 +144,6 @@
       "prefLabel": {
         "de": "Außerschulischer Lernort",
         "en": "Extracurricular learning location"
-      }
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30115",
-      "prefLabel": {
-        "de": "Konzeptwandel bei Lernenden",
-        "en": "Conceptual change in learners"
       }
     }
   ],

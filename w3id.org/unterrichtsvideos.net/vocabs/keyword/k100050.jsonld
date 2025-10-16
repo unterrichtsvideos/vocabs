@@ -5,10 +5,6 @@
     "de": "Gruppenarbeit",
     "en": "Group work"
   },
-  "example": {
-    "de": "Gruppenpuzzle",
-    "en": "Group puzzle"
-  },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc100",
     "prefLabel": {
