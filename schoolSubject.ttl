@@ -122,7 +122,10 @@
     skos:topConceptOf <> .
 
 <s1042> a skos:Concept ;
-    skos:prefLabel "Gesellschaftswissenschaften"@de, "Social Sciences"@en ;
+    skos:prefLabel "Gesellschaftskunde"@de, "Social Sciences"@en ;
+    skos:altLabel "Gesellschaftswissenschaften"@de, "Social Sciences"@en ;
+    skos:altLabel "Sozialkunde"@de, "Social Studies"@en ;
+    skos:closeMatch oeh:48005 ;
     skos:topConceptOf <> .
 
 <s1012> a skos:Concept ;
@@ -217,7 +220,7 @@
 
 <s1023> a skos:Concept ;
     skos:prefLabel "Politik"@de, "Politics"@en ;
-    skos:altLabel "Politische Bildung"@de, "Civic Education"@en, "Sozialkunde"@de, "Social Studies"@en ;
+    skos:altLabel "Politische Bildung"@de, "Civic Education"@en ;
     skos:closeMatch eafsys:480 ;
     skos:closeMatch oeh:480 ;
     skos:topConceptOf <> .
@@ -339,3 +342,5 @@
     skos:prefLabel "Werken"@de, "Technical Work"@en ;
     skos:closeMatch oeh:50005 ;
     skos:topConceptOf <> .
+
+
