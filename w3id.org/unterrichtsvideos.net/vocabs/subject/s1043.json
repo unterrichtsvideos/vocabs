@@ -5,6 +5,11 @@
     "de": "Psychologie",
     "en": "Psychology"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1043"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

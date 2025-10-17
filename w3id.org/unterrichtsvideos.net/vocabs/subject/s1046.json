@@ -5,6 +5,11 @@
     "de": "Medienbildung",
     "en": "Media Education"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1046"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

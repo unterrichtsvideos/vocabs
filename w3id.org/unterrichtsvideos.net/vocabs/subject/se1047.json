@@ -1,10 +1,33 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1047",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1047",
   "type": "Concept",
   "prefLabel": {
-    "de": "Hauswirtschaft",
-    "en": "Home Economics"
+    "de": "Ernährung & Hauswirtschaft",
+    "en": "Nutrition & Home Economics"
   },
+  "altLabel": {
+    "de": [
+      "Ernährung",
+      "Hauswirtschaft"
+    ],
+    "en": [
+      "Nutrition",
+      "Home Economics"
+    ]
+  },
+  "closeMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1047"
+    },
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1044"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/04006"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

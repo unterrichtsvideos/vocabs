@@ -8,16 +8,23 @@
   "altLabel": {
     "de": [
       "Gesellschaftswissenschaften",
-      "Sozialkunde"
+      "Sozialkunde",
+      "Gemeinschaftskunde"
     ],
     "en": [
       "Social Sciences",
-      "Social Studies"
+      "Social Studies",
+      "Civics"
     ]
   },
   "closeMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/48005"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1042"
     }
   ],
   "inScheme": [

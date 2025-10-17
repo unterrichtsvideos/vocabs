@@ -5,6 +5,11 @@
     "de": "Portugiesisch",
     "en": "Portuguese"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1038"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

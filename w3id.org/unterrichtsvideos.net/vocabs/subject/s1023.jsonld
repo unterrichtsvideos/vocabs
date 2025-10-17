@@ -21,6 +21,11 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/480"
     }
   ],
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1023"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

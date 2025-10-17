@@ -5,6 +5,11 @@
     "de": "Neugriechisch",
     "en": "Modern Greek"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1036"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

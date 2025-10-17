@@ -5,6 +5,11 @@
     "de": "Deutsche Gebärdensprache",
     "en": "German Sign Language"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/kim/schulfaecher/s1041"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

@@ -2,8 +2,20 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/se1030",
   "type": "Concept",
   "prefLabel": {
-    "de": "Natur und Technik",
-    "en": "Science and Technology"
+    "de": "Arbeitslehre, Natur und Technik",
+    "en": "Work studies, science and Technology"
+  },
+  "altLabel": {
+    "de": [
+      "Arbeitslehre",
+      "Wirtschaft-Arbeit-Technik",
+      "Wirtschaft und Beruf"
+    ],
+    "en": [
+      "Work Studies",
+      "Economics-Work-Technology",
+      "Economics and Career"
+    ]
   },
   "closeMatch": [
     {
