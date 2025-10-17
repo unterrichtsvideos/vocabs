@@ -7,10 +7,14 @@
   },
   "altLabel": {
     "de": [
-      "Lernspiel"
+      "Lernspiel",
+      "Serious Game",
+      "Game-based learning"
     ],
     "en": [
-      "Learning game"
+      "Learning game",
+      "Serious game",
+      "Game-based learning"
     ]
   },
   "broader": {

@@ -2,8 +2,16 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30120",
   "type": "Concept",
   "prefLabel": {
-    "de": "Selbstreguliertes Lernen",
-    "en": "Self-regulated learning"
+    "de": "Selbstgesteuertes & Selbstreguliertes Lernen",
+    "en": "Self-directed & self-regulated learning"
+  },
+  "altLabel": {
+    "de": [
+      "Selbststeuerung, Selbstregulation"
+    ],
+    "en": [
+      "Self-direction, Self-regulation"
+    ]
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc30",

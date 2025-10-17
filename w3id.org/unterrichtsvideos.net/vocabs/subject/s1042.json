@@ -2,9 +2,24 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1042",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gesellschaftswissenschaften",
+    "de": "Gesellschaftskunde",
     "en": "Social Sciences"
   },
+  "altLabel": {
+    "de": [
+      "Gesellschaftswissenschaften",
+      "Sozialkunde"
+    ],
+    "en": [
+      "Social Sciences",
+      "Social Studies"
+    ]
+  },
+  "closeMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/48005"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/",

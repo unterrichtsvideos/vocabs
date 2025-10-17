@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k10030",
   "type": "Concept",
   "prefLabel": {
-    "de": "Regeln und Rituale im Unterricht",
-    "en": "Rules and rituals in the classroom"
+    "de": "Regeln Routinen Rituale im Unterricht",
+    "en": "Rules routines rituals in the classroom"
   },
   "broader": {
     "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/kc10",

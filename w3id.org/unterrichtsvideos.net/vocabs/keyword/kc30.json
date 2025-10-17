@@ -93,8 +93,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30120",
       "prefLabel": {
-        "de": "Selbstreguliertes Lernen",
-        "en": "Self-regulated learning"
+        "de": "Selbstgesteuertes & Selbstreguliertes Lernen",
+        "en": "Self-directed & self-regulated learning"
       }
     },
     {
@@ -102,6 +102,13 @@
       "prefLabel": {
         "de": "Personalisiertes Lernen",
         "en": "Personalized learning"
+      }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k30135",
+      "prefLabel": {
+        "de": "Lebensweltbezug",
+        "en": "Reference to students' everyday life"
       }
     },
     {

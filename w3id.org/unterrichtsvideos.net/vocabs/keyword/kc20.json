@@ -54,6 +54,13 @@
         "de": "Anfangsunterricht gestalten",
         "en": "Designing transition to school"
       }
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/k20080",
+      "prefLabel": {
+        "de": "Lernzieltransparenz",
+        "en": "Learning objective transparency"
+      }
     }
   ],
   "inScheme": [
