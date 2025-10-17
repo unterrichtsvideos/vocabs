@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix eafsys: <http://w3id.org/kim/eaf-sachgebietssystematik/> .
 @prefix oeh: <http://w3id.org/openeduhub/vocabs/discipline/> .
+@prefix kim: <http://w3id.org/kim/schulfaecher/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
@@ -18,7 +19,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <s1000>, <s1040>, <s1001>, <s1002>, <s1003>, <s1004>,
         <s1005>, <s1006>, <s1041>, <s1007>, <s1044>, <s1045>, <s1008>,
-        <s1009>, <s1010>, <s1011>, <s1012>, <s1047>, <s1034>, <s1013>, <s1014>,
+        <s1009>, <s1010>, <s1011>, <s1012>, <se1047>, <s1034>, <s1013>, <s1014>,
         <s1035>, <s1015>, <s1016>, <s1017>, <s1046>, <s1019>, <s1020>, <s1036>,
         <s1021>, <s1022>, <s1023>, <s1037>, <s1038>, <s1043>, <s1024>, <s1025>,
         <s1026>, <s1027>, <s1028>, <s1029>, <s1039>, <s1030>, <s1031>, <s1032>,
@@ -29,26 +30,31 @@
     skos:prefLabel "Alt-Griechisch"@de, "Ancient Greek"@en ;
     skos:closeMatch eafsys:20003 ;
     skos:closeMatch oeh:20003 ;
+    skos:exactMatch kim:s1000 ;
     skos:topConceptOf <> .
 
 <s1040> a skos:Concept ;
     skos:prefLabel "Astronomie"@de, "Astronomy"@en ;
+    skos:exactMatch kim:s1040 ;
     skos:topConceptOf <> .
 
 <s1001> a skos:Concept ;
     skos:prefLabel "Biologie"@de, "Biology"@en ;
     skos:closeMatch eafsys:080 ;
     skos:closeMatch oeh:080 ;
+    skos:exactMatch kim:s1001 ;
     skos:topConceptOf <> .
 
 <s1002> a skos:Concept ;
     skos:prefLabel "Chemie"@de, "Chemistry"@en ;
     skos:closeMatch eafsys:100 ;
     skos:closeMatch oeh:100 ;
+    skos:exactMatch kim:s1002 ;
     skos:topConceptOf <> .
 
 <s1003> a skos:Concept ;
     skos:prefLabel "Chinesisch"@de, "Chinese"@en ;
+    skos:exactMatch kim:s1003 ;
     skos:topConceptOf <> .
 
 <s1004> a skos:Concept ;
@@ -56,6 +62,7 @@
     skos:altLabel "Theater"@de, "Theatre"@en ;
     skos:closeMatch eafsys:12002 ;
     skos:closeMatch oeh:12002 ;
+    skos:exactMatch kim:s1004 ;
     skos:topConceptOf <> .
 
 <s1005> a skos:Concept ;
@@ -63,6 +70,7 @@
     skos:closeMatch eafsys:120 ;
     skos:closeMatch eafsys:28001 ;
     skos:closeMatch oeh:120 ;
+    skos:exactMatch kim:s1005 ;
     skos:topConceptOf <> .
 
 <s1006> a skos:Concept ;
@@ -71,10 +79,12 @@
     skos:closeMatch eafsys:12005 ;
     skos:closeMatch eafsys:28002 ;
     skos:closeMatch oeh:12005 ;
+    skos:exactMatch kim:s1006 ;
     skos:topConceptOf <> .
 
 <s1041> a skos:Concept ;
     skos:prefLabel "Deutsche Gebärdensprache"@de, "German Sign Language"@en ;
+    skos:exactMatch kim:s1041 ;
     skos:topConceptOf <> .
 
 <s1007> a skos:Concept ;
@@ -82,15 +92,13 @@
     skos:closeMatch eafsys:20001 ;
     skos:closeMatch eafsys:2800501 ;
     skos:closeMatch oeh:20001 ;
-    skos:topConceptOf <> .
-
-<s1044> a skos:Concept ;
-    skos:prefLabel "Ernährung"@de, "Nutrition"@en ;
+    skos:exactMatch kim:s1007 ;
     skos:topConceptOf <> .
 
 <s1045> a skos:Concept ;
     skos:prefLabel "Erziehungswissenschaften"@de, "Educational Sciences"@en ;
     skos:altLabel "Pädagogik"@de, "Pedagogy"@en ;
+    skos:exactMatch kim:s1045 ;
     skos:topConceptOf <> .
 
 <s1008> a skos:Concept ;
@@ -99,6 +107,7 @@
     skos:closeMatch eafsys:160 ;
     skos:closeMatch eafsys:28004 ;
     skos:closeMatch oeh:160 ;
+    skos:exactMatch kim:s1008 ;
     skos:topConceptOf <> .
 
 <s1009> a skos:Concept ;
@@ -106,6 +115,7 @@
     skos:closeMatch eafsys:20002 ;
     skos:closeMatch eafsys:2800502 ;
     skos:closeMatch oeh:20002 ;
+    skos:exactMatch kim:s1009 ;
     skos:topConceptOf <> .
 
 <s1010> a skos:Concept ;
@@ -113,19 +123,23 @@
     skos:altLabel "Erdkunde"@de, "Geography"@en, "Geographie"@de, "Geography"@en ;
     skos:closeMatch eafsys:220 ;
     skos:closeMatch oeh:220 ;
+    skos:exactMatch kim:s1010 ;
     skos:topConceptOf <> .
 
 <s1011> a skos:Concept ;
     skos:prefLabel "Geschichte"@de, "History"@en ;
     skos:closeMatch eafsys:20002 ;
     skos:closeMatch oeh:20002 ;
+    skos:exactMatch kim:s1011 ;
     skos:topConceptOf <> .
 
 <s1042> a skos:Concept ;
     skos:prefLabel "Gesellschaftskunde"@de, "Social Sciences"@en ;
     skos:altLabel "Gesellschaftswissenschaften"@de, "Social Sciences"@en ;
     skos:altLabel "Sozialkunde"@de, "Social Studies"@en ;
+    skos:altLabel "Gemeinschaftskunde"@de, "Civics"@en ;
     skos:closeMatch oeh:48005 ;
+    skos:exactMatch kim:s1042 ;
     skos:topConceptOf <> .
 
 <s1012> a skos:Concept ;
@@ -135,14 +149,21 @@
     skos:altLabel "Pflege"@de, "Care"@en ;
     skos:closeMatch eafsys:260 ;
     skos:closeMatch oeh:260 ;
+    skos:exactMatch kim:s1012 ;
     skos:topConceptOf <> .
 
-<s1047> a skos:Concept ;
-    skos:prefLabel "Hauswirtschaft"@de, "Home Economics"@en ;
+<se1047> a skos:Concept ;
+    skos:prefLabel "Ernährung & Hauswirtschaft"@de, "Nutrition & Home Economics"@en ;
+    skos:altLabel "Ernährung"@de, "Nutrition"@en ;
+    skos:altLabel "Hauswirtschaft"@de, "Home Economics"@en ;
+    skos:closeMatch kim:s1047 ;
+    skos:closeMatch kim:s1044 ;
+    skos:exactMatch oeh:04006 ;
     skos:topConceptOf <> .
 
 <s1034> a skos:Concept ;
     skos:prefLabel "Hebräisch"@de, "Hebrew"@en ;
+    skos:exactMatch kim:s1034 ;
     skos:topConceptOf <> .
 
 <s1013> a skos:Concept ;
@@ -150,6 +171,7 @@
     skos:altLabel "Informations- und Kommunikationstechnologie"@de, "Information and Communication Technology"@en ;
     skos:closeMatch eafsys:320 ;
     skos:closeMatch oeh:320 ;
+    skos:exactMatch kim:s1013 ;
     skos:topConceptOf <> .
 
 <s1014> a skos:Concept ;
@@ -157,10 +179,12 @@
     skos:closeMatch eafsys:20004 ;
     skos:closeMatch eafsys:2800503 ;
     skos:closeMatch oeh:20004 ;
+    skos:exactMatch kim:s1014 ;
     skos:topConceptOf <> .
 
 <s1035> a skos:Concept ;
     skos:prefLabel "Japanisch"@de, "Japanese"@en ;
+    skos:exactMatch kim:s1035 ;
     skos:topConceptOf <> .
 
 <s1015> a skos:Concept ;
@@ -169,12 +193,14 @@
     skos:closeMatch eafsys:060 ;
     skos:closeMatch eafsys:28006 ;
     skos:closeMatch oeh:060 ;
+    skos:exactMatch kim:s1015 ;
     skos:topConceptOf <> .
 
 <s1016> a skos:Concept ;
     skos:prefLabel "Latein"@de, "Latin"@en ;
     skos:closeMatch eafsys:20005 ;
     skos:closeMatch oeh:20005 ;
+    skos:exactMatch kim:s1016 ;
     skos:topConceptOf <> .
 
 <s1017> a skos:Concept ;
@@ -182,10 +208,12 @@
     skos:closeMatch eafsys:380 ;
     skos:closeMatch eafsys:28007 ;
     skos:closeMatch oeh:380 ;
+    skos:exactMatch kim:s1017 ;
     skos:topConceptOf <> .
 
 <s1046> a skos:Concept ;
     skos:prefLabel "Medienbildung"@de, "Media Education"@en ;
+    skos:exactMatch kim:s1046 ;
     skos:topConceptOf <> .
 
 <s1019> a skos:Concept ;
@@ -193,6 +221,7 @@
     skos:altLabel "Chemie, Physik, Biologie"@de, "Chemistry, Physics, Biology"@en ;
     skos:altLabel "Naturwissenschaften"@de, "Natural Sciences"@en ;
     skos:related <s1001>, <s1002>, <s1013>, <s1017>, <s1022> ;
+    skos:exactMatch kim:s1019 ;
     skos:topConceptOf <> .
 
 <s1020> a skos:Concept ;
@@ -200,22 +229,26 @@
     skos:closeMatch eafsys:420 ;
     skos:closeMatch eafsys:28008 ;
     skos:closeMatch oeh:420 ;
+    skos:exactMatch kim:s1020 ;
     skos:topConceptOf <> .
 
 <s1036> a skos:Concept ;
     skos:prefLabel "Neugriechisch"@de, "Modern Greek"@en ;
+    skos:exactMatch kim:s1036 ;
     skos:topConceptOf <> .
 
 <s1021> a skos:Concept ;
     skos:prefLabel "Philosophie"@de, "Philosophy"@en ;
     skos:closeMatch eafsys:450 ;
     skos:closeMatch oeh:450 ;
+    skos:exactMatch kim:s1021 ;
     skos:topConceptOf <> .
 
 <s1022> a skos:Concept ;
     skos:prefLabel "Physik"@de, "Physics"@en ;
     skos:closeMatch eafsys:460 ;
     skos:closeMatch oeh:460 ;
+    skos:exactMatch kim:s1022 ;
     skos:topConceptOf <> .
 
 <s1023> a skos:Concept ;
@@ -223,18 +256,22 @@
     skos:altLabel "Politische Bildung"@de, "Civic Education"@en ;
     skos:closeMatch eafsys:480 ;
     skos:closeMatch oeh:480 ;
+    skos:exactMatch kim:s1023 ;
     skos:topConceptOf <> .
 
 <s1037> a skos:Concept ;
     skos:prefLabel "Polnisch"@de, "Polish"@en ;
+    skos:exactMatch kim:s1037 ;
     skos:topConceptOf <> .
 
 <s1038> a skos:Concept ;
     skos:prefLabel "Portugiesisch"@de, "Portuguese"@en ;
+    skos:exactMatch kim:s1038 ;
     skos:topConceptOf <> .
 
 <s1043> a skos:Concept ;
     skos:prefLabel "Psychologie"@de, "Psychology"@en ;
+    skos:exactMatch kim:s1043 ;
     skos:topConceptOf <> .
 
 <s1024> a skos:Concept ;
@@ -243,6 +280,7 @@
     skos:closeMatch eafsys:520 ;
     skos:closeMatch eafsys:28009 ;
     skos:closeMatch oeh:520 ;
+    skos:exactMatch kim:s1024 ;
     skos:topConceptOf <> .
 
 <s1025> a skos:Concept ;
@@ -252,6 +290,7 @@
     skos:closeMatch eafsys:28009 ;
     skos:closeMatch oeh:520 ;
     skos:editorialNote "EAF 28009 hat hauptsächlich christliche Themen, aber auch einen Abschnitt mit nicht-christlichen Religionen"@de ;
+    skos:exactMatch kim:s1025 ;
     skos:topConceptOf <> .
 
 <s1026> a skos:Concept ;
@@ -260,6 +299,7 @@
     skos:closeMatch eafsys:520 ;
     skos:closeMatch eafsys:28009 ;
     skos:closeMatch oeh:520 ;
+    skos:exactMatch kim:s1026 ;
     skos:topConceptOf <> .
 
 <s1027> a skos:Concept ;
@@ -267,6 +307,7 @@
     skos:closeMatch eafsys:20006 ;
     skos:closeMatch eafsys:2800507 ;
     skos:closeMatch oeh:20006 ;
+    skos:exactMatch kim:s1027 ;
     skos:topConceptOf <> .
 
 <s1028> a skos:Concept ;
@@ -274,17 +315,20 @@
     skos:altLabel "Heimatunterricht"@de, "Local Studies"@en, "Sachkunde"@de, "General Knowledge"@en ;
     skos:closeMatch eafsys:28010 ;
     skos:closeMatch oeh:28010 ;
+    skos:exactMatch kim:s1028 ;
     skos:topConceptOf <> .
 
 <s1029> a skos:Concept ;
     skos:prefLabel "Sexualerziehung"@de, "Sex Education"@en ;
     skos:closeMatch eafsys:560 ;
     skos:closeMatch oeh:560 ;
+    skos:exactMatch kim:s1029 ;
     skos:topConceptOf <> .
 
 <s1039> a skos:Concept ;
     skos:prefLabel "Sorbisch"@de, "Sorbian"@en ;
     skos:altLabel "Wendisch"@de, "Wendish"@en ;
+    skos:exactMatch kim:s1039 ;
     skos:topConceptOf <> .
 
 <s1030> a skos:Concept ;
@@ -292,6 +336,7 @@
     skos:closeMatch eafsys:20007 ;
     skos:closeMatch eafsys:2800508 ;
     skos:closeMatch oeh:20007 ;
+    skos:exactMatch kim:s1030 ;
     skos:topConceptOf <> .
 
 <s1031> a skos:Concept ;
@@ -299,6 +344,7 @@
     skos:closeMatch eafsys:600 ;
     skos:closeMatch eafsys:28011 ;
     skos:closeMatch oeh:600 ;
+    skos:exactMatch kim:s1031 ;
     skos:topConceptOf <> .
 
 <s1032> a skos:Concept ;
@@ -306,12 +352,16 @@
     skos:closeMatch eafsys:20008 ;
     skos:closeMatch eafsys:2800504 ;
     skos:closeMatch oeh:20008 ;
+    skos:exactMatch kim:s1032 ;
     skos:topConceptOf <> .
 
 <s1033> a skos:Concept ;
-    skos:prefLabel "Wirtschaftskunde"@de, "Economics"@en ;
+    skos:prefLabel "Wirtschaftskunde & Recht"@de, "Economics and Law"@en ;
+    skos:altLabel "Wirtschaft"@de, "Economics"@en ;
+    skos:altLabel "Recht"@de, "Law"@en ;
     skos:closeMatch eafsys:700 ;
     skos:closeMatch oeh:700 ;
+    skos:exactMatch kim:s1033 ;
     skos:topConceptOf <> .
 
 <se1000> a skos:Concept ;
@@ -328,13 +378,18 @@
     skos:topConceptOf <> .
 
 <se1030> a skos:Concept ;
-    skos:prefLabel "Natur und Technik"@de, "Science and Technology"@en ;
+    skos:prefLabel "Arbeitslehre, Natur und Technik"@de, "Work studies, science and Technology"@en ;
+    skos:altLabel "Arbeitslehre"@de, "Work Studies"@en ;
+    skos:altLabel "Wirtschaft-Arbeit-Technik"@de, "Economics-Work-Technology"@en ;
+    skos:altLabel "Wirtschaft und Beruf"@de, "Economics and Career"@en ;
     skos:closeMatch oeh:04003 ;
     skos:topConceptOf <> .
 
 <se1040> a skos:Concept ;
     skos:prefLabel "Textiles und technisches Gestalten"@de, "Textile and Technical Design"@en ;
     skos:altLabel "Textiltechnik und Bekleidung"@de, "Textile Technology and Clothing"@en ;
+    skos:altLabel "Technisches Gestalten"@de, "Technical Design"@en ;
+    skos:altLabel "Textiles Gestalten"@de, "Textile Design"@en ;
     skos:closeMatch oeh:04012 ;
     skos:topConceptOf <> .
 
@@ -342,5 +397,3 @@
     skos:prefLabel "Werken"@de, "Technical Work"@en ;
     skos:closeMatch oeh:50005 ;
     skos:topConceptOf <> .
-
-
