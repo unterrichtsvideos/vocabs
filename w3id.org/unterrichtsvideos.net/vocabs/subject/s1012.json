@@ -2,15 +2,19 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1012",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gesundheit",
-    "en": "Health"
+    "de": "Gesundheit & Pflege",
+    "en": "Health & Care"
   },
   "altLabel": {
     "de": [
-      "Gesundheitserziehung"
+      "Gesundheitserziehung",
+      "Gesundheit",
+      "Pflege"
     ],
     "en": [
-      "Health Education"
+      "Health Education",
+      "Health",
+      "Care"
     ]
   },
   "closeMatch": [
