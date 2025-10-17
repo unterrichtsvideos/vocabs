@@ -17,10 +17,10 @@
   },
   "closeMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs-playground/eaf-sachgebietssystematik/060"
+      "id": "http://w3id.org/kim/eaf-sachgebietssystematik/060"
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs-playground/eaf-sachgebietssystematik/28006"
+      "id": "http://w3id.org/kim/eaf-sachgebietssystematik/28006"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/060"

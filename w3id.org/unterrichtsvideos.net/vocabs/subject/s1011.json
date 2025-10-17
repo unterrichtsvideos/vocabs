@@ -7,7 +7,7 @@
   },
   "closeMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs-playground/eaf-sachgebietssystematik/20002"
+      "id": "http://w3id.org/kim/eaf-sachgebietssystematik/20002"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20002"
