@@ -19,7 +19,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/keyword/" ;
     vann:preferredNamespacePrefix "mvpKeyword" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <kc10>, <kc20>, <kc30>, <kc40>, <kc50>, <kc60>, <kc70>, <kc80>, <kc90>, <kc100> .
+    skos:hasTopConcept <kc10>, <kc20>, <kc30>, <kc40>, <kc50>, <kc60>, <kc70>, <kc80>, <kc90>, <kc100>, <kc110>, <kc120>, <kc130> .
 
 <kc10> a skos:Concept ;
     skos:prefLabel "Klassenführung & -organisation"@de ;
@@ -36,8 +36,8 @@
     skos:prefLabel "Dealing with classroom disruptions"@en ;
     skos:definition "Strategien und Techniken, um Störungen im Unterricht zu verhindern oder effektiv darauf zu reagieren, um die Lernzeit zu maximieren."@de ;
     skos:definition "Strategies and techniques to prevent or effectively respond to disruptions in the classroom to maximize learning time."@en ;
-    skos:example "Störungsprävention."@de ;
-    skos:example "Disruption prevention."@en ;
+    skos:example "Störungsprävention, Konfliktbewältigung, Konfliktmanagement"@de ;
+    skos:example "Disruption prevention, conflict resolution, conflict management."@en ;
     skos:closeMatch mvpMTM:2.1 ;
     skos:broader <kc10> ;
     skos:inScheme <> .
@@ -49,8 +49,8 @@
     skos:inScheme <> .
 
 <k10030> a skos:Concept ;
-    skos:prefLabel "Regeln und Rituale im Unterricht"@de ;
-    skos:prefLabel "Rules and rituals in the classroom"@en ;
+    skos:prefLabel "Regeln Routinen Rituale im Unterricht"@de ;
+    skos:prefLabel "Rules routines rituals in the classroom"@en ;
     skos:broader <kc10> ;
     skos:inScheme <> .
 
@@ -77,7 +77,7 @@
 <kc20> a skos:Concept ;
     skos:prefLabel "Unterrichtsplanung & -gestaltung"@de ;
     skos:prefLabel "Classroom planning & design"@en ;
-    skos:narrower <k20010>, <k20020>, <k20030>, <k20040>, <k20050>, <k20060>, <k20070> ;
+    skos:narrower <k20010>, <k20020>, <k20030>, <k20040>, <k20050>, <k20060>, <k20070>, <k20080> ;
     skos:topConceptOf <> .
 
 <k20010> a skos:Concept ;
@@ -125,10 +125,19 @@
     skos:broader <kc20> ;
     skos:inScheme <> .
 
+<k20080> a skos:Concept ;
+    skos:prefLabel "Lernzieltransparenz"@de ;
+    skos:prefLabel "Learning objective transparency"@en ;
+    skos:broader <kc20> ;
+    skos:inScheme <> .
+
 <kc30> a skos:Concept ;
     skos:prefLabel "Didaktische Konzepte & Methoden"@de ;
     skos:prefLabel "Didactic concepts & methods"@en ;
-    skos:narrower <k30010>, <k30020>, <k30030>, <k30035>, <k30040>, <k30050>, <k30060>, <k30070>, <k30080>, <k30090>, <k30100>, <k30110>, <k30115>, <k30120>, <k30130>, <k30140>, <k30150>, <k30160>, <k30161>, <k30162>, <k30170> ;
+    skos:narrower <k30010>, <k30020>, <k30030>, <k30035>, <k30040>, <k30050>, 
+        <k30060>, <k30080>, <k30090>, <k30100>, <k30110>, <k30115>, 
+        <k30120>, <k30130>, <k30135>, <k30140>, <k30150>, <k30160>, <k30161>, 
+        <k30162>, <k30170> ;
     skos:topConceptOf <> .
 
 <k30010> a skos:Concept ;
@@ -177,6 +186,10 @@
     skos:prefLabel "Gamification"@en ;
     skos:altLabel "Lernspiel"@de ;
     skos:altLabel "Learning game"@en ;
+    skos:altLabel "Serious Game"@de ;
+    skos:altLabel "Serious game"@en ;
+    skos:altLabel "Game-based learning"@de ;
+    skos:altLabel "Game-based learning"@en ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
@@ -219,8 +232,10 @@
     skos:inScheme <> .
 
 <k30120> a skos:Concept ;
-    skos:prefLabel "Selbstreguliertes Lernen"@de ;
-    skos:prefLabel "Self-regulated learning"@en ;
+    skos:prefLabel "Selbstgesteuertes & Selbstreguliertes Lernen"@de ;
+    skos:prefLabel "Self-directed & self-regulated learning"@en ;
+    skos:altLabel "Selbststeuerung, Selbstregulation"@de ;
+    skos:altLabel "Self-direction, Self-regulation"@en ;
     skos:closeMatch mvpMTM:7 ;
     skos:broader <kc30> ;
     skos:inScheme <> .
@@ -228,6 +243,14 @@
 <k30130> a skos:Concept ;
     skos:prefLabel "Personalisiertes Lernen"@de ;
     skos:prefLabel "Personalized learning"@en ;
+    skos:broader <kc30> ;
+    skos:inScheme <> .
+
+<k30135> a skos:Concept ;
+    skos:prefLabel "Lebensweltbezug"@de ;
+    skos:prefLabel "Reference to students' everyday life"@en ;
+    skos:definition "Bezug zur Lebenswelt der Schülerinnen und Schüler; fachlicher Bezug, der an Alltagserfahrungen der Lernenden anknüpft."@de ;
+    skos:definition "Connection to the everyday life of students; a subject-specific reference that links to learners' everyday experiences."@en ;
     skos:broader <kc30> ;
     skos:inScheme <> .
 
@@ -358,8 +381,8 @@
     skos:topConceptOf <> .
 
 <k50010> a skos:Concept ;
-    skos:prefLabel "Inklusion"@de ;
-    skos:prefLabel "Inclusion"@en ;
+    skos:prefLabel "Inklusion und Diversität"@de ;
+    skos:prefLabel "Inclusion and diversity"@en ;
     skos:altLabel "Inklusiver Unterricht"@de ;
     skos:altLabel "Inclusive teaching"@en ;
     skos:closeMatch oehDidacticPlanningTools:28 ;
@@ -475,8 +498,8 @@
     skos:inScheme <> .
 
 <k70050> a skos:Concept ;
-    skos:prefLabel "Augmented und Virtual Reality (AR, VR)"@de ;
-    skos:prefLabel "Augmented and virtual reality (AR, VR)"@en ;
+    skos:prefLabel "Augmented und Virtual Reality (AR; VR)"@de ;
+    skos:prefLabel "Augmented and virtual reality (AR; VR)"@en ;
     skos:broader <kc70> ;
     skos:inScheme <> .
 
@@ -606,4 +629,45 @@
     skos:prefLabel "Einzelarbeit"@de ;
     skos:prefLabel "Individual work"@en ;
     skos:broader <kc100> ;
+    skos:inScheme <> .
+
+<kc110> a skos:Concept ;
+    skos:prefLabel "Kommunikation & Kooperation"@de ;
+    skos:prefLabel "Communication & Cooperation"@en ;
+    skos:narrower <k110010>, <k110020> ;
+    skos:topConceptOf <> .
+
+<k110010> a skos:Concept ;
+    skos:prefLabel "Elterngespräche"@de ;
+    skos:prefLabel "Parent-teacher conferences"@en ;
+    skos:broader <kc110> ;
+    skos:inScheme <> .
+
+<k110020> a skos:Concept ;
+    skos:prefLabel "Kollegiale Fallberatung"@de ;
+    skos:prefLabel "Peer consultation"@en ;
+    skos:broader <kc110> ;
+    skos:inScheme <> .
+
+<kc120> a skos:Concept ;
+    skos:prefLabel "Lehrkraftrolle & -gesundheit"@de ;
+    skos:prefLabel "Teacher roles and health"@en ;
+    skos:narrower <k120010> ;
+    skos:topConceptOf <> .
+
+<k120010> a skos:Concept ;
+    skos:prefLabel "Stressbewältigung"@de ;
+    skos:prefLabel "Stress management"@en ;
+    skos:broader <kc120> ;
+    skos:inScheme <> .
+
+<kc130> a skos:Concept ;
+    skos:prefLabel "Schulentwicklung & Qualitätssicherung"@de ;
+    skos:prefLabel "School development & quality assurance"@en ;
+    skos:topConceptOf <> .
+
+<k130010> a skos:Concept ;
+    skos:prefLabel "Schulrecht"@de ;
+    skos:prefLabel "School law"@en ;
+    skos:broader <kc130> ;
     skos:inScheme <> .
