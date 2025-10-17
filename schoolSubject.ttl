@@ -126,8 +126,10 @@
     skos:topConceptOf <> .
 
 <s1012> a skos:Concept ;
-    skos:prefLabel "Gesundheit"@de, "Health"@en ;
+    skos:prefLabel "Gesundheit & Pflege"@de, "Health & Care"@en ;
     skos:altLabel "Gesundheitserziehung"@de, "Health Education"@en ;
+    skos:altLabel "Gesundheit"@de, "Health"@en ;
+    skos:altLabel "Pflege"@de, "Care"@en ;
     skos:closeMatch eafsys:260 ;
     skos:closeMatch oeh:260 ;
     skos:topConceptOf <> .
