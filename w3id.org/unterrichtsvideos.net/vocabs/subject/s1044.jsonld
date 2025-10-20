@@ -1,31 +1,21 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1047",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1044",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ernährung & Hauswirtschaft",
-    "en": "Nutrition & Home Economics"
+    "de": "Ernährung",
+    "en": "Nutrition"
   },
-  "altLabel": {
+  "note": {
     "de": [
-      "Ernährung",
-      "Hauswirtschaft"
+      "Dieses Fach wurde zusammengeführt mit Ernährung & Hauswirtschaft"
     ],
     "en": [
-      "Nutrition",
-      "Home Economics"
+      "This subject has been merged with Nutrition & Home Economics"
     ]
   },
-  "closeMatch": [
-    {
-      "id": "http://w3id.org/kim/schulfaecher/s1044"
-    },
-    {
-      "id": "http://w3id.org/kim/schulfaecher/s1047"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/04006"
+      "id": "http://w3id.org/kim/schulfaecher/s1044"
     }
   ],
   "inScheme": [
@@ -49,6 +39,12 @@
         "de": "Schulfächer",
         "en": "School Subjects"
       }
+    }
+  ],
+  "deprecated": true,
+  "isReplacedBy": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/subject/s1047"
     }
   ],
   "@context": {
