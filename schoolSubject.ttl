@@ -18,8 +18,8 @@
     vann:preferredNamespacePrefix "mvpSubject" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <s1000>, <s1040>, <s1001>, <s1002>, <s1003>, <s1004>,
-        <s1005>, <s1006>, <s1041>, <s1007>, <s1044>, <s1045>, <s1008>,
-        <s1009>, <s1010>, <s1011>, <s1012>, <se1047>, <s1034>, <s1013>, <s1014>,
+        <s1005>, <s1006>, <s1041>, <s1007>, <s1045>, <s1008>,
+        <s1009>, <s1010>, <s1011>, <s1012>, <s1047>, <s1034>, <s1013>, <s1014>,
         <s1035>, <s1015>, <s1016>, <s1017>, <s1046>, <s1019>, <s1020>, <s1036>,
         <s1021>, <s1022>, <s1023>, <s1037>, <s1038>, <s1043>, <s1024>, <s1025>,
         <s1026>, <s1027>, <s1028>, <s1029>, <s1039>, <s1030>, <s1031>, <s1032>,
@@ -152,7 +152,7 @@
     skos:exactMatch kim:s1012 ;
     skos:topConceptOf <> .
 
-<se1047> a skos:Concept ;
+<s1047> a skos:Concept ;
     skos:prefLabel "Ernährung & Hauswirtschaft"@de, "Nutrition & Home Economics"@en ;
     skos:altLabel "Ernährung"@de, "Nutrition"@en ;
     skos:altLabel "Hauswirtschaft"@de, "Home Economics"@en ;
