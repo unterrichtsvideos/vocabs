@@ -5,14 +5,6 @@
     "de": "Unterrichtsstunde",
     "en": "Teaching session"
   },
-  "note": {
-    "de": [
-      "Wird unter inszenierte oder authentische Aufnahme subsummiert."
-    ],
-    "en": [
-      "Is subsumed under staged or authentic recording."
-    ]
-  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
@@ -36,7 +28,6 @@
       }
     }
   ],
-  "deprecated": true,
   "@context": {
     "@version": 1.1,
     "id": "@id",
