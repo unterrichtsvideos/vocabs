@@ -70,14 +70,20 @@
 <rt010> a skos:Concept ;
     skos:prefLabel "Unterrichtsstunde"@de ;
     skos:prefLabel "Teaching session"@en ;
+    owl:deprecated true ;
+    skos:note "Wird unter inszenierte oder authentische Aufnahme subsummiert."@de, "Is subsumed under staged or authentic recording."@en ;
     skos:topConceptOf <> .
 
 <rt011> a skos:Concept ;
     skos:prefLabel "Unterrichtsausschnitt"@de ;
     skos:prefLabel "Teaching segment"@en ;
+    owl:deprecated true ;
+    skos:note "Wird unter inszenierte oder authentische Aufnahme subsummiert."@de, "Is subsumed under staged or authentic recording."@en ;
     skos:topConceptOf <> .
 
 <rt012> a skos:Concept ;
     skos:prefLabel "Unterrichtsreihe"@de ;
     skos:prefLabel "Teaching series"@en ;
+    owl:deprecated true ;
+    skos:note "Wird unter inszenierte oder authentische Aufnahme subsummiert."@de, "Is subsumed under staged or authentic recording."@en ;
     skos:topConceptOf <> .
