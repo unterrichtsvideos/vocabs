@@ -1,42 +1,44 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt012",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/none",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterrichtsreihe",
-    "en": "Teaching series"
+    "de": "Nicht zutreffend",
+    "en": "Not applicable"
   },
-  "note": {
+  "altLabel": {
     "de": [
-      "Wird unter inszenierte oder authentische Aufnahme subsummiert."
+      "Bildungsstufenunabhängig"
     ],
     "en": [
-      "Is subsumed under staged or authentic recording."
+      "Not level-specific"
     ]
+  },
+  "definition": {
+    "de": "Nicht für eine spezifische Bildungsstufe konzipiert."
   },
   "inScheme": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/",
       "title": {
-        "de": "Ressourcentypen",
-        "en": "Ressource types"
+        "de": "Bildungsstufen",
+        "en": "Educational levels"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/",
       "title": {
-        "de": "Ressourcentypen",
-        "en": "Ressource types"
+        "de": "Bildungsstufen",
+        "en": "Educational levels"
       }
     }
   ],
-  "deprecated": true,
   "@context": {
     "@version": 1.1,
     "id": "@id",

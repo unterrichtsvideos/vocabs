@@ -1,42 +1,33 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt012",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/interlevel",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterrichtsreihe",
-    "en": "Teaching series"
-  },
-  "note": {
-    "de": [
-      "Wird unter inszenierte oder authentische Aufnahme subsummiert."
-    ],
-    "en": [
-      "Is subsumed under staged or authentic recording."
-    ]
+    "de": "Bildungsstufenübergreifend",
+    "en": "Inter-Level"
   },
   "inScheme": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/",
       "title": {
-        "de": "Ressourcentypen",
-        "en": "Ressource types"
+        "de": "Bildungsstufen",
+        "en": "Educational levels"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/",
       "title": {
-        "de": "Ressourcentypen",
-        "en": "Ressource types"
+        "de": "Bildungsstufen",
+        "en": "Educational levels"
       }
     }
   ],
-  "deprecated": true,
   "@context": {
     "@version": 1.1,
     "id": "@id",
