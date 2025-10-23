@@ -2,15 +2,15 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Postsekundarer nicht-tertiärer Bereich",
-    "en": "Post-secondary non-tertiary education"
+    "de": "Berufliche Bildung"
   },
   "altLabel": {
     "de": [
-      "Berufliche Bildung",
+      "Postsekundarer nicht-tertiärer Bereich",
       "ISCED 2011, Level 4"
     ],
     "en": [
+      "Post-secondary non-tertiary education",
       "ISCED 2011, Level 4"
     ]
   },
