@@ -75,7 +75,7 @@
     skos:topConceptOf <> .
 
 <s1006> a skos:Concept ;
-    skos:prefLabel "Deutsch als Zweitsprache"@de, "German as a Second Language"@en ;
+    skos:prefLabel "Deutsch als Zweitsprache (DaZ)"@de, "German as a Second Language"@en ;
     skos:altLabel "DaZ"@de, "GSL"@en ;
     skos:closeMatch eafsys:12005 ;
     skos:closeMatch eafsys:28002 ;
