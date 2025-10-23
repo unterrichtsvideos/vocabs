@@ -128,7 +128,7 @@
     skos:topConceptOf <> .
 
 <s1010> a skos:Concept ;
-    skos:prefLabel "Geografie"@de, "Geography"@en ;
+    skos:prefLabel "Erdkunde, Geografie"@de, "Geography"@en ;
     skos:altLabel "Erdkunde"@de, "Geography"@en, "Geographie"@de, "Geography"@en ;
     skos:closeMatch eafsys:220 ;
     skos:closeMatch oeh:220 ;
