@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "30-180 Min. (z.B. Seminarsitzung)",
-    "en": "30-180 Min. (e.g. seminar session)"
+    "en": "30-180 min. (e.g. seminar session)"
+  },
+  "example": {
+    "de": "Seminarsitzung; Blockvorlesung; Workshop-Einheit",
+    "en": "Seminar session; block lecture; workshop unit"
   },
   "closeMatch": [
     {
@@ -20,8 +24,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
@@ -34,8 +38,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],

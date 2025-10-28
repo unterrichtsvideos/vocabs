@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "1-7 Tage (z.B. mehrtägige Lerneinheit)",
-    "en": "1-7 Tage (e.g. multi-day learning unit)"
+    "en": "1-7 days (e.g. multi-day learning unit)"
+  },
+  "example": {
+    "de": "Mehrtägige Lerneinheit; Summer School; kompakte Fortbildung",
+    "en": "Multi-day learning unit; summer school; compact multi-day"
   },
   "closeMatch": [
     {
@@ -17,8 +21,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
@@ -31,8 +35,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],

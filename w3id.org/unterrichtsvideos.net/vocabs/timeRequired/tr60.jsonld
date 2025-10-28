@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "6-25 Wochen (z.B. Kurs)",
-    "en": "6-25 Wochen (e.g. course)"
+    "en": "6-25 weeks (e.g. course)"
+  },
+  "example": {
+    "de": "Blended-Learning-Modul über mehrere Wochen",
+    "en": "Blended learning module over several weeks"
   },
   "closeMatch": [
     {
@@ -23,8 +27,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
@@ -37,8 +41,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],

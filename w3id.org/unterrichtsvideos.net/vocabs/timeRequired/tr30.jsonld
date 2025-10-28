@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "3-24 Std. (z.B. Lerntag)",
-    "en": "3-24 Std. (e.g. learning day)"
+    "en": "3-24 h (e.g. learning day)"
+  },
+  "example": {
+    "de": "Intensiv-Workshop; Lerntag; Projekt-Tag; Exkursion (halbtags bis ganztags)",
+    "en": "Intensive workshop; learning day; project day; field trip (half to full day)"
   },
   "closeMatch": [
     {
@@ -17,8 +21,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
@@ -31,8 +35,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],

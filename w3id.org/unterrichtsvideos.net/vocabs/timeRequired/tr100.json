@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "1+ Jahre (z.B. Kursreihe)",
-    "en": "1+ Jahre (e.g. course series)"
+    "en": "1+ years (e.g. course series)"
+  },
+  "example": {
+    "de": "Studiengangsmodul; Zertifikatsreihe",
+    "en": "Study program module; certificate series"
   },
   "closeMatch": [
     {
@@ -14,8 +18,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
@@ -28,8 +32,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],

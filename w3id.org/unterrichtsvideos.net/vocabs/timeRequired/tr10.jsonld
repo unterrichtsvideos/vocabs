@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "de": "bis 30 Min. (z.B. Mikrolernen)",
-    "en": "bis 30 Min. (e.g. micro-learning)"
+    "en": "up to 30 min. (e.g. micro-learning)"
+  },
+  "example": {
+    "de": "kurzer Videoclip; Lernimpuls; Quiz; geeignet als Bausteine in Lehrveranstaltungen oder Fortbildungen",
+    "en": "short video clip; learning impulse; quiz; suitable as learning blocks in courses or training"
   },
   "closeMatch": [
     {
@@ -20,8 +24,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
@@ -34,8 +38,8 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Typische Beschäftigungsdauer",
-        "en": "Typical required time"
+        "de": "Beschäftigungsdauer",
+        "en": "Required time"
       }
     }
   ],
