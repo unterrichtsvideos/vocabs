@@ -1,0 +1,95 @@
+@base <https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix oehDPT: <http://w3id.org/openeduhub/vocabs/didacticPlanningTools/> .
+@prefix oehAL: <http://w3id.org/openeduhub/vocabs/aggregationLevel/> .
+@prefix oehLOM: <http://w3id.org/openeduhub/vocabs/lom_aggregationlevel/> .
+@prefix schema: <https://schema.org/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Beschäftigungsdauer"@de ;
+    dct:title "Required time"@en ;
+    dct:description "Typische Beschäftigungsdauer"@de, "Typical duration of engagement"@en ;
+    dct:publisher <https://unterrichtsvideos.net> ;
+    dct:created "2025-10-28"^^xsd:date ;
+    dct:modified "2025-10-28"^^xsd:date ;
+    dct:issued "2025-10-28"^^xsd:date ;
+    vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/" ;
+    vann:preferredNamespacePrefix "mvpDuration" ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <tr10>, <tr20>, <tr30>, <tr40>, <tr50>, <tr60>, <tr100>.
+
+<tr10> a skos:Concept ;
+    skos:prefLabel "bis 30 Min. (z.B. Mikrolernen)"@de ;
+    skos:prefLabel "up to 30 min. (e.g. micro-learning)"@en ;
+    skos:closeMatch oehDPT:41 ;
+    skos:closeMatch oehAL:1 ;
+    skos:closeMatch oehLOM:level_1 ;
+    skos:example "kurzer Videoclip; Lernimpuls; Quiz; geeignet als Bausteine in Lehrveranstaltungen oder Fortbildungen"@de ;
+    skos:example "short video clip; learning impulse; quiz; suitable as learning blocks in courses or training"@en ;
+    schema:timeRequired "PT30M"^^xsd:duration ;
+    skos:topConceptOf <> .
+
+<tr20> a skos:Concept ;
+    skos:prefLabel "30-180 Min. (z.B. Seminarsitzung)"@de ;
+    skos:prefLabel "30-180 min. (e.g. seminar session)"@en ;
+    skos:closeMatch oehDPT:41 ;
+    skos:closeMatch oehAL:2 ;
+    skos:closeMatch oehLOM:level_2 ;
+    skos:example "Seminarsitzung; Blockvorlesung; Workshop-Einheit"@de ;
+    skos:example "Seminar session; block lecture; workshop unit"@en ;
+    schema:timeRequired "PT180M"^^xsd:duration ;
+    skos:topConceptOf <> .
+
+<tr30> a skos:Concept ;
+    skos:prefLabel "3-24 Std. (z.B. Lerntag)"@de ;
+    skos:prefLabel "3-24 h (e.g. learning day)"@en ;
+    skos:closeMatch oehDPT:41 ;
+    skos:closeMatch oehLOM:level_2 ;
+    skos:example "Intensiv-Workshop; Lerntag; Projekt-Tag; Exkursion (halbtags bis ganztags)"@de ;
+    skos:example "Intensive workshop; learning day; project day; field trip (half to full day)"@en ;
+    schema:timeRequired "PT24H"^^xsd:duration ;
+    skos:topConceptOf <> .
+
+<tr40> a skos:Concept ;
+    skos:prefLabel "1-7 Tage (z.B. mehrtägige Lerneinheit)"@de ;
+    skos:prefLabel "1-7 days (e.g. multi-day learning unit)"@en ;
+    skos:closeMatch oehAL:unit ;
+    skos:closeMatch oehLOM:level_3 ;
+    skos:example "Mehrtägige Lerneinheit; Summer School; kompakte Fortbildung"@de ;
+    skos:example "Multi-day learning unit; summer school; compact multi-day"@en ;
+    schema:timeRequired "P7D"^^xsd:duration ;
+    skos:topConceptOf <> .
+
+<tr50> a skos:Concept ;
+    skos:prefLabel "1-6 Wochen (z.B. Projekt)"@de ;
+    skos:prefLabel "1-6 weeks (e.g. project)"@en ;
+    skos:closeMatch oehDPT:43 ;
+    skos:closeMatch oehLOM:level_3 ;
+    skos:example "Projektphase mit wöchentlichen Treffen; begleitender Kurs über mehrere Wochen (z.B. Praxissemester)"@de ;
+    skos:example "Project phase with weekly meetings; accompanying multi-week course (e.g. practice semester)"@en ;
+    schema:timeRequired "P6W"^^xsd:duration ;
+    skos:topConceptOf <> .
+
+<tr60> a skos:Concept ;
+    skos:prefLabel "6-25 Wochen (z.B. Kurs)"@de ;
+    skos:prefLabel "6-25 weeks (e.g. course)"@en ;
+    skos:closeMatch oehDPT:44 ;
+    skos:closeMatch oehAL:module ;
+    skos:closeMatch oehAL:3 ;
+    skos:closeMatch oehLOM:level_4 ;
+    skos:example "Blended-Learning-Modul über mehrere Wochen"@de ;
+    skos:example "Blended learning module over several weeks"@en ;
+    schema:timeRequired "P25W"^^xsd:duration ;
+    skos:topConceptOf <> .
+
+<tr100> a skos:Concept ;
+    skos:prefLabel "1+ Jahre (z.B. Kursreihe)"@de ;
+    skos:prefLabel "1+ years (e.g. course series)"@en ;
+    skos:closeMatch oehLOM:level_4 ;
+    skos:example "Studiengangsmodul; Zertifikatsreihe"@de ;
+    skos:example "Study program module; certificate series"@en ;
+    schema:timeRequired "P1Y"^^xsd:duration ;
+    skos:topConceptOf <> .
