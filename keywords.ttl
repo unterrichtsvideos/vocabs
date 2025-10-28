@@ -49,8 +49,8 @@
     skos:inScheme <> .
 
 <k10030> a skos:Concept ;
-    skos:prefLabel "Regeln Routinen Rituale im Unterricht"@de ;
-    skos:prefLabel "Rules routines rituals in the classroom"@en ;
+    skos:prefLabel "Regeln, Routinen, Rituale im Unterricht"@de ;
+    skos:prefLabel "Rules, routines, rituals in the classroom"@en ;
     skos:broader <kc10> ;
     skos:inScheme <> .
 
