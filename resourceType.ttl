@@ -16,20 +16,20 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/" ;
     vann:preferredNamespacePrefix "mvpResourceType" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <rt004>, <rt005>, <rt000>, <rt002>, <rt003>, <rt007>, <rt008>, <rt009>, <rt010>, <rt011>, <rt001>, <rt012>, <rt006> .
-
-<rt004> a skos:Concept ;
-    skos:prefLabel "Inszenierter Unterricht"@de ;
-    skos:prefLabel "Staged classroom video"@en ;
-    skos:definition "Ein Video, das eine (geskriptete) Unterrichtssituation darstellt, die für die Aufnahme inszeniert wurde."@de ;
-    skos:definition "A video that depicts a (scripted) classroom situation that was staged for the recording."@en ;
-    skos:topConceptOf <> .
+    skos:hasTopConcept <rt005>, <rt004>, <rt002>, <rt000>, <rt003>, <rt007>, <rt008>, <rt001>, <rt006>, <rt009>, <rt010>, <rt011>, <rt012> .
 
 <rt005> a skos:Concept ;
     skos:prefLabel "Authentischer Unterricht"@de ;
     skos:prefLabel "Authentic classroom video"@en ;
     skos:definition "Ein Video, das eine reale Unterrichtssituation dokumentiert."@de ;
     skos:definition "A video that documents a real classroom situation."@en ;
+    skos:topConceptOf <> .
+
+<rt004> a skos:Concept ;
+    skos:prefLabel "Inszenierter Unterricht"@de ;
+    skos:prefLabel "Staged classroom video"@en ;
+    skos:definition "Ein Video, das eine (geskriptete) Unterrichtssituation darstellt, die für die Aufnahme inszeniert wurde."@de ;
+    skos:definition "A video that depicts a (scripted) classroom situation that was staged for the recording."@en ;
     skos:topConceptOf <> .
 
 <rt002> a skos:Concept ;
