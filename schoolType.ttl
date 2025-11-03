@@ -21,19 +21,21 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/" ;
     vann:preferredNamespacePrefix "mvpSchoolType" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <st0>, <st1>, <st01>, <st02>, <st03>, <st04>, <st05>, <st06>, <st07>, <st08>, <st09>, <st10>, <st11>, <st12>, <st13> , <st14>, <st15> .
+    skos:hasTopConcept <st0>, <st1>, <st01>, <st02>, <st03>, <st04>, <st05>, <st06>, <st07>, <st08>, <st09>, <st10>, <st11>, <st12>, <st13> , <st14>, <st15>, <st20>, <st25>, <st30> .
     
 <st0> a skos:Concept ;
     skos:prefLabel "Sonstige Schularten"@de ;
     skos:prefLabel "Other school types"@en ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s0 .
+    skos:closeMatch mvpEduLevel:interlevel ;
+    skos:exactMatch kimSchoolType:s0 ;
+    skos:topConceptOf <> .
 
 <st1> a skos:Concept ;
     skos:prefLabel "Schulartübergreifend"@de ;
     skos:prefLabel "Across School Types"@en ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s0 .
+    skos:closeMatch mvpEduLevel:interlevel ;
+    skos:exactMatch kimSchoolType:s0 ;
+    skos:topConceptOf <> .
 
 <st01> a skos:Concept ;
     skos:prefLabel "Vorschule"@de ;
@@ -44,8 +46,8 @@
     skos:closeMatch isced2011:level0 ;
     skos:closeMatch eduLevel:level_0 ; 
     skos:closeMatch mvpEduLevel:level_0 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s01 .
+    skos:exactMatch kimSchoolType:s01 ;
+    skos:topConceptOf <> .
 
 <st02> a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
@@ -64,8 +66,8 @@
     skos:narrowMatch mvpGrade:3 ;
     skos:narrowMatch oehEduLevel:4 ; 
     skos:narrowMatch mvpGrade:4 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s02 .
+    skos:exactMatch kimSchoolType:s02 ;
+    skos:topConceptOf <> .
 
 <st03> a skos:Concept ;
     skos:prefLabel "Hauptschule"@de ;
@@ -88,8 +90,9 @@
     skos:narrowMatch mvpGrade:9 ;
     skos:narrowMatch oehEduLevel:10 ; 
     skos:narrowMatch mvpGrade:10 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s03 .
+    skos:exactMatch kimSchoolType:s03 ;
+    skos:topConceptOf <> .
+    
 
 <st04> a skos:Concept ;
     skos:prefLabel "Realschule"@de ;
@@ -110,8 +113,8 @@
     skos:narrowMatch mvpGrade:9 ;
     skos:narrowMatch oehEduLevel:10 ; 
     skos:narrowMatch mvpGrade:10 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s04 .
+    skos:exactMatch kimSchoolType:s04 ;
+    skos:topConceptOf <> .
 
 <st10> a skos:Concept ;
     skos:prefLabel "Sekundarschule"@de ;
@@ -132,8 +135,8 @@
     skos:narrowMatch mvpGrade:9 ;
     skos:narrowMatch oehEduLevel:10 ; 
     skos:narrowMatch mvpGrade:10 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s10 .
+    skos:exactMatch kimSchoolType:s10 ;
+    skos:topConceptOf <> .
 
 <st05> a skos:Concept ;
     skos:prefLabel "Gesamtschule"@de ;
@@ -164,8 +167,8 @@
     skos:narrowMatch mvpGrade:12 ;
     skos:narrowMatch oehEduLevel:13 ; 
     skos:narrowMatch mvpGrade:13 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s05 .
+    skos:exactMatch kimSchoolType:s05 ;
+    skos:topConceptOf <> .
 
 <st08> a skos:Concept ;
     skos:prefLabel "Gymnasium"@de ;
@@ -196,20 +199,23 @@
     skos:narrowMatch mvpGrade:12 ;
     skos:narrowMatch oehEduLevel:13 ; 
     skos:narrowMatch mvpGrade:13 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s08 .
+    skos:exactMatch kimSchoolType:s08 ;
+    skos:topConceptOf <> .
 
 <st06> a skos:Concept ;
     skos:prefLabel "Förderschule"@de ;
     skos:prefLabel "School for special needs"@en ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s06 .
+    skos:exactMatch kimSchoolType:s06 ;
+    skos:closeMatch mvpEduLevel:interlevel ;
+    skos:topConceptOf <> .
 
 <st07> a skos:Concept ;
     skos:prefLabel "Oberschule"@de ;
     skos:prefLabel "Upper School"@en ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s07 .
+    skos:exactMatch kimSchoolType:s07 ;
+    skos:closeMatch mvpEduLevel:level_2 ;
+    skos:closeMatch mvpEduLevel:level_3 ;
+    skos:topConceptOf <> .
 
 <st09> a skos:Concept ;
     skos:prefLabel "Gemeinschaftsschule"@de ;
@@ -218,8 +224,8 @@
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ; 
     skos:closeMatch mvpEduLevel:level_3 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s09 .
+    skos:exactMatch kimSchoolType:s09 ;
+    skos:topConceptOf <> .
 
 <st11> a skos:Concept ;
     skos:prefLabel "Berufsfachschule"@de ;
@@ -228,8 +234,9 @@
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ; 
     skos:closeMatch mvpEduLevel:level_3 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s11 .
+    skos:closeMatch mvpEduLevel:level_4 ;
+    skos:exactMatch kimSchoolType:s11 ;
+    skos:topConceptOf <> .
 
 <st12> a skos:Concept ;
     skos:prefLabel "Berufsschule"@de ;
@@ -238,8 +245,9 @@
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ; 
     skos:closeMatch mvpEduLevel:level_3 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s12 .
+    skos:closeMatch mvpEduLevel:level_4 ;
+    skos:exactMatch kimSchoolType:s12 ;
+    skos:topConceptOf <> .
 
 <st13> a skos:Concept ;
     skos:prefLabel "Fachoberschule"@de ;
@@ -248,8 +256,9 @@
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ; 
     skos:closeMatch mvpEduLevel:level_3 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s13 .
+    skos:closeMatch mvpEduLevel:level_4 ;
+    skos:exactMatch kimSchoolType:s13 ;
+    skos:topConceptOf <> .
 
 <st14> a skos:Concept ;
     skos:prefLabel "Berufliches Gymnasium"@de ;
@@ -257,9 +266,10 @@
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ; 
+    skos:closeMatch mvpEduLevel:level_4 ;
     skos:closeMatch mvpEduLevel:level_3 ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s14 .
+    skos:exactMatch kimSchoolType:s14 ;
+    skos:topConceptOf <> .
 
 <st15> a skos:Concept ;
     skos:prefLabel "Privat- und Ersatzschule"@de ;
@@ -267,5 +277,37 @@
     skos:altLabel "Privatschule"@de ;
     skos:altLabel "Ersatzschule"@de ;
     skos:altLabel "Freie Schule"@de ;
-    skos:topConceptOf <> ;
-    skos:exactMatch kimSchoolType:s15 .
+    skos:exactMatch kimSchoolType:s15 ;
+    skos:closeMatch mvpEduLevel:interlevel ;
+    skos:topConceptOf <> .
+
+<st20> a skos:Concept ;
+    skos:prefLabel "Hochschule"@de ;
+    skos:prefLabel "College"@en ;
+    skos:altLabel "Universität"@de ;
+    skos:altLabel "University"@en ;
+    skos:exactMatch eduLevel:level_A ;
+    skos:closeMatch eduLevel:level_6 ;
+    skos:closeMatch eduLevel:level_7 ;
+    skos:closeMatch eduLevel:level_8 ;
+    skos:exactMatch mvpEduLevel:level_A ;
+    skos:closeMatch mvpEduLevel:level_6 ;
+    skos:closeMatch mvpEduLevel:level_7 ;
+    skos:closeMatch mvpEduLevel:level_8 ;
+    skos:topConceptOf <> .
+
+<st25> a skos:Concept ;
+    skos:prefLabel "Studienseminar, ZfsL"@de, "Teacher training seminar"@en ;
+    skos:altLabel "Zentrum für schulpraktische Lehrkräfteausbildung (ZfsL)"@de ;
+    skos:altLabel "Center for Practical Teacher Training"@en ;
+    skos:exactMatch eduLevel:level_B ;
+    skos:exactMatch mvpEduLevel:level_B ;
+    skos:topConceptOf <> .
+
+<st30> a skos:Concept ;
+    skos:prefLabel "Fortbildungsinstitut"@de, "Training instittue"@en ;
+    skos:altLabel "Akademie für Lehrkräftefortbildung"@de ;
+    skos:altLabel "Center for Practical Teacher Training"@en ;
+    skos:exactMatch eduLevel:level_C ;
+    skos:exactMatch mvpEduLevel:level_C ;
+    skos:topConceptOf <> .
