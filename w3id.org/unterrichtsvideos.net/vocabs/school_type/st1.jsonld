@@ -5,6 +5,11 @@
     "de": "Schulartübergreifend",
     "en": "Across School Types"
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/interlevel"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://w3id.org/kim/schularten/s0"

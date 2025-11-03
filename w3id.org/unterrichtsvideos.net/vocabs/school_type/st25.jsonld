@@ -1,30 +1,24 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st13",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st25",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fachoberschule",
-    "en": "Specialized secondary school"
+    "de": "Studienseminar, ZfsL",
+    "en": "Teacher training seminar"
   },
-  "closeMatch": [
-    {
-      "id": "https://w3id.org/kim/isced-1997/level3"
-    },
-    {
-      "id": "https://w3id.org/kim/isced-2011/level3"
-    },
-    {
-      "id": "http://w3id.org/kim/educationalLevel/level_3"
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_3"
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_4"
-    }
-  ],
+  "altLabel": {
+    "de": [
+      "Zentrum für schulpraktische Lehrkräfteausbildung (ZfsL)"
+    ],
+    "en": [
+      "Center for Practical Teacher Training"
+    ]
+  },
   "exactMatch": [
     {
-      "id": "https://w3id.org/kim/schularten/s13"
+      "id": "http://w3id.org/kim/educationalLevel/level_B"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_B"
     }
   ],
   "inScheme": [

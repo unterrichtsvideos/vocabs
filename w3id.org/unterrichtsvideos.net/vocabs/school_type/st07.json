@@ -5,6 +5,14 @@
     "de": "Oberschule",
     "en": "Upper School"
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_2"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_3"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://w3id.org/kim/schularten/s07"

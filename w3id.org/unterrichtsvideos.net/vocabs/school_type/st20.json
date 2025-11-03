@@ -1,30 +1,44 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st13",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st20",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fachoberschule",
-    "en": "Specialized secondary school"
+    "de": "Hochschule",
+    "en": "College"
+  },
+  "altLabel": {
+    "de": [
+      "Universität"
+    ],
+    "en": [
+      "University"
+    ]
   },
   "closeMatch": [
     {
-      "id": "https://w3id.org/kim/isced-1997/level3"
+      "id": "http://w3id.org/kim/educationalLevel/level_6"
     },
     {
-      "id": "https://w3id.org/kim/isced-2011/level3"
+      "id": "http://w3id.org/kim/educationalLevel/level_7"
     },
     {
-      "id": "http://w3id.org/kim/educationalLevel/level_3"
+      "id": "http://w3id.org/kim/educationalLevel/level_8"
     },
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_3"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_6"
     },
     {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_4"
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_7"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_8"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/kim/schularten/s13"
+      "id": "http://w3id.org/kim/educationalLevel/level_A"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_A"
     }
   ],
   "inScheme": [

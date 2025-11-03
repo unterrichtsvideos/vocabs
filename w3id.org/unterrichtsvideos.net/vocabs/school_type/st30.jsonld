@@ -1,30 +1,24 @@
 {
-  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st13",
+  "id": "https://w3id.org/unterrichtsvideos.net/vocabs/school_type/st30",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fachoberschule",
-    "en": "Specialized secondary school"
+    "de": "Fortbildungsinstitut",
+    "en": "Training instittue"
   },
-  "closeMatch": [
-    {
-      "id": "https://w3id.org/kim/isced-1997/level3"
-    },
-    {
-      "id": "https://w3id.org/kim/isced-2011/level3"
-    },
-    {
-      "id": "http://w3id.org/kim/educationalLevel/level_3"
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_3"
-    },
-    {
-      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_4"
-    }
-  ],
+  "altLabel": {
+    "de": [
+      "Akademie für Lehrkräftefortbildung"
+    ],
+    "en": [
+      "Center for Practical Teacher Training"
+    ]
+  },
   "exactMatch": [
     {
-      "id": "https://w3id.org/kim/schularten/s13"
+      "id": "http://w3id.org/kim/educationalLevel/level_C"
+    },
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/educational_level/level_C"
     }
   ],
   "inScheme": [
