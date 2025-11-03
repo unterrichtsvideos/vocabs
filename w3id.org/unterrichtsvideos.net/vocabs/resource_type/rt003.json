@@ -5,6 +5,10 @@
     "de": "Interview",
     "en": "Interview"
   },
+  "definition": {
+    "de": "Ein Video, das ein Gespräch oder Interview mit einer oder mehreren Personen zeigt, z. B. einer Lehrkraft.",
+    "en": "A video that features a conversation or interview with one or more persons, e.g. a teacher."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",

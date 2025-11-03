@@ -5,6 +5,18 @@
     "de": "Unterrichtsausschnitt",
     "en": "Teaching segment"
   },
+  "definition": {
+    "de": "Ein Unterrichtsvideo, das einen Ausschnitt aus einer Unterrichtsstunde darstellt.",
+    "en": "A classroom video that represents a segment of a teaching session."
+  },
+  "note": {
+    "de": [
+      "Entfällt, da redundant zur Erfassung der benötigten Zeit."
+    ],
+    "en": [
+      "Discontinued, as it is redundant for capturing the required time."
+    ]
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
@@ -28,6 +40,7 @@
       }
     }
   ],
+  "deprecated": true,
   "@context": {
     "@version": 1.1,
     "id": "@id",

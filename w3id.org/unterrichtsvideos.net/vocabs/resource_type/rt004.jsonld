@@ -5,6 +5,10 @@
     "de": "Inszenierter Unterricht",
     "en": "Staged classroom video"
   },
+  "definition": {
+    "de": "Ein Video, das eine (geskriptete) Unterrichtssituation darstellt, die für die Aufnahme inszeniert wurde.",
+    "en": "A video that depicts a (scripted) classroom situation that was staged for the recording."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",

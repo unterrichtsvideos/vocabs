@@ -5,6 +5,10 @@
     "de": "Sonstiger Unterricht",
     "en": "Other classroom video"
   },
+  "definition": {
+    "de": "Ein Video, das eine Unterrichtssituation darstellt, die nicht als inszenierter/animierter oder authentischer Unterricht kategorisiert werden kann.",
+    "en": "A video that depicts a classroom situation that cannot be categorized as either staged/animated or authentic teaching."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",

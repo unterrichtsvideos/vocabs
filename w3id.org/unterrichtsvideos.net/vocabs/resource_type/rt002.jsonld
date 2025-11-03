@@ -2,8 +2,12 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt002",
   "type": "Concept",
   "prefLabel": {
-    "de": "Animationsvideo",
-    "en": "Animation video"
+    "de": "Animierter Unterricht",
+    "en": "Animated classroom video"
+  },
+  "definition": {
+    "de": "Ein Video, das eine animierte Unterrichtssituation darstellt, bspw. animierter Unterricht oder (VR-)Simulationen.",
+    "en": "A video that depicts an animated classroom situation, e.g. animated teaching or (VR) simulations."
   },
   "inScheme": [
     {

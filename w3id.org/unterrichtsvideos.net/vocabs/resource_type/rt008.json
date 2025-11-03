@@ -5,6 +5,10 @@
     "de": "Lernmodul",
     "en": "Learning module"
   },
+  "definition": {
+    "de": "Ein Bildungsangebot, das spezifische Lernziele verfolgt.",
+    "en": "An educational resource that pursues specific learning objectives."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",

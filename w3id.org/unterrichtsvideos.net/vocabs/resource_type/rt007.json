@@ -5,6 +5,10 @@
     "de": "Lernvideo",
     "en": "Learning video"
   },
+  "definition": {
+    "de": "Ein Video, das Lerninhalte vermittelt, z. B. Erklärvideos, Tutorials oder Vorträge.",
+    "en": "A video that conveys learning content, e.g. explainer videos, tutorials, or lectures."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
