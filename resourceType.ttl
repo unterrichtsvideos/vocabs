@@ -19,13 +19,13 @@
     skos:hasTopConcept <rt000>, <rt001>, <rt002>, <rt003>, <rt004>, <rt005>, <rt006>, <rt007>, <rt008>, <rt009>, <rt010>, <rt011>, <rt012> .
 
 <rt000> a skos:Concept ;
-    skos:prefLabel "Sonstige Videos"@de ;
-    skos:prefLabel "Other videos"@en ;
+    skos:prefLabel "Sonstiges Unterrichtsvideo"@de ;
+    skos:prefLabel "Other classroom video"@en ;
     skos:topConceptOf <> .
 
 <rt001> a skos:Concept ;
-    skos:prefLabel "Sonstige Bildungsangebote"@de ;
-    skos:prefLabel "Other educational resources"@en ;
+    skos:prefLabel "Sonstiges Bildungsangebot"@de ;
+    skos:prefLabel "Other educational resource"@en ;
     skos:topConceptOf <> .
 
 <rt002> a skos:Concept ;
@@ -39,22 +39,25 @@
     skos:topConceptOf <> .
 
 <rt004> a skos:Concept ;
-    skos:prefLabel "Inszenierte Aufnahme"@de ;
-    skos:prefLabel "Staged lecture recording"@en ;
+    skos:prefLabel "Inszenierter Unterricht"@de ;
+    skos:prefLabel "Staged classroom video"@en ;
     skos:topConceptOf <> .
 
 <rt005> a skos:Concept ;
-    skos:prefLabel "Authentische Aufnahme"@de ;
-    skos:prefLabel "Authentic lecture recording"@en ;
+    skos:prefLabel "Authentischer Unterricht"@de ;
+    skos:prefLabel "Authentic classroom video"@en ;
     skos:topConceptOf <> .
 
 <rt006> a skos:Concept ;
     skos:prefLabel "Lehrfilm"@de ;
     skos:prefLabel "Teaching video"@en ;
+    owl:deprecated true ;
+    skos:note "Zusammengeführt mit Lernvideo."@de, "Merged concept with Learning video."@en ;
+    dct:isReplacedBy <rt007> ;
     skos:topConceptOf <> .
 
 <rt007> a skos:Concept ;
-    skos:prefLabel "Lernfilm"@de ;
+    skos:prefLabel "Lernvideo"@de ;
     skos:prefLabel "Learning video"@en ;
     skos:topConceptOf <> .
 
