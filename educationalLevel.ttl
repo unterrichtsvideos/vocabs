@@ -77,8 +77,8 @@
     skos:topConceptOf <> .
 
 <level_4> a skos:Concept ;
-    skos:prefLabel "Berufliche Bildung"@de ;
-    skos:altLabel "Post-secondary non-tertiary education"@en, "Postsekundarer nicht-tertiärer Bereich"@de ;
+    skos:prefLabel "Berufliche Bildung"@de, "Vocational education and training"@en ;
+    skos:altLabel "Postsekundarer nicht-tertiärer Bereich"@de, "Post-secondary non-tertiary education"@en ;
     skos:altLabel "ISCED 2011, Level 4"@en, "ISCED 2011, Level 4"@de ;
     skos:exactMatch isced97:level4 ;
     skos:exactMatch isced2011:level4 ;
