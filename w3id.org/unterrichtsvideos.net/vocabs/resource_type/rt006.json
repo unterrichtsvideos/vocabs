@@ -5,6 +5,14 @@
     "de": "Lehrfilm",
     "en": "Teaching video"
   },
+  "note": {
+    "de": [
+      "Zusammengeführt mit Lernvideo."
+    ],
+    "en": [
+      "Merged concept with Learning video."
+    ]
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/",
@@ -26,6 +34,12 @@
         "de": "Ressourcentypen",
         "en": "Ressource types"
       }
+    }
+  ],
+  "deprecated": true,
+  "isReplacedBy": [
+    {
+      "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt007"
     }
   ],
   "@context": {

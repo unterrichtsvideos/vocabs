@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt001",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sonstige Bildungsangebote",
-    "en": "Other educational resources"
+    "de": "Sonstiges Bildungsangebot",
+    "en": "Other educational resource"
   },
   "inScheme": [
     {

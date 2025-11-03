@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt005",
   "type": "Concept",
   "prefLabel": {
-    "de": "Authentische Aufnahme",
-    "en": "Authentic lecture recording"
+    "de": "Authentischer Unterricht",
+    "en": "Authentic classroom video"
   },
   "inScheme": [
     {

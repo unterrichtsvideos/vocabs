@@ -21,7 +21,7 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Beschäftigungsdauer",
+        "de": "Zeitaufwand",
         "en": "Required time"
       }
     }
@@ -35,7 +35,7 @@
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/timeRequired/",
       "title": {
-        "de": "Beschäftigungsdauer",
+        "de": "Zeitaufwand",
         "en": "Required time"
       }
     }

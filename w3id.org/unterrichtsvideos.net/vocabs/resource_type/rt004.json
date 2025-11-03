@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt004",
   "type": "Concept",
   "prefLabel": {
-    "de": "Inszenierte Aufnahme",
-    "en": "Staged lecture recording"
+    "de": "Inszenierter Unterricht",
+    "en": "Staged classroom video"
   },
   "inScheme": [
     {

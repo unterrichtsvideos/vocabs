@@ -2,7 +2,7 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt007",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lernfilm",
+    "de": "Lernvideo",
     "en": "Learning video"
   },
   "inScheme": [

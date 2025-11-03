@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt000",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sonstige Videos",
-    "en": "Other videos"
+    "de": "Sonstiges Unterrichtsvideo",
+    "en": "Other classroom video"
   },
   "inScheme": [
     {
