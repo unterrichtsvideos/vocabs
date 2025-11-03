@@ -16,27 +16,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/" ;
     vann:preferredNamespacePrefix "mvpResourceType" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <rt000>, <rt001>, <rt002>, <rt003>, <rt004>, <rt005>, <rt006>, <rt007>, <rt008>, <rt009>, <rt010>, <rt011>, <rt012> .
-
-<rt000> a skos:Concept ;
-    skos:prefLabel "Sonstiges Unterrichtsvideo"@de ;
-    skos:prefLabel "Other classroom video"@en ;
-    skos:topConceptOf <> .
-
-<rt001> a skos:Concept ;
-    skos:prefLabel "Sonstiges Bildungsangebot"@de ;
-    skos:prefLabel "Other educational resource"@en ;
-    skos:topConceptOf <> .
-
-<rt002> a skos:Concept ;
-    skos:prefLabel "Animationsvideo"@de ;
-    skos:prefLabel "Animation video"@en ;
-    skos:topConceptOf <> .
-
-<rt003> a skos:Concept ;
-    skos:prefLabel "Interview"@de ;
-    skos:prefLabel "Interview"@en ;
-    skos:topConceptOf <> .
+    skos:hasTopConcept <rt004>, <rt005>, <rt000>, <rt002>, <rt003>, <rt007>, <rt008>, <rt009>, <rt010>, <rt011>, <rt001>, <rt012>, <rt006> .
 
 <rt004> a skos:Concept ;
     skos:prefLabel "Inszenierter Unterricht"@de ;
@@ -48,12 +28,19 @@
     skos:prefLabel "Authentic classroom video"@en ;
     skos:topConceptOf <> .
 
-<rt006> a skos:Concept ;
-    skos:prefLabel "Lehrfilm"@de ;
-    skos:prefLabel "Teaching video"@en ;
-    owl:deprecated true ;
-    skos:note "Zusammengeführt mit Lernvideo."@de, "Merged concept with Learning video."@en ;
-    dct:isReplacedBy <rt007> ;
+<rt000> a skos:Concept ;
+    skos:prefLabel "Sonstiger Unterricht"@de ;
+    skos:prefLabel "Other classroom video"@en ;
+    skos:topConceptOf <> .
+
+<rt002> a skos:Concept ;
+    skos:prefLabel "Animationsvideo"@de ;
+    skos:prefLabel "Animation video"@en ;
+    skos:topConceptOf <> .
+
+<rt003> a skos:Concept ;
+    skos:prefLabel "Interview"@de ;
+    skos:prefLabel "Interview"@en ;
     skos:topConceptOf <> .
 
 <rt007> a skos:Concept ;
@@ -81,9 +68,22 @@
     skos:prefLabel "Teaching segment"@en ;
     skos:topConceptOf <> .
 
+<rt001> a skos:Concept ;
+    skos:prefLabel "Sonstiges Bildungsangebot"@de ;
+    skos:prefLabel "Other educational resource"@en ;
+    skos:topConceptOf <> .
+
 <rt012> a skos:Concept ;
     skos:prefLabel "Unterrichtsreihe"@de ;
     skos:prefLabel "Teaching series"@en ;
     owl:deprecated true ;
     skos:note "Entfällt vorerst."@de, "Is temporarily discontinued."@en ;
+    skos:topConceptOf <> .
+
+<rt006> a skos:Concept ;
+    skos:prefLabel "Lehrfilm"@de ;
+    skos:prefLabel "Teaching video"@en ;
+    owl:deprecated true ;
+    skos:note "Zusammengeführt mit Lernvideo."@de, "Merged concept with Learning video."@en ;
+    dct:isReplacedBy <rt007> ;
     skos:topConceptOf <> .
