@@ -9,9 +9,9 @@
 @prefix schema: <https://schema.org/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Beschäftigungsdauer"@de ;
+    dct:title "Zeitaufwand"@de ;
     dct:title "Required time"@en ;
-    dct:description "Typische Beschäftigungsdauer"@de, "Typical duration of engagement"@en ;
+    dct:description "Typischer Zeitaufwand"@de, "Typical duration of engagement"@en ;
     dct:publisher <https://unterrichtsvideos.net> ;
     dct:created "2025-10-28"^^xsd:date ;
     dct:modified "2025-10-28"^^xsd:date ;
