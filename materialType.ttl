@@ -29,6 +29,8 @@
     skos:prefLabel "Lesson plan"@en ;
     skos:altLabel "Unterrichtskonzept"@de ;
     skos:altLabel "Teaching concept"@en ;
+    skos:example "Planung einer Unterrichtseinheit mit Zielen, Methoden, Materialien und Zeitangaben."@de ;
+    skos:example "Planning of a lesson unit with objectives, methods, materials, and time specifications."@en ;
     skos:closeMatch oehnrt:7381f17f-50a6-4ce1-b3a0-9d85a482eec0 ;
     skos:broadMatch oehnrt:477115fd-5042-4174-ac39-7c05f8a24766 ;
     skos:topConceptOf <> .
@@ -38,17 +40,25 @@
     skos:prefLabel "Teaching material"@en ;
     skos:altLabel "Unterrichtsmaterial"@de ;
     skos:altLabel "Classroom material"@en ;
+    skos:example "Arbeitsblätter, Präsentationen, Handouts, digitale Ressourcen zur Unterstützung des Unterrichts."@de ;
+    skos:example "Worksheets, presentations, handouts, digital resources to support teaching."@en ;
     skos:broadMatch oehnrt:588efe4f-976f-48eb-84aa-8bcb45679f85 ;
     skos:topConceptOf <> .
 
 <mt1002> a skos:Concept ;
     skos:prefLabel "Verlaufsprotokoll"@de ;
     skos:prefLabel "Progress report"@en ;
+    skos:altLabel "Unterrichtsprotokoll"@de ;
+    skos:altLabel "Lesson protocol"@en ;
+    skos:example "Dokumentation des tatsächlichen Verlaufs einer Unterrichtseinheit, einschließlich Beobachtungen und Reflexionen."@de ;
+    skos:example "Documentation of the actual course of a lesson unit, including observations and reflections."@en ;
     skos:topConceptOf <> .
 
 <mt1003> a skos:Concept ;
     skos:prefLabel "Transkript"@de ;
     skos:prefLabel "Transcript"@en ;
+    skos:example "Wortwörtliche Niederschrift eines Video- oder Audioinhalts."@de ;
+    skos:example "Verbatim transcription of video or audio content."@en ;
     skos:closeMatch hcrt:script ;
     skos:closeMatch oehnrt:6a15628c-0e59-43e3-9fc5-9a7f7fa261c4 ;
     skos:topConceptOf <> .
@@ -56,5 +66,7 @@
 <mt1004> a skos:Concept ;
     skos:prefLabel "Lernendenprodukt"@de ;
     skos:prefLabel "Learner product"@en ;
+    skos:example "Arbeitsergebnisse oder andere Produkte, die von Lernenden im Rahmen des Unterrichts erstellt wurden."@de ;
+    skos:example "Work samples or other products created by learners as part of the teaching process."@en ;
     skos:broadMatch oehnrt:7c236821-bfae-4eeb-bc79-590bf8ea1d96 ;
     skos:topConceptOf <> .
