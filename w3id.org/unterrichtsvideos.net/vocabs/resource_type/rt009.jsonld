@@ -6,12 +6,12 @@
     "en": "Learning nugget"
   },
   "definition": {
-    "de": "Ein kurzes, fokussiertes Bildungsangebot, das ein spezifisches Thema behandelt.",
+    "de": "Ein kurzes, fokussiertes Bildungsangebot, das ein spezifisches Thema oder Lernziel behandelt.",
     "en": "A short, focused educational resource that addresses a specific topic."
   },
   "note": {
     "de": [
-      "Entfällt, da redundant zur Erfassung der benötigten Zeit."
+      "Zur Diskussion, da redundant zur Erfassung der benötigten Zeit."
     ],
     "en": [
       "Discontinued, as it is redundant for capturing the required time."
@@ -40,7 +40,6 @@
       }
     }
   ],
-  "deprecated": true,
   "@context": {
     "@version": 1.1,
     "id": "@id",

@@ -5,6 +5,10 @@
     "de": "Transkript",
     "en": "Transcript"
   },
+  "example": {
+    "de": "Wortwörtliche Niederschrift eines Video- oder Audioinhalts.",
+    "en": "Verbatim transcription of video or audio content."
+  },
   "closeMatch": [
     {
       "id": "https://w3id.org/kim/hcrt/script"

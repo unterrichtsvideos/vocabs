@@ -5,6 +5,18 @@
     "de": "Verlaufsprotokoll",
     "en": "Progress report"
   },
+  "altLabel": {
+    "de": [
+      "Unterrichtsprotokoll"
+    ],
+    "en": [
+      "Lesson protocol"
+    ]
+  },
+  "example": {
+    "de": "Dokumentation des tatsächlichen Verlaufs einer Unterrichtseinheit, einschließlich Beobachtungen und Reflexionen.",
+    "en": "Documentation of the actual course of a lesson unit, including observations and reflections."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/material_type/",

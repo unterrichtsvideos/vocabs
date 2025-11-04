@@ -5,6 +5,10 @@
     "de": "Lernendenprodukt",
     "en": "Learner product"
   },
+  "example": {
+    "de": "Arbeitsergebnisse oder andere Produkte, die von Lernenden im Rahmen des Unterrichts erstellt wurden.",
+    "en": "Work samples or other products created by learners as part of the teaching process."
+  },
   "broadMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/7c236821-bfae-4eeb-bc79-590bf8ea1d96"
