@@ -16,7 +16,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/" ;
     vann:preferredNamespacePrefix "mvpResourceType" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <rt005>, <rt004>, <rt002>, <rt000>, <rt003>, <rt007>, <rt008>, <rt001>, <rt006>, <rt009>, <rt010>, <rt011>, <rt012> .
+    skos:hasTopConcept <rt005>, <rt004>, <rt002>, <rt000>, <rt003>, <rt007>, <rt008>, <rt009>, <rt001>, <rt006>, <rt010>, <rt011>, <rt012> .
 
 <rt005> a skos:Concept ;
     skos:prefLabel "Authentischer Unterricht"@de ;
@@ -49,8 +49,8 @@
 <rt003> a skos:Concept ;
     skos:prefLabel "Interview"@de ;
     skos:prefLabel "Interview"@en ;
-    skos:definition "Ein Video, das ein Gespräch oder Interview mit einer oder mehreren Personen zeigt, z. B. einer Lehrkraft."@de ;
-    skos:definition "A video that features a conversation or interview with one or more persons, e.g. a teacher."@en ;
+    skos:definition "Inhalte, die ein Gespräch oder Interview mit einer oder mehreren Personen zeigen, z. B. einer Lehrkraft."@de ;
+    skos:definition "Content that features a conversation or interview with one or more persons, e.g. a teacher."@en ;
     skos:topConceptOf <> .
 
 <rt007> a skos:Concept ;
@@ -63,8 +63,16 @@
 <rt008> a skos:Concept ;
     skos:prefLabel "Lernmodul"@de ;
     skos:prefLabel "Learning module"@en ;
-    skos:definition "Ein Bildungsangebot, das spezifische Lernziele verfolgt."@de ;
-    skos:definition "An educational resource that pursues specific learning objectives."@en ;
+    skos:definition "Ein Bildungsangebot, das spezifische Lernziele zu einem bestimmten Thema umfasst."@de ;
+    skos:definition "An educational resource that encompasses specific learning objectives on a particular topic."@en ;
+    skos:topConceptOf <> .
+
+<rt009> a skos:Concept ;
+    skos:prefLabel "Learning nugget"@de ;
+    skos:prefLabel "Learning nugget"@en ;
+    skos:definition "Ein kurzes, fokussiertes Bildungsangebot, das ein spezifisches Thema oder Lernziel behandelt."@de ;
+    skos:definition "A short, focused educational resource that addresses a specific topic."@en ;
+    skos:note "Zur Diskussion, da redundant zur Erfassung der benötigten Zeit."@de, "Discontinued, as it is redundant for capturing the required time."@en ;
     skos:topConceptOf <> .
 
 <rt001> a skos:Concept ;
@@ -78,15 +86,6 @@
     owl:deprecated true ;
     skos:note "Zusammengeführt mit Lernvideo."@de, "Merged concept with Learning video."@en ;
     dct:isReplacedBy <rt007> ;
-    skos:topConceptOf <> .
-
-<rt009> a skos:Concept ;
-    skos:prefLabel "Learning nugget"@de ;
-    skos:prefLabel "Learning nugget"@en ;
-    skos:definition "Ein kurzes, fokussiertes Bildungsangebot, das ein spezifisches Thema behandelt."@de ;
-    skos:definition "A short, focused educational resource that addresses a specific topic."@en ;
-    owl:deprecated true ;
-    skos:note "Entfällt, da redundant zur Erfassung der benötigten Zeit."@de, "Discontinued, as it is redundant for capturing the required time."@en ;
     skos:topConceptOf <> .
 
 <rt010> a skos:Concept ;
