@@ -23,16 +23,20 @@
 
 <lf1> a skos:Concept ;
     skos:prefLabel "Präsenz"@de, "In-person"@en ;
+    skos:example "Lernangebote, die vollständig in Präsenz stattfinden."@de, "Learning offerings that take place entirely in person."@en ;
     skos:topConceptOf <> .
 
 <lf2> a skos:Concept ;
     skos:prefLabel "Online (Selbstlernangebot)"@de, "Online (Self-paced program)"@en ;
+    skos:example "Lernangebote, die vollständig online und im Selbststudium stattfinden."@de, "Learning offerings that take place entirely online and in self-study."@en ;
     skos:topConceptOf <> .
 
 <lf3> a skos:Concept ;
     skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de, "Blended Learning with fixed in-person group sessions"@en ;
+    skos:example "Lernangebote, die sowohl Präsenz- als auch Online-Elemente kombinieren und feste Gruppentermine haben."@de, "Learning offerings that combine both in-person and online elements and have fixed group sessions."@en ;
     skos:topConceptOf <> .
 
 <lf4> a skos:Concept ;
     skos:prefLabel "Online mit festen Online-Gruppenterminen"@de, "Online with fixed online group sessions"@en ;
+    skos:example "Lernangebote, die vollständig online stattfinden, aber feste Gruppentermine haben."@de, "Learning offerings that take place entirely online but have fixed group sessions."@en ;
     skos:topConceptOf <> .

@@ -24,29 +24,41 @@
 <g1> a skos:Concept ;
   skos:prefLabel "Lehramtsstudierende"@de ;
   skos:prefLabel "Student teacher"@en ;
+  skos:example "Personen, die ein Lehramtsstudium absolvieren."@de ;
+  skos:example "Persons who are studying to become teachers."@en ;
   skos:topConceptOf <> .
 
 <g3> a skos:Concept ;
   skos:prefLabel "Hochschullehrende/r"@de ;
   skos:prefLabel "University lecturer"@en ;
+  skos:example "Personen, die an Hochschulen lehren und forschen."@de ;
+  skos:example "Persons who teach and research at universities."@en ;
   skos:topConceptOf <> .
 
 <g4> a skos:Concept ;
   skos:prefLabel "Seminarleitung (Vorbereitungsdienst)"@de ;
   skos:prefLabel "Seminar leader (preparatory service)"@en ;
+  skos:example "Personen, die Lehramtsanwärter/innen im Vorbereitungsdienst betreuen und ausbilden."@de ;
+  skos:example "Persons who supervise and train student teachers in the preparatory service."@en ;
   skos:topConceptOf <> .
 
 <g5> a skos:Concept ;
   skos:prefLabel "Fortbildner/in"@de ;
   skos:prefLabel "Teacher trainer"@en ;
+  skos:example "Personen, die Lehrkräfte in Fort- und Weiterbildungen schulen."@de ;
+  skos:example "Persons who train teachers in professional development courses."@en ;
   skos:topConceptOf <> .
 
 <g6> a skos:Concept ;
   skos:prefLabel "Lehrkräfte"@de ;
   skos:prefLabel "Teacher"@en ;
+  skos:example "Personen, die an Schulen oder anderen Bildungseinrichtungen unterrichten."@de ;
+  skos:example "Persons who teach at schools or other educational institutions."@en ;
   skos:topConceptOf <> .
 
 <g7> a skos:Concept ;
   skos:prefLabel "Unterrichtsforscher/in"@de ;
   skos:prefLabel "Teaching researcher"@en ;
+  skos:example "Personen, die im Bereich der Unterrichts- und Bildungsforschung tätig sind."@de ;
+  skos:example "Persons who are active in the field of teaching and educational research."@en ;
   skos:topConceptOf <> .

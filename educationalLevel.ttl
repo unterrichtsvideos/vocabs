@@ -139,7 +139,7 @@
 
 <level_B> a skos:Concept ;
     skos:prefLabel "Preparatory service"@en, "Vorbereitungsdienst"@de ;
-    skos:definition "The preparatory service designates the second phase of teacher training in germany."@en, "Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung in Deutschland."@de ;
+    skos:example "The preparatory service designates the second phase of (teacher) training in germany."@en, "Der Vorbereitungsdienst bezeichnet die zweite Phase der (Lehrkräfte-)Ausbildung in Deutschland."@de ;
     skos:exactMatch kim:level_B ;
     skos:topConceptOf <> .
 

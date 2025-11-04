@@ -17,44 +17,62 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/" ;
     vann:preferredNamespacePrefix "mvpCam" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <c0>, <c01>, <c02>, <c03>, <c04>, <c05>, <c06>, <c07>, <c08>, <c09> .
-
-<c0> a skos:Concept ;
-    skos:prefLabel "Sonstige Perspektive"@de, "Other perspective"@en ;
-    skos:topConceptOf <> .
+    skos:hasTopConcept <c01>, <c02>, <c03>, <c04>, <c05>, <c06>, <c07>, <c08>, <c09>, <c0> .
 
 <c01> a skos:Concept ;
     skos:prefLabel "Lehrkraft"@de, "Teacher"@en ;
+    skos:example "Die Lehrkraft steht durchgängig im Fokus der Kamera. Dabei wechselt der Schnitt nicht auf andere Perspektiven, z. B. auf einzelne Lernende. Man muss durchgängig sehen, was die Lehrkraft tut."@de ;
+    skos:example "The teacher is consistently the focus of the camera. The shot does not switch to other perspectives, e.g., to individual learners. You must be able to see what the teacher is doing at all times."@en ;
     skos:topConceptOf <> .
 
 <c02> a skos:Concept ;
     skos:prefLabel "Lernende/r"@de, "Learner"@en ;
+    skos:example "Eine einzelne lernende Person steht durchgängig im Fokus der Kamera unabhängig davon, wo sich die Lehrkraft befindet."@de ;
+    skos:example "The learner is consistently the focus of the camera, regardless of where the teacher is located."@en ;
     skos:topConceptOf <> .
 
 <c03> a skos:Concept ;
     skos:prefLabel "Lerngruppe"@de, "Learner group"@en ;
+    skos:example "Eine Gruppe von Lernenden steht durchgängig im Fokus der Kamera (z.B. Gruppentisch), unabhängig davon, wo sich die Lehrkraft befindet."@de ;
+    skos:example "A group of learners is consistently the focus of the camera (e.g., group table), regardless of where the teacher is located."@en ;
     skos:topConceptOf <> .
 
 <c04> a skos:Concept ;
     skos:prefLabel "Lernende-Lehrkraft-Interaktion"@de, "Learner-teacher interaction"@en ;
+    skos:example "Die Kamera fokussiert durchgängig die Interaktion zwischen einer oder mehreren Lernenden und der Lehrkraft."@de ;
+    skos:example "The camera consistently focuses on the interaction between one or more learners and the teacher."@en ;
     skos:topConceptOf <> .
 
 <c05> a skos:Concept ;
     skos:prefLabel "Klasse"@de, "Class"@en ;
+    skos:example "Die Kamera zeigt durchgängig die gesamte Klasse im Unterrichtsgeschehen."@de ;
+    skos:example "The camera consistently shows the entire class in the teaching process."@en ;
     skos:topConceptOf <> .
 
 <c06> a skos:Concept ;
     skos:prefLabel "Lernmaterialbearbeitung"@de, "Learning material processing"@en ;
+    skos:example "Die Kamera fokussiert durchgängig die Bearbeitung von Lernmaterialien durch eine oder mehrere Lernende."@de ;
+    skos:example "The camera consistently focuses on the processing of learning materials by one or more learners."@en ;
     skos:topConceptOf <> .
 
 <c07> a skos:Concept ;
     skos:prefLabel "Multi (parallele Ansichten)"@de, "Multi (parallel views)"@en ;
+    skos:example "Die Kamera zeigt mehrere Perspektiven gleichzeitig, z. B. durch Splitscreen / Picture-in-Picture."@de ;
+    skos:example "The camera shows multiple perspectives simultaneously, e.g., through split-screen / picture-in-picture."@en ;
     skos:topConceptOf <> .
 
 <c08> a skos:Concept ;
     skos:prefLabel "POV (Subjektive Sicht)"@de, "POV (subjective view)"@en ;
+    skos:example "Die Kamera zeigt die Perspektive einer handelnden Person, z. B. der Lehrkraft oder einer/s Lernenden."@de ;
+    skos:example "The camera shows the perspective of an acting person, e.g., the teacher or a learner."@en ;
     skos:topConceptOf <> .
 
 <c09> a skos:Concept ;
     skos:prefLabel "360 Grad"@de, "360 Degrees"@en ;
+    skos:example "Die Kameraaufnahme ermöglicht eine Rundumsicht, die es den Betrachtenden erlaubt, sich in alle Richtungen umzusehen."@de ;
+    skos:example "The camera recording allows a panoramic view that enables viewers to look around in all directions."@en ;
+    skos:topConceptOf <> .
+
+<c0> a skos:Concept ;
+    skos:prefLabel "Sonstige Perspektive"@de, "Other perspective"@en ;
     skos:topConceptOf <> .

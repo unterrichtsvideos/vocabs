@@ -23,77 +23,103 @@
     skos:prefLabel "1. Klasse"@de ;
     skos:prefLabel "1. Grade"@en ;
     skos:exactMatch oehEduLevel:1 ;
+    skos:example "Ein Video, das Unterricht einer 1. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 1st grade."@en ;
     skos:topConceptOf <> .
 
 <2> a skos:Concept ;
     skos:prefLabel "2. Klasse"@de ;
     skos:prefLabel "2. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 2. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 2nd grade."@en ;
     skos:exactMatch oehEduLevel:2 ;
     skos:topConceptOf <> .
 
 <3> a skos:Concept ;
     skos:prefLabel "3. Klasse"@de ;
     skos:prefLabel "3. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 3. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 3rd grade."@en ;
     skos:exactMatch oehEduLevel:3 ;
     skos:topConceptOf <> .
 
 <4> a skos:Concept ;
     skos:prefLabel "4. Klasse"@de ;
     skos:prefLabel "4. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 4. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 4th grade."@en ;
     skos:exactMatch oehEduLevel:4 ;
     skos:topConceptOf <> .
 
 <5> a skos:Concept ;
     skos:prefLabel "5. Klasse"@de ;
     skos:prefLabel "5. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 5. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 5th grade."@en ;
     skos:exactMatch oehEduLevel:5 ;
     skos:topConceptOf <> .
 
 <6> a skos:Concept ;
     skos:prefLabel "6. Klasse"@de ;
     skos:prefLabel "6. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 6. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 6th grade."@en ;
     skos:exactMatch oehEduLevel:6 ;
     skos:topConceptOf <> .
 
 <7> a skos:Concept ;
     skos:prefLabel "7. Klasse"@de ;
     skos:prefLabel "7. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 7. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 7th grade."@en ;
     skos:exactMatch oehEduLevel:7 ;
     skos:topConceptOf <> .
 
 <8> a skos:Concept ;
     skos:prefLabel "8. Klasse"@de ;
     skos:prefLabel "8. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 8. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of an 8th grade."@en ;
     skos:exactMatch oehEduLevel:8 ;
     skos:topConceptOf <> .
 
 <9> a skos:Concept ;
     skos:prefLabel "9. Klasse"@de ;
     skos:prefLabel "9. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 9. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 9th grade."@en
     skos:exactMatch oehEduLevel:9 ;
     skos:topConceptOf <> .
 
 <10> a skos:Concept ;
     skos:prefLabel "10. Klasse"@de ;
     skos:prefLabel "10. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 10. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 10th grade."@en ;
     skos:exactMatch oehEduLevel:10 ;
     skos:topConceptOf <> .
 
 <11> a skos:Concept ;
     skos:prefLabel "11. Klasse"@de ;
     skos:prefLabel "11. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 11. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of an 11th grade."@en
     skos:exactMatch oehEduLevel:11 ;
     skos:topConceptOf <> .
 
 <12> a skos:Concept ;
     skos:prefLabel "12. Klasse"@de ;
     skos:prefLabel "12. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 12. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 12th grade."@en
     skos:exactMatch oehEduLevel:12 ;
     skos:topConceptOf <> .
 
 <13> a skos:Concept ;
     skos:prefLabel "13. Klasse"@de ;
     skos:prefLabel "13. Grade"@en ;
+    skos:example "Ein Video, das Unterricht einer 13. Klasse zeigt."@de ;
+    skos:example "A video showing teaching of a 13th grade."@en ;
     skos:exactMatch oehEduLevel:13 ;
     skos:topConceptOf <> .
 

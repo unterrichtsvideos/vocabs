@@ -38,8 +38,8 @@
     skos:closeMatch oehDPT:41 ;
     skos:closeMatch oehAL:2 ;
     skos:closeMatch oehLOM:level_2 ;
-    skos:example "Seminarsitzung; Blockvorlesung; Workshop-Einheit"@de ;
-    skos:example "Seminar session; block lecture; workshop unit"@en ;
+    skos:example "Unterrichtsstunde; Seminarsitzung; Blockvorlesung; Workshop-Einheit"@de ;
+    skos:example "Lesson; seminar session; block lecture; workshop unit"@en ;
     schema:timeRequired "PT180M"^^xsd:duration ;
     skos:topConceptOf <> .
 
