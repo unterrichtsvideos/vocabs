@@ -87,7 +87,7 @@
     skos:prefLabel "9. Klasse"@de ;
     skos:prefLabel "9. Grade"@en ;
     skos:example "Ein Video, das Unterricht einer 9. Klasse zeigt."@de ;
-    skos:example "A video showing teaching of a 9th grade."@en
+    skos:example "A video showing teaching of a 9th grade."@en ;
     skos:exactMatch oehEduLevel:9 ;
     skos:topConceptOf <> .
 
@@ -103,7 +103,7 @@
     skos:prefLabel "11. Klasse"@de ;
     skos:prefLabel "11. Grade"@en ;
     skos:example "Ein Video, das Unterricht einer 11. Klasse zeigt."@de ;
-    skos:example "A video showing teaching of an 11th grade."@en
+    skos:example "A video showing teaching of an 11th grade."@en ;
     skos:exactMatch oehEduLevel:11 ;
     skos:topConceptOf <> .
 
@@ -111,7 +111,7 @@
     skos:prefLabel "12. Klasse"@de ;
     skos:prefLabel "12. Grade"@en ;
     skos:example "Ein Video, das Unterricht einer 12. Klasse zeigt."@de ;
-    skos:example "A video showing teaching of a 12th grade."@en
+    skos:example "A video showing teaching of a 12th grade."@en ;
     skos:exactMatch oehEduLevel:12 ;
     skos:topConceptOf <> .
 

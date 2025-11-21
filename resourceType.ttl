@@ -68,11 +68,12 @@
     skos:topConceptOf <> .
 
 <rt009> a skos:Concept ;
-    skos:prefLabel "Learning nugget"@de ;
-    skos:prefLabel "Learning nugget"@en ;
+    skos:prefLabel "Learning Nugget"@de ;
+    skos:prefLabel "Learning Nugget"@en ;
     skos:definition "Ein kurzes, fokussiertes Bildungsangebot, das ein spezifisches Thema oder Lernziel behandelt."@de ;
     skos:definition "A short, focused educational resource that addresses a specific topic."@en ;
-    skos:note "Zur Diskussion, da redundant zur Erfassung der benötigten Zeit."@de, "Discontinued, as it is redundant for capturing the required time."@en ;
+    skos:note "Dieser Typ steht zur Diskussion, da redundant zur Erfassung der benötigten Zeit."@de ;
+    skos:note "This type is under discussion, as it is redundant for capturing the required time."@en ;
     skos:topConceptOf <> .
 
 <rt001> a skos:Concept ;
