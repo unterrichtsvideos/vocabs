@@ -5,6 +5,10 @@
     "de": "Lernende/r",
     "en": "Learner"
   },
+  "example": {
+    "de": "Eine einzelne lernende Person steht durchgängig im Fokus der Kamera unabhängig davon, wo sich die Lehrkraft befindet.",
+    "en": "The learner is consistently the focus of the camera, regardless of where the teacher is located."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

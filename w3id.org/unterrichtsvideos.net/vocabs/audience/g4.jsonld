@@ -5,6 +5,10 @@
     "de": "Seminarleitung (Vorbereitungsdienst)",
     "en": "Seminar leader (preparatory service)"
   },
+  "example": {
+    "de": "Personen, die Lehramtsanwärter/innen im Vorbereitungsdienst betreuen und ausbilden.",
+    "en": "Persons who supervise and train student teachers in the preparatory service."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/",

@@ -5,6 +5,10 @@
     "de": "Online mit festen Online-Gruppenterminen",
     "en": "Online with fixed online group sessions"
   },
+  "example": {
+    "de": "Lernangebote, die vollständig online stattfinden, aber feste Gruppentermine haben.",
+    "en": "Learning offerings that take place entirely online but have fixed group sessions."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",

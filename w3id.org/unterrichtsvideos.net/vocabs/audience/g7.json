@@ -5,6 +5,10 @@
     "de": "Unterrichtsforscher/in",
     "en": "Teaching researcher"
   },
+  "example": {
+    "de": "Personen, die im Bereich der Unterrichts- und Bildungsforschung tätig sind.",
+    "en": "Persons who are active in the field of teaching and educational research."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/",

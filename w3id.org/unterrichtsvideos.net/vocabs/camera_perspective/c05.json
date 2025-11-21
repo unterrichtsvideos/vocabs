@@ -5,6 +5,10 @@
     "de": "Klasse",
     "en": "Class"
   },
+  "example": {
+    "de": "Die Kamera zeigt durchgängig die gesamte Klasse im Unterrichtsgeschehen.",
+    "en": "The camera consistently shows the entire class in the teaching process."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

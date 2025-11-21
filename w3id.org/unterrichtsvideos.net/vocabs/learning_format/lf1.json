@@ -5,6 +5,10 @@
     "de": "Präsenz",
     "en": "In-person"
   },
+  "example": {
+    "de": "Lernangebote, die vollständig in Präsenz stattfinden.",
+    "en": "Learning offerings that take place entirely in person."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",

@@ -6,8 +6,8 @@
     "en": "30-180 min. (e.g. seminar session)"
   },
   "example": {
-    "de": "Seminarsitzung; Blockvorlesung; Workshop-Einheit",
-    "en": "Seminar session; block lecture; workshop unit"
+    "de": "Unterrichtsstunde; Seminarsitzung; Blockvorlesung; Workshop-Einheit",
+    "en": "Lesson; seminar session; block lecture; workshop unit"
   },
   "closeMatch": [
     {

@@ -5,6 +5,10 @@
     "de": "Lehrkräfte",
     "en": "Teacher"
   },
+  "example": {
+    "de": "Personen, die an Schulen oder anderen Bildungseinrichtungen unterrichten.",
+    "en": "Persons who teach at schools or other educational institutions."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/",

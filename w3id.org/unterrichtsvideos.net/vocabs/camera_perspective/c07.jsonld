@@ -5,6 +5,10 @@
     "de": "Multi (parallele Ansichten)",
     "en": "Multi (parallel views)"
   },
+  "example": {
+    "de": "Die Kamera zeigt mehrere Perspektiven gleichzeitig, z. B. durch Splitscreen / Picture-in-Picture.",
+    "en": "The camera shows multiple perspectives simultaneously, e.g., through split-screen / picture-in-picture."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

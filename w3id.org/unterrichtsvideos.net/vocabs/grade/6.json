@@ -5,6 +5,10 @@
     "de": "6. Klasse",
     "en": "6. Grade"
   },
+  "example": {
+    "de": "Ein Video, das Unterricht einer 6. Klasse zeigt.",
+    "en": "A video showing teaching of a 6th grade."
+  },
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/6"

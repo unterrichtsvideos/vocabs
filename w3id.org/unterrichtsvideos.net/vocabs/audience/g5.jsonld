@@ -5,6 +5,10 @@
     "de": "Fortbildner/in",
     "en": "Teacher trainer"
   },
+  "example": {
+    "de": "Personen, die Lehrkräfte in Fort- und Weiterbildungen schulen.",
+    "en": "Persons who train teachers in professional development courses."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/",

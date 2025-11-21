@@ -5,6 +5,10 @@
     "de": "Blended Learning mit festen Präsenz-Gruppenterminen",
     "en": "Blended Learning with fixed in-person group sessions"
   },
+  "example": {
+    "de": "Lernangebote, die sowohl Präsenz- als auch Online-Elemente kombinieren und feste Gruppentermine haben.",
+    "en": "Learning offerings that combine both in-person and online elements and have fixed group sessions."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",

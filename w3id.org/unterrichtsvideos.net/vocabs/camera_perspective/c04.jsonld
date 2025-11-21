@@ -5,6 +5,10 @@
     "de": "Lernende-Lehrkraft-Interaktion",
     "en": "Learner-teacher interaction"
   },
+  "example": {
+    "de": "Die Kamera fokussiert durchgängig die Interaktion zwischen einer oder mehreren Lernenden und der Lehrkraft.",
+    "en": "The camera consistently focuses on the interaction between one or more learners and the teacher."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

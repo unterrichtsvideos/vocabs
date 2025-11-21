@@ -5,6 +5,10 @@
     "de": "Hochschullehrende/r",
     "en": "University lecturer"
   },
+  "example": {
+    "de": "Personen, die an Hochschulen lehren und forschen.",
+    "en": "Persons who teach and research at universities."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/",

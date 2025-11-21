@@ -5,6 +5,10 @@
     "de": "Lehramtsstudierende",
     "en": "Student teacher"
   },
+  "example": {
+    "de": "Personen, die ein Lehramtsstudium absolvieren.",
+    "en": "Persons who are studying to become teachers."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/audience/",

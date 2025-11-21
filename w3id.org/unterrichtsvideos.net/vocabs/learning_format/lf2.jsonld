@@ -5,6 +5,10 @@
     "de": "Online (Selbstlernangebot)",
     "en": "Online (Self-paced program)"
   },
+  "example": {
+    "de": "Lernangebote, die vollständig online und im Selbststudium stattfinden.",
+    "en": "Learning offerings that take place entirely online and in self-study."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/learning_format/",

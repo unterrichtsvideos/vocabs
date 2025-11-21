@@ -5,6 +5,10 @@
     "de": "POV (Subjektive Sicht)",
     "en": "POV (subjective view)"
   },
+  "example": {
+    "de": "Die Kamera zeigt die Perspektive einer handelnden Person, z. B. der Lehrkraft oder einer/s Lernenden.",
+    "en": "The camera shows the perspective of an acting person, e.g., the teacher or a learner."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

@@ -5,6 +5,10 @@
     "de": "13. Klasse",
     "en": "13. Grade"
   },
+  "example": {
+    "de": "Ein Video, das Unterricht einer 13. Klasse zeigt.",
+    "en": "A video showing teaching of a 13th grade."
+  },
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/13"

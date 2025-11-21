@@ -5,6 +5,10 @@
     "de": "Lehrkraft",
     "en": "Teacher"
   },
+  "example": {
+    "de": "Die Lehrkraft steht durchgängig im Fokus der Kamera. Dabei wechselt der Schnitt nicht auf andere Perspektiven, z. B. auf einzelne Lernende. Man muss durchgängig sehen, was die Lehrkraft tut.",
+    "en": "The teacher is consistently the focus of the camera. The shot does not switch to other perspectives, e.g., to individual learners. You must be able to see what the teacher is doing at all times."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

@@ -5,6 +5,10 @@
     "de": "Lerngruppe",
     "en": "Learner group"
   },
+  "example": {
+    "de": "Eine Gruppe von Lernenden steht durchgängig im Fokus der Kamera (z.B. Gruppentisch), unabhängig davon, wo sich die Lehrkraft befindet.",
+    "en": "A group of learners is consistently the focus of the camera (e.g., group table), regardless of where the teacher is located."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

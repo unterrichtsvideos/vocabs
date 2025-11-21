@@ -5,6 +5,10 @@
     "de": "360 Grad",
     "en": "360 Degrees"
   },
+  "example": {
+    "de": "Die Kameraaufnahme ermöglicht eine Rundumsicht, die es den Betrachtenden erlaubt, sich in alle Richtungen umzusehen.",
+    "en": "The camera recording allows a panoramic view that enables viewers to look around in all directions."
+  },
   "inScheme": [
     {
       "id": "https://w3id.org/unterrichtsvideos.net/vocabs/camera_perspective/",

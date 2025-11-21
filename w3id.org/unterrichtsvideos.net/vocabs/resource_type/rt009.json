@@ -2,8 +2,8 @@
   "id": "https://w3id.org/unterrichtsvideos.net/vocabs/resource_type/rt009",
   "type": "Concept",
   "prefLabel": {
-    "de": "Learning nugget",
-    "en": "Learning nugget"
+    "de": "Learning Nugget",
+    "en": "Learning Nugget"
   },
   "definition": {
     "de": "Ein kurzes, fokussiertes Bildungsangebot, das ein spezifisches Thema oder Lernziel behandelt.",
@@ -11,10 +11,10 @@
   },
   "note": {
     "de": [
-      "Zur Diskussion, da redundant zur Erfassung der benötigten Zeit."
+      "Dieser Typ steht zur Diskussion, da redundant zur Erfassung der benötigten Zeit."
     ],
     "en": [
-      "Discontinued, as it is redundant for capturing the required time."
+      "This type is under discussion, as it is redundant for capturing the required time."
     ]
   },
   "inScheme": [

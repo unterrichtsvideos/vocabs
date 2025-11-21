@@ -5,6 +5,10 @@
     "de": "5. Klasse",
     "en": "5. Grade"
   },
+  "example": {
+    "de": "Ein Video, das Unterricht einer 5. Klasse zeigt.",
+    "en": "A video showing teaching of a 5th grade."
+  },
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/5"
