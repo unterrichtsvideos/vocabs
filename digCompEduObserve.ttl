@@ -333,7 +333,7 @@
 
 <4.2> a skos:Concept ;
     skos:prefLabel "4.2 Visualization and analysis of learning activities and progress with digital tools/media"@en ;
-    skos:prefLabel "4.2 Sichtbarmachung und Analyse von Lernaktivitäten und - fortschritten mit digitalen Tools/Medien"@de;
+    skos:prefLabel "4.2 Sichtbarmachung und Analyse von Lernaktivitäten und -fortschritten mit digitalen Tools/Medien"@de;
     skos:example "Using the digital tool/medium, data is systematically generated that makes the learning process visible. (Ifenthaler & Drachsler, 2020; Pistilli & Arnold, 2010)"@en ;
     skos:example "Mithilfe des digitalen Tools/Mediums werden systematisch Daten generiert, die den Lernprozess sichtbar machen. (Ifenthaler & Drachsler, 2020; Pistilli & Arnold, 2010)"@de ;
     skos:example "The use of the digital tool/medium enables the teacher to conduct criteria-based analyses of learning activities or progress. (Shute & Rahimi, 2017)"@en ;
