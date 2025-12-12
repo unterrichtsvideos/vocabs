@@ -23279,7 +23279,7 @@ Positives Recht wird dasjenige Recht geheißen, das sich eine Gemeinschaft oder 
     sdo:keywords "Reaktionsgleichung"@de,
         "Reaktionsgleichung aufstellen"@de,
         "Reaktionsschema"@de,
-        "￼ Reaktionsgleichung ausgleichen"@de .
+        "Reaktionsgleichung ausgleichen"@de .
 
 <8fb3b39d-9e22-4c7d-9261-563c053ff28d> a skos:Concept ;
     skos:broader <f244026d-aceb-4d24-abd6-60d9d4c91b4c> ;
@@ -35513,7 +35513,7 @@ Das Grundprinzip findet sich häufig auch in anderen Batterietypen."""@de ;
     sdo:keywords "Bildersuche"@de,
         "Informationen filtern und strukturieren"@de,
         "Informationsrecherche"@de,
-        "Informationsrecherchen zielgerichtet durchführen und dabei Suchstrategien anwenden"@de,
+        "Informationsrecherchen zielgerichtet durchführen und dabei Suchstrategien anwenden"@de,
         "Internetrecherche"@de,
         "Internetrecherchen"@de,
         "Kindersuchmaschine"@de,
