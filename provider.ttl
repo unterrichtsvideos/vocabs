@@ -14,7 +14,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/provider/" ;
     vann:preferredNamespacePrefix "mvpProvider";
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300> .
+    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300>, <p1400> .
 
 <p100> a skos:Concept ;
   skos:prefLabel "ProVision (Uni Münster)"@de ;
@@ -119,3 +119,11 @@
   skos:definition "Fallarchiv HILDE is a portal by the University of Hildesheim providing classroom videos for teacher education."@en ;
   skos:topConceptOf <> ;
   dct:source <https://www.uni-hildesheim.de/celeb/projekte/fallarchiv-hilde/> .
+
+<p1400> a skos:Concept ;
+  skos:prefLabel "DIA-LIBS (Uni Kiel, Uni Mannheim)"@de ;
+  skos:prefLabel "DIA-LIBS (University of Kiel, University of Mannheim)"@en ;
+  skos:definition "DIA-LIBS ist ein Portal der Universität Kiel und der Universität Mannheim, das Videovignetten für die Lehrkräftebildung für berufliche Schulen bereitstellt."@de ;
+  skos:definition "DIA-LIBS is a portal by the University of Kiel and the University of Mannheim providing video vignettes for teacher education in vocational schools."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://foerderbezogen-diagnostizieren.net/dia-libs-projekt/> .
