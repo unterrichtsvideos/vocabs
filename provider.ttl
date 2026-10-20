@@ -14,7 +14,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/provider/" ;
     vann:preferredNamespacePrefix "mvpProvider";
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300>, <p1400>, <p1500>, <p1600> .
+    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300>, <p1400>, <p1500>, <p1600>, <p1700> .
 
 
 <p0> a skos:Concept ;
@@ -153,3 +153,10 @@
   skos:topConceptOf <> ;
   dct:source <https://fallarchiv.uni-kassel.de> .
 
+<p1700> a skos:Concept ;
+  skos:prefLabel "Unterricht unter der Lupe (Uni Kassel)"@de ;
+  skos:prefLabel "Teaching under the lens (Uni Kassel)"@en ;
+  skos:definition "Die Plattform bietet eine Sammlung von Unterrichtsstunden oder -sequenzen für Lehrzwecke in der Lehrkräftebildung."@de ;
+  skos:definition "The platform offers a collection of teaching sessions or sequences for pedagogical purposes in teacher education."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://www.uni-kassel.de/forschung/unterricht-unter-der-lupe/startseite.html> .
