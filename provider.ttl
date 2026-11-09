@@ -14,7 +14,7 @@
     vann:preferredNamespaceUri "https://w3id.org/unterrichtsvideos.net/vocabs/provider/" ;
     vann:preferredNamespacePrefix "mvpProvider";
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300>, <p1400>, <p1500>, <p1600>, <p1700> .
+    skos:hasTopConcept <p100>, <p200>, <p300>, <p400>, <p500>, <p600>, <p700>, <p800>, <p900>, <p1000>, <p1100>, <p1200>, <p1300>, <p1400>, <p1500>, <p1600>, <p1700>, <p1800> .
 
 
 <p0> a skos:Concept ;
@@ -160,3 +160,11 @@
   skos:definition "The platform offers a collection of teaching sessions or sequences for pedagogical purposes in teacher education."@en ;
   skos:topConceptOf <> ;
   dct:source <https://www.uni-kassel.de/forschung/unterricht-unter-der-lupe/startseite.html> .
+
+<p1800> a skos:Concept ;
+  skos:prefLabel "Geschichten aus der Schule (Uni Graz)"@de ;
+  skos:prefLabel "Stories from the School (Uni Graz)"@en ;
+  skos:definition "Dieses Fallarchiv umfasst Videoaufnahmen ausgewählter Unterrichtssituationen, die (zukünftigen) Lehrpersonen sowie Forscher:innen eine analytische Auseinandersetzung mit der Unterrichtspraxis ermöglichen und zugleich Anregungen für die eigene Lehrtätigkeit bieten."@de ;
+  skos:definition "This fall archive includes video recordings of selected teaching situations, enabling (future) teachers and researchers to engage in analytical reflection on teaching practice while also providing inspiration for their own pedagogical work."@en ;
+  skos:topConceptOf <> ;
+  dct:source <https://bildungsforschung.uni-graz.at/de/unsere-forschung/lehren-lernen-und-digitale-transformation/video-fallarchive/> .
