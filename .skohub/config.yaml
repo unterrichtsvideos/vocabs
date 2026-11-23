@@ -34,3 +34,17 @@ ui:
       font_style: "normal"
       font_weight: 700
       name: "ubuntu-v20-latin-700"
+  footer:
+    links:
+      - title: "Impressum"
+        url: "https://unterrichtsvideos.net/metaportal/impress"
+        target: "_blank"
+        rel: "noopener noreferrer"
+      - title: "Datenschutz"
+        url: "https://unterrichtsvideos.net/metaportal/privacy-policy"
+        target: "_blank"
+        rel: "noopener noreferrer"
+      - title: "© unterrichtsvideos.net"
+        url: "https://unterrichtsvideos.net"
+        target: "_blank"
+        rel: "noopener noreferrer"
