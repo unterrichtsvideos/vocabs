@@ -180,7 +180,7 @@
     skos:example "Bei der Auswahl digitaler Ressourcen wird das Lernziel berücksichtigt. (Koehler & Mishra, 2009; Scheiter, 2021)"@de ;
     skos:example "When selecting digital resources, the learners' learning requirements (e.g., prior knowledge, media skills, group size) are taken into account.(Redecker, 2017; Sailer et al., 2021b)"@en ;
     skos:example "Bei der Auswahl digitaler Ressourcen werden die Lernvoraussetzungen der Lernenden (z. B. Vorwissen, Medienkompetenzen, Gruppengröße) berücksichtigt.(Redecker, 2017; Sailer et al., 2021b)"@de ;
-    skos:example "The digital resources are selected to suit the teaching method.(Chi & Wylie, 2014)"@de ;
+    skos:example "The digital resources are selected to suit the teaching method.(Chi & Wylie, 2014)"@en ;
     skos:example "Die digitalen Ressourcen werden passend zur Unterrichtsmethode ausgewählt.(Chi & Wylie, 2014)"@de ;
     skos:broader <2> ;
     skos:exactMatch mvpDCE:2.1 ;
@@ -220,9 +220,9 @@
     skos:prefLabel "2.4 Berücksichtigung von Datenschutz und Urheberrecht bei der Nutzung digitaler Ressourcen"@de ;
     skos:example "The teacher takes data protection regulations into account. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@en ;
     skos:example "Die Lehrperson berücksichtigt Datenschutzbestimmungen. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@de ;
-    skos:example "The teacher weighs up copyright issues. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@de ;
-    skos:example "Die Lehrperson wägt urheberrechtliche Fragen ab. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@en ;
-    skos:example "The teacher demonstrates knowledge of licensing regulations (e.g., Open Educational Resources, OER). (Lane & McAndrew, 2010)"@de ;
+    skos:example "The teacher weighs up copyright issues. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@en ;
+    skos:example "Die Lehrperson wägt urheberrechtliche Fragen ab. (Bayerisches Staatsministerium für Unterricht und Kultus, 2024)"@de ;
+    skos:example "The teacher demonstrates knowledge of licensing regulations (e.g., Open Educational Resources, OER). (Lane & McAndrew, 2010)"@en ;
     skos:example "Die Lehrperson zeigt Kenntnisse über Lizenzbestimmungen (z. B. Open Educational Ressources, OER). (Lane & McAndrew, 2010)"@de ;
     skos:broader <2> ;
     skos:closeMatch mvpDCE:2.3 ;
